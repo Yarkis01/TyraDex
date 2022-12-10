@@ -12,7 +12,7 @@ class Pokemon(Resource):
             if str(pokemon) in JSON_pokemon_to_id:
                 pokemon = JSON_pokemon_to_id[str(pokemon)]
 
-        if pokemon.lower() not in JSON_pokemon:
+        if str(pokemon).lower() not in JSON_pokemon:
             return {
                 "status": 404,
                 "error" : "Impossible de trouver le Pokémon dans la base de données."
