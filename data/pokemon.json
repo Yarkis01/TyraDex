@@ -1,0 +1,11 @@
+{
+    "missingno": {
+        "id": "0",
+        "name": {
+            "fr": "MissingNo.",
+            "en": "MissingNo.",
+            "jp": "けつばん（"
+        },
+        "sprite": "https://mon-api-pokemon.vercel.app/assets/sprites/0.png"
+    }
+}
