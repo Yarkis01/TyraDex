@@ -1,11 +1,205 @@
-{
-    "missingno": {
-        "id": "0",
+[
+    {
+        "pokedexId": 0,
+        "generation": 1,
         "name": {
             "fr": "MissingNo.",
             "en": "MissingNo.",
             "jp": "けつばん（"
         },
-        "sprite": "https://mon-api-pokemon.vercel.app/assets/sprites/0.png"
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/0/regular.png",
+            "shiny": null,
+            "gmax": null
+        },
+        "types": null,
+        "talents": null,
+        "stats": null,
+        "resistances": null,
+        "evolution": null
+    },
+    {
+        "pokedexId": 1,
+        "generation": 1,
+        "name": {
+            "fr": "Bulbizarre",
+            "en": "Bulbasaur",
+            "jp": "フシギダネ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/1/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/1/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Chlorophylle", "tc": true}
+        ], 
+        "stats": {
+            "HP": 45,
+            "att": 49,
+            "def": 49,
+            "spe_att": 65,
+            "spe_def": 65,
+            "vit": 45
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": "2", "name": "Herbizarre", "condition": "Niveau 16"},
+                {"pokedexId": "3", "name": "Florizarre", "condition": "Niveau 32"}
+            ],
+            "mega": null
+        }
+    },
+    {
+        "pokedexId": 2,
+        "generation": 1,
+        "name": {
+            "fr": "Herbizarre",
+            "en": "Ivysaur",
+            "jp": "フシギソウ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/2/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/2/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Chlorophylle", "tc": true}
+        ], 
+        "stats": {
+            "HP": 60,
+            "att": 62,
+            "def": 63,
+            "spe_att": 80,
+            "spe_def": 80,
+            "vit": 60
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": "1", "name": "Bulbizarre"}
+            ],
+            "next": [
+                {"pokedexId": "3", "name": "Florizarre", "condition": "Niveau 32"}
+            ],
+            "mega": null
+        }
+    },
+    {
+        "pokedexId": 3,
+        "generation": 1,
+        "name": {
+            "fr": "Florizarre",
+            "en": "Venusaur",
+            "jp": "フシギバナ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/3/shiny.png",
+            "gmax"   : {
+                "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/gmax-regular.png",
+                "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/3/gmax-shiny.png"
+            }
+        },
+        "types": [
+            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Chlorophylle", "tc": true}
+        ], 
+        "stats": {
+            "HP": 80,
+            "att": 82,
+            "def": 83,
+            "spe_att": 100,
+            "spe_def": 100,
+            "vit": 80
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": "1", "name": "Bulbizarre"},
+                {"pokedexId": "2", "name": "Herbizarre"}
+            ],
+            "next": null,
+            "mega": {
+                "orbe": "Florizarrite",
+                "sprites": {
+                    "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/mega-regular.png",
+                    "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/3/mega-shiny.png"
+                }
+            }
+        }
     }
-}
+]

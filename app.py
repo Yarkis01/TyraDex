@@ -14,7 +14,7 @@ def _home():
 def _page_not_found(error):
     return redirect("/")
 
-api.add_resource(Pokemon, "/pokemon/<string:pokemon>")
+api.add_resource(Pokemon, "/pokemon", "/pokemon/<string:pokemon>")
 
 if __name__ == '__main__':
     app.run(debug = True)
