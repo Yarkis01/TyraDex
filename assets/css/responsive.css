@@ -4,15 +4,14 @@
     header div a {font-size: 16px;}
     header div a p {margin: calc(calc(32px - 16px) / 2);}
 
-    #carousel__infobox {margin-left: 7.5%; margin-right: 7.5%;}
-}
-
-@media screen and (min-width: 560px) and (max-width: 768px) {
-    #carousel__infobox {margin-left: 15%; margin-right: 15%;}
+    #carousel__shiny {display: none;}
 }
 
 @media screen and (max-width: 768px) {
     #routes-container div {
         flex: 0 0 85%;
+    }
+    #carousel__infobox {
+        margin: 16px 6.5vw 16px 6.5vw;
     }
 }

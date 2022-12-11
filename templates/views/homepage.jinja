@@ -4,36 +4,45 @@
 <section id="carousel-container">
     <div id="carousel">
         <div id="carousel__left-arrow" onclick="setPokemon(actual_pkm - 1);">
-            <img src="/assets/chevron_left.svg" draggable="false" style="user-select: none;"/>
+            <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;"/>
         </div>
         <div style="text-align: center;">
             <img id="carousel__image" src="" />
         </div>
         <div id="carousel_right-arrow" onclick="setPokemon(actual_pkm + 1);">
-            <img src="/assets/chevron_right.svg" draggable="false" style="user-select: none;" />
+            <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" />
         </div>
     </div>
     <div id="carousel__infobox">
         <p id="carousel__info-pkmname"></p>
         <div id="carousel__info-types"></div>
+        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" /> 
     </div>
 </section>
 
 <section id="routes-container">
     <div>
-        <img src="{{ base_url }}assets/sprites/3/regular.png" />
+        <img src="{{ base_url }}assets/sprites/1/regular.png" />
         <p>
             <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/3">Voir la fiche du Pokémon</a>
+            <a href="{{ base_url }}api/v1/pokemon/1">Voir la fiche du Pokémon</a>
         </p>
     </div>
     <div>
-        <img src="{{ base_url }}assets/sprites/1/regular.png" />
+        <img src="{{ base_url }}assets/sprites/4/regular.png" />
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/bulbizarre">Voir la fiche du Pokémon</a>
+            <a href="{{ base_url }}api/v1/pokemon/salameche">Voir la fiche du Pokémon</a>
+        </p>
+    </div>
+    <div>
+        <img src="{{ base_url }}assets/sprites/7/regular.png" />
+        <p>
+            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
+            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
+            <a href="{{ base_url }}api/v1/gen/1">Voir les Pokémons de la Gen. 1</a>
         </p>
     </div>
     <div>
@@ -44,14 +53,6 @@
             <a href="{{ base_url }}api/v1/pokemon">Voir tous les Pokémons</a>
         </p>
     </div>
-    <div>
-        <img src="{{ base_url }}assets/sprites/2/regular.png" />
-        <p>
-            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
-            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
-            <a href="{{ base_url }}api/v1/gen/1">Voir tous les Pokémons de la Gen. 1</a>
-        </p>
-    </div>
 </section>
 {% endblock %}
 
@@ -59,7 +60,9 @@
 <script>
     let total_pkm  = {{ total_pkm }},
         base_url   = "{{ base_url }}api/v1/pokemon/",
-        actual_pkm = 1;
+        actual_pkm = 1,
+        pkm_data   = null,
+        is_shiny   = false;
 
     async function getPokemon(number) {
         let response = await fetch(base_url + number);
@@ -67,6 +70,18 @@
         if(response.status == 200) {
             let data = await response.json();
             return data;
+        }
+    }
+
+    async function setShiny(number) {
+        if(is_shiny) {
+            document.getElementById("carousel__shiny").src = "/assets/carousel/star_FILL0.svg";
+            document.getElementById("carousel__image").src = pkm_data.sprite.regular;
+            is_shiny = false;
+        } else {
+            document.getElementById("carousel__shiny").src = "/assets/carousel/star_FILL1.svg";
+            document.getElementById("carousel__image").src = pkm_data.sprite.shiny;
+            is_shiny = true;
         }
     }
 
@@ -78,17 +93,20 @@
             number = 1;
         }
 
-        let pkm    = await getPokemon(number);
+        pkm_data = await getPokemon(number);
         actual_pkm = number; 
 
-        document.getElementById("carousel__image").src = pkm.sprite.regular;
-        document.getElementById("carousel__info-pkmname").textContent = pkm.name.fr;
+        document.getElementById("carousel__image").src = pkm_data.sprite.regular;
+        document.getElementById("carousel__info-pkmname").textContent = pkm_data.name.fr;
+
+        document.getElementById("carousel__shiny").src = "/assets/carousel/star_FILL0.svg";
+        is_shiny = false;
 
         let types = document.getElementById("carousel__info-types");
         types.innerHTML = "";
-        for(let i = 0; i < pkm.types.length; i++) {
-            types.innerHTML += `<img src="${pkm.types[i].image}" title="${pkm.types[i].name}" />`;
-        } 
+        for(let i = 0; i < pkm_data.types.length; i++) {
+            types.innerHTML += `<img src="${pkm_data.types[i].image}" title="${pkm_data.types[i].name}" />`;
+        }
     }
 
     setPokemon(1);

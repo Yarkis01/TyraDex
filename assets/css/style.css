@@ -66,7 +66,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 
     background-color: var(--primary-background-color);
     border-radius: 8px;
-    margin: 16px 25% auto 25%;
+    margin: 16px 2vw 16px 2vw;
     
     color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
@@ -116,3 +116,5 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     border-radius: 4px;
     text-decoration: none;
 }
+
+#carousel__shiny {cursor: pointer;}

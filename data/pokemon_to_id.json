@@ -2,5 +2,11 @@
     "missingno": 0, "missingno.": 0,
     "bulbizarre": 1, "bulbasaur": 1,
     "herbizarre": 2, "ivysaur": 2,
-    "florizarre": 3, "venusaur": 3
+    "florizarre": 3, "venusaur": 3,
+    "salamèche": 4, "salameche": 4, "charmander": 4,
+    "reptincel": 5, "charmeleon": 5,
+    "dracaufeu": 6, "charizard": 6,
+    "carapuce": 7, "squirtle": 7,
+    "carabaffe": 8, "wartortle": 8,
+    "tortank": 9, "blastoise": 9
 }
