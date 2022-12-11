@@ -1,0 +1,96 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<section id="carousel-container">
+    <div id="carousel">
+        <div id="carousel__left-arrow" onclick="setPokemon(actual_pkm - 1);">
+            <img src="/assets/chevron_left.svg" draggable="false" style="user-select: none;"/>
+        </div>
+        <div style="text-align: center;">
+            <img id="carousel__image" src="" />
+        </div>
+        <div id="carousel_right-arrow" onclick="setPokemon(actual_pkm + 1);">
+            <img src="/assets/chevron_right.svg" draggable="false" style="user-select: none;" />
+        </div>
+    </div>
+    <div id="carousel__infobox">
+        <p id="carousel__info-pkmname"></p>
+        <div id="carousel__info-types"></div>
+    </div>
+</section>
+
+<section id="routes-container">
+    <div>
+        <img src="{{ base_url }}assets/sprites/3/regular.png" />
+        <p>
+            <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
+            Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
+            <a href="{{ base_url }}api/v1/pokemon/3">Voir la fiche du Pokémon</a>
+        </p>
+    </div>
+    <div>
+        <img src="{{ base_url }}assets/sprites/1/regular.png" />
+        <p>
+            <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
+            Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
+            <a href="{{ base_url }}api/v1/pokemon/bulbizarre">Voir la fiche du Pokémon</a>
+        </p>
+    </div>
+    <div>
+        <img src="{{ base_url }}assets/logo.png" />
+        <p>
+            <span>/api/v1/pokemon</span><br /><br />
+            Permet de récupérer la liste de tous les Pokémons<br /><br />
+            <a href="{{ base_url }}api/v1/pokemon">Voir tous les Pokémons</a>
+        </p>
+    </div>
+    <div>
+        <img src="{{ base_url }}assets/sprites/2/regular.png" />
+        <p>
+            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
+            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
+            <a href="{{ base_url }}api/v1/gen/1">Voir tous les Pokémons de la Gen. 1</a>
+        </p>
+    </div>
+</section>
+{% endblock %}
+
+{% block javascript %}
+<script>
+    let total_pkm  = {{ total_pkm }},
+        base_url   = "{{ base_url }}api/v1/pokemon/",
+        actual_pkm = 1;
+
+    async function getPokemon(number) {
+        let response = await fetch(base_url + number);
+
+        if(response.status == 200) {
+            let data = await response.json();
+            return data;
+        }
+    }
+
+    async function setPokemon(number) {
+        if(number == 0) {
+            number = total_pkm;
+        }
+        if(number > total_pkm) {
+            number = 1;
+        }
+
+        let pkm    = await getPokemon(number);
+        actual_pkm = number; 
+
+        document.getElementById("carousel__image").src = pkm.sprite.regular;
+        document.getElementById("carousel__info-pkmname").textContent = pkm.name.fr;
+
+        let types = document.getElementById("carousel__info-types");
+        types.innerHTML = "";
+        for(let i = 0; i < pkm.types.length; i++) {
+            types.innerHTML += `<img src="${pkm.types[i].image}" title="${pkm.types[i].name}" />`;
+        } 
+    }
+
+    setPokemon(1);
+</script>
+{% endblock %}

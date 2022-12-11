@@ -25,3 +25,13 @@ class Pokemon(Resource):
             }
         
         return JSON_pokemon[pokemon_id]
+
+class Generation(Resource):
+    def get(self, gen: int) -> dict:
+        if gen < 1 or gen > 9:
+            return {
+                "status" : 404,
+                "message": "Impossible d'afficher cette génération, car elle n'existe pas."
+            }
+
+        return [pkm for pkm in JSON_pokemon if pkm["generation"] == gen]

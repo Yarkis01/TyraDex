@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="index, nofollow" />
+        <meta name="description" content="Une simple API Pokémon en français." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>PokéAPI - Une simple API Pokémon</title>
+        <link rel="icon" type="image/png" href="/assets/logo.png" />
+
+        <meta property="og:site_name" content="PokéAPI" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mon-api-pokemon.vercel.app/" />
+        <meta property="og:image" content="https://mon-api-pokemon.vercel.app/assets/logo.png" />
+        <meta property="og:description" content="Une simple API Pokémon en français." />
+
+        <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/responsive.css" />
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="{{ url_for('_home') }}">
+                    <img src="/assets/logo.png" draggable="false" />
+                    <p>PokéAPI</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/Yarkis01/PokeAPI" target="_blank">
+                    <p>Github</p>
+                    <img src="/assets/github.png" draggable="false" />
+                </a>
+            </div>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer>
+            <p>{{ date.year }} | <a href="https://github.com/Yarkis01/PokeAPI/blob/main/LICENSE" target="_blank">Mit License</a> | Une simple API crée avec ❤️ par <a href="https://github.com/Yarkis01" target="_blank">Yarkis</a></p>
+        </footer>
+    {% block javascript %}
+    {% endblock %}
+    </body>
+</html>
