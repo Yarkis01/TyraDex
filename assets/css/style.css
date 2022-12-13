@@ -108,7 +108,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     margin: 12px;
     text-align: justify;
 }
-#routes-container div p span {color: var(--secondary-color); font-weight: bold;}
+#routes-container div p span {color: var(--secondary-color); font-weight: bold; font-family: 'Lexend Deca', sans-serif;}
 #routes-container div p a {
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -118,3 +118,99 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 }
 
 #carousel__shiny {cursor: pointer;}
+
+#tryit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-background-color);
+    border-radius: 8px;
+    margin: 16px 2vw 16px 2vw;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#tryit__title {
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#tryit-container div {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+
+#tryit-container div label {
+    background: var(--secondary-background-color);
+    color: #808080;
+    padding: 8px;
+    border-radius: 8px 0 0 8px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#tryit-container div input {
+    all: unset;
+    background: var(--secondary-background-color);
+    color: var(--primary-color);
+    padding: 8px;
+    margin-left: -4px;
+    width: 100%;
+}
+
+#tryit__input-button, #tryit__open-new-tab {
+    all: unset;
+    color: var(--primary-color);
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#tryit__input-button {
+    background-color: var(--secondary-color);
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+#tryit__open-new-tab {
+    background-color: var(--secondary-background-color);
+    border-radius: 8px;
+    width: calc(80vw - 16px);
+    margin-bottom: 16px;
+}
+
+#tryit__json-area {
+    width: calc(80vw - 16px);
+    height: 300px;
+    border-radius: 8px;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-color);
+    margin: 16px;
+    padding: 8px;
+    overflow: scroll;
+}
+
+#tryit__example {
+    color: var(--primary-color);
+    width: 80vw;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+#tryit__example span {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.key     {color: #9CDCFE;}
+.string  {color: #CE9178;}
+.number  {color: #B5CEA8;}
+.boolean {color: #E84393;}
+.null    {color: #569CD6;}

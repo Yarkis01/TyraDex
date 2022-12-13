@@ -16,7 +16,7 @@
     <div id="carousel__infobox">
         <p id="carousel__info-pkmname"></p>
         <div id="carousel__info-types"></div>
-        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" /> 
+        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" title="Non chromatique" /> 
     </div>
 </section>
 
@@ -54,47 +54,59 @@
         </p>
     </div>
 </section>
+
+<section id="tryit-container">
+    <p id="tryit__title">Essayez maintenant !</p>
+    <div>
+        <label>{{ base_url }}api/v1/</label>
+        <input type="text" placeholder="pokemon/bulbizarre" id="tryit__input-text" />
+        <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
+    </div>
+    <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/bulbizarre')">pokemon/bulbizarre</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
+    <pre id="tryit__json-area"></pre>
+    <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
+</section>
 {% endblock %}
 
 {% block javascript %}
 <script>
     let total_pkm  = {{ total_pkm }},
-        base_url   = "{{ base_url }}api/v1/pokemon/",
-        actual_pkm = 1,
+        base_url   = "{{ base_url }}api/v1",
+        actual_pkm = Math.floor(Math.random() * total_pkm) + 1,
         pkm_data   = null,
-        is_shiny   = false;
+        is_shiny   = false,
+        last_url   = null;
 
-    async function getPokemon(number) {
-        let response = await fetch(base_url + number);
-
-        if(response.status == 200) {
-            let data = await response.json();
-            return data;
-        }
+    async function apiRequest(routes) {
+        let response = await fetch(base_url + routes);
+        return response.redirected ? null : await response.json()
     }
 
     async function setShiny(number) {
         if(is_shiny) {
-            document.getElementById("carousel__shiny").src = "/assets/carousel/star_FILL0.svg";
-            document.getElementById("carousel__image").src = pkm_data.sprite.regular;
-            is_shiny = false;
+            document.getElementById("carousel__shiny").src   = "/assets/carousel/star_FILL0.svg";
+            document.getElementById("carousel__shiny").title = "Non chromatique";
+            document.getElementById("carousel__image").src   = pkm_data.sprite.regular;
         } else {
             document.getElementById("carousel__shiny").src = "/assets/carousel/star_FILL1.svg";
+            document.getElementById("carousel__shiny").title = "Chromatique";
             document.getElementById("carousel__image").src = pkm_data.sprite.shiny;
-            is_shiny = true;
         }
+        is_shiny = !is_shiny;
     }
 
     async function setPokemon(number) {
-        if(number == 0) {
+        if(number == 0)
             number = total_pkm;
-        }
-        if(number > total_pkm) {
+        if (number > total_pkm)
             number = 1;
-        }
 
-        pkm_data = await getPokemon(number);
-        actual_pkm = number; 
+        pkm_data   = await apiRequest("/pokemon/" + number);
+        actual_pkm = number;
+        if(pkm_data == null) {
+            document.getElementById("carousel-container").style.display = "none";
+            return;
+        }
 
         document.getElementById("carousel__image").src = pkm_data.sprite.regular;
         document.getElementById("carousel__info-pkmname").textContent = pkm_data.name.fr;
@@ -109,6 +121,59 @@
         }
     }
 
-    setPokemon(1);
+    function syntaxHighlight(json) {
+        return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+            let type = 'number';
+            if (/^"/.test(match)) {
+                if (/:$/.test(match)) {
+                    type = 'key';
+                } else {
+                    type = 'string';
+                }
+            } else if (/true|false/.test(match)) {
+                type = 'boolean';
+            } else if (/null/.test(match)) {
+                type = 'null';
+            }
+            return `<span class="${type}">${match}</span>`;
+        });
+    }
+
+    async function customApiRequest() {
+        let textarea = document.getElementById("tryit__json-area");
+        textarea.innerHTML = "";
+
+        request = await apiRequest(`/${document.getElementById("tryit__input-text").value}`);
+
+        if(request == null) {
+            request = {
+                "error": 302,
+                "message": "Il semblerait que vous vous soyez perdu... Êtes-vous sûr d'être sur la bonne route ?"
+            }
+        } else {
+            last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
+        }
+
+        textarea.innerHTML = syntaxHighlight(JSON.stringify(request, null, 4));
+    }
+
+    async function tryApiExample(url) {
+        document.getElementById("tryit__input-text").value = url;
+        await customApiRequest();
+    }
+
+    (async function init() {
+        await setPokemon(actual_pkm);
+        document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(JSON.stringify(pkm_data, null, 4));
+        document.getElementById("tryit__input-text").value = `pokemon/${pkm_data.name.fr.toLowerCase()}`;
+        last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
+    })();
+
+    document.getElementById("tryit__input-text").addEventListener("keyup", (event) => {
+        if(event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("tryit__input-button").click();
+        }
+    });
 </script>
 {% endblock %}

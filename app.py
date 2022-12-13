@@ -1,6 +1,7 @@
-from flask         import Flask, render_template, redirect, request
-from flask_restful import Api
-from flask_minify  import Minify
+from flask          import Flask, render_template, redirect, request
+from flask_restful  import Api
+from flask_minify   import Minify
+from flask_cors     import CORS
 
 from resources.pokemon import Pokemon, Generation
 
@@ -8,6 +9,7 @@ import datetime, json
 
 app = Flask(__name__, static_folder = "assets")
 api = Api(app, "/api/v1")
+CORS(app)
 Minify(app = app, html = True, js = True, cssless = True)
 
 @app.route("/")
