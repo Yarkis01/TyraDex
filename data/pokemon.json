@@ -78,8 +78,8 @@
         "evolution": {
             "pre": null,
             "next": [
-                {"pokedexId": "2", "name": "Herbizarre", "condition": "Niveau 16"},
-                {"pokedexId": "3", "name": "Florizarre", "condition": "Niveau 32"}
+                {"pokedexId": 2, "name": "Herbizarre", "condition": "Niveau 16"},
+                {"pokedexId": 3, "name": "Florizarre", "condition": "Niveau 32"}
             ],
             "mega": null
         },
@@ -147,10 +147,10 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "1", "name": "Bulbizarre"}
+                {"pokedexId": 1, "name": "Bulbizarre"}
             ],
             "next": [
-                {"pokedexId": "3", "name": "Florizarre", "condition": "Niveau 32"}
+                {"pokedexId": 3, "name": "Florizarre", "condition": "Niveau 32"}
             ],
             "mega": null
         },
@@ -221,8 +221,8 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "1", "name": "Bulbizarre"},
-                {"pokedexId": "2", "name": "Herbizarre"}
+                {"pokedexId": 1, "name": "Bulbizarre"},
+                {"pokedexId": 2, "name": "Herbizarre"}
             ],
             "next": null,
             "mega": [
@@ -299,8 +299,8 @@
         "evolution": {
             "pre": null,
             "next": [
-                {"pokedexId": "5", "name": "Reptincel", "condition": "Niveau 16"},
-                {"pokedexId": "6", "name": "Dracaufeu", "condition": "Niveau 36"}
+                {"pokedexId": 5, "name": "Reptincel", "condition": "Niveau 16"},
+                {"pokedexId": 6, "name": "Dracaufeu", "condition": "Niveau 36"}
             ],
             "mega": null
         },
@@ -367,10 +367,10 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "4", "name": "Salamèche"}
+                {"pokedexId": 4, "name": "Salamèche"}
             ],
             "next": [
-                {"pokedexId": "6", "name": "Dracaufeu", "condition": "Niveau 36"}
+                {"pokedexId": 6, "name": "Dracaufeu", "condition": "Niveau 36"}
             ],
             "mega": null
         },
@@ -441,8 +441,8 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "4", "name": "Salamèche"},
-                {"pokedexId": "5", "name": "Reptincel"}
+                {"pokedexId": 4, "name": "Salamèche"},
+                {"pokedexId": 5, "name": "Reptincel"}
             ],
             "next": null,
             "mega": [
@@ -526,8 +526,8 @@
         "evolution": {
             "pre": null,
             "next": [
-                {"pokedexId": "8", "name": "Carabaffe", "condition": "Niveau 16"},
-                {"pokedexId": "9", "name": "Tortank", "condition": "Niveau 36"}
+                {"pokedexId": 8, "name": "Carabaffe", "condition": "Niveau 16"},
+                {"pokedexId": 9, "name": "Tortank", "condition": "Niveau 36"}
             ],
             "mega": null
         },
@@ -594,10 +594,10 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "7", "name": "Carapuce"}
+                {"pokedexId": 7, "name": "Carapuce"}
             ],
             "next": [
-                {"pokedexId": "9", "name": "Tortank", "condition": "Niveau 36"}
+                {"pokedexId": 9, "name": "Tortank", "condition": "Niveau 36"}
             ],
             "mega": null
         },
@@ -667,8 +667,8 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": "7", "name": "Carapuce"},
-                {"pokedexId": "8", "name": "Carabaffe"}
+                {"pokedexId": 7, "name": "Carapuce"},
+                {"pokedexId": 8, "name": "Carabaffe"}
             ],
             "next": null,
             "mega": {
@@ -690,5 +690,796 @@
         },
         "catch_rate": 45,
         "level_100": 1059860
+    },
+    {
+        "pokedexId": 10,
+        "generation": 1,
+        "category": "Pokémon Ver",
+        "name": {
+            "fr": "Chenipan",
+            "en": "Caterpie",
+            "jp": "キャタピー"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/10/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/10/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"}
+        ],
+        "talents": [
+            {"name": "Écran Poudre", "tc": false},
+            {"name": "Fuite", "tc": true}
+        ], 
+        "stats": {
+            "HP": 45,
+            "att": 30,
+            "def": 35,
+            "spe_att": 20,
+            "spe_def": 20,
+            "vit": 45
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 11, "name": "Chrysacier", "condition": "Niveau 7"},
+                {"pokedexId": 12, "name": "Papilusion", "condition": "Niveau 10"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "2,9 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 11,
+        "generation": 1,
+        "category": "Pokémon Cocon",
+        "name": {
+            "fr": "Chrysacier",
+            "en": "Metapod",
+            "jp": "トランセル"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/11/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/11/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"}
+        ],
+        "talents": [
+            {"name": "Mue", "tc": false}
+        ], 
+        "stats": {
+            "HP": 50,
+            "att": 20,
+            "def": 55,
+            "spe_att": 25,
+            "spe_def": 25,
+            "vit": 30
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 10, "name": "Chenipan"}
+            ],
+            "next": [
+                {"pokedexId": 12, "name": "Papilusion", "condition": "Niveau 10"}
+            ],
+            "mega": null
+        },
+        "height": "0,7 m",
+        "weight": "9,9 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 120,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 12,
+        "generation": 1,
+        "category": "Pokémon Papillon",
+        "name": {
+            "fr": "Papilusion",
+            "en": "Butterfree",
+            "jp": "バタフリー"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/12/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/12/shiny.png",
+            "gmax"   : {
+                "regular":"https://mon-api-pokemon.vercel.app/assets/sprites/12/gmax-regular.png",
+                "shiny":"https://mon-api-pokemon.vercel.app/assets/sprites/12/gmax-shiny.png"
+            }
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
+            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Œil Composé", "tc": false},
+            {"name": "Lentiteintée", "tc": true}
+        ], 
+        "stats": {
+            "HP": 60,
+            "att": 45,
+            "def": 50,
+            "spe_att": 90,
+            "spe_def": 80,
+            "vit": 70
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 4},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 10, "name": "Chenipan"},
+                {"pokedexId": 11, "name": "Chrysacier"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,1 m",
+        "weight": "32,0 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 45,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 13,
+        "generation": 1,
+        "category": "Pokémon Insectopic",
+        "name": {
+            "fr": "Aspicot",
+            "en": "Weedle",
+            "jp": "ビードル"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/13/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/13/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Écran Poudre", "tc": false},
+            {"name": "Fuite", "tc": true}
+        ], 
+        "stats": {
+            "HP": 40,
+            "att": 35,
+            "def": 30,
+            "spe_att": 20,
+            "spe_def": 20,
+            "vit": 50
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 14, "name": "Coconfort"},
+                {"pokedexId": 15, "name": "Dardargnan"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "3,2 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 14,
+        "generation": 1,
+        "category": "Pokémon Cocon",
+        "name": {
+            "fr": "Coconfort",
+            "en": "Kakuna",
+            "jp": "コクーン"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/14/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/14/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Mue", "tc": false}
+        ], 
+        "stats": {
+            "HP": 45,
+            "att": 25,
+            "def": 50,
+            "spe_att": 25,
+            "spe_def": 25,
+            "vit": 35
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre":  [               
+                {"pokedexId": 13, "name": "Aspicot"}
+            ],
+            "next": [
+                {"pokedexId": 15, "name": "Dardargnan"}
+            ],
+            "mega": null
+        },
+        "height": "0,6 m",
+        "weight": "10 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 120,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 15,
+        "generation": 1,
+        "category": "Pokémon Guêpoison",
+        "name": {
+            "fr": "Dardargnan",
+            "en": "Beedrill",
+            "jp": "スピアー"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/15/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/15/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
+            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Essaim", "tc": false},
+            {"name": "Sniper", "tc": true}
+        ], 
+        "stats": {
+            "HP": 65,
+            "att": 90,
+            "def": 40,
+            "spe_att": 45,
+            "spe_def": 80,
+            "vit": 75
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre":  [               
+                {"pokedexId": 13, "name": "Aspicot"},
+                {"pokedexId": 14, "name": "Coconfort"}
+            ],
+            "next": null,
+            "mega":  [
+                {
+                    "orbe": "Dardargnite",
+                    "sprite": {
+                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/15/mega-regular.png",
+                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/15/mega-shiny.png"
+                    }
+                }
+            ]
+        },
+        "height": "1,0 m",
+        "weight": "29,5 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 45,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 16,
+        "generation": 1,
+        "category": "Pokémon Minoiseau",
+        "name": {
+            "fr": "Roucool",
+            "en": "Pidgey",
+            "jp": "ポッポ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/16/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/16/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
+            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Pieds Confus", "tc": false},
+            {"name": "Cœur de Coq", "tc": true}
+        ], 
+        "stats": {
+            "HP": 40,
+            "att": 45,
+            "def": 40,
+            "spe_att": 35,
+            "spe_def": 35,
+            "vit": 56
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 17, "name": "Roucoups", "condition": "Niveau 18"},
+                {"pokedexId": 18, "name": "Roucarnage", "condition": "Niveau 36"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "1,8 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 17,
+        "generation": 1,
+        "category": "Pokémon Oiseau",
+        "name": {
+            "fr": "Roucoups",
+            "en": "Pidgeotto",
+            "jp": "ピジョン"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/17/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/17/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
+            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Pieds Confus", "tc": false},
+            {"name": "Cœur de Coq", "tc": true}
+        ], 
+        "stats": {
+            "HP": 63,
+            "att": 60,
+            "def": 55,
+            "spe_att": 50,
+            "spe_def": 50,
+            "vit": 71
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 16, "name": "Roucool"}
+            ],
+            "next": [
+                
+                {"pokedexId": 18, "name": "Roucarnage", "condition": "Niveau 36"}
+            ],
+            "mega": null
+        },
+        "height": "1,1 m",
+        "weight": "30,0 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 120,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 18,
+        "generation": 1,
+        "category": "Pokémon Oiseau",
+        "name": {
+            "fr": "Roucarnage",
+            "en": "Pidgeot",
+            "jp": "ピジョット"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/18/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/18/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
+            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Pieds Confus", "tc": false},
+            {"name": "Cœur de Coq", "tc": true}
+        ], 
+        "stats": {
+            "HP": 63,
+            "att": 60,
+            "def": 55,
+            "spe_att": 50,
+            "spe_def": 50,
+            "vit": 71
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 16, "name": "Roucool"},
+                {"pokedexId": 17, "name": "Roucoups"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe": "Roucarnagite",
+                    "sprite": {
+                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/18/mega-regular.png",
+                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/18/mega-shiny.png"
+                    }
+                }
+            ]
+        },
+        "height": "1,5 m",
+        "weight": "39,5 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 19,
+        "generation": 1,
+        "category": "Pokémon Souris",
+        "name": {
+            "fr": "Rattata",
+            "en": "Rattata",
+            "jp": "ピコラッタ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/19/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/19/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Cran", "tc": false},
+            {"name": "Agitation", "tc": true}
+        ], 
+        "stats": {
+            "HP": 30,
+            "att": 56,
+            "def": 35,
+            "spe_att": 25,
+            "spe_def": 35,
+            "vit": 72
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 20, "name": "Rattatac","condition":"Niveau 20"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "3,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 19,
+        "generation": 1,
+        "category": "Pokémon Souris",
+        "name": {
+            "fr": "Rattatac",
+            "en": "Raticate",
+            "jp": "ラッタ"
+        },
+        "sprite": {
+            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/20/regular.png",
+            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/20/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Cran", "tc": false},
+            {"name": "Agitation", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 81,
+            "def": 60,
+            "spe_att": 50,
+            "spe_def": 70,
+            "vit": 97
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre":  [
+                {"pokedexId": 19, "name": "Rattata"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "0,7 m",
+        "weight": "18,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 127,
+        "level_100": 1000000
     }
+    
 ]
