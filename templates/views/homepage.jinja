@@ -64,7 +64,11 @@
     </div>
     <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/bulbizarre')">pokemon/bulbizarre</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
     <pre id="tryit__json-area"></pre>
-    <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
+    <div>
+        <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
+        <button id="tryit__copy-url" onclick="copyRequestUrl();">Copier l'url de la requête</button>
+        <button id="tryit__copy-json" onclick="copyJson();">Copier le contenue JSON</button>
+    </div>
 </section>
 {% endblock %}
 
@@ -75,7 +79,8 @@
         actual_pkm = Math.floor(Math.random() * total_pkm) + 1,
         pkm_data   = null,
         is_shiny   = false,
-        last_url   = null;
+        last_url   = null,
+        req_json   = null;
 
     async function apiRequest(routes) {
         let response = await fetch(base_url + routes);
@@ -154,7 +159,8 @@
             last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
         }
 
-        textarea.innerHTML = syntaxHighlight(JSON.stringify(request, null, 4));
+        req_json = JSON.stringify(request, null, 4)
+        textarea.innerHTML = syntaxHighlight(req_json);
     }
 
     async function tryApiExample(url) {
@@ -162,9 +168,34 @@
         await customApiRequest();
     }
 
+    async function copyRequestUrl() {
+        let input = document.getElementById("tryit__input-text"),
+                value = input.value;
+
+        input.value = base_url + "/" + value;
+        input.select();
+        document.execCommand("copy");
+        input.value = value;
+
+        alert("L'url a été copiée avec succès.");
+    }
+
+    async function copyJson() {
+        let element = document.createElement("textarea");
+        element.value = req_json;
+        document.body.appendChild(element);
+        element.select();
+        document.execCommand("copy");
+        document.body.removeChild(element);
+        
+        alert("Le résultat de la requête a bien été copié.");
+    }
+
+
     (async function init() {
         await setPokemon(actual_pkm);
-        document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(JSON.stringify(pkm_data, null, 4));
+        req_json = JSON.stringify(pkm_data, null, 4);
+        document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(req_json);
         document.getElementById("tryit__input-text").value = `pokemon/${pkm_data.name.fr.toLowerCase()}`;
         last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
     })();
