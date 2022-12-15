@@ -162,7 +162,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     width: 100%;
 }
 
-#tryit__input-button, #tryit__open-new-tab {
+#tryit__input-button, #tryit__open-new-tab, #tryit__copy-url, #tryit__copy-json {
     all: unset;
     color: var(--primary-color);
     padding: 8px;
@@ -179,7 +179,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     border-radius: 0 8px 8px 0;
 }
 
-#tryit__open-new-tab {
+#tryit__open-new-tab, #tryit__copy-url, #tryit__copy-json {
     background-color: var(--secondary-background-color);
     border-radius: 8px;
     width: calc(80vw - 16px);
@@ -207,6 +207,10 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 #tryit__example span {
     color: var(--secondary-color);
     cursor: pointer;
+}
+
+#tryit__copy-url {
+    margin-inline: 16px;
 }
 
 .key     {color: #9CDCFE;}

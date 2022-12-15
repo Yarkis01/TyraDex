@@ -34,6 +34,10 @@
         border-radius: 0 0 8px 8px;
         margin: 0;
     }
+
+    #tryit__copy-url, #tryit__copy-json {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 300px) {
