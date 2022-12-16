@@ -136,8 +136,8 @@
         shiny.src = "/assets/carousel/star_FILL0.svg";
         is_shiny = false;
 
-        types.innerHTML = "";
-        pkm_name.textContent = "Chargement...";
+        types.style.visibility = "hidden";
+        pkm_name.textContent   = "Chargement...";
 
         pkm_data   = await apiRequest("/pokemon/" + number);
         actual_pkm = number;
@@ -151,9 +151,11 @@
         pkm_name.textContent = pkm_data.name.fr;
         shiny.style.visibility  = "visible";
 
+        types.innerHTML = "";
         for(let i = 0; i < pkm_data.types.length; i++) {
             types.innerHTML += `<img src="${pkm_data.types[i].image}" title="${pkm_data.types[i].name}" />`;
         }
+        types.style.visibility = "visible";
     }
 
     function syntaxHighlight(json) {
