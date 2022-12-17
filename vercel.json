@@ -11,7 +11,6 @@
             "dest": "app.py"
         }
     ],
-    "ignoreCommand": "[ \"$VERCEL_ENV\" != production ]",
     "github": {
         "silent": true
     }
