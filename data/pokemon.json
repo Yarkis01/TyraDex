@@ -2324,8 +2324,8 @@
             "jp": "ニドリーノ"
         },
         "sprite": {
-            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/32/regular.png",
-            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/32/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/33/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/33/shiny.png",
             "gmax"   : null
         },
         "types": [
