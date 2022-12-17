@@ -4781,7 +4781,10 @@
         "sprite": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/68/regular.png",
             "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/68/shiny.png",
-            "gmax"   : null
+            "gmax"   : {
+                "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/68/gmax-regular.png",
+                "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/68/gmax-shiny.png"
+            }
         },
         "types": [
             {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
@@ -5669,7 +5672,10 @@
                 {"pokedexId": 79, "name": "Ramoloss"}
             ],
             "next": null,
-            "mega": null
+            "mega": {
+                "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-regular.png",
+                "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-shiny.png"
+            }
         },
         "height": "1,6 m",
         "weight": "78,5 kg",
