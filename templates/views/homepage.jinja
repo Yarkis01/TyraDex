@@ -177,8 +177,8 @@
     }
 
     async function customApiRequest() {
-        let textarea = document.getElementById("tryit__json-area");
-        textarea.innerHTML = "";
+        let json_area = document.getElementById("tryit__json-area");
+        json_area.innerHTML = "";
 
         request = await apiRequest(`/${document.getElementById("tryit__input-text").value}`);
 
@@ -192,7 +192,7 @@
         }
 
         req_json = JSON.stringify(request, null, 4)
-        textarea.innerHTML = syntaxHighlight(req_json);
+        json_area.innerHTML = syntaxHighlight(req_json);
     }
 
     async function tryApiExample(url) {
