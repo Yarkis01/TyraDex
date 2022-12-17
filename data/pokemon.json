@@ -9,7 +9,7 @@
             "jp": "けつばん（"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/0/regular.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/0/regular.png",
             "shiny": null,
             "gmax": null
         },
@@ -35,13 +35,13 @@
             "jp": "フシギダネ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/1/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/1/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Engrais", "tc": false},
@@ -105,13 +105,13 @@
             "jp": "フシギソウ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/2/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/2/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/2/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/2/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Engrais", "tc": false},
@@ -176,16 +176,16 @@
             "jp": "フシギバナ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/3/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/shiny.png",
             "gmax"   : {
-                "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/gmax-regular.png",
-                "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/3/gmax-shiny.png"
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/gmax-regular.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/gmax-shiny.png"
             }
         },
         "types": [
-            {"name": "Plante", "image": "https://mon-api-pokemon.vercel.app/assets/types/plante.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Engrais", "tc": false},
@@ -229,8 +229,8 @@
                 {
                     "orbe": "Florizarrite",
                     "sprite": {
-                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/3/mega-regular.png",
-                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/3/mega-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/mega-shiny.png"
                     }
                 }
             ]
@@ -257,12 +257,12 @@
             "jp": "ヒトカゲ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/4/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/4/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Feu", "image": "https://mon-api-pokemon.vercel.app/assets/types/feu.png"}
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"}
         ],
         "talents": [
             {"name": "Brasier", "tc": false},
@@ -326,12 +326,12 @@
             "jp": "リザード"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/5/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/5/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/5/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/5/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Feu", "image": "https://mon-api-pokemon.vercel.app/assets/types/feu.png"}
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"}
         ],
         "talents": [
             {"name": "Brasier", "tc": false},
@@ -396,16 +396,16 @@
             "jp": "リザードン（"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/6/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/6/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/shiny.png",
             "gmax"   : {
-                "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/6/gmax-regular.png",
-                "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/6/gmax-shiny.png"
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/gmax-regular.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/gmax-shiny.png"
             }
         },
         "types": [
-            {"name": "Feu", "image": "https://mon-api-pokemon.vercel.app/assets/types/feu.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Brasier", "tc": false},
@@ -449,15 +449,15 @@
                 {
                     "orbe": "Dracaufite X",
                     "sprite": {
-                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/6/mega_x-regular.png",
-                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/6/mega_x-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/mega_x-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/mega_x-shiny.png"
                     }
                 },
                 {
                     "orbe": "Dracaufite Y",
                     "sprite": {
-                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/6/mega_y-regular.png",
-                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/6/mega_y-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/mega_y-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/mega_y-shiny.png"
                     }
                 }
             ]
@@ -484,12 +484,12 @@
             "jp": "ゼニガメ "
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/7/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/7/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/7/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/7/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Eau", "image": "https://mon-api-pokemon.vercel.app/assets/types/eau.png"}
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
         ],
         "talents": [
             {"name": "Torrent", "tc": false},
@@ -553,12 +553,12 @@
             "jp": "カメール（ "
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/8/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/8/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/8/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/8/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Eau", "image": "https://mon-api-pokemon.vercel.app/assets/types/eau.png"}
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
         ],
         "talents": [
             {"name": "Torrent", "tc": false},
@@ -623,15 +623,15 @@
             "jp": "カメックス（ "
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/9/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/9/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/shiny.png",
             "gmax"   : {
-                "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/9/gmax-regular.png",
-                "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/9/gmax-shiny.png"
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/gmax-regular.png",
+                "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/gmax-shiny.png"
             }
         },
         "types": [
-            {"name": "Eau", "image": "https://mon-api-pokemon.vercel.app/assets/types/eau.png"}
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
         ],
         "talents": [
             {"name": "Torrent", "tc": false},
@@ -674,8 +674,8 @@
             "mega": {
                 "orbe": "Tortankite",
                 "sprite": {
-                    "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/9/mega-regular.png",
-                    "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/9/mega-shiny.png"
+                    "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-regular.png",
+                    "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-shiny.png"
                 }
             }
         },
@@ -701,12 +701,12 @@
             "jp": "キャタピー"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/10/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/10/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/10/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/10/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"}
         ],
         "talents": [
             {"name": "Écran Poudre", "tc": false},
@@ -770,12 +770,12 @@
             "jp": "トランセル"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/11/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/11/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/11/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/11/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"}
         ],
         "talents": [
             {"name": "Mue", "tc": false}
@@ -839,16 +839,16 @@
             "jp": "バタフリー"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/12/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/12/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/12/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/12/shiny.png",
             "gmax"   : {
-                "regular":"https://mon-api-pokemon.vercel.app/assets/sprites/12/gmax-regular.png",
-                "shiny":"https://mon-api-pokemon.vercel.app/assets/sprites/12/gmax-shiny.png"
+                "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/12/gmax-regular.png",
+                "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/12/gmax-shiny.png"
             }
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Œil Composé", "tc": false},
@@ -912,13 +912,13 @@
             "jp": "ビードル"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/13/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/13/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/13/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/13/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Écran Poudre", "tc": false},
@@ -982,13 +982,13 @@
             "jp": "コクーン"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/14/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/14/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/14/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/14/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Mue", "tc": false}
@@ -1052,13 +1052,13 @@
             "jp": "スピアー"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/15/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/15/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/15/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/15/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Insecte", "image": "https://mon-api-pokemon.vercel.app/assets/types/insecte.png"},
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Essaim", "tc": false},
@@ -1102,8 +1102,8 @@
                 {
                     "orbe": "Dardargnite",
                     "sprite": {
-                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/15/mega-regular.png",
-                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/15/mega-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/15/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/15/mega-shiny.png"
                     }
                 }
             ]
@@ -1130,13 +1130,13 @@
             "jp": "ポッポ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/16/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/16/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/16/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/16/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Regard Vif", "tc": false},
@@ -1201,13 +1201,13 @@
             "jp": "ピジョン"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/17/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/17/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/17/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/17/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Regard Vif", "tc": false},
@@ -1274,13 +1274,13 @@
             "jp": "ピジョット"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/18/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/18/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/18/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/18/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Regard Vif", "tc": false},
@@ -1325,8 +1325,8 @@
                 {
                     "orbe": "Roucarnagite",
                     "sprite": {
-                        "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/18/mega-regular.png",
-                        "shiny": "https://mon-api-pokemon.vercel.app/assets/sprites/18/mega-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/18/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/18/mega-shiny.png"
                     }
                 }
             ]
@@ -1353,12 +1353,12 @@
             "jp": "ピコラッタ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/19/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/19/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
         ],
         "talents": [
             {"name": "Fuite", "tc": false},
@@ -1422,12 +1422,12 @@
             "jp": "ラッタ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/20/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/20/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
         ],
         "talents": [
             {"name": "Fuite", "tc": false},
@@ -1491,13 +1491,13 @@
             "jp": "オニスズメ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/21/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/21/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/21/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/21/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Regard Vif", "tc": false},
@@ -1560,13 +1560,13 @@
             "jp": "オニドリル"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/22/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/22/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/22/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/22/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Normal", "image": "https://mon-api-pokemon.vercel.app/assets/types/normal.png"},
-            {"name": "Vol", "image": "https://mon-api-pokemon.vercel.app/assets/types/vol.png"}
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
         ],
         "talents": [
             {"name": "Regard Vif", "tc": false},
@@ -1629,12 +1629,12 @@
             "jp": "アーボ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/23/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/23/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/23/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/23/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Intimidation", "tc": false},
@@ -1698,12 +1698,12 @@
             "jp": "アーボック"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/24/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/24/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/24/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/24/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Intimidation", "tc": false},
@@ -1767,12 +1767,12 @@
             "jp": "ピカチュウ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/25/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/25/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Électrik", "image": "https://mon-api-pokemon.vercel.app/assets/types/electrik.png"}
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
         ],
         "talents": [
             {"name": "Statik", "tc": false},
@@ -1837,12 +1837,12 @@
             "jp": "ライチュウ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/26/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/26/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Électrik", "image": "https://mon-api-pokemon.vercel.app/assets/types/electrik.png"}
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
         ],
         "talents": [
             {"name": "Statik", "tc": false},
@@ -1906,12 +1906,12 @@
             "jp": "サンド"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/27/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/27/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Sol", "image": "https://mon-api-pokemon.vercel.app/assets/types/sol.png"}
+            {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
         ],
         "talents": [
             {"name": "Voile Sable", "tc": false},
@@ -1974,12 +1974,12 @@
             "jp": "サンドパン"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/28/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/28/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Sol", "image": "https://mon-api-pokemon.vercel.app/assets/types/sol.png"}
+            {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
         ],
         "talents": [
             {"name": "Voile Sable", "tc": false},
@@ -2042,12 +2042,12 @@
             "jp": "ニドラン♀"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/29/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/29/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/29/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/29/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Point Poison", "tc": false},
@@ -2112,12 +2112,12 @@
             "jp": "ニドリーナ"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/30/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/30/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/30/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/30/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"}
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
         ],
         "talents": [
             {"name": "Point Poison", "tc": false},
@@ -2183,13 +2183,13 @@
             "jp": "ニドクイン"
         },
         "sprite": {
-            "regular": "https://mon-api-pokemon.vercel.app/assets/sprites/31/regular.png",
-            "shiny"  : "https://mon-api-pokemon.vercel.app/assets/sprites/31/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/31/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/31/shiny.png",
             "gmax"   : null
         },
         "types": [
-            {"name": "Poison", "image": "https://mon-api-pokemon.vercel.app/assets/types/poison.png"},
-            {"name": "Sol", "image": "https://mon-api-pokemon.vercel.app/assets/types/sol.png"}
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
+            {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
         ],
         "talents": [
             {"name": "Point Poison", "tc": false},
