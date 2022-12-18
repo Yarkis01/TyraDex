@@ -232,7 +232,7 @@
         await setPokemon(actual_pkm);
         req_json = JSON.stringify(pkm_data, null, 4);
         document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(req_json);
-        document.getElementById("tryit__input-text").value = `pokemon/${pkm_data.name.fr.toLowerCase()}`;
+        document.getElementById("tryit__input-text").value = `pokemon/${pkm_data.name.fr.normalize("NFD").replace(/[^a-zA-Z0-9 ]/g, "").toLowerCase()}`;
         last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
     })();
 
