@@ -6961,10 +6961,10 @@
         "sprite": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/regular.png",
             "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/shiny.png",
-            "gmax"   : [
-                {"regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-regular.png"},
-                {"shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-shiny.png"}
-            ]
+            "gmax"   : {
+                "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-regular.png",
+                "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-shiny.png"
+            },
         },
         "types": [
             {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
