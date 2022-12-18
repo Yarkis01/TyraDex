@@ -5688,5 +5688,352 @@
         },
         "catch_rate": 75,
         "level_100": 1000000
+    },
+    {
+        "pokedexId": 81,
+        "generation": 1,
+        "category": "Pokémon Magnétique",
+        "name": {
+            "fr": "Magnéti",
+            "en": "Magnemite",
+            "jp": "コイル（"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/81/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/81/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
+            {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+        ],
+        "talents": [
+            {"name": "Magnépiège", "tc": false},
+            {"name": "Fermeté", "tc": false},
+            {"name": "Analyste", "tc": true}
+        ], 
+        "stats": {
+            "HP": 25,
+            "att": 35,
+            "def": 70,
+            "spe_att": 95,
+            "spe_def": 55,
+            "vit": 45
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 0.5},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 0},
+            {"name": "Sol", "multiplier": 4},
+            {"name": "Vol", "multiplier": 0.25},
+            {"name": "Psy", "multiplier": 0.5},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0.5},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.25},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 82, "name": "Magnéton", "condition": "Niveau 30"},
+                {"pokedexId": 462, "name": "Magnézone", "condition": "Pierre Foudre"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "6,0 kg",
+        "egg_groups": [
+            "Minéral"
+        ],
+        "sexe": null,
+        "catch_rate": 190,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 82,
+        "generation": 1,
+        "category": "Pokémon Magnétique",
+        "name": {
+            "fr": "Magnéton",
+            "en": "Magneton",
+            "jp": "レアコイル（"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/82/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/82/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
+            {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+        ],
+        "talents": [
+            {"name": "Magnépiège", "tc": false},
+            {"name": "Fermeté", "tc": false},
+            {"name": "Analyste", "tc": true}
+        ], 
+        "stats": {
+            "HP": 50,
+            "att": 60,
+            "def": 95,
+            "spe_att": 120,
+            "spe_def": 70,
+            "vit": 70
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 0.5},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 0},
+            {"name": "Sol", "multiplier": 4},
+            {"name": "Vol", "multiplier": 0.25},
+            {"name": "Psy", "multiplier": 0.5},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0.5},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.25},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 81, "name": "Magnéti"}
+            ],
+            "next": [
+                {"pokedexId": 462, "name": "Magnézone", "condition": "Pierre Foudre"}
+            ],
+            "mega": null
+        },
+        "height": "1,0 m",
+        "weight": "60,0 kg",
+        "egg_groups": [
+            "Minéral"
+        ],
+        "sexe": null,
+        "catch_rate": 190,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 83,
+        "generation": 1,
+        "category": "Pokémon Canard Fou",
+        "name": {
+            "fr": "Canarticho",
+            "en": "Farfetch'd",
+            "jp": "カモネギ "
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Attention", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Acharné", "tc": true}
+        ], 
+        "stats": {
+            "HP": 52,
+            "att": 90,
+            "def": 55,
+            "spe_att": 58,
+            "spe_def": 62,
+            "vit": 60
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 865, "name": "Palarticho", "condition": "Infliger 3 coups critiques dans un même combat (uniquement Canarticho de Galar)"}
+            ],
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "15,0 kg",
+        "egg_groups": [
+            "Aérien", "Terrestre"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 45,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 84,
+        "generation": 1,
+        "category": "Pokémon Duoiseau",
+        "name": {
+            "fr": "Doduo",
+            "en": "Doduo",
+            "jp": "ドードー（"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/84/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/84/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Matinal", "tc": false},
+            {"name": "Pieds Confus", "tc": true}
+        ], 
+        "stats": {
+            "HP": 35,
+            "att": 85,
+            "def": 45,
+            "spe_att": 35,
+            "spe_def": 35,
+            "vit": 75
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId": 85, "name": "Dodrio", "condition": "Niveau 31"}
+            ],
+            "mega": null
+        },
+        "height": "1,4 m",
+        "weight": "39,2 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 190,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 85,
+        "generation": 1,
+        "category": "Pokémon Trioiseau",
+        "name": {
+            "fr": "Dodrio",
+            "en": "Dodrio",
+            "jp": "ドードリオ（"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/85/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/85/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Matinal", "tc": false},
+            {"name": "Pieds Confus", "tc": true}
+        ], 
+        "stats": {
+            "HP": 60,
+            "att": 110,
+            "def": 70,
+            "spe_att": 60,
+            "spe_def": 60,
+            "vit": 110
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId": 84, "name": "Doduo"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,8 m",
+        "weight": "85,2 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male": 50,
+            "female": 50
+        },
+        "catch_rate": 190,
+        "level_100": 1000000
     }
 ]
