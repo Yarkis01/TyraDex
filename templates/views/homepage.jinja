@@ -172,6 +172,10 @@
             } else if (/null/.test(match)) {
                 type = 'null';
             }
+            if (/https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)/g.test(match)) {
+                let match_array = match.split('"');
+                return `<span class="${type}">"<a href="${match_array[1]}" target="_blank">${match_array[1]}</a>"</span>`;
+            }
             return `<span class="${type}">${match}</span>`;
         });
     }

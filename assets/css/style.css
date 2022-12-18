@@ -224,3 +224,8 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 .number  {color: #B5CEA8;}
 .boolean {color: #E84393;}
 .null    {color: #569CD6;}
+
+.string  a {
+    color: #CE9178;
+    text-decoration: underline;
+}
