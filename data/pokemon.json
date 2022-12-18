@@ -7026,8 +7026,8 @@
         "generation": 1,
         "category": "Pokémon Balle",
         "name": {
-            "fr": "Voltobre",
-            "en": "Voltobr",
+            "fr": "Voltorbe",
+            "en": "Voltorb",
             "jp": "ビリリダマ"
         },
         "sprite": {
@@ -7139,7 +7139,7 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId": 100, "name": "Voltobre"}
+                {"pokedexId": 100, "name": "Voltorbe"}
             ],
             "next": null,
             "mega": null
