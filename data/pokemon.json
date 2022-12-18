@@ -5672,10 +5672,15 @@
                 {"pokedexId": 79, "name": "Ramoloss"}
             ],
             "next": null,
-            "mega": {
-                "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-regular.png",
-                "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-shiny.png"
-            }
+            "mega": [
+                {
+                    "orbe": "Fagadossite",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/mega-shiny.png"
+                    }
+                }
+            ]
         },
         "height": "1,6 m",
         "weight": "78,5 kg",
