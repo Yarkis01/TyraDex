@@ -6964,7 +6964,7 @@
             "gmax"   : {
                 "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-regular.png",
                 "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/gmax-shiny.png"
-            },
+            }
         },
         "types": [
             {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
