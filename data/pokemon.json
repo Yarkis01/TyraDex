@@ -4620,7 +4620,15 @@
                 {"pokedexId": 64, "name": "Kadabra"}
             ],
             "next": null,
-            "mega": null
+            "mega": [
+                {
+                    "orbe": "Alakazamite",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/65/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/65/mega-shiny.png"
+                    }
+                }
+            ]
         },
         "height": "1,5 m",
         "weight": "48,0 kg",
@@ -6662,8 +6670,13 @@
             ],
             "next": null,
             "mega": [
-                {"regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/94/mega-regular.png"},
-                {"shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/94/mega-shiny.png"}
+                {
+                    "orbe": "Ectoplasmite",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/94/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/94/mega-shiny.png"
+                    }
+                }
             ]
         },
         "height": "1,5 m",
@@ -9166,7 +9179,15 @@
                 {"pokedexId":129, "name":"Magicarpe"}
             ],
             "next": null,
-            "mega": null
+            "mega": [
+                {
+                    "orbe": "Léviatorite",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/130/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/130/mega-shiny.png"
+                    }
+                }
+            ]
         },
         "height": "6,5 m",
         "weight": "235,0 kg",
