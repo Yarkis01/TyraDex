@@ -10545,7 +10545,22 @@
         "evolution": {
             "pre": null,
             "next": null,
-            "mega": null
+            "mega": [
+                {
+                    "orbe": "Mewtwoïte X",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/150/mega_x-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/150/mega_x-shiny.png"
+                    }
+                },
+                {
+                    "orbe": "Mewtwoïte Y",
+                    "sprite": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/150/mega_y-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/150/mega_y-shiny.png"
+                    }
+                }
+            ]
         },
         "height": "2,0 m",
         "weight": "122,0 kg",
