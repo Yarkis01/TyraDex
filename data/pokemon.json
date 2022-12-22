@@ -8039,23 +8039,23 @@
         },
         "resistances": [
             {"name": "Normal", "multiplier": 1},
-            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Plante", "multiplier": 0.5},
             {"name": "Feu", "multiplier": 2},
             {"name": "Eau", "multiplier": 0.5},
             {"name": "Électrik", "multiplier": 0.5},
             {"name": "Glace", "multiplier": 2},
-            {"name": "Combat", "multiplier": 0.5},
-            {"name": "Poison", "multiplier": 1},
-            {"name": "Sol", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
             {"name": "Vol", "multiplier": 2},
-            {"name": "Psy", "multiplier": 2},
-            {"name": "Insecte", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
             {"name": "Roche", "multiplier": 1},
             {"name": "Spectre", "multiplier": 1},
             {"name": "Dragon", "multiplier": 1},
             {"name": "Ténèbres", "multiplier": 1},
             {"name": "Acier", "multiplier": 1},
-            {"name": "Fée", "multiplier": 0.5}
+            {"name": "Fée", "multiplier": 1}
         ],
         "evolution": {
             "pre": null,
@@ -10653,5 +10653,3087 @@
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1059860
+    },
+    {
+        "pokedexId": 152,
+        "generation": 2,
+        "category": "Pokémon Feuille",
+        "name": {
+            "fr": "Germignon",
+            "en": "Chikorita",
+            "jp": "チコリータ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/152/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/152/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Feuille Garde", "tc": true}
+        ], 
+        "stats": {
+            "HP": 45,
+            "att": 49,
+            "def": 65,
+            "spe_att": 49,
+            "spe_def": 65,
+            "vit": 45
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":153, "name":"Macronium","condition":"Niveau 16"},
+                {"pokedexId":154, "name":"Méganium","condition":"Niveau 32"}
+            ],
+            "mega": null
+        },
+        "height": "0,9 m",
+        "weight": "6,4 kg",
+        "egg_groups": [
+            "Monstrueux","Végétal"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 153,
+        "generation": 2,
+        "category": "Pokémon Feuille",
+        "name": {
+            "fr": "Macronium",
+            "en": "Bayleef",
+            "jp": "ベイリーフ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/153/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/153/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Feuille Garde", "tc": true}
+        ], 
+        "stats": {
+            "HP": 60,
+            "att": 62,
+            "def": 80,
+            "spe_att": 63,
+            "spe_def": 80,
+            "vit": 60
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":152, "name":"Germignon"}
+            ],
+            "next": [
+                {"pokedexId":154, "name":"Méganium","condition":"Niveau 32"}
+            ],
+            "mega": null
+        },
+        "height": "1,2 m",
+        "weight": "15,8 kg",
+        "egg_groups": [
+            "Monstrueux","Végétal"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 154,
+        "generation": 2,
+        "category": "Pokémon Herbe",
+        "name": {
+            "fr": "Méganium",
+            "en": "Meganium",
+            "jp": "メガニウム"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/154/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/154/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Engrais", "tc": false},
+            {"name": "Feuille Garde", "tc": true}
+        ], 
+        "stats": {
+            "HP": 80,
+            "att": 82,
+            "def": 10,
+            "spe_att": 83,
+            "spe_def": 100,
+            "vit": 80
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":152, "name":"Germignon"},
+                {"pokedexId":154, "name":"Méganium"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,8 m",
+        "weight": "100,5 kg",
+        "egg_groups": [
+            "Monstrueux","Végétal"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 155,
+        "generation": 2,
+        "category": "Pokémon Souris Feu",
+        "name": {
+            "fr": "Héricendre",
+            "en": "Cyndaquil",
+            "jp": "ヒノアラシ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/155/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/155/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"}
+        ],
+        "talents": [
+            {"name": "Brasier", "tc": false},
+            {"name": "Torche", "tc": true}
+        ], 
+        "stats": {
+            "HP": 39,
+            "att": 52,
+            "def": 43,
+            "spe_att": 60,
+            "spe_def": 50,
+            "vit": 65
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 2},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":156, "name":"Feurisson","condition":"Niveau 14 / Niveau 17 (LPA seulement)"},
+                {"pokedexId":157, "name":"Typhlosion","condition":"Niveau 36"}
+            ],
+            "mega": null
+        },
+        "height": "0,5 m",
+        "weight": "7,9 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 156,
+        "generation": 2,
+        "category": "Pokémon Volcan",
+        "name": {
+            "fr": "Feurisson",
+            "en": "Quilava",
+            "jp": "マグマラシ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/156/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/156/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"}
+        ],
+        "talents": [
+            {"name": "Brasier", "tc": false},
+            {"name": "Torche", "tc": true}
+        ], 
+        "stats": {
+            "HP": 58,
+            "att": 64,
+            "def": 58,
+            "spe_att": 80,
+            "spe_def": 65,
+            "vit": 80
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 2},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":155, "name":"Héricendre"}
+            ],
+            "next": [
+                {"pokedexId":157, "name":"Typhlosion","condition":"Niveau 36"}
+            ],
+            "mega": null
+        },
+        "height": "0,9 m",
+        "weight": "19,0 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 157,
+        "generation": 2,
+        "category": "Pokémon Volcan",
+        "name": {
+            "fr": "Typhlosion",
+            "en": "Typhlosion",
+            "jp": "バクフーン"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"}
+        ],
+        "talents": [
+            {"name": "Brasier", "tc": false},
+            {"name": "Torche", "tc": true}
+        ], 
+        "stats": {
+            "HP": 78,
+            "att": 84,
+            "def": 78,
+            "spe_att": 109,
+            "spe_def": 85,
+            "vit": 100
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 2},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":155, "name":"Héricendre"},
+                {"pokedexId":156, "name":"Feurisson"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,7 m",
+        "weight": "79,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 158,
+        "generation": 2,
+        "category": "Pokémon Mâchoire",
+        "name": {
+            "fr": "Kaiminus",
+            "en": "Totodile",
+            "jp": "ワニノコ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/158/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/158/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
+        ],
+        "talents": [
+            {"name": "Torrent", "tc": false},
+            {"name": "Sans Limite", "tc": true}
+        ], 
+        "stats": {
+            "HP": 50,
+            "att": 65,
+            "def": 64,
+            "spe_att": 44,
+            "spe_def": 48,
+            "vit": 43
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":159, "name":"Crocodil","condition":"Niveau 18"},
+                {"pokedexId":160, "name":"Aligatueur","condition":"Niveau 30"}
+            ],
+            "mega": null
+        },
+        "height": "0,6 m",
+        "weight": "9,5 kg",
+        "egg_groups": [
+            "Monstrueux","Aquatique 1"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 159,
+        "generation": 2,
+        "category": "Pokémon Mâchoire",
+        "name": {
+            "fr": "Crocodil",
+            "en": "Croconaw",
+            "jp": "アリゲイツ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/159/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/159/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
+        ],
+        "talents": [
+            {"name": "Torrent", "tc": false},
+            {"name": "Sans Limite", "tc": true}
+        ], 
+        "stats": {
+            "HP": 65,
+            "att": 80,
+            "def": 80,
+            "spe_att": 59,
+            "spe_def": 63,
+            "vit": 58
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":158, "name":"Kaiminus"}
+            ],
+            "next": [
+                {"pokedexId":160, "name":"Aligatueur","condition":"Niveau 30"}
+            ],
+            "mega": null
+        },
+        "height": "1,1 m",
+        "weight": "25,0 kg",
+        "egg_groups": [
+            "Monstrueux","Aquatique 1"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 160,
+        "generation": 2,
+        "category": "Pokémon Mâchoire",
+        "name": {
+            "fr": "Aligatueur",
+            "en": "Feraligatr",
+            "jp": "オーダイル"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/160/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/160/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
+        ],
+        "talents": [
+            {"name": "Torrent", "tc": false},
+            {"name": "Sans Limite", "tc": true}
+        ], 
+        "stats": {
+            "HP": 85,
+            "att": 105,
+            "def": 100,
+            "spe_att": 79,
+            "spe_def": 83,
+            "vit": 78
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":158, "name":"Kaiminus"},
+                {"pokedexId":159, "name":"Crocodil"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "2,3 m",
+        "weight": "88,8 kg",
+        "egg_groups": [
+            "Monstrueux","Aquatique 1"
+        ],
+        "sexe": {
+            "male":12.5,
+            "female":87.5
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 161,
+        "generation": 2,
+        "category": "Pokémon Espion",
+        "name": {
+            "fr": "Fouinette",
+            "en": "Sentret",
+            "jp": "オタチ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/161/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/161/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Fouille", "tc": true}
+        ], 
+        "stats": {
+            "HP": 35,
+            "att": 46,
+            "def": 34,
+            "spe_att": 35,
+            "spe_def": 45,
+            "vit": 20
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 2}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":162, "name":"Fouinar","condition":"Niveau 15"}
+            ],
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "6,0 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 162,
+        "generation": 2,
+        "category": "Pokémon Allongé",
+        "name": {
+            "fr": "Fouinar",
+            "en": "Furret",
+            "jp": "オオタチ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/162/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/162/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Fouille", "tc": true}
+        ], 
+        "stats": {
+            "HP": 85,
+            "att": 76,
+            "def": 64,
+            "spe_att": 45,
+            "spe_def": 55,
+            "vit": 90
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 2}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":161, "name":"Fouinette"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,8 m",
+        "weight": "32,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 163,
+        "generation": 2,
+        "category": "Pokémon Hibou",
+        "name": {
+            "fr": "Hoothoot",
+            "en": "Hoothoot",
+            "jp": "ホーホー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/163/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/163/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Insomnia", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Lentiteintée", "tc": true}
+        ], 
+        "stats": {
+            "HP": 60,
+            "att": 30,
+            "def": 30,
+            "spe_att": 36,
+            "spe_def": 56,
+            "vit": 50
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":164, "name":"Noarfang","condition":"Niveau 20"}
+            ],
+            "mega": null
+        },
+        "height": "0,7 m",
+        "weight": "21,2 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 164,
+        "generation": 2,
+        "category": "Pokémon Hibou",
+        "name": {
+            "fr": "Noarfang",
+            "en": "Noctowl",
+            "jp": "ヨルノズク"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/164/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/164/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Insomnia", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Lentiteintée", "tc": true}
+        ], 
+        "stats": {
+            "HP": 100,
+            "att": 50,
+            "def": 50,
+            "spe_att": 86,
+            "spe_def": 96,
+            "vit": 70
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":163, "name":"Hoothoot"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,6 m",
+        "weight": "40,8 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 165,
+        "generation": 2,
+        "category": "Pokémon 5 Étoiles",
+        "name": {
+            "fr": "Coxy",
+            "en": "Ledyba",
+            "jp": "レディバ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/165/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/165/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Insomnia", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Lentiteintée", "tc": true}
+        ], 
+        "stats": {
+            "HP": 40,
+            "att": 20,
+            "def": 30,
+            "spe_att": 40,
+            "spe_def": 80,
+            "vit": 55
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 4},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":166, "name":"Coxyclaque", "condition":"Niveau 18"}
+            ],
+            "mega": null
+        },
+        "height": "1,0 m",
+        "weight": "10,8 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 166,
+        "generation": 2,
+        "category": "Pokémon 5 Étoiles",
+        "name": {
+            "fr": "Coxyclaque",
+            "en": "Ledian",
+            "jp": "レディアン"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/166/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/166/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Insomnia", "tc": false},
+            {"name": "Regard Vif", "tc": false},
+            {"name": "Lentiteintée", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 35,
+            "def": 50,
+            "spe_att": 55,
+            "spe_def": 110,
+            "vit": 85
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 4},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":165, "name":"Coxy"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,4 m",
+        "weight": "35,4 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 167,
+        "generation": 2,
+        "category": "Pokémon Crache Fil",
+        "name": {
+            "fr": "Mimigal",
+            "en": "Spinarak",
+            "jp": "イトマル"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/167/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/167/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Essaim", "tc": false},
+            {"name": "Insomnia", "tc": false},
+            {"name": "Sniper", "tc": true}
+        ], 
+        "stats": {
+            "HP": 40,
+            "att": 60,
+            "def": 40,
+            "spe_att": 40,
+            "spe_def": 40,
+            "vit": 30
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":168, "name":"Migalos","condition":"Niveau 22"}
+            ],
+            "mega": null
+        },
+        "height": "0,5 m",
+        "weight": "8,5 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 168,
+        "generation": 2,
+        "category": "Pokémon Long-Patte",
+        "name": {
+            "fr": "Migalos",
+            "en": "Ariados",
+            "jp": "アリアドス"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/168/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/168/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+        ],
+        "talents": [
+            {"name": "Essaim", "tc": false},
+            {"name": "Insomnia", "tc": false},
+            {"name": "Sniper", "tc": true}
+        ], 
+        "stats": {
+            "HP": 70,
+            "att": 90,
+            "def": 70,
+            "spe_att": 60,
+            "spe_def": 70,
+            "vit": 40
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":167, "name":"Mimigal"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,1 m",
+        "weight": "33,5 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 169,
+        "generation": 2,
+        "category": "Pokémon Chovsouris",
+        "name": {
+            "fr": "Nostenfer",
+            "en": "Crobat",
+            "jp": "クロバット"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/169/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/169/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Attention", "tc": false},
+            {"name": "Infiltration", "tc": true}
+        ], 
+        "stats": {
+            "HP": 85,
+            "att": 90,
+            "def": 80,
+            "spe_att": 70,
+            "spe_def": 80,
+            "vit": 130
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 2},
+            {"name": "Insecte", "multiplier": 0.25},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 0.5}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":41, "name":"Nosferapti"},
+                {"pokedexId":42, "name":"Nosferalto"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,8 m",
+        "weight": "75,0 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 170,
+        "generation": 2,
+        "category": "Pokémon Poisson",
+        "name": {
+            "fr": "Loupio",
+            "en": "Chinchou",
+            "jp": "チョンチー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/170/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/170/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Asborbe-Volt", "tc": false},
+            {"name": "Lumiattirance", "tc": false},
+            {"name": "Asborbe-Eau", "tc": true}
+        ], 
+        "stats": {
+            "HP": 75,
+            "att": 38,
+            "def": 38,
+            "spe_att": 56,
+            "spe_def": 56,
+            "vit": 67
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.25},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":171, "name":"Lanturn","condition":"Niveau 27"}
+            ],
+            "mega": null
+        },
+        "height": "0,5 m",
+        "weight": "12,0 kg",
+        "egg_groups": [
+            "Aquatique 2"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 190,
+        "level_100": 1250000
+    },
+    {
+        "pokedexId": 171,
+        "generation": 2,
+        "category": "Pokémon Lumière",
+        "name": {
+            "fr": "Lanturn",
+            "en": "Lanturn",
+            "jp": "ランターン"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/171/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/171/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Asborbe-Volt", "tc": false},
+            {"name": "Lumiattirance", "tc": false},
+            {"name": "Asborbe-Eau", "tc": true}
+        ], 
+        "stats": {
+            "HP": 125,
+            "att": 58,
+            "def": 58,
+            "spe_att": 76,
+            "spe_def": 76,
+            "vit": 67
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.25},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":170, "name":"Loupio"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,2 m",
+        "weight": "22,5 kg",
+        "egg_groups": [
+            "Aquatique 2"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 75,
+        "level_100": 1250000
+    },
+    {
+        "pokedexId": 172,
+        "generation": 2,
+        "category": "Pokémon Minisouris",
+        "name": {
+            "fr": "Pichu",
+            "en": "Pichu",
+            "jp": "ピチュー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/172/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/172/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Statik", "tc": false},
+            {"name": "Paratonnerre", "tc": true}
+        ], 
+        "stats": {
+            "HP": 20,
+            "att": 40,
+            "def": 15,
+            "spe_att": 35,
+            "spe_def": 35,
+            "vit": 60
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":25, "name":"Pikachu","condition":"Bonheur"},
+                {"pokedexId":26, "name":"Raichu","condition":"Pierre Foudre"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "2,0 kg",
+        "egg_groups": [
+            "Inconnu"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 190,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 173,
+        "generation": 2,
+        "category": "Pokémon Étoile",
+        "name": {
+            "fr": "Mélo",
+            "en": "Cleffa",
+            "jp": "ピィ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/173/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/173/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+        ],
+        "talents": [
+            {"name": "Joli Sourire", "tc": false},
+            {"name": "Garde Magik", "tc": false},
+            {"name": "Garde-Ami", "tc": true}
+        ], 
+        "stats": {
+            "HP": 50,
+            "att": 25,
+            "def": 28,
+            "spe_att": 45,
+            "spe_def": 55,
+            "vit": 15
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 2},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":35, "name":"Mélofée","condition":"Bonheur"},
+                {"pokedexId":36, "name":"Mélodelfe","condition":"Pierre Lune"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "3,0 kg",
+        "egg_groups": [
+            "Inconnu"
+        ],
+        "sexe": {
+            "male":25,
+            "female":75
+        },
+        "catch_rate": 150,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 174,
+        "generation": 2,
+        "category": "Pokémon Bouboule",
+        "name": {
+            "fr": "Toudoudou",
+            "en": "Igglybuff",
+            "jp": "ププリン"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/174/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/174/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+        ],
+        "talents": [
+            {"name": "Joli Sourire", "tc": false},
+            {"name": "Battant", "tc": false},
+            {"name": "Garde-Ami", "tc": true}
+        ], 
+        "stats": {
+            "HP": 90,
+            "att": 30,
+            "def": 15,
+            "spe_att": 40,
+            "spe_def": 20,
+            "vit": 15
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 2},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":39, "name":"Rondoudou","condition":"Bonheur"},
+                {"pokedexId":40, "name":"Grodoudou","condition":"Pierre Lune"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "1,0 kg",
+        "egg_groups": [
+            "Inconnu"
+        ],
+        "sexe": {
+            "male":25,
+            "female":75
+        },
+        "catch_rate": 170,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 175,
+        "generation": 2,
+        "category": "Pokémon Balle Pic",
+        "name": {
+            "fr": "Togepi",
+            "en": "Togepi",
+            "jp": "トゲピー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/175/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/175/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+        ],
+        "talents": [
+            {"name": "Sérénité", "tc": false},
+            {"name": "Agitation", "tc": false},
+            {"name": "Chanceux", "tc": true}
+        ], 
+        "stats": {
+            "HP": 35,
+            "att": 20,
+            "def": 65,
+            "spe_att": 40,
+            "spe_def": 65,
+            "vit": 20
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 2},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":176, "name":"Togetic","condition":"Bonheur"},
+                {"pokedexId":177, "name":"Togekiss","condition":"Pierre Éclat"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "1,5 kg",
+        "egg_groups": [
+            "Inconnu"
+        ],
+        "sexe": {
+            "male":87.5,
+            "female":12.5
+        },
+        "catch_rate": 190,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 176,
+        "generation": 2,
+        "category": "Pokémon Balle Pic",
+        "name": {
+            "fr": "Togetic",
+            "en": "Togetic",
+            "jp": "トゲチック"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/176/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/176/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Sérénité", "tc": false},
+            {"name": "Agitation", "tc": false},
+            {"name": "Chanceux", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 40,
+            "def": 85,
+            "spe_att": 80,
+            "spe_def": 105,
+            "vit": 40
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.25},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 2},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":175, "name":"Togepi"}
+            ],
+            "next": [
+                {"pokedexId":468, "name":"Togekiss","condition":"Pierre Éclat"}
+            ],
+            "mega": null
+        },
+        "height": "0,6 m",
+        "weight": "3,2 kg",
+        "egg_groups": [
+            "Aérien","Féerique"
+        ],
+        "sexe": {
+            "male":87.5,
+            "female":12.5
+        },
+        "catch_rate": 75,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 177,
+        "generation": 2,
+        "category": "Pokémon Minioiseau",
+        "name": {
+            "fr": "Natu",
+            "en": "Natu",
+            "jp": "ネイティ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/177/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/177/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Synchro", "tc": false},
+            {"name": "Matinal", "tc": false},
+            {"name": "Miroir Magik", "tc": true}
+        ], 
+        "stats": {
+            "HP": 40,
+            "att": 50,
+            "def": 45,
+            "spe_att": 70,
+            "spe_def": 45,
+            "vit": 70
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 0.5},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 2},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 2},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":178, "name":"Xatu","condition":"Niveau 25"}
+            ],
+            "mega": null
+        },
+        "height": "0,2 m",
+        "weight": "2,0 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 190,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 178,
+        "generation": 2,
+        "category": "Pokémon Mystique",
+        "name": {
+            "fr": "Xatu",
+            "en": "Xatu",
+            "jp": "ネイティオ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/178/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/178/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Synchro", "tc": false},
+            {"name": "Matinal", "tc": false},
+            {"name": "Miroir Magik", "tc": true}
+        ], 
+        "stats": {
+            "HP": 65,
+            "att": 75,
+            "def": 70,
+            "spe_att": 95,
+            "spe_def": 70,
+            "vit": 95
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 0.5},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 2},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 2},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":177, "name":"Natu"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,5 m",
+        "weight": "15,0 kg",
+        "egg_groups": [
+            "Aérien"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 75,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 179,
+        "generation": 2,
+        "category": "Pokémon Laine",
+        "name": {
+            "fr": "Wattouat",
+            "en": "Mareep",
+            "jp": "メリープ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/179/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/179/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Statik", "tc": false},
+            {"name": "Plus", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 40,
+            "def": 40,
+            "spe_att": 65,
+            "spe_def": 45,
+            "vit": 35
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":180, "name":"Lainergie","condition":"Niveau 15"},
+                {"pokedexId":181, "name":"Pharamp","condition":"Niveau 30"}
+            ],
+            "mega": null
+        },
+        "height": "0,6 m",
+        "weight": "7,8 kg",
+        "egg_groups": [
+            "Terrestre","Monstrueux"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 235,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 180,
+        "generation": 2,
+        "category": "Pokémon Laine",
+        "name": {
+            "fr": "Lainergie",
+            "en": "Flaaffy",
+            "jp": "モココ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/180/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/180/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Statik", "tc": false},
+            {"name": "Plus", "tc": true}
+        ], 
+        "stats": {
+            "HP": 70,
+            "att": 55,
+            "def": 55,
+            "spe_att": 80,
+            "spe_def": 60,
+            "vit": 45
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":179, "name":"Wattouat"}
+            ],
+            "next": [
+                {"pokedexId":181, "name":"Pharamp","condition":"Niveau 30"}
+            ],
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "13,3 kg",
+        "egg_groups": [
+            "Terrestre","Monstrueux"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 120,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 181,
+        "generation": 2,
+        "category": "Pokémon Lumière",
+        "name": {
+            "fr": "Pharamp",
+            "en": "Ampharos",
+            "jp": "デンリュウ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/181/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/181/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Électrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+        ],
+        "talents": [
+            {"name": "Statik", "tc": false},
+            {"name": "Plus", "tc": true}
+        ], 
+        "stats": {
+            "HP": 90,
+            "att": 75,
+            "def": 75,
+            "spe_att": 115,
+            "spe_def": 90,
+            "vit": 55
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":179, "name":"Wattouat"},
+                {"pokedexId":180, "name":"Lainergie"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Pharampite",
+                    "sprite":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/181/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/181/mega-shiny.png"
+                    }
+                }
+            ]
+        },
+        "height": "1,4 m",
+        "weight": "61,5 kg",
+        "egg_groups": [
+            "Terrestre","Monstrueux"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 182,
+        "generation": 2,
+        "category": "Pokémon Fleur",
+        "name": {
+            "fr": "Joliflor",
+            "en": "Bellossom",
+            "jp": "キレイハナ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/182/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/182/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Cœur Soin", "tc": true}
+        ], 
+        "stats": {
+            "HP": 75,
+            "att": 80,
+            "def": 85,
+            "spe_att": 90,
+            "spe_def": 100,
+            "vit": 50
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":43, "name":"Mystherbe"},
+                {"pokedexId":44, "name":"Ortide"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "0,4 m",
+        "weight": "5,8 kg",
+        "egg_groups": [
+            "Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 183,
+        "generation": 2,
+        "category": "Pokémon Aquasouris",
+        "name": {
+            "fr": "Marill",
+            "en": "Marill",
+            "jp": "マリル"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/183/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/183/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+        ],
+        "talents": [
+            {"name": "Isograisse", "tc": false},
+            {"name": "Coloforce", "tc": false},
+            {"name": "Herbivore", "tc": true}
+        ], 
+        "stats": {
+            "HP": 70,
+            "att": 20,
+            "def": 50,
+            "spe_att": 20,
+            "spe_def": 50,
+            "vit": 40
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":298, "name":"Azurill"}
+            ],
+            "next": [
+                {"pokedexId":184, "name":"Azumarill","condition":"Niveau 18"}
+            ],
+            "mega": null
+        },
+        "height": "0,4 m",
+        "weight": "8,5 kg",
+        "egg_groups": [
+            "Aquatique 1","Féerique"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 190,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 184,
+        "generation": 2,
+        "category": "Pokémon Aqualapin",
+        "name": {
+            "fr": "Azumarill",
+            "en": "Azumarill",
+            "jp": "マリルリ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/184/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/184/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
+            {"name": "Fée", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+        ],
+        "talents": [
+            {"name": "Isograisse", "tc": false},
+            {"name": "Coloforce", "tc": false},
+            {"name": "Herbivore", "tc": true}
+        ], 
+        "stats": {
+            "HP": 100,
+            "att": 50,
+            "def": 80,
+            "spe_att": 50,
+            "spe_def": 80,
+            "vit": 50
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 0},
+            {"name": "Ténèbres", "multiplier": 0.5},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":298, "name":"Azurill"},
+                {"pokedexId":183, "name":"Marill"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "28,5 kg",
+        "egg_groups": [
+            "Aquatique 1","Féerique"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 75,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 185,
+        "generation": 2,
+        "category": "Pokémon Imitation",
+        "name": {
+            "fr": "Simularbre",
+            "en": "Sudowoodo",
+            "jp": "ウソッキー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/185/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/185/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+        ],
+        "talents": [
+            {"name": "Fermeté", "tc": false},
+            {"name": "Tête de Roc", "tc": false},
+            {"name": "Phobique", "tc": true}
+        ], 
+        "stats": {
+            "HP": 70,
+            "att": 100,
+            "def": 115,
+            "spe_att": 30,
+            "spe_def": 65,
+            "vit": 30
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 0.5},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 2},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 2},
+            {"name": "Vol", "multiplier": 0.5},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 2},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":438, "name":"Manzaï"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,2 m",
+        "weight": "38,0 kg",
+        "egg_groups": [
+            "Minéral"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 65,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 186,
+        "generation": 2,
+        "category": "Pokémon Imitation",
+        "name": {
+            "fr": "Tarpaud",
+            "en": "Politoed",
+            "jp": "ニョロトノ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/186/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/186/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"}
+        ],
+        "talents": [
+            {"name": "Asborbe-Eau", "tc": false},
+            {"name": "Moiteur", "tc": false},
+            {"name": "Crachin", "tc": true}
+        ], 
+        "stats": {
+            "HP": 90,
+            "att": 75,
+            "def": 75,
+            "spe_att": 90,
+            "spe_def": 100,
+            "vit": 70
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 2},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 0.5},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":60, "name":"Ptitard"},
+                {"pokedexId":61, "name":"Têtarte"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,1 m",
+        "weight": "33,9 kg",
+        "egg_groups": [
+            "Aquatique 1"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 187,
+        "generation": 2,
+        "category": "Pokémon Pissenlit",
+        "name": {
+            "fr": "Granivol",
+            "en": "Hoppip",
+            "jp": "ハネッコ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/187/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/187/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Feuille Garde", "tc": false},
+            {"name": "Infiltration", "tc": true}
+        ], 
+        "stats": {
+            "HP": 35,
+            "att": 35,
+            "def": 40,
+            "spe_att": 35,
+            "spe_def": 55,
+            "vit": 50
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 4},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":188, "name":"Floravol", "condition":"Niveau 18"},
+                {"pokedexId":189, "name":"Cotovol", "condition": "Niveau 27"}
+            ],
+            "mega": null
+        },
+        "height": "0,4 m",
+        "weight": "0,5 kg",
+        "egg_groups": [
+            "Féerique","Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 188,
+        "generation": 2,
+        "category": "Pokémon Pissenlit",
+        "name": {
+            "fr": "Floravol",
+            "en": "Skiploom",
+            "jp": "ポポッコ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/188/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/188/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Feuille Garde", "tc": false},
+            {"name": "Infiltration", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 45,
+            "def": 50,
+            "spe_att": 45,
+            "spe_def": 65,
+            "vit": 80
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 4},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":187, "name":"Granivol"}
+            ],
+            "next": [
+                {"pokedexId":189, "name":"Cotovol", "condition": "Niveau 27"}
+            ],
+            "mega": null
+        },
+        "height": "0,6 m",
+        "weight": "1,0 kg",
+        "egg_groups": [
+            "Féerique","Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 120,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 189,
+        "generation": 2,
+        "category": "Pokémon Pissenlit",
+        "name": {
+            "fr": "Cotovol",
+            "en": "Jumpluff",
+            "jp": "ワタッコ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/189/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/189/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Feuille Garde", "tc": false},
+            {"name": "Infiltration", "tc": true}
+        ], 
+        "stats": {
+            "HP": 75,
+            "att": 55,
+            "def": 70,
+            "spe_att": 55,
+            "spe_def": 95,
+            "vit": 110
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 4},
+            {"name": "Combat", "multiplier": 0.5},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 2},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":187, "name":"Granivol"},
+                {"pokedexId":188, "name":"Floravol"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "3,0 kg",
+        "egg_groups": [
+            "Féerique","Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 45,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 190,
+        "generation": 2,
+        "category": "Pokémon Longqueue",
+        "name": {
+            "fr": "Capumain",
+            "en": "Aipom",
+            "jp": "エイパム"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/190/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/190/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+        ],
+        "talents": [
+            {"name": "Fuite", "tc": false},
+            {"name": "Ramassage", "tc": false},
+            {"name": "Multi-Coups", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 70,
+            "def": 55,
+            "spe_att": 40,
+            "spe_def": 55,
+            "vit": 85
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 1},
+            {"name": "Feu", "multiplier": 1},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 1},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 2},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 0},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":424, "name":"Capidextre","condition":"+1 niveau avec Coup Double"}
+            ],
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "11,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 45,
+        "level_100": 800000
+    },
+    {
+        "pokedexId": 191,
+        "generation": 2,
+        "category": "Pokémon Graine",
+        "name": {
+            "fr": "Tournegrin",
+            "en": "Sunkern",
+            "jp": "ヒマナッツ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/191/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/191/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Force Soleil", "tc": false},
+            {"name": "Matinal", "tc": true}
+        ], 
+        "stats": {
+            "HP": 30,
+            "att": 30,
+            "def": 30,
+            "spe_att": 30,
+            "spe_def": 30,
+            "vit": 30
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":192, "name":"Héliatronc","condition":"Pierre Soleil"}
+            ],
+            "mega": null
+        },
+        "height": "0,3 m",
+        "weight": "1,8 kg",
+        "egg_groups": [
+            "Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 235,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 192,
+        "generation": 2,
+        "category": "Pokémon Soleil",
+        "name": {
+            "fr": "Héliatronc",
+            "en": "Sunflora",
+            "jp": "キマワリ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/192/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/192/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+        ],
+        "talents": [
+            {"name": "Chlorophylle", "tc": false},
+            {"name": "Force Soleil", "tc": false},
+            {"name": "Matinal", "tc": true}
+        ], 
+        "stats": {
+            "HP": 75,
+            "att": 75,
+            "def": 55,
+            "spe_att": 105,
+            "spe_def": 85,
+            "vit": 30
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.5},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 0.5},
+            {"name": "Électrik", "multiplier": 0.5},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 2},
+            {"name": "Sol", "multiplier": 0.5},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 2},
+            {"name": "Roche", "multiplier": 1},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":191, "name":"Tournegrin"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "0,8 m",
+        "weight": "8,5 kg",
+        "egg_groups": [
+            "Végétal"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 120,
+        "level_100": 1059860
+    },
+    {
+        "pokedexId": 193,
+        "generation": 2,
+        "category": "Pokémon Transaile",
+        "name": {
+            "fr": "Yanma",
+            "en": "Yanma",
+            "jp": "ヤンヤンマ"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/193/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/193/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Insecte", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"},
+            {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+        ],
+        "talents": [
+            {"name": "Turbo", "tc": false},
+            {"name": "Œil Composé", "tc": false},
+            {"name": "Fouille", "tc": true}
+        ], 
+        "stats": {
+            "HP": 65,
+            "att": 65,
+            "def": 45,
+            "spe_att": 75,
+            "spe_def": 45,
+            "vit": 95
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 0.25},
+            {"name": "Feu", "multiplier": 2},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 2},
+            {"name": "Glace", "multiplier": 2},
+            {"name": "Combat", "multiplier": 0.25},
+            {"name": "Poison", "multiplier": 1},
+            {"name": "Sol", "multiplier": 0},
+            {"name": "Vol", "multiplier": 2},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 0.5},
+            {"name": "Roche", "multiplier": 4},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 1},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":469, "name":"Yanmega","condition":"+1 niveau avec Pouvoir Antique"}
+            ],
+            "mega": null
+        },
+        "height": "1,2 m",
+        "weight": "38,0 kg",
+        "egg_groups": [
+            "Insectoïde"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 75,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 194,
+        "generation": 2,
+        "category": "Pokémon Poisson",
+        "name": {
+            "fr": "Axoloto",
+            "en": "Wooper",
+            "jp": "ウパー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
+            {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
+        ],
+        "talents": [
+            {"name": "Asborbe-Eau", "tc": false},
+            {"name": "Moiteur", "tc": false},
+            {"name": "Inconscient", "tc": true}
+        ], 
+        "stats": {
+            "HP": 55,
+            "att": 45,
+            "def": 45,
+            "spe_att": 25,
+            "spe_def": 25,
+            "vit": 15
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 4},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexId":195, "name":"Maraiste","condition":"Niveau 20"}
+            ],
+            "mega": null
+        },
+        "height": "0,4 m",
+        "weight": "8,5 kg",
+        "egg_groups": [
+            "Aquatique 1","Terrestre"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
+    },
+    {
+        "pokedexId": 195,
+        "generation": 2,
+        "category": "Pokémon Poisson",
+        "name": {
+            "fr": "Maraiste",
+            "en": "Quagsire",
+            "jp": "ヌオー"
+        },
+        "sprite": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/195/regular.png",
+            "shiny"  : "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/195/shiny.png",
+            "gmax"   : null
+        },
+        "types": [
+            {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
+            {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
+        ],
+        "talents": [
+            {"name": "Asborbe-Eau", "tc": false},
+            {"name": "Moiteur", "tc": false},
+            {"name": "Inconscient", "tc": true}
+        ], 
+        "stats": {
+            "HP": 95,
+            "att": 85,
+            "def": 85,
+            "spe_att": 65,
+            "spe_def": 65,
+            "vit": 35
+        },
+        "resistances": [
+            {"name": "Normal", "multiplier": 1},
+            {"name": "Plante", "multiplier": 4},
+            {"name": "Feu", "multiplier": 0.5},
+            {"name": "Eau", "multiplier": 1},
+            {"name": "Électrik", "multiplier": 0},
+            {"name": "Glace", "multiplier": 1},
+            {"name": "Combat", "multiplier": 1},
+            {"name": "Poison", "multiplier": 0.5},
+            {"name": "Sol", "multiplier": 1},
+            {"name": "Vol", "multiplier": 1},
+            {"name": "Psy", "multiplier": 1},
+            {"name": "Insecte", "multiplier": 1},
+            {"name": "Roche", "multiplier": 0.5},
+            {"name": "Spectre", "multiplier": 1},
+            {"name": "Dragon", "multiplier": 1},
+            {"name": "Ténèbres", "multiplier": 1},
+            {"name": "Acier", "multiplier": 0.5},
+            {"name": "Fée", "multiplier": 1}
+        ],
+        "evolution": {
+            "pre": [
+                {"pokedexId":194, "name":"Axoloto"}
+            ],
+            "next": null,
+            "mega": null
+        },
+        "height": "1,4 m",
+        "weight": "75,0 kg",
+        "egg_groups": [
+            "Aquatique 1","Terrestre"
+        ],
+        "sexe": {
+            "male":50,
+            "female":50
+        },
+        "catch_rate": 90,
+        "level_100": 1000000
     }
 ]
