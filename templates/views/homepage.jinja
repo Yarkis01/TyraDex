@@ -182,7 +182,7 @@
 
     async function customApiRequest() {
         let json_area = document.getElementById("tryit__json-area");
-        json_area.innerHTML = "";
+        json_area.innerHTML = '<img src="/assets/carousel/loader.svg" />';
 
         request = await apiRequest(`/${document.getElementById("tryit__input-text").value}`);
 

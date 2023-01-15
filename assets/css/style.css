@@ -203,6 +203,12 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     overflow: scroll;
 }
 
+#tryit__json-area img {
+    width: 100%;
+    height: 100%;
+    animation: 2s ease-in-out infinite loading;
+}
+
 #tryit__example {
     color: var(--primary-color);
     width: 80vw;
