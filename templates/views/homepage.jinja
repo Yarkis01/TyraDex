@@ -1,6 +1,16 @@
 {% extends "base.jinja" %}
 
 {% block content %}
+<section id="warnings">
+    <div class="danger">
+        <p class="warning__title">L'API est encore en développement...</p>
+        <p class="warning__description">
+            Certaines fonctionnalités / pokémons peuvent ne pas fonctionner, ou tout simplement ne pas être présent.<br />
+            Cela est dû au fait que l'API soit encore en développement, et que ces fonctionalité / pokémons seront rajouter dans de prochaines mises à jour.
+        </p>
+    </div>
+</section>
+
 <section id="carousel-container">
     <div id="carousel">
         <div id="carousel__left-arrow" onclick="setPokemon(actual_pkm - 1);">
@@ -64,7 +74,9 @@
         <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
     </div>
     <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/bulbizarre')">pokemon/bulbizarre</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
-    <pre id="tryit__json-area"></pre>
+    <pre id="tryit__json-area">
+        <img src="/assets/carousel/loader.svg" />
+    </pre>
     <div>
         <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
         <button id="tryit__copy-url" onclick="copyRequestUrl();">Copier l'url de la requête</button>
