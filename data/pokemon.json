@@ -105566,22 +105566,786 @@
         "level_100": 1059860
     },
     {
-        "todo": 824
+        "pokedexId": 824,
+        "generation": 8,
+        "category": "Pok\u00e9mon Larve",
+        "name": {
+            "fr": "Larvadar",
+            "en": "Blipbug",
+            "jp": "Sacchimushi"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/824/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/824/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Insecte",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Essaim",
+                "tc": false
+            },
+            {
+                "name": "Œil Composé",
+                "tc": false
+            },
+            {
+                "name": "T\u00e9l\u00e9pathe",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 28,
+            "atk": 20,
+            "def": 20,
+            "spe_atk": 25,
+            "spe_def": 45,
+            "vit": 45
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,4 m",
+        "weight": "8,0 kg",
+        "egg_groups": [
+            "Insecto\u00efde"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
     },
     {
-        "todo": 825
+        "pokedexId": 825,
+        "generation": 8,
+        "category": "Pok\u00e9mon Radôme",
+        "name": {
+            "fr": "Coléodôme",
+            "en": "Dottler",
+            "jp": "Redomushi"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/825/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/825/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Insecte",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"
+            },
+            {
+                "name": "Psy",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Essaim",
+                "tc": false
+            },
+            {
+                "name": "Œil Composé",
+                "tc": false
+            },
+            {
+                "name": "T\u00e9l\u00e9pathe",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 50,
+            "atk": 35,
+            "def": 80,
+            "spe_atk": 50,
+            "spe_def": 95,
+            "vit": 30
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 2
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 2
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 2
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,4 m",
+        "weight": "19,5 kg",
+        "egg_groups": [
+            "Insecto\u00efde"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 120,
+        "level_100": 1000000
     },
     {
-        "todo": 826
+        "pokedexId": 826,
+        "generation": 8,
+        "category": "Pok\u00e9mon Sept Points",
+        "name": {
+            "fr": "Astronelle",
+            "en": "Orbeetle",
+            "jp": "Eolb"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/826/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/826/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Insecte",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png"
+            },
+            {
+                "name": "Psy",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Essaim",
+                "tc": false
+            },
+            {
+                "name": "Fouille",
+                "tc": false
+            },
+            {
+                "name": "T\u00e9l\u00e9pathe",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 110,
+            "spe_atk": 80,
+            "spe_def": 120,
+            "vit": 90
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 2
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 2
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 2
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,4 m",
+        "weight": "19,5 kg",
+        "egg_groups": [
+            "Insecto\u00efde"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 45,
+        "level_100": 1000000
     },
     {
-        "todo": 827
+        "pokedexId": 827,
+        "generation": 8,
+        "category": "Pok\u00e9mon Renard",
+        "name": {
+            "fr": "Goupilou",
+            "en": "Nickit",
+            "jp": "Kusune"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/827/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/827/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Ténèbres",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Fuite",
+                "tc": false
+            },
+            {
+                "name": "Délestage",
+                "tc": false
+            },
+            {
+                "name": "Filature",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "atk": 28,
+            "def": 28,
+            "spe_atk": 47,
+            "spe_def": 52,
+            "vit": 50
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 2
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
+        ],
+        "evolution": null,
+        "height": "0,6 m",
+        "weight": "8,9 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 225,
+        "level_100": 800000
     },
     {
-        "todo": 828
+        "pokedexId": 828,
+        "generation": 8,
+        "category": "Pok\u00e9mon Renard",
+        "name": {
+            "fr": "Roublenard",
+            "en": "Thievul",
+            "jp": "Foxly"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/828/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/828/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Ténèbres",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Fuite",
+                "tc": false
+            },
+            {
+                "name": "Délestage",
+                "tc": false
+            },
+            {
+                "name": "Filature",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 70,
+            "atk": 58,
+            "def": 58,
+            "spe_atk": 87,
+            "spe_def": 92,
+            "vit": 90
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 2
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
+        ],
+        "evolution": null,
+        "height": "1,2 m",
+        "weight": "19,9 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 127,
+        "level_100": 800000
     },
     {
-        "todo": 829
+        "pokedexId": 829,
+        "generation": 8,
+        "category": "Pok\u00e9mon Chef-Fleur",
+        "name": {
+            "fr": "Tournicoton",
+            "en": "Gossifleur",
+            "jp": "Himenka"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/829/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/829/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Plante",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Effilochage",
+                "tc": false
+            },
+            {
+                "name": "Régé-Force",
+                "tc": false
+            },
+            {
+                "name": "Pose Spore",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 60,
+            "spe_atk": 40,
+            "spe_def": 60,
+            "vit": 10
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.5
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Glace",
+                "multiplier": 2
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 2
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 2
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,4 m",
+        "weight": "2,2 kg",
+        "egg_groups": [
+            "Végétal"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 190,
+        "level_100": 1000000
     },
     {
         "pokedexId": 830,
@@ -105713,22 +106477,774 @@
         "level_100": 1000000
     },
     {
-        "todo": 831
+        "pokedexId": 831,
+        "generation": 8,
+        "category": "Pok\u00e9mon Mouton",
+        "name": {
+            "fr": "Moumouton",
+            "en": "Wooloo",
+            "jp": "Wooluu"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/831/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/831/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Normal",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Boule de Poils",
+                "tc": false
+            },
+            {
+                "name": "Fuite",
+                "tc": false
+            },
+            {
+                "name": "Pare-Balles",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 42,
+            "atk": 40,
+            "def": 55,
+            "spe_atk": 40,
+            "spe_def": 45,
+            "vit": 48
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 0
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,6 m",
+        "weight": "6,0 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
     },
     {
-        "todo": 832
+        "pokedexId": 832,
+        "generation": 8,
+        "category": "Pok\u00e9mon Mouton",
+        "name": {
+            "fr": "Moumouflon",
+            "en": "Dubwool",
+            "jp": "Baiwooluu"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/832/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/832/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Normal",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Boule de Poils",
+                "tc": false
+            },
+            {
+                "name": "Fuite",
+                "tc": false
+            },
+            {
+                "name": "Pare-Balles",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 72,
+            "atk": 80,
+            "def": 100,
+            "spe_atk": 60,
+            "spe_def": 90,
+            "vit": 88
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 0
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "1,3 m",
+        "weight": "43,0 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 127,
+        "level_100": 1000000
     },
     {
-        "todo": 833
+        "pokedexId": 833,
+        "generation": 8,
+        "category": "Pok\u00e9mon Mordillage",
+        "name": {
+            "fr": "Khélocrok",
+            "en": "Chewtle",
+            "jp": "Kamukame"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/833/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/833/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Eau",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Prognathe",
+                "tc": false
+            },
+            {
+                "name": "Coque Armure",
+                "tc": false
+            },
+            {
+                "name": "Glissade",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 50,
+            "atk": 64,
+            "def": 50,
+            "spe_atk": 38,
+            "spe_def": 38,
+            "vit": 44
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.5
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,3 m",
+        "weight": "8,5 kg",
+        "egg_groups": [
+            "Monstrueux","Aquatique 1"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 255,
+        "level_100": 1000000
     },
     {
-        "todo": 834
+        "pokedexId": 834,
+        "generation": 8,
+        "category": "Pok\u00e9mon Morsure",
+        "name": {
+            "fr": "Torgamord",
+            "en": "Drednaw",
+            "jp": "Kajirigame"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/834/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/834/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Eau",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"
+            },
+            {
+                "name": "Roche",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Prognathe",
+                "tc": false
+            },
+            {
+                "name": "Coque Armure",
+                "tc": false
+            },
+            {
+                "name": "Glissade",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 90,
+            "atk": 115,
+            "def": 90,
+            "spe_atk": 48,
+            "spe_def": 68,
+            "vit": 74
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Plante",
+                "multiplier": 4
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "1,0 m",
+        "weight": "115,5 kg",
+        "egg_groups": [
+            "Monstrueux","Aquatique 1"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 75,
+        "level_100": 1000000
     },
     {
-        "todo": 835
+        "pokedexId": 835,
+        "generation": 8,
+        "category": "Pok\u00e9mon Chiot",
+        "name": {
+            "fr": "Voltoutou",
+            "en": "Yamper",
+            "jp": "Wanpachi"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/835/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/835/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Électrik",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Ramasse Ball",
+                "tc": false
+            },
+            {
+                "name": "Phobique",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 59,
+            "atk": 45,
+            "def": 50,
+            "spe_atk": 40,
+            "spe_def": 50,
+            "vit": 26
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "0,3 m",
+        "weight": "13,5 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 255,
+        "level_100": 800000
     },
     {
-        "todo": 836
+        "pokedexId": 836,
+        "generation": 8,
+        "category": "Pok\u00e9mon Chien",
+        "name": {
+            "fr": "Fulgudog",
+            "en": "Boltund",
+            "jp": "Pulsewan"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/836/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/836/shiny.png",
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Électrik",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Prognathe",
+                "tc": false
+            },
+            {
+                "name": "Battant",
+                "tc": true
+            }
+        ],
+        "stats": {
+            "hp": 69,
+            "atk": 90,
+            "def": 60,
+            "spe_atk": 90,
+            "spe_def": 60,
+            "vit": 121
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "1,0 m",
+        "weight": "34,0 kg",
+        "egg_groups": [
+            "Terrestre"
+        ],
+        "sexe": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "catch_rate": 45,
+        "level_100": 800000
     },
     {
         "todo": 837
