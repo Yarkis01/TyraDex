@@ -1,5 +1,5 @@
 {
-    "missingno": 0, "missingno.": 0,
+    "missingno": 0, "missingno.": 0, "ketsuban": 0,
     "bulbizarre": 1, "bulbasaur": 1,
     "herbizarre": 2, "ivysaur": 2,
     "florizarre": 3, "venusaur": 3,
@@ -194,5 +194,15 @@
     "heliatronc": 192, "sunflora": 192,
     "yanma": 193,
     "axoloto": 194, "wooper": 194,
-    "maraiste": 195, "quagsire": 195
+    "maraiste": 195, "quagsire": 195,
+    "mentali": 196, "espeon": 196,
+    "noctali": 197, "umbreon": 197,
+    "cornebre": 198, "murkrow": 198,
+    "roigada": 199, "slowking": 199,
+    "feuforeve": 200, "misdreavus": 200,
+    "zarbi": 201, "unown": 201,
+    "qulbutoke": 202, "wobbuffet": 202,
+    "girafarig": 203,
+    "pomdepik": 204, "pineco": 204,
+    "foretress": 205, "forretress": 205
 }

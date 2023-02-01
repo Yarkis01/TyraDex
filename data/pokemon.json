@@ -6,7 +6,7 @@
         "name": {
             "fr": "MissingNo.",
             "en": "MissingNo.",
-            "jp": "\u3051\u3064\u3070\u3093\uff08"
+            "jp": "\u30ad\u30e3\u30bf\u30d4\u30fc"
         },
         "sprite": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/0/regular.png",
@@ -32,7 +32,7 @@
         "name": {
             "fr": "Bulbizarre",
             "en": "Bulbasaur",
-            "jp": "Fushigidane"
+            "jp": "\u30d5\u30b7\u30ae\u30c0\u30cd "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1/regular.png",
@@ -162,7 +162,7 @@
         "name": {
             "fr": "Herbizarre",
             "en": "Ivysaur",
-            "jp": "Fushigisou"
+            "jp": "\u30d5\u30b7\u30ae\u30bd\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/2/regular.png",
@@ -292,7 +292,7 @@
         "name": {
             "fr": "Florizarre",
             "en": "Venusaur",
-            "jp": "Fushigibana"
+            "jp": "\u30d5\u30b7\u30ae\u30d0\u30ca "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/regular.png",
@@ -425,7 +425,7 @@
         "name": {
             "fr": "Salam\u00e8che",
             "en": "Charmander",
-            "jp": "Hitokage"
+            "jp": "\u30d2\u30c8\u30ab\u30b2 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png",
@@ -551,7 +551,7 @@
         "name": {
             "fr": "Reptincel",
             "en": "Charmeleon",
-            "jp": "Lizardo"
+            "jp": "\u30ea\u30b6\u30fc\u30c9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/5/regular.png",
@@ -677,7 +677,7 @@
         "name": {
             "fr": "Dracaufeu",
             "en": "Charizard",
-            "jp": "Lizardon"
+            "jp": "\u30ea\u30b6\u30fc\u30c9\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/6/regular.png",
@@ -810,7 +810,7 @@
         "name": {
             "fr": "Carapuce",
             "en": "Squirtle",
-            "jp": "Zenigame"
+            "jp": "\u30bc\u30cb\u30ac\u30e1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/7/regular.png",
@@ -936,7 +936,7 @@
         "name": {
             "fr": "Carabaffe",
             "en": "Wartortle",
-            "jp": "Kameil"
+            "jp": "\u30ab\u30e1\u30fc\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/8/regular.png",
@@ -1062,7 +1062,7 @@
         "name": {
             "fr": "Tortank",
             "en": "Blastoise",
-            "jp": "Kamex"
+            "jp": "\u30ab\u30e1\u30c3\u30af\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/regular.png",
@@ -1191,7 +1191,7 @@
         "name": {
             "fr": "Chenipan",
             "en": "Caterpie",
-            "jp": "Caterpie"
+            "jp": "\u30ad\u30e3\u30bf\u30d4\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/10/regular.png",
@@ -1316,7 +1316,7 @@
         "name": {
             "fr": "Chrysacier",
             "en": "Metapod",
-            "jp": "Transel"
+            "jp": "\u30c8\u30e9\u30f3\u30bb\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/11/regular.png",
@@ -1437,7 +1437,7 @@
         "name": {
             "fr": "Papilusion",
             "en": "Butterfree",
-            "jp": "Butterfree"
+            "jp": "\u30d0\u30bf\u30d5\u30ea\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/12/regular.png",
@@ -1569,7 +1569,7 @@
         "name": {
             "fr": "Aspicot",
             "en": "Weedle",
-            "jp": "Beedle"
+            "jp": "\u30d3\u30fc\u30c9\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/13/regular.png",
@@ -1698,7 +1698,7 @@
         "name": {
             "fr": "Coconfort",
             "en": "Kakuna",
-            "jp": "Cocoon"
+            "jp": "\u30b3\u30af\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/14/regular.png",
@@ -1823,7 +1823,7 @@
         "name": {
             "fr": "Dardargnan",
             "en": "Beedrill",
-            "jp": "Spear"
+            "jp": "\u30b9\u30d4\u30a2\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/15/regular.png",
@@ -1952,7 +1952,7 @@
         "name": {
             "fr": "Roucool",
             "en": "Pidgey",
-            "jp": "Poppo"
+            "jp": "\u30dd\u30c3\u30dd "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/16/regular.png",
@@ -2085,7 +2085,7 @@
         "name": {
             "fr": "Roucoups",
             "en": "Pidgeotto",
-            "jp": "Pigeon"
+            "jp": "\u30d4\u30b8\u30e7\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/17/regular.png",
@@ -2218,7 +2218,7 @@
         "name": {
             "fr": "Roucarnage",
             "en": "Pidgeot",
-            "jp": "Pigeot"
+            "jp": "\u30d4\u30b8\u30e7\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/18/regular.png",
@@ -2351,7 +2351,7 @@
         "name": {
             "fr": "Rattata",
             "en": "Rattata",
-            "jp": "Koratta"
+            "jp": "\u30b3\u30e9\u30c3\u30bf "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular.png",
@@ -2483,7 +2483,7 @@
         "name": {
             "fr": "Rattatac",
             "en": "Raticate",
-            "jp": "Ratta"
+            "jp": "\u30e9\u30c3\u30bf "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/regular.png",
@@ -2615,7 +2615,7 @@
         "name": {
             "fr": "Piafabec",
             "en": "Spearow",
-            "jp": "Onisuzume"
+            "jp": "\u30aa\u30cb\u30b9\u30ba\u30e1 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/21/regular.png",
@@ -2744,7 +2744,7 @@
         "name": {
             "fr": "Rapasdepic",
             "en": "Fearow",
-            "jp": "Onidrill"
+            "jp": "\u30aa\u30cb\u30c9\u30ea\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/22/regular.png",
@@ -2873,7 +2873,7 @@
         "name": {
             "fr": "Abo",
             "en": "Ekans",
-            "jp": "Arbo"
+            "jp": "\u30a2\u30fc\u30dc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/23/regular.png",
@@ -3003,7 +3003,7 @@
         "name": {
             "fr": "Arbok",
             "en": "Arbok",
-            "jp": "Arbok"
+            "jp": "\u30a2\u30fc\u30dc\u30c3\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/24/regular.png",
@@ -3133,7 +3133,7 @@
         "name": {
             "fr": "Pikachu",
             "en": "Pikachu",
-            "jp": "Pikachu"
+            "jp": "\u30d4\u30ab\u30c1\u30e5\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png",
@@ -3259,7 +3259,7 @@
         "name": {
             "fr": "Raichu",
             "en": "Raichu",
-            "jp": "Raichu"
+            "jp": "\u30e9\u30a4\u30c1\u30e5\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/regular.png",
@@ -3388,7 +3388,7 @@
         "name": {
             "fr": "Sabelette",
             "en": "Sandshrew",
-            "jp": "Sand"
+            "jp": "\u30b5\u30f3\u30c9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/regular.png",
@@ -3516,7 +3516,7 @@
         "name": {
             "fr": "Sablaireau",
             "en": "Sandslash",
-            "jp": "Sandpan"
+            "jp": "\u30b5\u30f3\u30c9\u30d1\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/regular.png",
@@ -3644,7 +3644,7 @@
         "name": {
             "fr": "Nidoran\u2640",
             "en": "Nidoran\u2640",
-            "jp": "Nidoran\u2640"
+            "jp": "\u30cb\u30c9\u30e9\u30f3\u2640"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/29/regular.png",
@@ -3774,7 +3774,7 @@
         "name": {
             "fr": "Nidorina",
             "en": "Nidorina",
-            "jp": "Nidorina"
+            "jp": "\u30cb\u30c9\u30ea\u30fc\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/30/regular.png",
@@ -3903,7 +3903,7 @@
         "name": {
             "fr": "Nidoqueen",
             "en": "Nidoqueen",
-            "jp": "Nidoqueen"
+            "jp": "\u30cb\u30c9\u30ea\u30fc\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/31/regular.png",
@@ -4036,7 +4036,7 @@
         "name": {
             "fr": "Nidoran\u2642",
             "en": "Nidoran\u2642",
-            "jp": "Nidoran\u2642"
+            "jp": "\u30cb\u30c9\u30e9\u30f3\u2642"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/32/regular.png",
@@ -4166,7 +4166,7 @@
         "name": {
             "fr": "Nidorino",
             "en": "Nidorino",
-            "jp": "Nidorino"
+            "jp": "\u30cb\u30c9\u30ea\u30fc\u30ce"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/33/regular.png",
@@ -4296,7 +4296,7 @@
         "name": {
             "fr": "Nidoking",
             "en": "Nidoking",
-            "jp": "Nidoking"
+            "jp": "\u30cb\u30c9\u30ad\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/34/regular.png",
@@ -4430,7 +4430,7 @@
         "name": {
             "fr": "M\u00e9lof\u00e9e",
             "en": "Clefairy",
-            "jp": "Pippi"
+            "jp": "\u30d4\u30c3\u30d4 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/35/regular.png",
@@ -4559,7 +4559,7 @@
         "name": {
             "fr": "M\u00e9lodelfe",
             "en": "Clefable",
-            "jp": "Pixy"
+            "jp": "\u30d4\u30af\u30b7\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/36/regular.png",
@@ -4688,7 +4688,7 @@
         "name": {
             "fr": "Goupix",
             "en": "Vulpix",
-            "jp": "Rokon"
+            "jp": "\u30ed\u30b3\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/regular.png",
@@ -4816,7 +4816,7 @@
         "name": {
             "fr": "Feunard",
             "en": "Ninetales",
-            "jp": "Kyukon"
+            "jp": "\u30ad\u30e5\u30a6\u30b3\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/regular.png",
@@ -4944,7 +4944,7 @@
         "name": {
             "fr": "Rondoudou",
             "en": "Jigglypuff",
-            "jp": "Purin"
+            "jp": "\u30d7\u30ea\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/39/regular.png",
@@ -5077,7 +5077,7 @@
         "name": {
             "fr": "Grodoudou",
             "en": "Wigglytuff",
-            "jp": "Pukurin"
+            "jp": "\u30d7\u30af\u30ea\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/40/regular.png",
@@ -5208,7 +5208,7 @@
         "generation": 1,
         "category": "Pok\u00e9mon Chovsouris",
         "name": {
-            "fr": "Nosferapti",
+            "fr": "\u30ba\u30d0\u30c3\u30c8",
             "en": "Zubat",
             "jp": "Zubat"
         },
@@ -5339,7 +5339,7 @@
         "name": {
             "fr": "Nosferalto",
             "en": "Golbat",
-            "jp": "Golbat"
+            "jp": "\u30b4\u30eb\u30d0\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/42/regular.png",
@@ -5468,7 +5468,7 @@
         "name": {
             "fr": "Mystherbe",
             "en": "Oddish",
-            "jp": "Nazonokusa"
+            "jp": "\u30ca\u30be\u30ce\u30af\u30b5 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/43/regular.png",
@@ -5597,7 +5597,7 @@
         "name": {
             "fr": "Ortide",
             "en": "Gloom",
-            "jp": "Kusaihana"
+            "jp": "\u30af\u30b5\u30a4\u30cf\u30ca "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/44/regular.png",
@@ -5726,7 +5726,7 @@
         "name": {
             "fr": "Rafflesia",
             "en": "Vileplume",
-            "jp": "Ruffresia"
+            "jp": "\u30e9\u30d5\u30ec\u30b7\u30a2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/45/regular.png",
@@ -5855,7 +5855,7 @@
         "name": {
             "fr": "Paras",
             "en": "Paras",
-            "jp": "Paras"
+            "jp": "\u30d1\u30e9\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/46/regular.png",
@@ -5989,7 +5989,7 @@
         "name": {
             "fr": "Parasect",
             "en": "Parasect",
-            "jp": "Parasect"
+            "jp": "\u30d1\u30e9\u30bb\u30af\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/47/regular.png",
@@ -6123,7 +6123,7 @@
         "name": {
             "fr": "Mimitoss",
             "en": "Venonat",
-            "jp": "Kongpang"
+            "jp": "\u30b3\u30f3\u30d1\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/48/regular.png",
@@ -6256,7 +6256,7 @@
         "name": {
             "fr": "A\u00e9romite",
             "en": "Venomoth",
-            "jp": "Morphon"
+            "jp": "\u30e2\u30eb\u30d5\u30a9\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/49/regular.png",
@@ -6389,7 +6389,7 @@
         "name": {
             "fr": "Taupiqueur",
             "en": "Diglett",
-            "jp": "Digda"
+            "jp": "\u30c7\u30a3\u30b0\u30c0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/regular.png",
@@ -6521,7 +6521,7 @@
         "name": {
             "fr": "Triopikeur",
             "en": "Dugtrio",
-            "jp": "Dugtrio"
+            "jp": "\u30c0\u30b0\u30c8\u30ea\u30aa"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/regular.png",
@@ -6653,7 +6653,7 @@
         "name": {
             "fr": "Miaouss",
             "en": "Meowth",
-            "jp": "Nyarth"
+            "jp": "\u30cb\u30e3\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/regular.png",
@@ -6785,7 +6785,7 @@
         "name": {
             "fr": "Persian",
             "en": "Persian",
-            "jp": "Persian"
+            "jp": "\u30da\u30eb\u30b7\u30a2\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/regular.png",
@@ -6917,7 +6917,7 @@
         "name": {
             "fr": "Psykokwak",
             "en": "Psyduck",
-            "jp": "Koduck"
+            "jp": "\u30b3\u30c0\u30c3\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/54/regular.png",
@@ -7047,7 +7047,7 @@
         "name": {
             "fr": "Akwakwak",
             "en": "Golduck",
-            "jp": "Golduck"
+            "jp": "\u30b4\u30eb\u30c0\u30c3\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/55/regular.png",
@@ -7177,7 +7177,7 @@
         "name": {
             "fr": "F\u00e9rosinge",
             "en": "Mankey",
-            "jp": "Mankey"
+            "jp": "\u30de\u30f3\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/56/regular.png",
@@ -7306,7 +7306,7 @@
         "name": {
             "fr": "Colossinge",
             "en": "Primeape",
-            "jp": "Okorizaru"
+            "jp": "\u30aa\u30b3\u30ea\u30b6\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/57/regular.png",
@@ -7435,7 +7435,7 @@
         "name": {
             "fr": "Caninos",
             "en": "Growlithe",
-            "jp": "Gardie"
+            "jp": "\u30ac\u30fc\u30c7\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular.png",
@@ -7567,7 +7567,7 @@
         "name": {
             "fr": "Arcanin",
             "en": "Arcanine",
-            "jp": "Windie"
+            "jp": "\u30a6\u30a4\u30f3\u30c7\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/regular.png",
@@ -7699,7 +7699,7 @@
         "name": {
             "fr": "Ptitard",
             "en": "Poliwag",
-            "jp": "Nyoromo"
+            "jp": "\u30cb\u30e7\u30ed\u30e2 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/60/regular.png",
@@ -7828,7 +7828,7 @@
         "name": {
             "fr": "T\u00eatarte",
             "en": "Poliwhirl",
-            "jp": "Nyorozo"
+            "jp": "\u30cb\u30e7\u30ed\u30be "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/61/regular.png",
@@ -7957,7 +7957,7 @@
         "name": {
             "fr": "Tartard",
             "en": "Poliwrath",
-            "jp": "Nyorobon"
+            "jp": "\u30cb\u30e7\u30ed\u30dc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/62/regular.png",
@@ -8090,7 +8090,7 @@
         "name": {
             "fr": "Abra",
             "en": "Abra",
-            "jp": "Casey"
+            "jp": "\u30b1\u30fc\u30b7\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/63/regular.png",
@@ -8219,7 +8219,7 @@
         "name": {
             "fr": "Kadabra",
             "en": "Kadabra",
-            "jp": "Yungerer"
+            "jp": "\u30e6\u30f3\u30b2\u30e9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/64/regular.png",
@@ -8348,7 +8348,7 @@
         "name": {
             "fr": "Alakazam",
             "en": "Alakazam",
-            "jp": "Foodin"
+            "jp": "\u30d5\u30fc\u30c7\u30a3\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/65/regular.png",
@@ -8477,7 +8477,7 @@
         "name": {
             "fr": "Machoc",
             "en": "Machop",
-            "jp": "Wanriky"
+            "jp": "\u30ef\u30f3\u30ea\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/66/regular.png",
@@ -8606,7 +8606,7 @@
         "name": {
             "fr": "Machopeur",
             "en": "Machoke",
-            "jp": "Goriky"
+            "jp": "\u30b4\u30fc\u30ea\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/67/regular.png",
@@ -8735,7 +8735,7 @@
         "name": {
             "fr": "Mackogneur",
             "en": "Machamp",
-            "jp": "Kairiky"
+            "jp": "\u30ab\u30a4\u30ea\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/68/regular.png",
@@ -8867,7 +8867,7 @@
         "name": {
             "fr": "Ch\u00e9tiflor",
             "en": "Bellsprout",
-            "jp": "Madatsubomi"
+            "jp": "\u30de\u30c0\u30c4\u30dc\u30df "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/69/regular.png",
@@ -8996,7 +8996,7 @@
         "name": {
             "fr": "Boustiflor",
             "en": "Weepinbell",
-            "jp": "Utsudon"
+            "jp": "\u30a6\u30c4\u30c9\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/70/regular.png",
@@ -9125,7 +9125,7 @@
         "name": {
             "fr": "Empiflor",
             "en": "Victreebel",
-            "jp": "Utsubot"
+            "jp": "\u30a6\u30c4\u30dc\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/71/regular.png",
@@ -9254,7 +9254,7 @@
         "name": {
             "fr": "Tentacool",
             "en": "Tentacool",
-            "jp": "Menokurage"
+            "jp": "\u30e1\u30ce\u30af\u30e9\u30b2 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/72/regular.png",
@@ -9387,7 +9387,7 @@
         "name": {
             "fr": "Tentacruel",
             "en": "Tentacruel",
-            "jp": "Dokukurage"
+            "jp": "\u30c9\u30af\u30af\u30e9\u30b2 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/73/regular.png",
@@ -9520,7 +9520,7 @@
         "name": {
             "fr": "Racaillou",
             "en": "Geodude",
-            "jp": "Isitsubute"
+            "jp": "\u30a4\u30b7\u30c4\u30d6\u30c6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/regular.png",
@@ -9656,7 +9656,7 @@
         "name": {
             "fr": "Gravalanch",
             "en": "Graveler",
-            "jp": "Golone"
+            "jp": "\u30b4\u30ed\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/regular.png",
@@ -9792,7 +9792,7 @@
         "name": {
             "fr": "Grolem",
             "en": "Golem",
-            "jp": "Golonya"
+            "jp": "\u30b4\u30ed\u30fc\u30cb\u30e3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/regular.png",
@@ -9928,7 +9928,7 @@
         "name": {
             "fr": "Ponyta",
             "en": "Ponyta",
-            "jp": "Ponyta"
+            "jp": "\u30dd\u30cb\u30fc\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/regular.png",
@@ -10060,7 +10060,7 @@
         "name": {
             "fr": "Galopa",
             "en": "Rapidash",
-            "jp": "Gallop"
+            "jp": "\u30ae\u30e3\u30ed\u30c3\u30d7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/regular.png",
@@ -10192,7 +10192,7 @@
         "name": {
             "fr": "Ramoloss",
             "en": "Slowpoke",
-            "jp": "Yadon"
+            "jp": "\u30e4\u30c9\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/regular.png",
@@ -10329,7 +10329,7 @@
         "name": {
             "fr": "Flagadoss",
             "en": "Slowbro",
-            "jp": "Yadoran"
+            "jp": "\u30e4\u30c9\u30e9\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/regular.png",
@@ -10466,7 +10466,7 @@
         "name": {
             "fr": "Magn\u00e9ti",
             "en": "Magnemite",
-            "jp": "Coil"
+            "jp": "\u30b3\u30a4\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/81/regular.png",
@@ -10596,7 +10596,7 @@
         "name": {
             "fr": "Magn\u00e9ton",
             "en": "Magneton",
-            "jp": "Rarecoil"
+            "jp": "\u30ec\u30a2\u30b3\u30a4\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/82/regular.png",
@@ -10726,7 +10726,7 @@
         "name": {
             "fr": "Canarticho",
             "en": "Farfetch'd",
-            "jp": "Kamonegi"
+            "jp": "\u30ab\u30e2\u30cd\u30ae "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/regular.png",
@@ -10863,7 +10863,7 @@
         "name": {
             "fr": "Doduo",
             "en": "Doduo",
-            "jp": "Dodo"
+            "jp": "\u30c9\u30fc\u30c9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/84/regular.png",
@@ -10996,7 +10996,7 @@
         "name": {
             "fr": "Dodrio",
             "en": "Dodrio",
-            "jp": "Dodorio"
+            "jp": "\u30c9\u30fc\u30c9\u30ea\u30aa"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/85/regular.png",
@@ -11129,7 +11129,7 @@
         "name": {
             "fr": "Otaria",
             "en": "Seel",
-            "jp": "Pawou"
+            "jp": "\u30d1\u30a6\u30ef\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/86/regular.png",
@@ -11259,7 +11259,7 @@
         "name": {
             "fr": "Lamantine",
             "en": "Dewgong",
-            "jp": "Jugon"
+            "jp": "\u30b8\u30e5\u30b4\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/87/regular.png",
@@ -11393,7 +11393,7 @@
         "name": {
             "fr": "Tadmorv",
             "en": "Grimer",
-            "jp": "Betbeter"
+            "jp": "\u30d9\u30c8\u30d9\u30bf\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/regular.png",
@@ -11525,7 +11525,7 @@
         "name": {
             "fr": "Grotadmorv",
             "en": "Muk",
-            "jp": "Betbeton"
+            "jp": "\u30d9\u30c8\u30d9\u30c8\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/regular.png",
@@ -11657,7 +11657,7 @@
         "name": {
             "fr": "Kokiyas",
             "en": "Shellder",
-            "jp": "Shellder"
+            "jp": "\u30b7\u30a7\u30eb\u30c0\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/90/regular.png",
@@ -11786,7 +11786,7 @@
         "name": {
             "fr": "Crustabri",
             "en": "Cloyster",
-            "jp": "Parshen"
+            "jp": "\u30d1\u30eb\u30b7\u30a7\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/91/regular.png",
@@ -11919,7 +11919,7 @@
         "name": {
             "fr": "Fantominus",
             "en": "Gastly",
-            "jp": "Ghos"
+            "jp": "\u30b4\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/92/regular.png",
@@ -12044,7 +12044,7 @@
         "name": {
             "fr": "Spectrum",
             "en": "Haunter",
-            "jp": "Ghost"
+            "jp": "\u30b4\u30fc\u30b9\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/93/regular.png",
@@ -12169,7 +12169,7 @@
         "name": {
             "fr": "Ectoplasma",
             "en": "Gengar",
-            "jp": "Gangar"
+            "jp": "\u30b2\u30f3\u30ac\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/94/regular.png",
@@ -12301,7 +12301,7 @@
         "name": {
             "fr": "Onix",
             "en": "Onix",
-            "jp": "Iwark"
+            "jp": "\u30a4\u30ef\u30fc\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/95/regular.png",
@@ -12434,7 +12434,7 @@
         "name": {
             "fr": "Soporifik",
             "en": "Drowzee",
-            "jp": "Sleepe"
+            "jp": "\u30b9\u30ea\u30fc\u30d7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/96/regular.png",
@@ -12563,7 +12563,7 @@
         "name": {
             "fr": "Hypnomade",
             "en": "Hypno",
-            "jp": "Sleeper"
+            "jp": "\u30b9\u30ea\u30fc\u30d1\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/97/regular.png",
@@ -12692,7 +12692,7 @@
         "name": {
             "fr": "Krabby",
             "en": "Krabby",
-            "jp": "Crab"
+            "jp": "\u30af\u30e9\u30d6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/98/regular.png",
@@ -12821,7 +12821,7 @@
         "name": {
             "fr": "Krabboss",
             "en": "Kingler",
-            "jp": "Kingler"
+            "jp": "\u30ad\u30f3\u30b0\u30e9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/99/regular.png",
@@ -12953,7 +12953,7 @@
         "name": {
             "fr": "Voltorbe",
             "en": "Voltorb",
-            "jp": "Biriridama"
+            "jp": "\u30d3\u30ea\u30ea\u30c0\u30de "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/regular.png",
@@ -13082,7 +13082,7 @@
         "name": {
             "fr": "\u00c9lectrode",
             "en": "Electrode",
-            "jp": "Marumine"
+            "jp": "\u30de\u30eb\u30de\u30a4\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/regular.png",
@@ -13211,7 +13211,7 @@
         "name": {
             "fr": "Noeunoeuf",
             "en": "Exeggcute",
-            "jp": "Tamatama"
+            "jp": "\u30bf\u30de\u30bf\u30de "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/102/regular.png",
@@ -13340,7 +13340,7 @@
         "name": {
             "fr": "Noadkoko",
             "en": "Exeggutor",
-            "jp": "Nassy"
+            "jp": "\u30ca\u30c3\u30b7\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/regular.png",
@@ -13472,7 +13472,7 @@
         "name": {
             "fr": "Osselait",
             "en": "Cubone",
-            "jp": "Karakara"
+            "jp": "\u30ab\u30e9\u30ab\u30e9 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/104/regular.png",
@@ -13601,7 +13601,7 @@
         "name": {
             "fr": "Ossatueur",
             "en": "Marowak",
-            "jp": "Garagara"
+            "jp": "\u30ac\u30e9\u30ac\u30e9 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/regular.png",
@@ -13733,7 +13733,7 @@
         "name": {
             "fr": "Kicklee",
             "en": "Hitmonlee",
-            "jp": "Sawamular"
+            "jp": "\u30b5\u30ef\u30e0\u30e9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/106/regular.png",
@@ -13862,7 +13862,7 @@
         "name": {
             "fr": "Tygnon",
             "en": "Hitmonchan",
-            "jp": "Ebiwalar"
+            "jp": "\u30a8\u30d3\u30ef\u30e9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/107/regular.png",
@@ -13991,7 +13991,7 @@
         "name": {
             "fr": "Excelangue",
             "en": "Lickitung",
-            "jp": "Beroringa"
+            "jp": "\u30d9\u30ed\u30ea\u30f3\u30ac "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/108/regular.png",
@@ -14120,7 +14120,7 @@
         "name": {
             "fr": "Smogo",
             "en": "Koffing",
-            "jp": "Dogars"
+            "jp": "\u30c9\u30ac\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/109/regular.png",
@@ -14249,7 +14249,7 @@
         "name": {
             "fr": "Smogogo",
             "en": "Weezing",
-            "jp": "Matadogas"
+            "jp": "\u30de\u30bf\u30c9\u30ac\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/regular.png",
@@ -14381,7 +14381,7 @@
         "name": {
             "fr": "Rhinocorne",
             "en": "Rhyhorn",
-            "jp": "Sihorn"
+            "jp": "\u30b5\u30a4\u30db\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/111/regular.png",
@@ -14515,7 +14515,7 @@
         "name": {
             "fr": "Rhinof\u00e9ros",
             "en": "Rhydon",
-            "jp": "Sidon"
+            "jp": "\u30b5\u30a4\u30c9\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/112/regular.png",
@@ -14649,7 +14649,7 @@
         "name": {
             "fr": "Leveinard",
             "en": "Chansey",
-            "jp": "Lucky"
+            "jp": "\u30e9\u30c3\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/113/regular.png",
@@ -14778,7 +14778,7 @@
         "name": {
             "fr": "Saquedeneu",
             "en": "Tangela",
-            "jp": "Monjara"
+            "jp": "\u30e2\u30f3\u30b8\u30e3\u30e9 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/114/regular.png",
@@ -14907,7 +14907,7 @@
         "name": {
             "fr": "Kangourex",
             "en": "Kangaskhan",
-            "jp": "Garura"
+            "jp": "\u30ac\u30eb\u30fc\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/115/regular.png",
@@ -15036,7 +15036,7 @@
         "name": {
             "fr": "Hypotrempe",
             "en": "Horsea",
-            "jp": "Tattu"
+            "jp": "\u30bf\u30c3\u30c4\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/116/regular.png",
@@ -15166,7 +15166,7 @@
         "name": {
             "fr": "Hypoc\u00e9an",
             "en": "Seadra",
-            "jp": "Seadra"
+            "jp": "\u30b7\u30fc\u30c9\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/117/regular.png",
@@ -15296,7 +15296,7 @@
         "name": {
             "fr": "Poissir\u00e8ne",
             "en": "Goldeen",
-            "jp": "Tosakinto"
+            "jp": "\u30c8\u30b5\u30ad\u30f3\u30c8 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/118/regular.png",
@@ -15425,7 +15425,7 @@
         "name": {
             "fr": "Poissoroy",
             "en": "Seaking",
-            "jp": "Azumao"
+            "jp": "\u30a2\u30ba\u30de\u30aa\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/119/regular.png",
@@ -15554,7 +15554,7 @@
         "name": {
             "fr": "Stari",
             "en": "Staryu",
-            "jp": "Hitodeman"
+            "jp": "\u30d2\u30c8\u30c7\u30de\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/120/regular.png",
@@ -15680,7 +15680,7 @@
         "name": {
             "fr": "Staross",
             "en": "Starmie",
-            "jp": "Starmie"
+            "jp": "\u30b9\u30bf\u30fc\u30df\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/121/regular.png",
@@ -15810,7 +15810,7 @@
         "name": {
             "fr": "M. Mime",
             "en": "Mr. Mime",
-            "jp": "Barrierd"
+            "jp": "\u30b9\u30bf\u30fc\u30df\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/regular.png",
@@ -15946,7 +15946,7 @@
         "name": {
             "fr": "Ins\u00e9cateur",
             "en": "Scyther",
-            "jp": "Strike"
+            "jp": "\u30b9\u30c8\u30e9\u30a4\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/123/regular.png",
@@ -16079,7 +16079,7 @@
         "name": {
             "fr": "Lippoutou",
             "en": "Jynx",
-            "jp": "Rougela"
+            "jp": "\u30eb\u30fc\u30b8\u30e5\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/124/regular.png",
@@ -16212,7 +16212,7 @@
         "name": {
             "fr": "\u00c9lektek",
             "en": "Electabuzz",
-            "jp": "Eleboo"
+            "jp": "\u30a8\u30ec\u30d6\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/125/regular.png",
@@ -16337,7 +16337,7 @@
         "name": {
             "fr": "Magmar",
             "en": "Magmar",
-            "jp": "Boober"
+            "jp": "\u30d6\u30fc\u30d0\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/126/regular.png",
@@ -16462,7 +16462,7 @@
         "name": {
             "fr": "Scarabrute",
             "en": "Pinsir",
-            "jp": "Kailios"
+            "jp": "\u30ab\u30a4\u30ed\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/127/regular.png",
@@ -16591,7 +16591,7 @@
         "name": {
             "fr": "Tauros",
             "en": "Tauros",
-            "jp": "Kentauros"
+            "jp": "\u30b1\u30f3\u30bf\u30ed\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/regular.png",
@@ -16723,7 +16723,7 @@
         "name": {
             "fr": "Magicarpe",
             "en": "Magikarp",
-            "jp": "Koiking"
+            "jp": "\u30b3\u30a4\u30ad\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/129/regular.png",
@@ -16849,7 +16849,7 @@
         "name": {
             "fr": "L\u00e9viator",
             "en": "Gyarados",
-            "jp": "Gyarados"
+            "jp": "\u30ae\u30e3\u30e9\u30c9\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/130/regular.png",
@@ -16979,7 +16979,7 @@
         "name": {
             "fr": "Lokhlass",
             "en": "Lapras",
-            "jp": "Laplace"
+            "jp": "\u30e9\u30d7\u30e9\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/131/regular.png",
@@ -17116,7 +17116,7 @@
         "name": {
             "fr": "M\u00e9tamorph",
             "en": "Ditto",
-            "jp": "Metamon"
+            "jp": "\u30e1\u30bf\u30e2\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/132/regular.png",
@@ -17238,7 +17238,7 @@
         "name": {
             "fr": "\u00c9voli",
             "en": "Eevee",
-            "jp": "Eievui"
+            "jp": "\u30a4\u30fc\u30d6\u30a4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/133/regular.png",
@@ -17367,7 +17367,7 @@
         "name": {
             "fr": "Aquali",
             "en": "Vaporeon",
-            "jp": "Showers"
+            "jp": "\u30b7\u30e3\u30ef\u30fc\u30ba"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/134/regular.png",
@@ -17492,7 +17492,7 @@
         "name": {
             "fr": "Voltali",
             "en": "Jolteon",
-            "jp": "Thunders"
+            "jp": "\u30b5\u30f3\u30c0\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/135/regular.png",
@@ -17617,7 +17617,7 @@
         "name": {
             "fr": "Pyroli",
             "en": "Flareon",
-            "jp": "Booster"
+            "jp": "\u30d6\u30fc\u30b9\u30bf\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/136/regular.png",
@@ -17742,7 +17742,7 @@
         "name": {
             "fr": "Porygon",
             "en": "Porygon",
-            "jp": "Porygon"
+            "jp": "\u30dd\u30ea\u30b4\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/137/regular.png",
@@ -17868,7 +17868,7 @@
         "name": {
             "fr": "Amonita",
             "en": "Omanyte",
-            "jp": "Omnite"
+            "jp": "\u30aa\u30e0\u30ca\u30a4\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/138/regular.png",
@@ -18002,7 +18002,7 @@
         "name": {
             "fr": "Amonistar",
             "en": "Omastar",
-            "jp": "Omstar"
+            "jp": "\u30aa\u30e0\u30b9\u30bf\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/139/regular.png",
@@ -18136,7 +18136,7 @@
         "name": {
             "fr": "Kabuto",
             "en": "Kabuto",
-            "jp": "Kabuto"
+            "jp": "\u30ab\u30d6\u30c8 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/140/regular.png",
@@ -18270,7 +18270,7 @@
         "name": {
             "fr": "Kabutops",
             "en": "Kabutops",
-            "jp": "Kabutops"
+            "jp": "\u30ab\u30d6\u30c8\u30d7\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/141/regular.png",
@@ -18404,7 +18404,7 @@
         "name": {
             "fr": "Pt\u00e9ra",
             "en": "Aerodactyl",
-            "jp": "Ptera"
+            "jp": "\u30d7\u30c6\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/142/regular.png",
@@ -18537,7 +18537,7 @@
         "name": {
             "fr": "Ronflex",
             "en": "Snorlax",
-            "jp": "Kabigon"
+            "jp": "\u30ab\u30d3\u30b4\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/143/regular.png",
@@ -18669,7 +18669,7 @@
         "name": {
             "fr": "Artikodin",
             "en": "Articuno",
-            "jp": "Freezer"
+            "jp": "\u30d5\u30ea\u30fc\u30b6\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/regular.png",
@@ -18798,7 +18798,7 @@
         "name": {
             "fr": "\u00c9lecthor",
             "en": "Zapdos",
-            "jp": "Thunder"
+            "jp": "\u30b5\u30f3\u30c0\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/regular.png",
@@ -18927,7 +18927,7 @@
         "name": {
             "fr": "Sulfura",
             "en": "Moltres",
-            "jp": "Fire"
+            "jp": "\u30d5\u30a1\u30a4\u30e4\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/regular.png",
@@ -19056,7 +19056,7 @@
         "name": {
             "fr": "Minidraco",
             "en": "Dratini",
-            "jp": "Miniryu"
+            "jp": "\u30df\u30cb\u30ea\u30e5\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/147/regular.png",
@@ -19182,7 +19182,7 @@
         "name": {
             "fr": "Draco",
             "en": "Dragonair",
-            "jp": "Hakuryu"
+            "jp": "\u30cf\u30af\u30ea\u30e5\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/148/regular.png",
@@ -19308,7 +19308,7 @@
         "name": {
             "fr": "Dracolosse",
             "en": "Dragonite",
-            "jp": "Kairyu"
+            "jp": "\u30ab\u30a4\u30ea\u30e5\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/149/regular.png",
@@ -19438,7 +19438,7 @@
         "name": {
             "fr": "Mewtwo",
             "en": "Mewtwo",
-            "jp": "Mewtwo"
+            "jp": "\u30df\u30e5\u30a6\u30c4\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/150/regular.png",
@@ -19560,7 +19560,7 @@
         "name": {
             "fr": "Mew",
             "en": "Mew",
-            "jp": "Mew"
+            "jp": "\u30df\u30e5\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/151/regular.png",
@@ -19678,7 +19678,7 @@
         "name": {
             "fr": "Germignon",
             "en": "Chikorita",
-            "jp": "Chicorita"
+            "jp": "\u30c1\u30b3\u30ea\u30fc\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/152/regular.png",
@@ -19804,7 +19804,7 @@
         "name": {
             "fr": "Macronium",
             "en": "Bayleef",
-            "jp": "Bayleaf"
+            "jp": "\u30d9\u30a4\u30ea\u30fc\u30d5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/153/regular.png",
@@ -19930,7 +19930,7 @@
         "name": {
             "fr": "M\u00e9ganium",
             "en": "Meganium",
-            "jp": "Meganium"
+            "jp": "\u30e1\u30ac\u30cb\u30a6\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/154/regular.png",
@@ -20056,7 +20056,7 @@
         "name": {
             "fr": "H\u00e9ricendre",
             "en": "Cyndaquil",
-            "jp": "Hinoarashi"
+            "jp": "\u30d2\u30ce\u30a2\u30e9\u30b7 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/155/regular.png",
@@ -20181,7 +20181,7 @@
         "name": {
             "fr": "Feurisson",
             "en": "Quilava",
-            "jp": "Magmarashi"
+            "jp": "\u30de\u30b0\u30de\u30e9\u30b7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/156/regular.png",
@@ -20306,7 +20306,7 @@
         "name": {
             "fr": "Typhlosion",
             "en": "Typhlosion",
-            "jp": "Bakphoon"
+            "jp": "\u30d0\u30af\u30d5\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/regular.png",
@@ -20434,7 +20434,7 @@
         "name": {
             "fr": "Kaiminus",
             "en": "Totodile",
-            "jp": "Waninoko"
+            "jp": "\u30ef\u30cb\u30ce\u30b3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/158/regular.png",
@@ -20560,7 +20560,7 @@
         "name": {
             "fr": "Crocrodil",
             "en": "Croconaw",
-            "jp": "Alligates"
+            "jp": "\u30a2\u30ea\u30b2\u30a4\u30c4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/159/regular.png",
@@ -20686,7 +20686,7 @@
         "name": {
             "fr": "Aligatueur",
             "en": "Feraligatr",
-            "jp": "Ordile"
+            "jp": "\u30aa\u30fc\u30c0\u30a4\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/160/regular.png",
@@ -20812,7 +20812,7 @@
         "name": {
             "fr": "Fouinette",
             "en": "Sentret",
-            "jp": "Otachi"
+            "jp": "\u30aa\u30bf\u30c1 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/161/regular.png",
@@ -20941,7 +20941,7 @@
         "name": {
             "fr": "Fouinar",
             "en": "Furret",
-            "jp": "Ootachi"
+            "jp": "\u30aa\u30aa\u30bf\u30c1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/162/regular.png",
@@ -21070,7 +21070,7 @@
         "name": {
             "fr": "Hoothoot",
             "en": "Hoothoot",
-            "jp": "Hoho"
+            "jp": "\u30db\u30fc\u30db\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/163/regular.png",
@@ -21203,7 +21203,7 @@
         "name": {
             "fr": "Noarfang",
             "en": "Noctowl",
-            "jp": "Yorunozuku"
+            "jp": "\u30e8\u30eb\u30ce\u30ba\u30af "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/164/regular.png",
@@ -21336,7 +21336,7 @@
         "name": {
             "fr": "Coxy",
             "en": "Ledyba",
-            "jp": "Rediba"
+            "jp": "\u30ec\u30c7\u30a3\u30d0 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/165/regular.png",
@@ -21469,7 +21469,7 @@
         "name": {
             "fr": "Coxyclaque",
             "en": "Ledian",
-            "jp": "Redian"
+            "jp": "\u30ec\u30c7\u30a3\u30a2\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/166/regular.png",
@@ -21602,7 +21602,7 @@
         "name": {
             "fr": "Mimigal",
             "en": "Spinarak",
-            "jp": "Itomaru"
+            "jp": "\u30a4\u30c8\u30de\u30eb "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/167/regular.png",
@@ -21735,7 +21735,7 @@
         "name": {
             "fr": "Migalos",
             "en": "Ariados",
-            "jp": "Ariados"
+            "jp": "\u30a2\u30ea\u30a2\u30c9\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/168/regular.png",
@@ -21868,7 +21868,7 @@
         "name": {
             "fr": "Nostenfer",
             "en": "Crobat",
-            "jp": "Crobat"
+            "jp": "\u30af\u30ed\u30d0\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/169/regular.png",
@@ -21997,7 +21997,7 @@
         "name": {
             "fr": "Loupio",
             "en": "Chinchou",
-            "jp": "Chonchie"
+            "jp": "\u30c1\u30e7\u30f3\u30c1\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/170/regular.png",
@@ -22130,7 +22130,7 @@
         "name": {
             "fr": "Lanturn",
             "en": "Lanturn",
-            "jp": "Lantern"
+            "jp": "\u30e9\u30f3\u30bf\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/171/regular.png",
@@ -22263,7 +22263,7 @@
         "name": {
             "fr": "Pichu",
             "en": "Pichu",
-            "jp": "Pichu"
+            "jp": "\u30d4\u30c1\u30e5\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/172/regular.png",
@@ -22388,7 +22388,7 @@
         "name": {
             "fr": "M\u00e9lo",
             "en": "Cleffa",
-            "jp": "Py"
+            "jp": "\u30d4\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/173/regular.png",
@@ -22517,7 +22517,7 @@
         "name": {
             "fr": "Toudoudou",
             "en": "Igglybuff",
-            "jp": "Pupurin"
+            "jp": "\u30d7\u30d7\u30ea\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/174/regular.png",
@@ -22650,7 +22650,7 @@
         "name": {
             "fr": "Togepi",
             "en": "Togepi",
-            "jp": "Togepy"
+            "jp": "\u30c8\u30b2\u30d4\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/175/regular.png",
@@ -22779,7 +22779,7 @@
         "name": {
             "fr": "Togetic",
             "en": "Togetic",
-            "jp": "Togechick"
+            "jp": "\u30c8\u30b2\u30c1\u30c3\u30af"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/176/regular.png",
@@ -22913,7 +22913,7 @@
         "name": {
             "fr": "Natu",
             "en": "Natu",
-            "jp": "Naty"
+            "jp": "\u30cd\u30a4\u30c6\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/177/regular.png",
@@ -23046,7 +23046,7 @@
         "name": {
             "fr": "Xatu",
             "en": "Xatu",
-            "jp": "Natio"
+            "jp": "\u30cd\u30a4\u30c6\u30a3\u30aa"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/178/regular.png",
@@ -23179,7 +23179,7 @@
         "name": {
             "fr": "Wattouat",
             "en": "Mareep",
-            "jp": "Merriep"
+            "jp": "\u30e1\u30ea\u30fc\u30d7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/179/regular.png",
@@ -23305,7 +23305,7 @@
         "name": {
             "fr": "Lainergie",
             "en": "Flaaffy",
-            "jp": "Mokoko"
+            "jp": "\u30e2\u30b3\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/180/regular.png",
@@ -23431,7 +23431,7 @@
         "name": {
             "fr": "Pharamp",
             "en": "Ampharos",
-            "jp": "Denryu"
+            "jp": "\u30c7\u30f3\u30ea\u30e5\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/181/regular.png",
@@ -23557,7 +23557,7 @@
         "name": {
             "fr": "Joliflor",
             "en": "Bellossom",
-            "jp": "Kireihana"
+            "jp": "\u30ad\u30ec\u30a4\u30cf\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/182/regular.png",
@@ -23682,7 +23682,7 @@
         "name": {
             "fr": "Marill",
             "en": "Marill",
-            "jp": "Maril"
+            "jp": "\u30de\u30ea\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/183/regular.png",
@@ -23816,7 +23816,7 @@
         "name": {
             "fr": "Azumarill",
             "en": "Azumarill",
-            "jp": "Marilli"
+            "jp": "\u30de\u30ea\u30eb\u30ea"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/184/regular.png",
@@ -23950,7 +23950,7 @@
         "name": {
             "fr": "Simularbre",
             "en": "Sudowoodo",
-            "jp": "Usokkie"
+            "jp": "\u30a6\u30bd\u30c3\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/185/regular.png",
@@ -24079,7 +24079,7 @@
         "name": {
             "fr": "Tarpaud",
             "en": "Politoed",
-            "jp": "Nyorotono"
+            "jp": "\u30cb\u30e7\u30ed\u30c8\u30ce "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/186/regular.png",
@@ -24208,7 +24208,7 @@
         "name": {
             "fr": "Granivol",
             "en": "Hoppip",
-            "jp": "Hanecco"
+            "jp": "\u30cf\u30cd\u30c3\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/187/regular.png",
@@ -24342,7 +24342,7 @@
         "name": {
             "fr": "Floravol",
             "en": "Skiploom",
-            "jp": "Popocco"
+            "jp": "\u30dd\u30dd\u30c3\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/188/regular.png",
@@ -24476,7 +24476,7 @@
         "name": {
             "fr": "Cotovol",
             "en": "Jumpluff",
-            "jp": "Watacco"
+            "jp": "\u30ef\u30bf\u30c3\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/189/regular.png",
@@ -24610,7 +24610,7 @@
         "name": {
             "fr": "Capumain",
             "en": "Aipom",
-            "jp": "Eipam"
+            "jp": "\u30a8\u30a4\u30d1\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/190/regular.png",
@@ -24739,7 +24739,7 @@
         "name": {
             "fr": "Tournegrin",
             "en": "Sunkern",
-            "jp": "Himanuts"
+            "jp": "\u30d2\u30de\u30ca\u30c3\u30c4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/191/regular.png",
@@ -24868,7 +24868,7 @@
         "name": {
             "fr": "H\u00e9liatronc",
             "en": "Sunflora",
-            "jp": "Kimawari"
+            "jp": "\u30ad\u30de\u30ef\u30ea "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/192/regular.png",
@@ -24997,7 +24997,7 @@
         "name": {
             "fr": "Yanma",
             "en": "Yanma",
-            "jp": "Yanyanma"
+            "jp": "\u30e4\u30f3\u30e4\u30f3\u30de "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/193/regular.png",
@@ -25130,7 +25130,7 @@
         "name": {
             "fr": "Axoloto",
             "en": "Wooper",
-            "jp": "Upah"
+            "jp": "\u30a6\u30d1\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/regular.png",
@@ -25267,7 +25267,7 @@
         "name": {
             "fr": "Maraiste",
             "en": "Quagsire",
-            "jp": "Nuoh"
+            "jp": "\u30cc\u30aa\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/195/regular.png",
@@ -25401,7 +25401,7 @@
         "name": {
             "fr": "Mentali",
             "en": "Espeon",
-            "jp": "Eifie"
+            "jp": "\u30a8\u30fc\u30d5\u30a3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/196/regular.png",
@@ -25526,7 +25526,7 @@
         "name": {
             "fr": "Noctali",
             "en": "Umbreon",
-            "jp": "Blacky"
+            "jp": "\u30d6\u30e9\u30c3\u30ad\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/197/regular.png",
@@ -25651,7 +25651,7 @@
         "name": {
             "fr": "Corn\u00e8bre",
             "en": "Murkrow",
-            "jp": "Yamikarasu"
+            "jp": "\u30e4\u30df\u30ab\u30e9\u30b9 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/198/regular.png",
@@ -25784,7 +25784,7 @@
         "name": {
             "fr": "Roigada",
             "en": "Slowking",
-            "jp": "Yadoking"
+            "jp": "\u30e4\u30c9\u30ad\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/regular.png",
@@ -25921,7 +25921,7 @@
         "name": {
             "fr": "Feufor\u00eave",
             "en": "Misdreavus",
-            "jp": "Muma"
+            "jp": "\u30e0\u30a6\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/200/regular.png",
@@ -26042,7 +26042,7 @@
         "name": {
             "fr": "Zarbi",
             "en": "Unown",
-            "jp": "Unknown"
+            "jp": "\u30a2\u30f3\u30ce\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/201/regular.png",
@@ -26160,7 +26160,7 @@
         "name": {
             "fr": "Qulbutok\u00e9",
             "en": "Wobbuffet",
-            "jp": "Sonans"
+            "jp": "\u30bd\u30fc\u30ca\u30f3\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/202/regular.png",
@@ -26285,7 +26285,7 @@
         "name": {
             "fr": "Girafarig",
             "en": "Girafarig",
-            "jp": "Kirinriki"
+            "jp": "\u30ad\u30ea\u30f3\u30ea\u30ad "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/203/regular.png",
@@ -26418,7 +26418,7 @@
         "name": {
             "fr": "Pomdepik",
             "en": "Pineco",
-            "jp": "Kunugidama"
+            "jp": "\u30af\u30cc\u30ae\u30c0\u30de "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/204/regular.png",
@@ -26543,7 +26543,7 @@
         "name": {
             "fr": "Foretress",
             "en": "Forretress",
-            "jp": "Foretos"
+            "jp": "\u30d5\u30a9\u30ec\u30c8\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/205/regular.png",
