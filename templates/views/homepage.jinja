@@ -129,11 +129,11 @@
         if(is_shiny) {
             shiny.src   = "/assets/carousel/star_FILL0.svg";
             shiny.title = "Non chromatique";
-            await changeCarouselImage(pkm_data.sprite.regular, image);
+            await changeCarouselImage(pkm_data.sprites.regular, image);
         } else {
             shiny.src = "/assets/carousel/star_FILL1.svg";
             shiny.title = "Chromatique";
-            await changeCarouselImage(pkm_data.sprite.shiny, image);
+            await changeCarouselImage(pkm_data.sprites.shiny, image);
         }
         is_shiny = !is_shiny;
     }
@@ -158,7 +158,7 @@
             return;
         }
 
-        await changeCarouselImage(pkm_data.sprite.regular, image);
+        await changeCarouselImage(pkm_data.sprites.regular, image);
         
         pkm_name.textContent = pkm_data.name.fr;
         shiny.style.visibility  = "visible";
