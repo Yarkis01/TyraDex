@@ -3143,7 +3143,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -3272,7 +3272,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -10476,7 +10476,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Acier",
@@ -10606,7 +10606,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Acier",
@@ -12966,7 +12966,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -13095,7 +13095,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -16222,7 +16222,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/typeselectrik.png"
             }
         ],
         "talents": [
@@ -17502,7 +17502,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -18811,7 +18811,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Vol",
@@ -22011,7 +22011,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -22144,7 +22144,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -22273,7 +22273,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -23189,7 +23189,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -23315,7 +23315,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -23441,7 +23441,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -25536,7 +25536,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -25661,7 +25661,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Vol",
@@ -27875,7 +27875,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Glace",
@@ -29591,7 +29591,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Feu",
@@ -29724,7 +29724,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Feu",
@@ -31016,7 +31016,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -31524,7 +31524,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -32148,7 +32148,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -33794,7 +33794,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -33923,7 +33923,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -35477,7 +35477,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -35611,7 +35611,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -39094,7 +39094,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Spectre",
@@ -40018,7 +40018,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -40147,7 +40147,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -40276,7 +40276,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -40401,7 +40401,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -41182,7 +41182,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -41311,7 +41311,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -42991,7 +42991,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -44272,7 +44272,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -46432,7 +46432,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -52004,7 +52004,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -52133,7 +52133,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -52262,7 +52262,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -53807,7 +53807,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -55473,7 +55473,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Vol",
@@ -55989,7 +55989,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -56122,7 +56122,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -57039,7 +57039,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -58334,7 +58334,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -59502,7 +59502,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Glace",
@@ -59631,7 +59631,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Acier",
@@ -60153,7 +60153,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -63294,7 +63294,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -66778,7 +66778,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -66907,7 +66907,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -68443,7 +68443,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -68572,7 +68572,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -72251,7 +72251,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -72384,7 +72384,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -72517,7 +72517,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -73293,7 +73293,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Combat",
@@ -73427,7 +73427,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Combat",
@@ -74725,7 +74725,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -74849,7 +74849,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -76923,7 +76923,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Vol",
@@ -77972,7 +77972,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -78105,7 +78105,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -78868,7 +78868,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -78989,7 +78989,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -79110,7 +79110,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -80923,7 +80923,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -81703,7 +81703,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Acier",
@@ -81836,7 +81836,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Acier",
@@ -82367,7 +82367,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Vol",
@@ -82500,7 +82500,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Vol",
@@ -82895,7 +82895,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Dragon",
@@ -83020,7 +83020,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Dragon",
@@ -83145,7 +83145,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Dragon",
@@ -84274,7 +84274,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -86021,7 +86021,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -88211,7 +88211,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -89595,7 +89595,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Psy",
@@ -89729,7 +89729,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Psy",
@@ -90641,7 +90641,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Normal",
@@ -90775,7 +90775,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Normal",
@@ -91686,7 +91686,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "F\u00e9e",
@@ -93652,7 +93652,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Vol",
@@ -94910,7 +94910,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
         "talents": [
@@ -96199,7 +96199,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -96324,7 +96324,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -101323,7 +101323,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "Acier",
@@ -102366,7 +102366,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             },
             {
                 "name": "F\u00e9e",
@@ -103716,7 +103716,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -104078,7 +104078,7 @@
         "types": [
             {
                 "name": "T\u00e9n\u00e8bres",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/t\u00e9n\u00e8bres.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
                 "name": "Dragon",
@@ -104553,7 +104553,7 @@
         "generation": 7,
         "category": "Pok\u00e9mon Artificiel",
         "name": {
-            "fr": "Vémini",
+            "fr": "V\u00e9mini",
             "en": "Poipole",
             "jp": "Bevenom"
         },
@@ -104669,7 +104669,7 @@
     {
         "pokedexId": 804,
         "generation": 7,
-        "category": "Pok\u00e9mon Vénépic",
+        "category": "Pok\u00e9mon V\u00e9n\u00e9pic",
         "name": {
             "fr": "Mandrillon",
             "en": "Naganadel",
@@ -105049,7 +105049,7 @@
         "types": [
             {
                 "name": "\u00c9lectrik",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/\u00e9lectrik.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
         "talents": [
@@ -105153,7 +105153,7 @@
     {
         "pokedexId": 808,
         "generation": 7,
-        "category": "Pok\u00e9mon Écrou",
+        "category": "Pok\u00e9mon \u00c9crou",
         "name": {
             "fr": "Meltan",
             "en": "Meltan",
@@ -105172,7 +105172,7 @@
         ],
         "talents": [
             {
-                "name": "Magnépiège",
+                "name": "Magn\u00e9pi\u00e8ge",
                 "tc": false
             }
         ],
@@ -105271,7 +105271,7 @@
     {
         "pokedexId": 809,
         "generation": 7,
-        "category": "Pok\u00e9mon Écrou",
+        "category": "Pok\u00e9mon \u00c9crou",
         "name": {
             "fr": "Melmetal",
             "en": "Melmetal",
@@ -105538,7 +105538,7 @@
                 "tc": false
             },
             {
-                "name": "Créa-Herbe",
+                "name": "Cr\u00e9a-Herbe",
                 "tc": true
             }
         ],
@@ -105628,7 +105628,7 @@
         "height": "0,7 m",
         "weight": "14,0 kg",
         "egg_groups": [
-            "Terrestre","Végétal"
+            "Terrestre","V\u00e9g\u00e9tal"
         ],
         "sexe": {
             "male":87.5,
@@ -105663,7 +105663,7 @@
                 "tc": false
             },
             {
-                "name": "Créa-Herbe",
+                "name": "Cr\u00e9a-Herbe",
                 "tc": true
             }
         ],
@@ -105753,7 +105753,7 @@
         "height": "2,1 m",
         "weight": "90,0 kg",
         "egg_groups": [
-            "Terrestre","Végétal"
+            "Terrestre","V\u00e9g\u00e9tal"
         ],
         "sexe": {
             "male":87.5,
@@ -106397,7 +106397,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Agent Secret",
         "name": {
-            "fr": "Lézargus",
+            "fr": "L\u00e9zargus",
             "en": "Inteleon",
             "jp": "Intereon"
         },
@@ -106888,7 +106888,7 @@
         "height": "0,2 m",
         "weight": "1,8 kg",
         "egg_groups": [
-            "Aérien"
+            "A\u00e9rien"
         ],
         "sexe": {
             "male": 50.0,
@@ -107017,7 +107017,7 @@
         "height": "0,8 m",
         "weight": "16,0 kg",
         "egg_groups": [
-            "Aérien"
+            "A\u00e9rien"
         ],
         "sexe": {
             "male": 50.0,
@@ -107150,7 +107150,7 @@
         "height": "2,2 m",
         "weight": "75,0 kg",
         "egg_groups": [
-            "Aérien"
+            "A\u00e9rien"
         ],
         "sexe": {
             "male": 50.0,
@@ -107185,7 +107185,7 @@
                 "tc": false
             },
             {
-                "name": "Œil Composé",
+                "name": "Œil Compos\u00e9",
                 "tc": false
             },
             {
@@ -107293,7 +107293,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Radôme",
         "name": {
-            "fr": "Coléodôme",
+            "fr": "Col\u00e9odôme",
             "en": "Dottler",
             "jp": "Redomushi"
         },
@@ -107318,7 +107318,7 @@
                 "tc": false
             },
             {
-                "name": "Œil Composé",
+                "name": "Œil Compos\u00e9",
                 "tc": false
             },
             {
@@ -107570,7 +107570,7 @@
         },
         "types": [
             {
-                "name": "Ténèbres",
+                "name": "T\u00e9n\u00e8bres",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
@@ -107580,7 +107580,7 @@
                 "tc": false
             },
             {
-                "name": "Délestage",
+                "name": "D\u00e9lestage",
                 "tc": false
             },
             {
@@ -107699,7 +107699,7 @@
         },
         "types": [
             {
-                "name": "Ténèbres",
+                "name": "T\u00e9n\u00e8bres",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
@@ -107709,7 +107709,7 @@
                 "tc": false
             },
             {
-                "name": "Délestage",
+                "name": "D\u00e9lestage",
                 "tc": false
             },
             {
@@ -107838,7 +107838,7 @@
                 "tc": false
             },
             {
-                "name": "Régé-Force",
+                "name": "R\u00e9g\u00e9-Force",
                 "tc": false
             },
             {
@@ -107932,7 +107932,7 @@
         "height": "0,4 m",
         "weight": "2,2 kg",
         "egg_groups": [
-            "Végétal"
+            "V\u00e9g\u00e9tal"
         ],
         "sexe": {
             "male": 50.0,
@@ -108333,7 +108333,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Mordillage",
         "name": {
-            "fr": "Khélocrok",
+            "fr": "Kh\u00e9locrok",
             "en": "Chewtle",
             "jp": "Kamukame"
         },
@@ -108606,7 +108606,7 @@
         },
         "types": [
             {
-                "name": "Électrik",
+                "name": "\u00c9lectrik",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
@@ -108731,7 +108731,7 @@
         },
         "types": [
             {
-                "name": "Électrik",
+                "name": "\u00c9lectrik",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
@@ -110542,7 +110542,7 @@
     {
         "pokedexId": 850,
         "generation": 8,
-        "category": "Pok\u00e9mon Calorifère",
+        "category": "Pok\u00e9mon Calorif\u00e8re",
         "name": {
             "fr": "Grillepattes",
             "en": "Sizzlipede",
@@ -110675,7 +110675,7 @@
     {
         "pokedexId": 851,
         "generation": 8,
-        "category": "Pok\u00e9mon Calorifère",
+        "category": "Pok\u00e9mon Calorif\u00e8re",
         "name": {
             "fr": "Scolopendre",
             "en": "Centiskorch",
@@ -112600,7 +112600,7 @@
         "height": "0,8 m",
         "weight": "117,0 kg",
         "egg_groups": [
-            "Aérien",
+            "A\u00e9rien",
             "Terrestre"
         ],
         "sexe": {
@@ -112613,7 +112613,7 @@
     {
         "pokedexId": 866,
         "generation": 8,
-        "category": "Pok\u00e9mon Comédien",
+        "category": "Pok\u00e9mon Com\u00e9dien",
         "name": {
             "fr": "M. Glaquette",
             "en": "Mr. Rime",
@@ -113754,7 +113754,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Pingouin",
         "name": {
-            "fr": "Bekagaçon",
+            "fr": "Bekagla\u00e7on",
             "en": "Eiscue",
             "jp": "Korippo"
         },
@@ -113874,7 +113874,7 @@
     {
         "pokedexId": 876,
         "generation": 8,
-        "category": "Pok\u00e9mon Émotion",
+        "category": "Pok\u00e9mon \u00c9motion",
         "name": {
             "fr": "Wimessir",
             "en": "Indeedee",
@@ -115447,7 +115447,7 @@
         },
         "types": [
             {
-                "name": "Fée",
+                "name": "F\u00e9e",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"
             }
         ],
@@ -115673,7 +115673,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Giga",
         "name": {
-            "fr": "Éthernatos",
+            "fr": "\u00c9thernatos",
             "en": "Eternatus",
             "jp": "Mugendina"
         },
@@ -115932,7 +115932,7 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"
             },
             {
-                "name": "Ténèbres",
+                "name": "T\u00e9n\u00e8bres",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
@@ -116052,7 +116052,7 @@
         },
         "types": [
             {
-                "name": "Ténèbres",
+                "name": "T\u00e9n\u00e8bres",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             }
         ],
@@ -116156,7 +116156,7 @@
     {
         "pokedexId": 894,
         "generation": 8,
-        "category": "Pok\u00e9mon Électron",
+        "category": "Pok\u00e9mon \u00c9lectron",
         "name": {
             "fr": "Regieleki",
             "en": "Regieleki",
@@ -116169,7 +116169,7 @@
         },
         "types": [
             {
-                "name": "Électrik",
+                "name": "\u00c9lectrik",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"
             }
         ],
@@ -116390,7 +116390,7 @@
     {
         "pokedexId": 896,
         "generation": 8,
-        "category": "Pok\u00e9mon Cheval Rétif",
+        "category": "Pok\u00e9mon Cheval R\u00e9tif",
         "name": {
             "fr": "Blizzeval",
             "en": "Glastrier",
@@ -116865,7 +116865,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Hache",
         "name": {
-            "fr": "Hachécateur",
+            "fr": "Hach\u00e9cateur",
             "en": "Kleavor",
             "jp": "Basagiri"
         },
@@ -117335,7 +117335,7 @@
     {
         "pokedexId": 904,
         "generation": 8,
-        "category": "Pok\u00e9mon Épineux",
+        "category": "Pok\u00e9mon \u00c9pineux",
         "name": {
             "fr": "Qwilpik",
             "en": "Overqwil",
@@ -117348,7 +117348,7 @@
         },
         "types": [
             {
-                "name": "Ténèbres",
+                "name": "T\u00e9n\u00e8bres",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"
             },
             {
@@ -117455,7 +117455,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Hainamour",
         "name": {
-            "fr": "Amovénus",
+            "fr": "Amov\u00e9nus",
             "en": "Lovetolos",
             "jp": "Enamorus"
         },
@@ -117466,7 +117466,7 @@
         },
         "types": [
             {
-                "name": "Fée",
+                "name": "F\u00e9e",
                 "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"
             },
             {
