@@ -20836,7 +20836,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":153,"name":"Macronium","condition":"Niveau 16"},
+                {"pokedexID":154,"name":"M\u00e9ganium","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "6,4 kg",
         "egg_groups": [
@@ -20962,7 +20969,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":152,"name":"Germignon"}
+            ],
+            "next": [
+                {"pokedexID":154,"name":"M\u00e9ganium","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "15,8 kg",
         "egg_groups": [
@@ -21088,7 +21103,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":152,"name":"Germignon"},
+                {"pokedexID":153,"name":"Macronium"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "100,5 kg",
         "egg_groups": [
@@ -21214,7 +21236,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":156,"name":"Feurisson","condition":"Niveau 14 / Niveau 17 (LPA uniquement)"},
+                {"pokedexID":157,"name":"Typhlosion","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "7,9 kg",
         "egg_groups": [
@@ -21339,7 +21368,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":155,"name":"H\u00e9ricendre"}
+            ],
+            "next": [
+                {"pokedexID":157,"name":"Typhlosion","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "19,0 kg",
         "egg_groups": [
@@ -21467,7 +21504,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":155,"name":"H\u00e9ricendre"},
+                {"pokedexID":156,"name":"Feurisson"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "79,5 kg",
         "egg_groups": [
@@ -21592,7 +21636,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":159,"name":"Crocodil","condition":"Niveau 18"},
+                {"pokedexID":160,"name":"Aligatueur","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "9,5 kg",
         "egg_groups": [
@@ -21718,7 +21769,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":158,"name":"Kaiminus"}
+            ],
+            "next": [
+                {"pokedexID":160,"name":"Aligatueur","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "25,0 kg",
         "egg_groups": [
@@ -21844,7 +21903,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":158,"name":"Kaiminus"},
+                {"pokedexID":159,"name":"Crocodil"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,3 m",
         "weight": "88,8 kg",
         "egg_groups": [
@@ -21974,7 +22040,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":162,"name":"Fouinar","condition":"Niveau 15"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "6,0 kg",
         "egg_groups": [
@@ -22103,7 +22175,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":161,"name":"Fouinette"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "32,5 kg",
         "egg_groups": [
@@ -22236,7 +22314,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":164,"name":"Noarfrang","condition":"Niveau 20"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "21,2 kg",
         "egg_groups": [
@@ -22369,7 +22453,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":163,"name":"Hoothoot"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "40,8 kg",
         "egg_groups": [
@@ -22502,7 +22592,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":166,"name":"Coxyclaque","condition":"Niveau 18"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "10,8 kg",
         "egg_groups": [
@@ -22635,7 +22731,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":165,"name":"Coxy"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "35,6 kg",
         "egg_groups": [
@@ -22768,7 +22870,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":168,"name":"Mygalos","condition":"Niveau 22"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "8,5 kg",
         "egg_groups": [
@@ -22901,7 +23009,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":167,"name":"Mimigal"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "33,5 kg",
         "egg_groups": [
@@ -23030,7 +23144,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":41,"name":"Nosferapti"},
+                {"pokedexID":42,"name":"Nosferalto"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "75,0 kg",
         "egg_groups": [
@@ -23163,7 +23284,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":171,"name":"Lanturn","condition":"Niveau 27"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "12,0 kg",
         "egg_groups": [
@@ -23296,7 +23423,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":170,"name":"Loupio"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "22,5 kg",
         "egg_groups": [
@@ -23421,7 +23554,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":25,"name":"Pikachu","condition":"Bonheur"},
+                {"pokedexID":26,"name":"Raichu","condition":"Pierre Foudre"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,0 kg",
         "egg_groups": [
@@ -23550,7 +23690,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":35,"name":"M\u00e9lof\u00e9e","condition":"Bonheur"},
+                {"pokedexID":36,"name":"M\u00e9lodelfe","condition":"Pierre Lune"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "3,0 kg",
         "egg_groups": [
@@ -23683,7 +23830,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":39,"name":"Rondoudou","condition":"Bonheur"},
+                {"pokedexID":40,"name":"Grodoudou","condition":"Pierre Lune"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "1,0 kg",
         "egg_groups": [
@@ -23812,7 +23966,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":176,"name":"Togepic","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "1,5 kg",
         "egg_groups": [
