@@ -38678,7 +38678,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":284,"name":"Maskadra","condition":"Niveau 22"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "1,7 kg",
         "egg_groups": [
@@ -38808,7 +38814,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":283,"name":"Arakdo"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "3,6 kg",
         "egg_groups": [
@@ -38938,7 +38950,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":286,"name":"Chapignon","condition":"Niveau 23"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "4,5 kg",
         "egg_groups": [
@@ -39072,7 +39090,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":285,"name":"Balignon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "39,2 kg",
         "egg_groups": [
@@ -39194,7 +39218,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":288,"name":"Vigoroth","condition":"Niveau 18"},
+                {"pokedexID":289,"name":"Monafl\u00e8mit","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "24,0 kg",
         "egg_groups": [
@@ -39315,7 +39346,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":287,"name":"Parecool"}
+            ],
+            "next": [
+                {"pokedexID":289,"name":"Monafl\u00e8mit","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "46,5 kg",
         "egg_groups": [
@@ -39436,7 +39475,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":287,"name":"Parecool"},
+                {"pokedexID":288,"name":"Vigoroth"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "130,5 kg",
         "egg_groups": [
@@ -39565,7 +39611,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":291,"name":"Ninjask","condition":"Niveau 20"},
+                {"pokedexID":292,"name":"Munjask","condition":"Niveau 20 + Pokeball + un emplacement de libre dans l'\u00e9quipe"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "5,5 kg",
         "egg_groups": [
@@ -39694,7 +39747,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":290,"name":"Ningale"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "12,0 kg",
         "egg_groups": [
@@ -39819,7 +39878,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":290,"name":"Ningale"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "1,2 kg",
         "egg_groups": [
@@ -39941,7 +40006,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":294,"name":"Ramboum","condition":"Niveau 20"},
+                {"pokedexID":295,"name":"Brouhabam","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "16,3 kg",
         "egg_groups": [
