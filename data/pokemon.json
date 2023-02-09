@@ -40139,7 +40139,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":293,"name":"Chuchmur"}
+            ],
+            "next": [
+                {"pokedexID":295,"name":"Brouhabam","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "40,5 kg",
         "egg_groups": [
@@ -40265,7 +40273,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":293,"name":"Chuchmur"},
+                {"pokedexID":294,"name":"Ramboum"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "84,0 kg",
         "egg_groups": [
@@ -40395,7 +40410,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":297,"name":"Hariyama","condition":"Niveau 24"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "86,4 kg",
         "egg_groups": [
@@ -40524,7 +40545,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":296,"name":"Makuhita"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,3 m",
         "weight": "253,8 kg",
         "egg_groups": [
@@ -40657,7 +40684,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":183,"name":"Marill","condition":"Bonheur"},
+                {"pokedexID":184,"name":"Azumarill","condition":"Niveau 18"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "2,0 kg",
         "egg_groups": [
@@ -40786,7 +40820,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":476,"name":"Tarinorme","condition":"+1 Niveau dans Champ Magn\u00e9tique / Pierre Foudre (LPA)"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "97,0 kg",
         "egg_groups": [
@@ -40915,7 +40955,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":301,"name":"Delcatty","condition":"Pierre Lune"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "11,0 kg",
         "egg_groups": [
@@ -41045,7 +41091,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":300,"name":"Skitty"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "32,6 kg",
         "egg_groups": [
@@ -41179,7 +41231,19 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"T\u00e9n\u00e9fixite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/302/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/302/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "0,5 m",
         "weight": "11,0 kg",
         "egg_groups": [
@@ -41312,7 +41376,19 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Mysdibulite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/303/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/303/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "0,6 m",
         "weight": "11,5 kg",
         "egg_groups": [
@@ -41446,7 +41522,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":305,"name":"Galegon","condition":"Niveau 32"},
+                {"pokedexID":306,"name":"Galeking","condition":"Niveau 42"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "60,0 kg",
         "egg_groups": [
@@ -41579,7 +41662,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":304,"name":"Galekid"}
+            ],
+            "next": [
+                {"pokedexID":306,"name":"Galeking","condition":"Niveau 42"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "120,0 kg",
         "egg_groups": [
@@ -41712,7 +41803,22 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":304,"name":"Galekid"},
+                {"pokedexID":305,"name":"Galegon"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Galekingite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/306/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/306/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "2,1 m",
         "weight": "360,0 kg",
         "egg_groups": [
@@ -41841,7 +41947,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":308,"name":"Charmina","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "11,2 kg",
         "egg_groups": [
@@ -41970,7 +42082,21 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":293,"name":"M\u00e9ditikka"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Charminite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/308/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/308/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,3 m",
         "weight": "31,5 kg",
         "egg_groups": [
@@ -42099,7 +42225,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":310,"name":"\u00c9lecsprint","condition":"Niveau 26"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "15,2 kg",
         "egg_groups": [
@@ -42228,7 +42360,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":309,"name":"Dynavolt"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"\u00c9lecsprintite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/310/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/310/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,5 m",
         "weight": "40,2 kg",
         "egg_groups": [
@@ -42871,7 +43017,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":406,"name":"Rozbouton"}
+            ],
+            "next": [
+                {"pokedexID":407,"name":"Roserade","condition":"Pierre \u00c9clat"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,0 kg",
         "egg_groups": [
@@ -43001,7 +43155,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":317,"name":"Avaltout","condition":"Niveau 26"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "10,3 kg",
         "egg_groups": [
@@ -43130,7 +43290,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":316,"name":"Gloupti"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "80,0 kg",
         "egg_groups": [
@@ -43259,7 +43425,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":319,"name":"Sharpedo","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "20,8 kg",
         "egg_groups": [
@@ -43388,7 +43560,21 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":318,"name":"Carvanha"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Sharpedite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/319/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/319/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,8 m",
         "weight": "88,8 kg",
         "egg_groups": [
@@ -43517,7 +43703,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":321,"name":"Wailord","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "130,0 kg",
         "egg_groups": [
@@ -43647,7 +43839,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":320,"name":"Wailmer"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "14,5 m",
         "weight": "398,0 kg",
         "egg_groups": [
@@ -43781,7 +43979,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":323,"name":"Cam\u00e9rupt","condition":"Niveau 33"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "24,0 kg",
         "egg_groups": [
@@ -43914,7 +44118,21 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":322,"name":"Chamallot"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Cam\u00e9ruptite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/323/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/323/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,9 m",
         "weight": "220,0 kg",
         "egg_groups": [
@@ -44172,7 +44390,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":326,"name":"Groret","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "30,6 kg",
         "egg_groups": [
@@ -44301,7 +44525,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":325,"name":"Spoink"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "71,5 kg",
         "egg_groups": [
@@ -44560,7 +44790,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":329,"name":"Vibraninf","condition":"Niveau 35"},
+                {"pokedexID":330,"name":"Lib\u00e9gon","condition":"Niveau 45"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "15,0 kg",
         "egg_groups": [
@@ -44686,7 +44923,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":328,"name":"Kraknoix"}
+            ],
+            "next": [
+                {"pokedexID":330,"name":"Lib\u00e9gon","condition":"Niveau 45"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "15,3 kg",
         "egg_groups": [
@@ -44812,7 +45057,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":328,"name":"Kraknoix"},
+                {"pokedexID":329,"name":"Vibraninf"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "82,0 kg",
         "egg_groups": [
@@ -44938,7 +45190,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":332,"name":"Cacturn","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "51,3 kg",
         "egg_groups": [
@@ -45068,7 +45326,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":331,"name":"Cacnea"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "77,4 kg",
         "egg_groups": [
@@ -45198,7 +45462,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":334,"name":"Altaria","condition":"Niveau 35"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "1,2 kg",
         "egg_groups": [
@@ -45328,7 +45598,21 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":333,"name":"Tylton"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Altarite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/334/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/334/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,1 m",
         "weight": "20,6 kg",
         "egg_groups": [
@@ -45957,7 +46241,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":340,"name":"Barbicha","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "1,9 kg",
         "egg_groups": [
@@ -46090,7 +46380,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":339,"name":"Barloche"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "23,6 kg",
         "egg_groups": [
@@ -46219,7 +46515,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":342,"name":"Colhomard","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "11,5 kg",
         "egg_groups": [
@@ -46353,7 +46655,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":341,"name":"\u00c9crapince"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "32,8 kg",
         "egg_groups": [
@@ -46479,7 +46787,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":344,"name":"Kaorine","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "21,5 kg",
         "egg_groups": [
@@ -46601,7 +46915,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":343,"name":"Balbulto"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "108,0 kg",
         "egg_groups": [
@@ -46727,7 +47047,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":346,"name":"Vacilys","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "23,8 kg",
         "egg_groups": [
@@ -46856,7 +47182,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":345,"name":"Lilia"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "60,4 kg",
         "egg_groups": [
@@ -46985,7 +47317,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":348,"name":"Armaldo","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "12,5 kg",
         "egg_groups": [
@@ -47114,7 +47452,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":347,"name":"Anorith"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "68,2 kg",
         "egg_groups": [
@@ -47243,7 +47587,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":350,"name":"Milobellus","condition":"Beaut\u00e9 sup\u00e9rieur ou \u00e9gal à 170 + 1 niveau (RSE à N2B2 + ROSA + DEPS) / Echange avec Bel'\u00c9caille (depuis NB)"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "7,4 kg",
         "egg_groups": [
@@ -47373,7 +47723,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":349,"name":"Barpau"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "6,2 m",
         "weight": "162,0 kg",
         "egg_groups": [
@@ -47750,7 +48106,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":354,"name":"Branette","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "2,3 kg",
         "egg_groups": [
@@ -47879,7 +48241,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":353,"name":"Polichombr"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Branettite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/354/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/354/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,1 m",
         "weight": "12,5 kg",
         "egg_groups": [
@@ -48004,7 +48380,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":356,"name":"T\u00e9raclope","condition":"Niveau 37"},
+                {"pokedexID":477,"name":"Noctunoir","condition":"Echange en tant Tissu Fauche / Contact d'un Tissu Fauche (LPA)"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "15,0 kg",
         "egg_groups": [
@@ -48129,7 +48512,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":355,"name":"Sk\u00e9l\u00e9nox"}
+            ],
+            "next": [
+                {"pokedexID":477,"name":"Noctunoir","condition":"Echange en tant Tissu Fauche / Contact d'un Tissu Fauche (LPA)"}
+            ],
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "30,6 kg",
         "egg_groups": [
@@ -48384,7 +48775,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":433,"name":"Korillon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "1,0 kg",
         "egg_groups": [
@@ -48513,7 +48910,19 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Absolite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/359/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/359/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,2 m",
         "weight": "47,0 kg",
         "egg_groups": [
@@ -48638,7 +49047,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":202,"name":"Qulbutok\u00e9","condition":"Niveau 15"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "14,0 kg",
         "egg_groups": [
@@ -48767,7 +49182,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":362,"name":"Oniglali","condition":"Niveau 42"},
+                {"pokedexID":478,"name":"Momartik","condition":"Femelle + Pierre Aube"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "16,8 kg",
         "egg_groups": [
@@ -48897,7 +49319,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":433,"name":"Stalagmin"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Oniglalite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/362/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/362/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,5 m",
         "weight": "256,5 kg",
         "egg_groups": [
@@ -49031,7 +49467,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next":  [
+                {"pokedexID":364,"name":"Phogleur","condition":"Niveau 32"},
+                {"pokedexID":365,"name":"Kaimorse","condition":"Niveau 44"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "39,5 kg",
         "egg_groups": [
@@ -49165,7 +49608,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":363,"name":"Obalie"}
+            ],
+            "next":  [
+                {"pokedexID":365,"name":"Kaimorse","condition":"Niveau 44"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "87,6 kg",
         "egg_groups": [
@@ -49299,7 +49750,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":363,"name":"Obalie"},
+                {"pokedexID":364,"name":"Phogleur"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "150,6 kg",
         "egg_groups": [
@@ -49425,7 +49883,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next":  [
+                {"pokedexID":367,"name":"Serpang","condition":"Echange avec Dent Oc\u00e9an"},
+                {"pokedexID":368,"name":"Rosabyss","condition":"Echange avec \u00c9caille Oc\u00e9an"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "52,5 kg",
         "egg_groups": [
@@ -49550,7 +50015,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":366,"name":"Coquiperl"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "27,0 kg",
         "egg_groups": [
@@ -49675,7 +50146,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":366,"name":"Coquiperl"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "22,6 kg",
         "egg_groups": [
@@ -50059,7 +50536,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next":  [
+                {"pokedexID":372,"name":"Drackhaus","condition":"Niveau 30"},
+                {"pokedexID":373,"name":"Drattak","condition":"Niveau 50"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "42,1 kg",
         "egg_groups": [
@@ -50184,7 +50668,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":371,"name":"Drabby"}
+            ],
+            "next":  [
+                {"pokedexID":373,"name":"Drattak","condition":"Niveau 50"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "110,5 kg",
         "egg_groups": [
@@ -50313,7 +50805,22 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":371,"name":"Drabby"},
+                {"pokedexID":372,"name":"Drackhaus"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Drattakite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/373/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/373/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,5 m",
         "weight": "102,6 kg",
         "egg_groups": [
@@ -50442,7 +50949,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next":  [
+                {"pokedexID":376,"name":"M\u00e9tang","condition":"Niveau 20"},
+                {"pokedexID":377,"name":"M\u00e9talosse","condition":"Niveau 45"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "95,2 kg",
         "egg_groups": [
@@ -50568,7 +51082,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":375,"name":"Terhal"}
+            ],
+            "next":  [
+                {"pokedexID":377,"name":"M\u00e9talosse","condition":"Niveau 45"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "202,5 kg",
         "egg_groups": [
@@ -50694,7 +51216,22 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":375,"name":"Terhal"},
+                {"pokedexID":376,"name":"M\u00e9tang"}
+            ],
+            "next":  null,
+            "mega":[
+                {
+                    "orbe":"M\u00e9talossite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/376/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/376/mega-shiny.png"
+                    }
+                }
+            ]
+        },  
         "height": "1,6 m",
         "weight": "550,0 kg",
         "egg_groups": [
@@ -52030,7 +52567,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":388,"name":"Boskara","condition":"Niveau 18"},
+                {"pokedexID":389,"name":"Torterra","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "10,2 kg",
         "egg_groups": [
@@ -52156,7 +52700,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":387,"name":"Tortipouss"}
+            ],
+            "next": [
+                {"pokedexID":389,"name":"Torterra","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "97,0 kg",
         "egg_groups": [
@@ -52286,7 +52838,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":387,"name":"Tortipouss"},
+                {"pokedexID":388,"name":"Boskara"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,2 m",
         "weight": "310,0 kg",
         "egg_groups": [
@@ -52412,7 +52971,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":391,"name":"Chimpenfeu","condition":"Niveau 14"},
+                {"pokedexID":392,"name":"Simiabraz","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "6,2 kg",
         "egg_groups": [
@@ -52542,7 +53108,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":390,"name":"Ouisticram"}
+            ],
+            "next": [
+                {"pokedexID":392,"name":"Simiabraz","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "22,0 kg",
         "egg_groups": [
@@ -52672,7 +53246,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":390,"name":"Ouisticram"},
+                {"pokedexID":391,"name":"Chimpenfeu"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "55,0 kg",
         "egg_groups": [
@@ -52798,7 +53379,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":394,"name":"Prinplouf","condition":"Niveau 16"},
+                {"pokedexID":395,"name":"Pingol\u00e9on","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,2 kg",
         "egg_groups": [
@@ -52924,7 +53512,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":393,"name":"Tiplouf"}
+            ],
+            "next": [
+                {"pokedexID":395,"name":"Pingol\u00e9on","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "23,0 kg",
         "egg_groups": [
@@ -53054,7 +53650,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":393,"name":"Tiplouf"},
+                {"pokedexID":394,"name":"Prinplouf"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "84,5 kg",
         "egg_groups": [
@@ -53184,7 +53787,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":397,"name":"\u00c9tourvol","condition":"Niveau 14"},
+                {"pokedexID":398,"name":"\u00c9touraptor","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,0 kg",
         "egg_groups": [
@@ -53313,7 +53923,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":396,"name":"\u00c9tourmi"}
+            ],
+            "next": [
+                {"pokedexID":398,"name":"\u00c9touraptor","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "15,5 kg",
         "egg_groups": [
@@ -53442,7 +54060,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":396,"name":"\u00c9tourmi"},
+                {"pokedexID":397,"name":"\u00c9tourvol"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "24,9 kg",
         "egg_groups": [
@@ -53571,7 +54196,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":400,"name":"Castorno","condition":"Niveau 15"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "20,0 kg",
         "egg_groups": [
@@ -53705,7 +54336,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":399,"name":"Keunotor"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "31,5 kg",
         "egg_groups": [
@@ -53831,7 +54468,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":402,"name":"M\u00e9lokrik","condition":"Niveau 10"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,2 kg",
         "egg_groups": [
@@ -53956,7 +54599,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":401,"name":"Crikzik"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "25,5 kg",
         "egg_groups": [
@@ -54085,7 +54734,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":404,"name":"Luxio","condition":"Niveau 15"},
+                {"pokedexID":405,"name":"Luxray","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,5 kg",
         "egg_groups": [
@@ -54214,7 +54870,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":403,"name":"Lixy"}
+            ],
+            "next": [
+                {"pokedexID":405,"name":"Luxray","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "30,5 kg",
         "egg_groups": [
@@ -54343,7 +55007,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":403,"name":"Lixy"},
+                {"pokedexID":404,"name":"Luxio"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "42,0 kg",
         "egg_groups": [
@@ -54476,7 +55147,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":315,"name":"Ros\u00e9lia","condition":"Bonheur + Jour + 1 niveau"},
+                {"pokedexID":407,"name":"Roserade","condition":"Pierre \u00c9clat"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "1,2 kg",
         "egg_groups": [
@@ -54609,7 +55287,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":406,"name":"Rozbouton"},
+                {"pokedexID":315,"name":"Ros\u00e9lia"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "14,5 kg",
         "egg_groups": [
@@ -54735,7 +55420,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":409,"name":"Charkos","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "31,5 kg",
         "egg_groups": [
@@ -54860,7 +55551,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":408,"name":"Kranidos"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "102,5 kg",
         "egg_groups": [
@@ -54989,7 +55686,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":411,"name":"Bastiodon","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "57,0 kg",
         "egg_groups": [
@@ -55118,7 +55821,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":410,"name":"Dinoclier"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "149,5 kg",
         "egg_groups": [
@@ -55243,7 +55952,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":413,"name":"Cheniselle","condition":"M\u00e2le + Niveau 20"},
+                {"pokedexID":414,"name":"Papilord","condition":"Femelle + Niveau 20"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "3,4 kg",
         "egg_groups": [
@@ -55372,7 +56088,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":412,"name":"Cheniti"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "6,5 kg",
         "egg_groups": [
@@ -55501,7 +56223,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":412,"name":"Cheniti"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "23,3 kg",
         "egg_groups": [
@@ -55630,7 +56358,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":416,"name":"Apireine","condition":"Femelle + Niveau 21"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "5,5 kg",
         "egg_groups": [
@@ -55759,7 +56493,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":415,"name":"Apitrini"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "38,5 kg",
         "egg_groups": [
@@ -56014,7 +56754,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":419,"name":"Must\u00e9flott","condition":"Niveau 26"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "29,5 kg",
         "egg_groups": [
@@ -56140,7 +56886,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":418,"name":"Must\u00e9bou\u00e9e"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "33,5 kg",
         "egg_groups": [
@@ -56262,7 +57014,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":421,"name":"Ceriflor","condition":"Niveau 25"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "3,3 kg",
         "egg_groups": [
@@ -56384,7 +57142,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":420,"name":"Ceribou"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,3 kg",
         "egg_groups": [
@@ -56514,7 +57278,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":422,"name":"Tritosor","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "6,3 kg",
         "egg_groups": [
@@ -56648,7 +57418,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":422,"name":"Sancoki"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "29,9 kg",
         "egg_groups": [
@@ -56778,7 +57554,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":190,"name":"Capumain"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "20,3 kg",
         "egg_groups": [
@@ -56911,7 +57693,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":426,"name":"Grodrive","condition":"Niveau 28"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "1,2 kg",
         "egg_groups": [
@@ -57044,7 +57832,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":425,"name":"Baudrive"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "15,0 kg",
         "egg_groups": [
@@ -57173,7 +57967,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":428,"name":"Lockpin","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,5 kg",
         "egg_groups": [
@@ -57303,7 +58103,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":427,"name":"Laporeille"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Lockpinite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/428/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/428/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,2 m",
         "weight": "33,3 kg",
         "egg_groups": [
@@ -57425,7 +58239,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":200,"name":"Feufor\u00eave"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "4,4 kg",
         "egg_groups": [
@@ -57558,7 +58378,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":192,"name":"Corn\u00e8bre"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "27,3 kg",
         "egg_groups": [
@@ -57687,7 +58513,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":432,"name":"Chaffreux","condition":"Niveau 38"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "3,9 kg",
         "egg_groups": [
@@ -57816,7 +58648,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":431,"name":"Chaglam"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "43,8 kg",
         "egg_groups": [
@@ -57937,7 +58775,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":358,"name":"\u00c9oko","condition":"Bonheur + Nuit + 1 niveau"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "0,6 kg",
         "egg_groups": [
@@ -58070,7 +58914,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":435,"name":"Moufflair","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "19,2 kg",
         "egg_groups": [
@@ -58203,7 +59053,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":434,"name":"Moufouette"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "38,0 kg",
         "egg_groups": [
@@ -58336,7 +59192,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":437,"name":"Arch\u00e9dong","condition":"Niveau 33"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "60,5 kg",
         "egg_groups": [
@@ -58466,7 +59328,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":436,"name":"Arch\u00e9mire"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "187,0 kg",
         "egg_groups": [
@@ -58592,7 +59460,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":185,"name":"Simularbre","condition":"Connaitre Copie + 1 Niveau"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "15,0 kg",
         "egg_groups": [
@@ -58725,7 +59599,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":122,"name":"M.Mime","condition":"Connaitre Copie + 1 Niveau"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "13,0 kg",
         "egg_groups": [
@@ -58854,7 +59734,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":113,"name":"Leveinard","condition":"+1 Niveau la journée avec Pierre Ovale / Contact avec Pierre Ovale le jour (LPA)"},
+                {"pokedexID":242,"name":"Leuphorie","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "24,4 kg",
         "egg_groups": [
@@ -59245,7 +60132,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":444,"name":"Carmache","condition":"Niveau 24"},
+                {"pokedexID":445,"name":"Carchacrok","condition":"Niveau 48"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "20,5 kg",
         "egg_groups": [
@@ -59375,7 +60269,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":443,"name":"Griknot"}
+            ],
+            "next": [
+                {"pokedexID":445,"name":"Carchacrok","condition":"Niveau 48"}
+            ],
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "56,0 kg",
         "egg_groups": [
@@ -59505,7 +60407,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":443,"name":"Griknot"},
+                {"pokedexID":444,"name":"Carmache"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,9 m",
         "weight": "95,0 kg",
         "egg_groups": [
@@ -59635,7 +60544,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":143,"name":"Ronflex","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "105,0 kg",
         "egg_groups": [
@@ -59764,7 +60679,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":448,"name":"Lucario","condition":"Bonheur + Jour + 1 niveau"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "20,2 kg",
         "egg_groups": [
@@ -59897,7 +60818,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":447,"name":"Riolu"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Lucarite",
+                    "sprites": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/448/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/448/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,2 m",
         "weight": "54,0 kg",
         "egg_groups": [
@@ -60023,7 +60958,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":450,"name":"Hippodocus","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "49,5 kg",
         "egg_groups": [
@@ -60148,7 +61089,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":449,"name":"Hippopotas"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "300,0 kg",
         "egg_groups": [
@@ -60281,7 +61228,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":452,"name":"Drascore","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "12,0 kg",
         "egg_groups": [
@@ -60415,7 +61368,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":451,"name":"Rapion"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "61,5 kg",
         "egg_groups": [
@@ -60549,7 +61508,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":454,"name":"Coatox","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "23,0 kg",
         "egg_groups": [
@@ -60682,7 +61647,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":453,"name":"Cradopaud"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "44,4 kg",
         "egg_groups": [
@@ -60932,7 +61903,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":457,"name":"Lumin\u00e9on","condition":"Niveau 31"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "7,0 kg",
         "egg_groups": [
@@ -61061,7 +62038,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":456,"name":"\u00c9cayon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "24,0 kg",
         "egg_groups": [
@@ -61194,7 +62177,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":226,"name":"D\u00e9manta","condition":"Gain de niveau avec R\u00e9moraid dans l'\u00e9quipe"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "65,0 kg",
         "egg_groups": [
@@ -61323,7 +62312,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":460,"name":"Blizzaroi","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "50,5 kg",
         "egg_groups": [
@@ -61453,7 +62448,21 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":459,"name":"Blizzi"}
+            ],
+            "next": null,
+            "mega": [
+                {
+                    "orbe":"Blizzarite",
+                    "sprites": {
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/460/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/460/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "2,2 m",
         "weight": "135,5 kg",
         "egg_groups": [
@@ -61583,7 +62592,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":215,"name":"Farfuret"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "34,0 kg",
         "egg_groups": [
@@ -61716,7 +62731,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":81,"name":"Magn\u00e9ti"},
+                {"pokedexID":82,"name":"Magn\u00e9ton"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "180,0 kg",
         "egg_groups": [
@@ -61842,7 +62864,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":108,"name":"Excelangue"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "140,0 kg",
         "egg_groups": [
@@ -61975,7 +63003,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":111,"name":"Rhinocorne"},
+                {"pokedexID":112,"name":"Rhinof\u00e9ros"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,4 m",
         "weight": "282,8 kg",
         "egg_groups": [
@@ -62105,7 +63140,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":114,"name":"Saquedeneu"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "128,6 kg",
         "egg_groups": [
@@ -62230,7 +63271,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":239,"name":"\u00c9lekid"},
+                {"pokedexID":125,"name":"\u00c9lektek"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "138,6 kg",
         "egg_groups": [
@@ -62355,7 +63403,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":240,"name":"Magby"},
+                {"pokedexID":126,"name":"Magmar"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "68,0 kg",
         "egg_groups": [
@@ -62488,7 +63543,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":175,"name":"Togepi"},
+                {"pokedexID":176,"name":"Togetic"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "38,0 kg",
         "egg_groups": [
@@ -62622,7 +63684,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":193,"name":"Yanma"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,9 m",
         "weight": "51,5 kg",
         "egg_groups": [
