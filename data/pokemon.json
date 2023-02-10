@@ -32,7 +32,7 @@
         "name": {
             "fr": "Bulbizarre",
             "en": "Bulbasaur",
-            "jp": "\u30d5\u30b7\u30ae\u30c0\u30cd "
+            "jp": "\u30d5\u30b7\u30ae\u30c0\u30cd"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1/regular.png",
@@ -307,7 +307,7 @@
         "name": {
             "fr": "Florizarre",
             "en": "Venusaur",
-            "jp": "\u30d5\u30b7\u30ae\u30d0\u30ca "
+            "jp": "\u30d5\u30b7\u30ae\u30d0\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/regular.png",
@@ -2527,10 +2527,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -2665,10 +2662,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -3482,10 +3476,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -3618,10 +3609,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -3752,10 +3740,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -4993,10 +4978,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -5127,10 +5109,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -6784,10 +6763,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -6922,10 +6898,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -7198,10 +7171,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -7881,10 +7851,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -8019,10 +7986,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10088,10 +10052,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10231,10 +10192,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10375,10 +10333,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10518,10 +10473,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10656,10 +10608,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10794,10 +10743,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -10938,10 +10884,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -11365,10 +11308,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -12056,10 +11996,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -12194,10 +12131,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -13700,10 +13634,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -13835,10 +13766,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -14105,10 +14033,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -14378,10 +14303,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -15056,10 +14978,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -16702,10 +16621,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -17530,10 +17446,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -19705,10 +19618,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -19834,10 +19744,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -19963,10 +19870,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -21401,10 +21305,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -25671,7 +25572,7 @@
                 "tc": false
             },
             {
-                "name": "Feuille Garde ",
+                "name": "Feuille Garde",
                 "tc": false
             },
             {
@@ -25813,7 +25714,7 @@
                 "tc": false
             },
             {
-                "name": "Feuille Garde ",
+                "name": "Feuille Garde",
                 "tc": false
             },
             {
@@ -26480,10 +26381,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -27164,10 +27062,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -28773,10 +28668,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -29334,10 +29226,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -30304,10 +30193,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -34294,7 +34180,7 @@
         "name": {
             "fr": "Arcko",
             "en": "Treecko",
-            "jp": "Kimori"
+            "jp": "\u30ad\u30e2\u30ea "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/252/regular.png",
@@ -34427,7 +34313,7 @@
         "name": {
             "fr": "Massko",
             "en": "Grovyle",
-            "jp": "Juptile"
+            "jp": "\u30b8\u30e5\u30d7\u30c8\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/253/regular.png",
@@ -34561,7 +34447,7 @@
         "name": {
             "fr": "Jungko",
             "en": "Sceptile",
-            "jp": "Jukain"
+            "jp": "\u30b8\u30e5\u30ab\u30a4\u30f3 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/254/regular.png",
@@ -34702,7 +34588,7 @@
         "name": {
             "fr": "Poussifeu",
             "en": "Torchic",
-            "jp": "Achamo"
+            "jp": "\u30a2\u30c1\u30e3\u30e2 "
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/255/regular.png",
@@ -34834,7 +34720,7 @@
         "name": {
             "fr": "Galifeu",
             "en": "Combusken",
-            "jp": "Wakasyamo"
+            "jp": "\u30ef\u30ab\u30b7\u30e3\u30e2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/256/regular.png",
@@ -34971,7 +34857,7 @@
         "name": {
             "fr": "Bras\u00e9gali",
             "en": "Blaziken",
-            "jp": "Bursyamo"
+            "jp": "\u30d0\u30b7\u30e3\u30fc\u30e2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/257/regular.png",
@@ -35115,7 +35001,7 @@
         "name": {
             "fr": "Gobou",
             "en": "Mudkip",
-            "jp": "Mizugorou"
+            "jp": "\u30df\u30ba\u30b4\u30ed\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/258/regular.png",
@@ -35248,7 +35134,7 @@
         "name": {
             "fr": "Flobio",
             "en": "Marshtomp",
-            "jp": "Numacraw"
+            "jp": "\u30cc\u30de\u30af\u30ed\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/259/regular.png",
@@ -35386,7 +35272,7 @@
         "name": {
             "fr": "Laggron",
             "en": "Swampert",
-            "jp": "Laglarge"
+            "jp": "\u30e9\u30b0\u30e9\u30fc\u30b8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/260/regular.png",
@@ -35531,7 +35417,7 @@
         "name": {
             "fr": "Medhy\u00e8na",
             "en": "Poochyena",
-            "jp": "Pochiena"
+            "jp": "\u30dd\u30c1\u30a8\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/261/regular.png",
@@ -35666,7 +35552,7 @@
         "name": {
             "fr": "Grahy\u00e8na",
             "en": "Mightyena",
-            "jp": "Graena"
+            "jp": "\u30b0\u30e9\u30a8\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/262/regular.png",
@@ -35801,15 +35687,12 @@
         "name": {
             "fr": "Zigzaton",
             "en": "Zigzagoon",
-            "jp": "Jiguzaguma"
+            "jp": "\u30b8\u30b0\u30b6\u30b0\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -35939,15 +35822,12 @@
         "name": {
             "fr": "Lin\u00e9on",
             "en": "Linoone",
-            "jp": "Massuguma"
+            "jp": "\u30de\u30c3\u30b9\u30b0\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -36077,7 +35957,7 @@
         "name": {
             "fr": "Chenipotte",
             "en": "Wurmple",
-            "jp": "Kemusso"
+            "jp": "\u30b1\u30e0\u30c3\u30bd"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/265/regular.png",
@@ -36211,7 +36091,7 @@
         "name": {
             "fr": "Armulys",
             "en": "Silcoon",
-            "jp": "Karasalis"
+            "jp": "\u30ab\u30e9\u30b5\u30ea\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/266/regular.png",
@@ -36340,7 +36220,7 @@
         "name": {
             "fr": "Charmillon",
             "en": "Beautifly",
-            "jp": "Agehunt"
+            "jp": "\u30a2\u30b2\u30cf\u30f3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/267/regular.png",
@@ -36476,7 +36356,7 @@
         "name": {
             "fr": "Blindalys",
             "en": "Cascoon",
-            "jp": "Mayuld"
+            "jp": "\u30de\u30e6\u30eb\u30c9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/268/regular.png",
@@ -36605,7 +36485,7 @@
         "name": {
             "fr": "Papinox",
             "en": "Dustox",
-            "jp": "Dokucale"
+            "jp": "\u30c9\u30af\u30b1\u30a4\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/269/regular.png",
@@ -36741,7 +36621,7 @@
         "name": {
             "fr": "N\u00e9nupiot",
             "en": "Lotad",
-            "jp": "Hassboh"
+            "jp": "\u30cf\u30b9\u30dc\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/270/regular.png",
@@ -36882,7 +36762,7 @@
         "name": {
             "fr": "Lombre",
             "en": "Lombre",
-            "jp": "Hasubrero"
+            "jp": "\u30cf\u30b9\u30d6\u30ec\u30ed"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/271/regular.png",
@@ -37024,7 +36904,7 @@
         "name": {
             "fr": "Ludicolo",
             "en": "Ludicolo",
-            "jp": "Runpappa"
+            "jp": "\u30eb\u30f3\u30d1\u30c3\u30d1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/272/regular.png",
@@ -37165,7 +37045,7 @@
         "name": {
             "fr": "Grainipiot",
             "en": "Seedot",
-            "jp": "Taneboh"
+            "jp": "\u30bf\u30cd\u30dc\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/273/regular.png",
@@ -37302,7 +37182,7 @@
         "name": {
             "fr": "Pifeuil",
             "en": "Nuzleaf",
-            "jp": "Konohana"
+            "jp": "\u30b3\u30ce\u30cf\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/274/regular.png",
@@ -37444,7 +37324,7 @@
         "name": {
             "fr": "Tengalice",
             "en": "Shiftry",
-            "jp": "Dirteng"
+            "jp": "\u30c0\u30fc\u30c6\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/275/regular.png",
@@ -37585,7 +37465,7 @@
         "name": {
             "fr": "Nirondelle",
             "en": "Taillow",
-            "jp": "Subame"
+            "jp": "\u30b9\u30d0\u30e1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/276/regular.png",
@@ -37720,7 +37600,7 @@
         "name": {
             "fr": "H\u00e9l\u00e9delle",
             "en": "Swellow",
-            "jp": "Ohsubame"
+            "jp": "\u30aa\u30aa\u30b9\u30d0\u30e1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/277/regular.png",
@@ -37855,7 +37735,7 @@
         "name": {
             "fr": "Go\u00e9lise",
             "en": "Wingull",
-            "jp": "Camome"
+            "jp": "\u30ad\u30e3\u30e2\u30e1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/278/regular.png",
@@ -37995,7 +37875,7 @@
         "name": {
             "fr": "Bekipan",
             "en": "Pelipper",
-            "jp": "Pelipper"
+            "jp": "\u30da\u30ea\u30c3\u30d1\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/279/regular.png",
@@ -38135,7 +38015,7 @@
         "name": {
             "fr": "Tarsal",
             "en": "Ralts",
-            "jp": "Ralts"
+            "jp": "\u30e9\u30eb\u30c8\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/280/regular.png",
@@ -38277,7 +38157,7 @@
         "name": {
             "fr": "Kirlia",
             "en": "Kirlia",
-            "jp": "Kirlia"
+            "jp": "\u30ad\u30eb\u30ea\u30a2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/281/regular.png",
@@ -38420,7 +38300,7 @@
         "name": {
             "fr": "Gardevoir",
             "en": "Gardevoir",
-            "jp": "Sirnight"
+            "jp": "\u30b5\u30fc\u30ca\u30a4\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/282/regular.png",
@@ -38569,7 +38449,7 @@
         "name": {
             "fr": "Arakdo",
             "en": "Surskit",
-            "jp": "Ametama"
+            "jp": "\u30a2\u30e1\u30bf\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/283/regular.png",
@@ -38705,7 +38585,7 @@
         "name": {
             "fr": "Maskadra",
             "en": "Masquerain",
-            "jp": "Amemoth"
+            "jp": "\u30a2\u30e1\u30e2\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/284/regular.png",
@@ -38841,7 +38721,7 @@
         "name": {
             "fr": "Balignon",
             "en": "Shroomish",
-            "jp": "Kinococo"
+            "jp": "\u30ad\u30ce\u30b3\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/285/regular.png",
@@ -38977,7 +38857,7 @@
         "name": {
             "fr": "Chapignon",
             "en": "Breloom",
-            "jp": "Kinogassa"
+            "jp": "\u30ad\u30ce\u30ac\u30c3\u30b5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/286/regular.png",
@@ -39117,7 +38997,7 @@
         "name": {
             "fr": "Parecool",
             "en": "Slakoth",
-            "jp": "Namakero"
+            "jp": "\u30ca\u30de\u30b1\u30ed"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/287/regular.png",
@@ -39245,7 +39125,7 @@
         "name": {
             "fr": "Vigoroth",
             "en": "Vigoroth",
-            "jp": "Yarukimono"
+            "jp": "\u30e4\u30eb\u30ad\u30e2\u30ce"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/288/regular.png",
@@ -39374,7 +39254,7 @@
         "name": {
             "fr": "Monafl\u00e8mit",
             "en": "Slaking",
-            "jp": "Kekking"
+            "jp": "\u30b1\u30c3\u30ad\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/289/regular.png",
@@ -39502,7 +39382,7 @@
         "name": {
             "fr": "Ningale",
             "en": "Nincada",
-            "jp": "Tutinin"
+            "jp": "\u30c4\u30c1\u30cb\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/290/regular.png",
@@ -39638,7 +39518,7 @@
         "name": {
             "fr": "Ninjask",
             "en": "Ninjask",
-            "jp": "Tekkanin"
+            "jp": "\u30c6\u30c3\u30ab\u30cb\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/291/regular.png",
@@ -39773,7 +39653,7 @@
         "name": {
             "fr": "Munja",
             "en": "Shedinja",
-            "jp": "Nukenin"
+            "jp": "\u30cc\u30b1\u30cb\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/292/regular.png",
@@ -39901,7 +39781,7 @@
         "name": {
             "fr": "Chuchmur",
             "en": "Whismur",
-            "jp": "Gonyonyo"
+            "jp": "\u30b4\u30cb\u30e7\u30cb\u30e7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/293/regular.png",
@@ -40034,7 +39914,7 @@
         "name": {
             "fr": "Ramboum",
             "en": "Loudred",
-            "jp": "Dogohmb"
+            "jp": "\u30c9\u30b4\u30fc\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/294/regular.png",
@@ -40168,7 +40048,7 @@
         "name": {
             "fr": "Brouhabam",
             "en": "Exploud",
-            "jp": "Bakuong"
+            "jp": "\u30d0\u30af\u30aa\u30f3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/295/regular.png",
@@ -40301,7 +40181,7 @@
         "name": {
             "fr": "Makuhita",
             "en": "Makuhita",
-            "jp": "Makunoshita"
+            "jp": "\u30de\u30af\u30ce\u30b7\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/296/regular.png",
@@ -40436,7 +40316,7 @@
         "name": {
             "fr": "Hariyama",
             "en": "Hariyama",
-            "jp": "Hariteyama"
+            "jp": "\u30cf\u30ea\u30c6\u30e4\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/297/regular.png",
@@ -40571,7 +40451,7 @@
         "name": {
             "fr": "Azurill",
             "en": "Azurill",
-            "jp": "Ruriri"
+            "jp": "\u30eb\u30ea\u30ea"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/298/regular.png",
@@ -40711,7 +40591,7 @@
         "name": {
             "fr": "Tarinor",
             "en": "Nosepass",
-            "jp": "Nosepass"
+            "jp": "\u30ce\u30ba\u30d1\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/299/regular.png",
@@ -40846,7 +40726,7 @@
         "name": {
             "fr": "Skitty",
             "en": "Skitty",
-            "jp": "Eneco"
+            "jp": "\u30a8\u30cd\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/300/regular.png",
@@ -40982,7 +40862,7 @@
         "name": {
             "fr": "Delcatty",
             "en": "Delcatty",
-            "jp": "Enekororo"
+            "jp": "\u30a8\u30cd\u30b3\u30ed\u30ed"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/301/regular.png",
@@ -41118,7 +40998,7 @@
         "name": {
             "fr": "T\u00e9n\u00e9fix",
             "en": "Sableye",
-            "jp": "Yamirami"
+            "jp": "\u30e4\u30df\u30e9\u30df"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/302/regular.png",
@@ -41263,7 +41143,7 @@
         "name": {
             "fr": "Mysdibule",
             "en": "Mawile",
-            "jp": "Kucheat"
+            "jp": "\u30af\u30c1\u30fc\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/303/regular.png",
@@ -41409,7 +41289,7 @@
         "name": {
             "fr": "Galekid",
             "en": "Aron",
-            "jp": "Cokodora"
+            "jp": "\u30b3\u30b3\u30c9\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/304/regular.png",
@@ -41549,7 +41429,7 @@
         "name": {
             "fr": "Galegon",
             "en": "Lairon",
-            "jp": "Kodora"
+            "jp": "\u30b3\u30c9\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/305/regular.png",
@@ -41690,7 +41570,7 @@
         "name": {
             "fr": "Galeking",
             "en": "Aggron",
-            "jp": "Bossgodora"
+            "jp": "\u30dc\u30b9\u30b4\u30c9\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/306/regular.png",
@@ -41838,7 +41718,7 @@
         "name": {
             "fr": "M\u00e9ditikka",
             "en": "Meditite",
-            "jp": "Asanan"
+            "jp": "\u30a2\u30b5\u30ca\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/307/regular.png",
@@ -41973,7 +41853,7 @@
         "name": {
             "fr": "Charmina",
             "en": "Medicham",
-            "jp": "Charem"
+            "jp": "\u30c1\u30e3\u30fc\u30ec\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/308/regular.png",
@@ -42116,7 +41996,7 @@
         "name": {
             "fr": "Dynavolt",
             "en": "Electrike",
-            "jp": "Rakurai"
+            "jp": "\u30e9\u30af\u30e9\u30a4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/309/regular.png",
@@ -42251,7 +42131,7 @@
         "name": {
             "fr": "\u00c9lecsprint",
             "en": "Manectric",
-            "jp": "Livolt"
+            "jp": "\u30e9\u30a4\u30dc\u30eb\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/310/regular.png",
@@ -42394,7 +42274,7 @@
         "name": {
             "fr": "Posipi",
             "en": "Plusle",
-            "jp": "Prasle"
+            "jp": "\u30d7\u30e9\u30b9\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/311/regular.png",
@@ -42519,7 +42399,7 @@
         "name": {
             "fr": "N\u00e9gapi",
             "en": "Minun",
-            "jp": "Minun"
+            "jp": "\u30de\u30a4\u30ca\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/312/regular.png",
@@ -42644,7 +42524,7 @@
         "name": {
             "fr": "Muciole",
             "en": "Volbeat",
-            "jp": "Barubeat"
+            "jp": "\u30d0\u30eb\u30d3\u30fc\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/313/regular.png",
@@ -42774,7 +42654,7 @@
         "name": {
             "fr": "Lumivole",
             "en": "Illumise",
-            "jp": "Illumise"
+            "jp": "\u30a4\u30eb\u30df\u30fc\u30bc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/314/regular.png",
@@ -42904,7 +42784,7 @@
         "name": {
             "fr": "Ros\u00e9lia",
             "en": "Roselia",
-            "jp": "Roselia"
+            "jp": "\u30ed\u30bc\u30ea\u30a2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/315/regular.png",
@@ -43046,7 +42926,7 @@
         "name": {
             "fr": "Gloupti",
             "en": "Gulpin",
-            "jp": "Gokulin"
+            "jp": "\u30b4\u30af\u30ea\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/316/regular.png",
@@ -43181,7 +43061,7 @@
         "name": {
             "fr": "Avaltout",
             "en": "Swalot",
-            "jp": "Marunoom"
+            "jp": "\u30de\u30eb\u30ce\u30fc\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/317/regular.png",
@@ -43316,7 +43196,7 @@
         "name": {
             "fr": "Carvanha",
             "en": "Carvanha",
-            "jp": "Kibanha"
+            "jp": "\u30ad\u30d0\u30cb\u30a2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/318/regular.png",
@@ -43451,7 +43331,7 @@
         "name": {
             "fr": "Sharpedo",
             "en": "Sharpedo",
-            "jp": "Samehader"
+            "jp": "\u30b5\u30e1\u30cf\u30c0\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/319/regular.png",
@@ -43594,7 +43474,7 @@
         "name": {
             "fr": "Wailmer",
             "en": "Wailmer",
-            "jp": "Hoeruko"
+            "jp": "\u30db\u30a8\u30eb\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/320/regular.png",
@@ -43730,7 +43610,7 @@
         "name": {
             "fr": "Wailord",
             "en": "Wailord",
-            "jp": "Whaloh"
+            "jp": "\u30db\u30a8\u30eb\u30aa\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/321/regular.png",
@@ -43866,7 +43746,7 @@
         "name": {
             "fr": "Chamallot",
             "en": "Numel",
-            "jp": "Donmel"
+            "jp": "\u30c9\u30f3\u30e1\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/322/regular.png",
@@ -44005,7 +43885,7 @@
         "name": {
             "fr": "Cam\u00e9rupt",
             "en": "Camerupt",
-            "jp": "Bakuuda"
+            "jp": "\u30d0\u30af\u30fc\u30c0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/323/regular.png",
@@ -44152,7 +44032,7 @@
         "name": {
             "fr": "Chartor",
             "en": "Torkoal",
-            "jp": "Cotoise"
+            "jp": "\u30b3\u30fc\u30bf\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/324/regular.png",
@@ -44281,7 +44161,7 @@
         "name": {
             "fr": "Spoink",
             "en": "Spoink",
-            "jp": "Baneboo"
+            "jp": "\u30d0\u30cd\u30d6\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/325/regular.png",
@@ -44416,7 +44296,7 @@
         "name": {
             "fr": "Groret",
             "en": "Grumpig",
-            "jp": "Boopig"
+            "jp": "\u30d6\u30fc\u30d4\u30c3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/326/regular.png",
@@ -44551,7 +44431,7 @@
         "name": {
             "fr": "Spinda",
             "en": "Spinda",
-            "jp": "Patcheel"
+            "jp": "\u30d1\u30c3\u30c1\u30fc\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/327/regular.png",
@@ -44681,7 +44561,7 @@
         "name": {
             "fr": "Kraknoix",
             "en": "Trapinch",
-            "jp": "Nuckrar"
+            "jp": "\u30ca\u30c3\u30af\u30e9\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/328/regular.png",
@@ -44818,7 +44698,7 @@
         "name": {
             "fr": "Vibraninf",
             "en": "Vibrava",
-            "jp": "Vibrava"
+            "jp": "\u30d3\u30d6\u30e9\u30fc\u30d0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/329/regular.png",
@@ -44952,7 +44832,7 @@
         "name": {
             "fr": "Lib\u00e9gon",
             "en": "Flygon",
-            "jp": "Flygon"
+            "jp": "\u30d5\u30e9\u30a4\u30b4\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/330/regular.png",
@@ -45085,7 +44965,7 @@
         "name": {
             "fr": "Cacnea",
             "en": "Cacnea",
-            "jp": "Sabonea"
+            "jp": "\u30b5\u30dc\u30cd\u30a2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/331/regular.png",
@@ -45217,7 +45097,7 @@
         "name": {
             "fr": "Cacturne",
             "en": "Cacturne",
-            "jp": "Noctus"
+            "jp": "\u30ce\u30af\u30bf\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/332/regular.png",
@@ -45353,7 +45233,7 @@
         "name": {
             "fr": "Tylton",
             "en": "Swablu",
-            "jp": "Tyltto"
+            "jp": "\u30c1\u30eb\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/333/regular.png",
@@ -45489,7 +45369,7 @@
         "name": {
             "fr": "Altaria",
             "en": "Altaria",
-            "jp": "Tyltalis"
+            "jp": "\u30c1\u30eb\u30bf\u30ea\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/334/regular.png",
@@ -45633,7 +45513,7 @@
         "name": {
             "fr": "Mangriff",
             "en": "Zangoose",
-            "jp": "Zangoose"
+            "jp": "\u30b6\u30f3\u30b0\u30fc\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/335/regular.png",
@@ -64253,7 +64133,7 @@
         ],
         "talents": [
             {
-                "name": "Adaptabilit\u00e9 ",
+                "name": "Adaptabilit\u00e9",
                 "tc": false
             },
             {
@@ -69062,10 +68942,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -71248,7 +71125,7 @@
         ],
         "talents": [
             {
-                "name": "C\u0153ur de Coq ",
+                "name": "C\u0153ur de Coq",
                 "tc": false
             },
             {
@@ -75043,10 +74920,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -75717,7 +75591,7 @@
                 "tc": false
             },
             {
-                "name": "Attention ",
+                "name": "Attention",
                 "tc": true
             }
         ],
@@ -76751,10 +76625,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -77779,10 +77650,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -77903,10 +77771,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -83973,10 +83838,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -85288,10 +85150,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -95139,10 +94998,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -95271,10 +95127,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -96196,10 +96049,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -97587,10 +97437,7 @@
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/regular.png",
             "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/shiny.png",
-            "gmax": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/gmax-regular.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/gmax-shiny.png"
-            }
+            "gmax": null
         },
         "types": [
             {
@@ -100560,7 +100407,7 @@
         ],
         "talents": [
             {
-                "name": "Cruaut\u00e9 ",
+                "name": "Cruaut\u00e9",
                 "tc": false
             },
             {
