@@ -27,11 +27,42 @@ class Pokemon(Resource):
         return JSON_pokemon[pokemon_id]
 
 class Generation(Resource):
-    def get(self, gen: int) -> dict:
-        if gen < 1 or gen > 9:
-            return {
-                "status" : 404,
-                "message": "Impossible d'afficher cette génération, car elle n'existe pas."
-            }
+    def get(self, gen: Union[str, int]) -> dict:
+        try:
+            gen = int(gen)
 
-        return [pkm for pkm in JSON_pokemon if pkm["generation"] == gen]
+            data = [pkm for pkm in JSON_pokemon if pkm["generation"] == gen]
+
+            if len(data) == 0:
+                data = {
+                    "status" : 404,
+                    "message": "Impossible d'afficher cette génération, car elle n'existe pas."
+                }
+        except Exception:
+            if gen.lower() == "list" or gen.lower() == "liste":
+                generations = {}
+                data = []
+
+                for pkm in JSON_pokemon:
+                    if pkm["pokedexId"] == 0:
+                        continue
+
+                    if pkm["generation"] not in generations:
+                        generations[pkm["generation"]] = {
+                            "generation": pkm["generation"],
+                            "from": pkm["pokedexId"],
+                            "to": pkm["pokedexId"]
+                        }
+                    else:
+                        generations[pkm["generation"]]["to"] = pkm["pokedexId"]
+
+                for gen in generations.values():
+                    data.append(gen)
+
+            else:
+                data = {
+                    "status" : 404,
+                    "message": "Impossible d'afficher cette génération, car elle n'existe pas."
+                }
+
+        return data
