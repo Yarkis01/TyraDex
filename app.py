@@ -23,7 +23,7 @@ def _page_not_found(error):
     return redirect("/")
 
 api.add_resource(Pokemon, "/pokemon", "/pokemon/<string:pokemon>")
-api.add_resource(Generation, "/gen/<int:gen>")
+api.add_resource(Generation, "/gen/<string:gen>")
 
 if __name__ == "__main__":
     app.run(debug = True)
