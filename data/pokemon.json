@@ -28229,7 +28229,7 @@
         "evolution": {
             "pre": null,
             "next": [
-                {"pokedexID":472,"name":"Scrovol","condition":"+1 Niveau avec Croc Rasoir / Contact d'un Croc Rasoir (LPA)"}
+                {"pokedexID":472,"name":"Scorovol","condition":"+1 Niveau avec Croc Rasoir / Contact d'un Croc Rasoir (LPA)"}
             ],
             "mega":null
         },
@@ -49201,7 +49201,7 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexID":433,"name":"Stalagmin"}
+                {"pokedexID":433,"name":"Stalgamin"}
             ],
             "next": null,
             "mega":[
@@ -63965,7 +63965,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":207,"name":"Scorovol"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,0 m",
         "weight": "42,5 kg",
         "egg_groups": [
@@ -64098,7 +64104,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":220,"name":"Marcacrin"},
+                {"pokedexID":221,"name":"Cochignon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,5 m",
         "weight": "291,0 kg",
         "egg_groups": [
@@ -64227,7 +64240,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":137,"name":"Porygon"},
+                {"pokedexID":233,"name":"Porygon2"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "34,0 kg",
         "egg_groups": [
@@ -64357,7 +64377,22 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":280,"name":"Tarsal"},
+                {"pokedexID":281,"name":"Kirlia"}
+            ],
+            "next": null,
+            "mega":[
+                {
+                    "orbe":"Gallamite",
+                    "sprites":{
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/475/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/475/mega-shiny.png"
+                    }
+                }
+            ]
+        },
         "height": "1,6 m",
         "weight": "52,0 kg",
         "egg_groups": [
@@ -64491,7 +64526,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":299,"name":"Tarinor"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "340,0 kg",
         "egg_groups": [
@@ -64616,7 +64657,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":355,"name":"Sk\u00e9l\u00e9nox"},
+                {"pokedexID":356,"name":"T\u00e9raclope"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,2 m",
         "weight": "106,6 kg",
         "egg_groups": [
@@ -64745,7 +64793,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":361,"name":"Stalgamin"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "26,6 kg",
         "egg_groups": [
@@ -66561,1230 +66615,6 @@
             {
                 "name": "F\u00e9e",
                 "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 2
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Combat",
-                "multiplier": 2
-            },
-            {
-                "name": "Poison",
-                "multiplier": 0
-            },
-            {
-                "name": "Sol",
-                "multiplier": 2
-            },
-            {
-                "name": "Vol",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Psy",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 0.5
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 0.5
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 2
-            },
-            {
-                "name": "Psy",
-                "multiplier": 2
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 2
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Eau",
-                "multiplier": 0.5
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Glace",
-                "multiplier": 2
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 2
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 2
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 2
-            },
-            {
-                "name": "Feu",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Eau",
-                "multiplier": 0.5
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 2
-            },
-            {
-                "name": "Glace",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 0.5
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 2
-            },
-            {
-                "name": "Vol",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 0.5
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Poison",
-                "multiplier": 2
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 0
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Acier",
-                "multiplier": 2
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Eau",
-                "multiplier": 2
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 2
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 2
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 0.5
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 2
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Combat",
-                "multiplier": 2
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 2
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 2
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 2
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Vol",
-                "multiplier": 2
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 2
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 2
-            },
-            {
-                "name": "Eau",
-                "multiplier": 0.5
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Glace",
-                "multiplier": 2
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 2
-            },
-            {
-                "name": "Sol",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Vol",
-                "multiplier": 2
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 2
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Poison",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Sol",
-                "multiplier": 2
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 2
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 2
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 2
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 2
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
-                "multiplier": 2
-            },
-            {
-                "name": "Feu",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Eau",
-                "multiplier": 2
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 2
-            },
-            {
-                "name": "Poison",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Sol",
-                "multiplier": 2
-            },
-            {
-                "name": "Vol",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 2
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 2
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 2
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 0
-            },
-            {
-                "name": "Glace",
-                "multiplier": 2
-            },
-            {
-                "name": "Combat",
-                "multiplier": 1
-            },
-            {
-                "name": "Poison",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 1
-            },
-            {
-                "name": "Roche",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 0
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0
-            },
-            {
-                "name": "Poison",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 2
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 2
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 1
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 1
-            },
-            {
-                "name": "Glace",
-                "multiplier": 1
-            },
-            {
-                "name": "Combat",
-                "multiplier": 2
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 1
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 0
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 2
-            },
-            {
-                "name": "Roche",
-                "multiplier": 1
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 2
-            },
-            {
-                "name": "Normal",
-                "multiplier": 1
-            },
-            {
-                "name": "Plante",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Feu",
-                "multiplier": 1
-            },
-            {
-                "name": "Eau",
-                "multiplier": 1
-            },
-            {
-                "name": "\u00c9lectrik",
-                "multiplier": 2
-            },
-            {
-                "name": "Glace",
-                "multiplier": 2
-            },
-            {
-                "name": "Combat",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Poison",
-                "multiplier": 1
-            },
-            {
-                "name": "Sol",
-                "multiplier": 0
-            },
-            {
-                "name": "Vol",
-                "multiplier": 1
-            },
-            {
-                "name": "Psy",
-                "multiplier": 1
-            },
-            {
-                "name": "Insecte",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Roche",
-                "multiplier": 2
-            },
-            {
-                "name": "Spectre",
-                "multiplier": 1
-            },
-            {
-                "name": "Dragon",
-                "multiplier": 1
-            },
-            {
-                "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
-            },
-            {
-                "name": "Acier",
-                "multiplier": 1
-            },
-            {
-                "name": "F\u00e9e",
-                "multiplier": 1
             }
         ],
         "evolution": null,
@@ -68031,7 +66861,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":496,"name":"Lianaja","condition":"Niveau 17"},
+                {"pokedexID":497,"name":"Majaspic","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "8,1 kg",
         "egg_groups": [
@@ -68157,7 +66994,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":495,"name":"Vip\u00e9lierre"}
+            ],
+            "next": [
+                {"pokedexID":497,"name":"Majaspic","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "16,0 kg",
         "egg_groups": [
@@ -68283,7 +67128,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":495,"name":"Vip\u00e9lierre"},
+                {"pokedexID":496,"name":"Lianaja"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "3,3 m",
         "weight": "63,0 kg",
         "egg_groups": [
@@ -68409,7 +67261,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":499,"name":"Gruikui","condition":"Niveau 17"},
+                {"pokedexID":500,"name":"Roitiflam","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,9 kg",
         "egg_groups": [
@@ -68538,7 +67397,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":498,"name":"Gruikui"}
+            ],
+            "next": [
+                {"pokedexID":500,"name":"Roitiflam","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "55,5 kg",
         "egg_groups": [
@@ -68667,7 +67534,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":498,"name":"Gruikui"},
+                {"pokedexID":499,"name":"Grotichon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "150,0 kg",
         "egg_groups": [
@@ -68792,7 +67666,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":502,"name":"Mateloutre","condition":"Niveau 17"},
+                {"pokedexID":503,"name":"Clarimal","condition":"Niveau 36"},
+                {"pokedexID":503,"name":"Clarimal de Hisui","condition":"Niveau 36 (Seulement PLA)"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "5,9 kg",
         "egg_groups": [
@@ -68917,7 +67799,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":501,"name":"Moustillon"}
+            ],
+            "next": [
+                {"pokedexID":503,"name":"Clamiral","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "24,5 kg",
         "egg_groups": [
@@ -69042,7 +67932,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":501,"name":"Moustillon"},
+                {"pokedexID":502,"name":"Mateloutre"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "94,6 kg",
         "egg_groups": [
@@ -69171,7 +68068,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":505,"name":"Miradar","condition":"Niveau 20"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "11,6 kg",
         "egg_groups": [
@@ -69300,7 +68203,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":504,"name":"Ratentif","condition":"Niveau 18"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "27,0 kg",
         "egg_groups": [
@@ -69429,7 +68338,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":507,"name":"Ponchien","condition":"Niveau 16"},
+                {"pokedexID":508,"name":"Mastouffe","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "4,1 kg",
         "egg_groups": [
@@ -69558,7 +68474,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":506,"name":"Ponchiot"}
+            ],
+            "next": [
+                {"pokedexID":508,"name":"Mastouffe","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "14,7 kg",
         "egg_groups": [
@@ -69687,7 +68611,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":506,"name":"Ponchiot"},
+                {"pokedexID":507,"name":"Ponchien"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "61,0 kg",
         "egg_groups": [
@@ -69816,7 +68747,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":510,"name":"L\u00e9opardus","condition":"Niveau 20"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "10,1 kg",
         "egg_groups": [
@@ -69945,7 +68882,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":509,"name":"Chacripan"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "37,5 kg",
         "egg_groups": [
@@ -70070,7 +69013,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":512,"name":"Feuiloutan","condition":"Pierre Plante"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "10,5 kg",
         "egg_groups": [
@@ -70195,7 +69144,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":511,"name":"Feuillajou"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "30,5 kg",
         "egg_groups": [
@@ -70320,7 +69275,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":514,"name":"Flamoutan","condition":"Pierre Feu"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "11,0 kg",
         "egg_groups": [
@@ -70445,7 +69406,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":513,"name":"Flamajou"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "28,0 kg",
         "egg_groups": [
@@ -70570,7 +69537,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":516,"name":"Flotoutan","condition":"Pierre Eau"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "13,5 kg",
         "egg_groups": [
@@ -70695,7 +69668,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":515,"name":"Flotajou"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "29,0 kg",
         "egg_groups": [
@@ -70824,7 +69803,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":518,"name":"Mushana","condition":"Pierre Lune"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "23,3 kg",
         "egg_groups": [
@@ -70953,7 +69938,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":517,"name":"Munna"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "60,5 kg",
         "egg_groups": [
@@ -71086,7 +70077,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":520,"name":"Colombeau","condition":"Niveau 21"},
+                {"pokedexID":521,"name":"D\u00e9flaisan","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,1 kg",
         "egg_groups": [
@@ -71219,7 +70217,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":519,"name":"Poichigeon"}
+            ],
+            "next": [
+                {"pokedexID":521,"name":"D\u00e9flaisan","condition":"Niveau 32"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "15,0 kg",
         "egg_groups": [
@@ -71352,7 +70358,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":519,"name":"Poichigeon"},
+                {"pokedexID":520,"name":"Colombeau"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "29,0 kg",
         "egg_groups": [
@@ -71481,7 +70494,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":523,"name":"Z\u00e9blitz","condition":"Niveau 27"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "29,8 kg",
         "egg_groups": [
@@ -71610,7 +70629,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":522,"name":"Z\u00e9bibron"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "79,5 kg",
         "egg_groups": [
@@ -71739,7 +70764,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":525,"name":"G\u00e9lithe","condition":"Niveau 25"},
+                {"pokedexID":526,"name":"Gigalithe","condition":"Echange"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "18,0 kg",
         "egg_groups": [
@@ -71868,7 +70900,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":524,"name":"Nodulithe"}
+            ],
+            "next": [
+                {"pokedexID":526,"name":"Gigalithe","condition":"Echange"}
+            ],
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "102,0 kg",
         "egg_groups": [
@@ -71997,7 +71037,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":524,"name":"Nodulithe"},
+                {"pokedexID":525,"name":"G\u00e9lithe"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "260,0 kg",
         "egg_groups": [
@@ -72130,7 +71177,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":528,"name":"Rhinolove","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "2,1 kg",
         "egg_groups": [
@@ -72264,7 +71317,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":527,"name":"Chovsourir"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,9 m",
         "weight": "10,5 kg",
         "egg_groups": [
@@ -72394,7 +71453,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":530,"name":"Minotaupe","condition":"Niveau 31"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "8,5 kg",
         "egg_groups": [
@@ -72527,7 +71592,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":529,"name":"Rototaupe"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "40,4 kg",
         "egg_groups": [
@@ -72785,7 +71856,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":533,"name":"Ouvrifier","condition":"Niveau 25"},
+                {"pokedexID":534,"name":"B\u00e9tochef","condition":"Echange"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "12,5 kg",
         "egg_groups": [
@@ -72914,7 +71992,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":532,"name":"Charpenti"}
+            ],
+            "next": [
+                {"pokedexID":534,"name":"B\u00e9tochef","condition":"Echange"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "40,0 kg",
         "egg_groups": [
@@ -73043,7 +72129,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":532,"name":"Charpenti"},
+                {"pokedexID":533,"name":"Ouvrifier"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "87,0 kg",
         "egg_groups": [
@@ -73172,7 +72265,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":536,"name":"Batracn\u00e9","condition":"Niveau 25"},
+                {"pokedexID":537,"name":"Crapustule","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "4,5 kg",
         "egg_groups": [
@@ -73305,7 +72405,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":535,"name":"Tritonde"}
+            ],
+            "next": [
+                {"pokedexID":537,"name":"Crapustule","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "17,0 kg",
         "egg_groups": [
@@ -73438,7 +72546,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":535,"name":"Tritonde"},
+                {"pokedexID":536,"name":"Batracn\u00e9"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "62,0 kg",
         "egg_groups": [
@@ -73829,7 +72944,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":541,"name":"Couverdure","condition":"Niveau 20"},
+                {"pokedexID":542,"name":"Manternel","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "2,5 kg",
         "egg_groups": [
@@ -73962,7 +73084,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":540,"name":"Larvayette"}
+            ],
+            "next": [
+                {"pokedexID":542,"name":"Manternel","condition":"Bonheur"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "7,3 kg",
         "egg_groups": [
@@ -74095,7 +73225,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":540,"name":"Larvayette"},
+                {"pokedexID":541,"name":"Couverdure"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "20,5 kg",
         "egg_groups": [
@@ -74228,7 +73365,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":544,"name":"Scobolide","condition":"Niveau 22"},
+                {"pokedexID":545,"name":"Brutapode","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,3 kg",
         "egg_groups": [
@@ -74361,7 +73505,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":543,"name":"Venipatte"}
+            ],
+            "next": [
+                {"pokedexID":545,"name":"Brutapode","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "58,5 kg",
         "egg_groups": [
@@ -74498,7 +73650,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":543,"name":"Venipatte","condition":"Niveau 25"},
+                {"pokedexID":544,"name":"Crapustule","condition":"Niveau 36"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,5 m",
         "weight": "200,5 kg",
         "egg_groups": [
@@ -74631,7 +73790,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":547,"name":"Farfaduvet","condition":"Pierre Soleil"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "0,6 kg",
         "egg_groups": [
@@ -74765,7 +73930,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":546,"name":"Doudouvet"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "6,6 kg",
         "egg_groups": [
@@ -74895,7 +74066,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":549,"name":"Frgilady","condition":"Pierre Soleil"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "6,6 kg",
         "egg_groups": [
@@ -75024,7 +74201,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":548,"name":"Chlorobule"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "16,3 kg",
         "egg_groups": [
@@ -75153,7 +74336,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":902,"name":"Paragruel","condition":"Si Motif Blanc + Avoir perdu 294 PV ou plus par contrecoup"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "18,0 kg",
         "egg_groups": [
@@ -75286,7 +74475,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":552,"name":"Escroco","condition":"Niveau 29"},
+                {"pokedexID":553,"name":"Crocorible","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "15,2 kg",
         "egg_groups": [
@@ -75419,7 +74615,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":551,"name":"Mascaïman"}
+            ],
+            "next": [
+                {"pokedexID":553,"name":"Crocorible","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "33,4 kg",
         "egg_groups": [
@@ -75552,7 +74756,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":551,"name":"Masca\u00efman"},
+                {"pokedexID":552,"name":"Escroco"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "96,3 kg",
         "egg_groups": [
@@ -75677,7 +74888,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":555,"name":"Darumacho","condition":"Niveau 35"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "37,5 kg",
         "egg_groups": [
@@ -75802,7 +75019,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":554,"name":"Darumarond"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "92,9 kg",
         "egg_groups": [
@@ -76064,7 +75287,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":558,"name":"Crabaraque","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "14,5 kg",
         "egg_groups": [
@@ -76198,7 +75427,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":557,"name":"Crabicoque"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "200,0 kg",
         "egg_groups": [
@@ -76332,7 +75567,13 @@
                 "multiplier": 4
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":544,"name":"Bagga\u00efd","condition":"Niveau 39"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "11,8 kg",
         "egg_groups": [
@@ -76466,7 +75707,13 @@
                 "multiplier": 4
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":559,"name":"Baggiguane"}
+            ],
+            "mega":null
+        },
+            "next": null,
         "height": "1,1 m",
         "weight": "30,0 kg",
         "egg_groups": [
@@ -76721,7 +75968,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":563,"name":"Tutankafer","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "1,5 kg",
         "egg_groups": [
@@ -76843,7 +76096,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":562,"name":"Tutafeh"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,7 m",
         "weight": "76,5 kg",
         "egg_groups": [
@@ -76977,7 +76236,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":565,"name":"M\u00e9gapagos","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "16,5 kg",
         "egg_groups": [
@@ -77111,7 +76376,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":564,"name":"Carapagos"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "81,0 kg",
         "egg_groups": [
@@ -77237,7 +76508,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":567,"name":"A\u00e9ropt\u00e9ryx","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,5 kg",
         "egg_groups": [
@@ -77363,7 +76640,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":566,"name":"Ark\u00e9apti"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "32,0 kg",
         "egg_groups": [
@@ -77493,7 +76776,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":569,"name":"Miasmax","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "31,0 kg",
         "egg_groups": [
@@ -77625,7 +76914,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":568,"name":"Miamiasme"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,9 m",
         "weight": "107,3 kg",
         "egg_groups": [
@@ -77746,7 +77041,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":571,"name":"Zoroark","condition":"Niveau 30"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "12,5 kg",
         "egg_groups": [
@@ -77867,7 +77168,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":570,"name":"Zorua"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "81,1 kg",
         "egg_groups": [
@@ -77996,7 +77303,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":573,"name":"Pashmilla","condition":"Pierre \u00c9clat"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,8 kg",
         "egg_groups": [
@@ -78125,7 +77438,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":572,"name":"Chinchidou"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "7,5 kg",
         "egg_groups": [
@@ -78254,7 +77573,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":575,"name":"Mesm\u00e9rella","condition":"Niveau 32"},
+                {"pokedexID":576,"name":"Sid\u00e9rella","condition":"Niveau 41"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,8 kg",
         "egg_groups": [
@@ -78383,7 +77709,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":574,"name":"Scrutella"}
+            ],
+            "next": [
+                {"pokedexID":576,"name":"Sid\u00e9rella","condition":"Niveau 41"}
+            ],
+            "mega":null
+        },
         "height": "0,7 m",
         "weight": "18,0 kg",
         "egg_groups": [
@@ -78512,7 +77846,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":574,"name":"Scrutella"},
+                {"pokedexID":575,"name":"Mesm\u00e9rella"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "44,0 kg",
         "egg_groups": [
@@ -78641,7 +77982,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":578,"name":"M\u00e9ios","condition":"Niveau 32"},
+                {"pokedexID":579,"name":"Symbios","condition":"Niveau 41"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "1,0 kg",
         "egg_groups": [
@@ -78770,7 +78118,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":577,"name":"Nucl\u00e9os"}
+            ],
+            "next": [
+                {"pokedexID":579,"name":"Symbios","condition":"Niveau 41"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "8,0 kg",
         "egg_groups": [
@@ -78788,7 +78144,7 @@
         "generation": 5,
         "category": "Pok\u00e9mon Multipl\u00e9",
         "name": {
-            "fr": "Symbios\u200e",
+            "fr": "Symbios",
             "en": "Reuniclus",
             "jp": "Lanculus"
         },
@@ -78899,7 +78255,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":577,"name":"Nucl\u00e9os"},
+                {"pokedexID":578,"name":"M\u00e9ios"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "20,1 kg",
         "egg_groups": [
@@ -79032,7 +78395,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":581,"name":"Lakm\u00e9cygne","condition":"Niveau 35"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "5,5 kg",
         "egg_groups": [
@@ -79166,7 +78535,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":580,"name":"Couaneton"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "24,2 kg",
         "egg_groups": [
@@ -79296,7 +78671,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":583,"name":"Sorboul","condition":"Niveau 35"},
+                {"pokedexID":584,"name":"Sorbouboul","condition":"Niveau 47"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "5,7 kg",
         "egg_groups": [
@@ -79425,7 +78807,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":582,"name":"Sorb\u00e9b\u00e9"}
+            ],
+            "next": [
+                {"pokedexID":584,"name":"Sorbouboul","condition":"Niveau 47"}
+            ],
+            "mega":null
+        },
         "height": "1,1 m",
         "weight": "41,0 kg",
         "egg_groups": [
@@ -79554,7 +78944,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":582,"name":"Sorb\u00e9b\u00e9"},
+                {"pokedexID":583,"name":"Sorboul"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,3 m",
         "weight": "57,5 kg",
         "egg_groups": [
@@ -79687,7 +79084,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":586,"name":"Haydaim","condition":"Niveau 34"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "19,5 kg",
         "egg_groups": [
@@ -79820,7 +79223,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":585,"name":"Vivaldaim"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,9 m",
         "weight": "92,5 kg",
         "egg_groups": [
@@ -80078,7 +79487,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":589,"name":"Lan\u00e7argot","condition":"Niveau Echange avec Escargaume"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "5,9 kg",
         "egg_groups": [
@@ -80211,7 +79626,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":588,"name":"Carabing"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "33,0 kg",
         "egg_groups": [
@@ -80340,7 +79761,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":591,"name":"Gaulet","condition":"Niveau 35"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "1,0 kg",
         "egg_groups": [
@@ -80469,7 +79896,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":590,"name":"Trompignon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "10,5 kg",
         "egg_groups": [
@@ -80602,7 +80035,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":593,"name":"Moyade","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "33,0 kg",
         "egg_groups": [
@@ -80735,7 +80174,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":592,"name":"Viskuse"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,2 m",
         "weight": "135,0 kg",
         "egg_groups": [
@@ -80998,7 +80443,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":596,"name":"Mygavolt","condition":"Niveau 36"}
+            ],
+            "mega":null
+        },
         "height": "0,1 m",
         "weight": "0,6 kg",
         "egg_groups": [
@@ -81131,7 +80582,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":595,"name":"Statitik"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "14,3 kg",
         "egg_groups": [
@@ -81256,7 +80713,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":598,"name":"Noacier","condition":"Niveau 40"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "18,8 kg",
         "egg_groups": [
@@ -81386,7 +80849,13 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":597,"name":"Grindur"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "110,0 kg",
         "egg_groups": [
@@ -81516,7 +80985,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":600,"name":"Clic","condition":"Niveau 38"},
+                {"pokedexID":601,"name":"Cliticlic","condition":"Niveau 49"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "21,0 kg",
         "egg_groups": [
@@ -81642,7 +81118,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":599,"name":"Tic"}
+            ],
+            "next": [
+                {"pokedexID":601,"name":"Cliticlic","condition":"Niveau 49"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "51,0 kg",
         "egg_groups": [
@@ -81768,7 +81252,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":599,"name":"Tic"},
+                {"pokedexID":600,"name":"Clic"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "81,0 kg",
         "egg_groups": [
@@ -81886,7 +81377,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":602,"name":"Lamp\u00e9roie","condition":"Niveau 38"},
+                {"pokedexID":603,"name":"Ohmassacre","condition":"Pierre Foudre"}
+            ],
+            "mega":null
+        },
         "height": "0,2 m",
         "weight": "0,3 kg",
         "egg_groups": [
@@ -82007,7 +81505,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":602,"name":"Anchwatt"}
+            ],
+            "next": [
+                {"pokedexID":604,"name":"Ohmassacre","condition":"Pierre Foudre"}
+            ],
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "22,0 kg",
         "egg_groups": [
@@ -82128,7 +81634,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":602,"name":"Anchwatt"},
+                {"pokedexID":603,"name":"Lamp\u00e9roie"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,1 m",
         "weight": "80,5 kg",
         "egg_groups": [
@@ -82257,7 +81770,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":606,"name":"Neitram","condition":"Niveau 42"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,0 kg",
         "egg_groups": [
@@ -82386,7 +81905,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":605,"name":"Lewsor"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "34,5 kg",
         "egg_groups": [
@@ -82519,7 +82044,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":608,"name":"M\u00e9lancolux","condition":"Niveau 41"},
+                {"pokedexID":609,"name":"Lugulabre","condition":"Pierre Nuit"}
+            ],
+            "mega":null
+        },
         "height": "0,3 m",
         "weight": "3,1 kg",
         "egg_groups": [
@@ -82652,7 +82184,15 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":607,"name":"Fun\u00e9cire"}
+            ],
+            "next": [
+                {"pokedexID":609,"name":"Lugulabre","condition":"Pierre Nuit"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "13,0 kg",
         "egg_groups": [
@@ -82789,7 +82329,14 @@
                 "multiplier": 0.5
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":607,"name":"Fun\u00e9cire"},
+                {"pokedexID":608,"name":"M\u00e9lancolux"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "34,3 kg",
         "egg_groups": [
@@ -82918,7 +82465,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":611,"name":"Incisache","condition":"Niveau 38"},
+                {"pokedexID":612,"name":"Tranchodon","condition":"Niveau 48"}
+            ],
+            "mega":null
+        },
         "height": "0,6 m",
         "weight": "18,0 kg",
         "egg_groups": [
@@ -83048,7 +82602,15 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":610,"name":"Coupenotte"}
+            ],
+            "next": [
+                {"pokedexID":612,"name":"Tranchodon","condition":"Niveau 48"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "36,0 kg",
         "egg_groups": [
@@ -83178,7 +82740,14 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":610,"name":"Coupenotte"},
+                {"pokedexID":611,"name":"Incisache"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,8 m",
         "weight": "105,5 kg",
         "egg_groups": [
@@ -83308,7 +82877,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":614,"name":"Polagriffe","condition":"Niveau 37"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "8,5 kg",
         "egg_groups": [
@@ -83437,7 +83012,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":613,"name":"Polarhume"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,6 m",
         "weight": "260,0 kg",
         "egg_groups": [
@@ -83684,7 +83265,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":617,"name":"Limaspeed","condition":"Echange avec Carabing"}
+            ],
+            "mega":null
+        },
         "height": "0,4 m",
         "weight": "7,7 kg",
         "egg_groups": [
@@ -83813,7 +83400,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":616,"name":"Escargaume"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "23,5 kg",
         "egg_groups": [
@@ -84076,7 +83669,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":620,"name":"Shaofouine","condition":"Niveau 50"}
+            ],
+            "mega":null
+        },
         "height": "0,8 m",
         "weight": "20,0 kg",
         "egg_groups": [
@@ -84206,7 +83805,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":619,"name":"Kungfouine"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,4 m",
         "weight": "35,5 kg",
         "egg_groups": [
@@ -84470,7 +84075,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":623,"name":"Golemastoc","condition":"Niveau 43"}
+            ],
+            "mega":null
+        },
         "height": "1,0 m",
         "weight": "92,0 kg",
         "egg_groups": [
@@ -84600,7 +84211,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":622,"name":"Gringolem"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "2,8 m",
         "weight": "330,0 kg",
         "egg_groups": [
@@ -84730,7 +84347,14 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":625,"name":"Scalproie","condition":"Niveau 52"},
+                {"pokedexID":983,"name":"Scalpereur","condition":"Vaincre 3 Scalproie avec Embl\u00e8me du G\u00e9n\u00e9ral + 1 Niveau"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "10,2 kg",
         "egg_groups": [
@@ -84863,7 +84487,15 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":624,"name":"Scalproie"}
+            ],
+            "next": [
+                {"pokedexID":983,"name":"Scalpereur","condition":"Vaincre 3 Scalproie avec Embl\u00e8me du G\u00e9n\u00e9ral + 1 Niveau"}
+            ],
+            "mega":null
+        },
         "height": "1,6 m",
         "weight": "70,0 kg",
         "egg_groups": [
@@ -85125,7 +84757,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":628,"name":"Gueriaigle","condition":"Niveau 54"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "10,5 kg",
         "egg_groups": [
@@ -85258,7 +84896,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":627,"name":"Furaiglon"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,5 m",
         "weight": "41,0 kg",
         "egg_groups": [
@@ -85391,7 +85035,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {"pokedexID":630,"name":"Vaututrice","condition":"Niveau 54"}
+            ],
+            "mega":null
+        },
         "height": "0,5 m",
         "weight": "9,0 kg",
         "egg_groups": [
@@ -85524,7 +85174,13 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {"pokedexID":629,"name":"Vostourno"}
+            ],
+            "next": null,
+            "mega":null
+        },
         "height": "1,2 m",
         "weight": "39,5 kg",
         "egg_groups": [
