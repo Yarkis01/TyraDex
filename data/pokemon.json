@@ -87742,7 +87742,7 @@
         "name": {
             "fr": "Bogu\u00e9risse",
             "en": "Quilladin",
-            "jp": "Hariborg"
+            "jp": "\u30cf\u30ea\u30dc\u30fc\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/651/regular.png",
@@ -87875,7 +87875,7 @@
         "name": {
             "fr": "Blind\u00e9pique",
             "en": "Chesnaught",
-            "jp": "Brigarron"
+            "jp": "\u30d6\u30ea\u30ac\u30ed\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/652/regular.png",
