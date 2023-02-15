@@ -125,6 +125,18 @@
         return response.redirected ? null : await response.json()
     }
 
+    async function setShinyLock(shinylock) {
+        if(shinylock) {
+            shiny.title = "Shiny Lock";
+            shiny.style.cursor = "not-allowed";
+            shiny.style.filter = "invert(53%) sepia(0%) saturate(0%) hue-rotate(350deg) brightness(95%) contrast(89%)";
+        } else {
+            shiny.title = "Non chromatique";
+            shiny.style.cursor = "pointer";
+            shiny.style.filter = "";
+        }
+    }
+
     async function setShiny(number) {
         if(pkm_data.sprites.shiny == null) {
             return;
@@ -135,9 +147,16 @@
             shiny.title = "Non chromatique";
             await changeCarouselImage(pkm_data.sprites.regular, image);
         } else {
-            shiny.src = "/assets/carousel/star_FILL1.svg";
-            shiny.title = "Chromatique";
-            await changeCarouselImage(pkm_data.sprites.shiny, image);
+            try {
+                shiny.src = "/assets/carousel/star_FILL1.svg";
+                shiny.title = "Chromatique";
+                await changeCarouselImage(pkm_data.sprites.shiny, image);
+            } catch {
+                setShinyLock(true);
+                is_shiny = !is_shiny;
+                console.log(`Erreur: Impossible d'afficher la forme shiny du Pokémon (${pkm_data.name.fr})`);
+                return setShiny();
+            }
         }
         is_shiny = !is_shiny;
     }
@@ -150,10 +169,9 @@
 
         shiny.style.visibility = "hidden";
         shiny.src = "/assets/carousel/star_FILL0.svg";
-        shiny.title = "Non chromatique";
-        shiny.style.cursor = "pointer";
-        shiny.style.filter = "";
         is_shiny = false;
+
+        await setShinyLock(false);
 
         types.style.visibility = "hidden";
         pkm_name.textContent   = "Chargement...";
@@ -166,9 +184,7 @@
         }
 
         if(pkm_data.sprites.shiny == null) {
-            shiny.title = "Shiny Lock";
-            shiny.style.cursor = "not-allowed";
-            shiny.style.filter = "invert(53%) sepia(0%) saturate(0%) hue-rotate(350deg) brightness(95%) contrast(89%)";
+            await setShinyLock(true);
         }
 
         await changeCarouselImage(pkm_data.sprites.regular, image);
