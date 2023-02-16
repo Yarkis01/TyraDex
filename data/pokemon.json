@@ -121521,27 +121521,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
@@ -121549,15 +121549,15 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -121565,7 +121565,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -121620,7 +121620,7 @@
         "name": {
             "fr": "Matourgeon",
             "en": "Floragato",
-            "jp": "Nyarote"
+            "jp": "\u30cb\u30e3\u30ed\u30fc\u30c6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/907/regular.png",
@@ -121654,27 +121654,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
@@ -121682,15 +121682,15 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -121698,7 +121698,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -121754,7 +121754,7 @@
         "name": {
             "fr": "Miascarade",
             "en": "Meowscarada",
-            "jp": "Masquernya"
+            "jp": "\u30de\u30b9\u30ab\u30fc\u30cb\u30e3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/908/regular.png",
@@ -121792,51 +121792,51 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Roche",
@@ -121844,7 +121844,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Dragon",
@@ -121852,7 +121852,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -121860,7 +121860,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -121891,7 +121891,7 @@
         "name": {
             "fr": "Chochodile",
             "en": "Fuecoco",
-            "jp": "Hogator"
+            "jp": "\u30db\u30b2\u30fc\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png",
@@ -121925,19 +121925,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -121945,7 +121945,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -121957,7 +121957,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -121969,11 +121969,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -121989,11 +121989,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -122023,7 +122023,7 @@
         "name": {
             "fr": "Crocogril",
             "en": "Crocalor",
-            "jp": "Achigator"
+            "jp": "\u30a2\u30c1\u30b2\u30fc\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/910/regular.png",
@@ -122057,19 +122057,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -122077,7 +122077,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -122089,7 +122089,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -122101,11 +122101,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -122121,11 +122121,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -122156,7 +122156,7 @@
         "name": {
             "fr": "Fl\u00e2migator",
             "en": "Skeledirge",
-            "jp": "Loudbone"
+            "jp": "\u30e9\u30a6\u30c9\u30dc\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/911/regular.png",
@@ -122194,19 +122194,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
                 "multiplier": 0
             },
             {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -122214,19 +122214,19 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -122238,15 +122238,15 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -122254,15 +122254,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -122292,7 +122292,7 @@
         "name": {
             "fr": "Coiffeton",
             "en": "Quaxly",
-            "jp": "Kuwassu"
+            "jp": "\u30af\u30ef\u30c3\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/912/regular.png",
@@ -122326,27 +122326,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -122390,7 +122390,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -122425,7 +122425,7 @@
         "name": {
             "fr": "Canarbello",
             "en": "Quaxwell",
-            "jp": "Welkamo"
+            "jp": "\u30a6\u30a7\u30eb\u30ab\u30e2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/913/regular.png",
@@ -122459,27 +122459,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -122523,7 +122523,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -122559,7 +122559,7 @@
         "name": {
             "fr": "Palmaval",
             "en": "Quaquaval",
-            "jp": "Wanival"
+            "jp": "\u30a6\u30a7\u30fc\u30cb\u30d0\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/914/regular.png",
@@ -122597,27 +122597,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -122633,19 +122633,19 @@
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -122657,15 +122657,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -122696,7 +122696,7 @@
         "name": {
             "fr": "Gourmelet",
             "en": "Lechonk",
-            "jp": "Gourton"
+            "jp": "\u30a6\u30a7\u30fc\u30cb\u30d0\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/915/regular.png",
@@ -122738,7 +122738,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -122758,7 +122758,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -122786,7 +122786,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -122966,7 +122966,7 @@
         "name": {
             "fr": "Tissenboule",
             "en": "Tarountula",
-            "jp": "Tamanchura"
+            "jp": "\u30bf\u30de\u30f3\u30c1\u30e5\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/917/regular.png",
@@ -123000,15 +123000,15 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -123024,7 +123024,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -123032,11 +123032,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -123048,7 +123048,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -123097,7 +123097,7 @@
         "name": {
             "fr": "Filentrappe",
             "en": "Spidops",
-            "jp": "Wanaid\u0101"
+            "jp": "\u30ef\u30ca\u30a4\u30c0\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/918/regular.png",
@@ -123131,15 +123131,15 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -123155,7 +123155,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -123163,11 +123163,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -123179,7 +123179,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -123228,7 +123228,7 @@
         "name": {
             "fr": "Lilliterelle",
             "en": "Nymble",
-            "jp": "Mamebatta"
+            "jp": "\u30de\u30e1\u30d0\u30c3\u30bf"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/919/regular.png",
@@ -123262,15 +123262,15 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -123286,7 +123286,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -123294,11 +123294,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -123310,7 +123310,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -123359,7 +123359,7 @@
         "name": {
             "fr": "Gambex",
             "en": "Lokix",
-            "jp": "Exleg"
+            "jp": "\u30a8\u30af\u30b9\u30ec\u30c3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/920/regular.png",
@@ -123397,15 +123397,15 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -123421,7 +123421,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -123429,27 +123429,27 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Dragon",
@@ -123457,7 +123457,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -123465,7 +123465,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -123494,7 +123494,7 @@
         "name": {
             "fr": "Pohm",
             "en": "Pawmi",
-            "jp": "Pamo"
+            "jp": "\u30d1\u30e2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/921/regular.png",
@@ -123536,7 +123536,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -123548,7 +123548,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -123564,11 +123564,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
@@ -123596,7 +123596,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -123630,7 +123630,7 @@
         "name": {
             "fr": "Pohmotte",
             "en": "Pawmo",
-            "jp": "Pamot"
+            "jp": "\u30d1\u30e2\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/922/regular.png",
@@ -123676,7 +123676,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -123688,7 +123688,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -123704,7 +123704,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -123712,15 +123712,15 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -123732,15 +123732,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -123771,7 +123771,7 @@
         "name": {
             "fr": "Pohmarmotte",
             "en": "Pawmot",
-            "jp": "Parmot"
+            "jp": "\u30d1\u30fc\u30e2\u30c3\u30c8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/923/regular.png",
@@ -123817,7 +123817,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -123829,7 +123829,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -123845,7 +123845,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -123853,15 +123853,15 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -123873,15 +123873,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -123911,7 +123911,7 @@
         "name": {
             "fr": "Compagnol",
             "en": "Tandemaus",
-            "jp": "Wakkanezumi"
+            "jp": "\u30ef\u30c3\u30ab\u30cd\u30ba\u30df"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/924/regular.png",
@@ -123953,7 +123953,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -123973,7 +123973,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -124001,7 +124001,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -124134,7 +124134,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -124142,7 +124142,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Acier",
@@ -124176,7 +124176,7 @@
         "name": {
             "fr": "P\u00e2tachiot",
             "en": "Fidough",
-            "jp": "Pupimocchi"
+            "jp": "\u30d1\u30d4\u30e2\u30c3\u30c1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/926/regular.png",
@@ -124214,7 +124214,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -124234,11 +124234,11 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
@@ -124254,7 +124254,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -124266,15 +124266,15 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
@@ -124308,7 +124308,7 @@
         "name": {
             "fr": "Briochien",
             "en": "Dachsbun",
-            "jp": "Bowtzel"
+            "jp": "\u30d0\u30a6\u30c3\u30c4\u30a7\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/927/regular.png",
@@ -124346,7 +124346,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -124366,11 +124366,11 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
@@ -124386,7 +124386,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -124398,15 +124398,15 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
@@ -124440,7 +124440,7 @@
         "name": {
             "fr": "Olivini",
             "en": "Smoliv",
-            "jp": "Min\u012bbu"
+            "jp": "\u30df\u30cb\u30fc\u30d6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/928/regular.png",
@@ -124478,43 +124478,43 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -124522,7 +124522,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -124530,7 +124530,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -124576,7 +124576,7 @@
         "name": {
             "fr": "Olivado",
             "en": "Dolliv",
-            "jp": "Or\u012bnyo"
+            "jp": "\u30aa\u30ea\u30fc\u30cb\u30e7"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/929/regular.png",
@@ -124614,43 +124614,43 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -124658,7 +124658,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -124666,7 +124666,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -124713,7 +124713,7 @@
         "name": {
             "fr": "Arboliva",
             "en": "Arboliva",
-            "jp": "Or\u012bva"
+            "jp": "\u30aa\u30ea\u30fc\u30f4\u30a1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/930/regular.png",
@@ -124751,43 +124751,43 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -124795,7 +124795,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -124803,7 +124803,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -124982,7 +124982,7 @@
         "name": {
             "fr": "Selutin",
             "en": "Nacli",
-            "jp": "Kojio"
+            "jp": "\u30b3\u30b8\u30aa"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/932/regular.png",
@@ -125118,7 +125118,7 @@
         "name": {
             "fr": "Amassel",
             "en": "Naclstack",
-            "jp": "Jiozumu"
+            "jp": "\u30b8\u30aa\u30c5\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/933/regular.png",
@@ -125255,7 +125255,7 @@
         "name": {
             "fr": "Gigansel",
             "en": "Garganacl",
-            "jp": "Kyoji\u014dn"
+            "jp": "\u30ad\u30e7\u30b8\u30aa\u30fc\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/934/regular.png",
@@ -125391,7 +125391,7 @@
         "name": {
             "fr": "Charbambin",
             "en": "Charcadet",
-            "jp": "Carbou"
+            "jp": "\u30ab\u30eb\u30dc\u30a6"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/935/regular.png",
@@ -125425,19 +125425,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -125445,7 +125445,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -125457,7 +125457,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -125469,11 +125469,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -125489,11 +125489,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -125523,7 +125523,7 @@
         "name": {
             "fr": "Carmadura",
             "en": "Armarouge",
-            "jp": "Gurenarma"
+            "jp": "\u30b0\u30ec\u30f3\u30a2\u30eb\u30de"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/936/regular.png",
@@ -125561,19 +125561,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -125581,11 +125581,11 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -125593,7 +125593,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -125601,7 +125601,7 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
@@ -125609,11 +125609,11 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -125621,15 +125621,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -125658,7 +125658,7 @@
         "name": {
             "fr": "Malvalame",
             "en": "Ceruledge",
-            "jp": "Soublades"
+            "jp": "\u30bd\u30a6\u30d6\u30ec\u30a4\u30ba"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/937/regular.png",
@@ -125696,19 +125696,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
                 "multiplier": 0
             },
             {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -125716,19 +125716,19 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -125740,15 +125740,15 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -125756,15 +125756,15 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -125793,7 +125793,7 @@
         "name": {
             "fr": "T\u00eatampoule",
             "en": "Tadbulb",
-            "jp": "Zupika"
+            "jp": "\u30ba\u30d4\u30ab"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/938/regular.png",
@@ -125835,7 +125835,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -125847,7 +125847,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -125863,11 +125863,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
@@ -125895,7 +125895,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -125928,7 +125928,7 @@
         "name": {
             "fr": "Ampibidou",
             "en": "Bellibolt",
-            "jp": "Harabar\u012b"
+            "jp": "\u30cf\u30e9\u30d0\u30ea\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/939/regular.png",
@@ -125970,7 +125970,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -125982,7 +125982,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -125998,11 +125998,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
@@ -126030,7 +126030,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -126063,7 +126063,7 @@
         "name": {
             "fr": "Zap\u00e9trel",
             "en": "Wattrel",
-            "jp": "Kaiden"
+            "jp": "\u30ab\u30a4\u30c7\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/940/regular.png",
@@ -126105,11 +126105,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
@@ -126125,11 +126125,11 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -126137,11 +126137,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
@@ -126149,11 +126149,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -126169,7 +126169,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -126203,7 +126203,7 @@
         "name": {
             "fr": "Fulgulairo",
             "en": "Kilowattrel",
-            "jp": "Taikaiden"
+            "jp": "\u30bf\u30a4\u30ab\u30a4\u30c7\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/941/regular.png",
@@ -126245,11 +126245,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
@@ -126265,11 +126265,11 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -126277,11 +126277,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
@@ -126289,11 +126289,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -126309,7 +126309,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -126343,7 +126343,7 @@
         "name": {
             "fr": "Grondogue",
             "en": "Maschiff",
-            "jp": "Orachifu"
+            "jp": "\u30aa\u30e9\u30c1\u30d5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/942/regular.png",
@@ -126385,7 +126385,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -126405,7 +126405,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -126421,11 +126421,11 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -126433,7 +126433,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Dragon",
@@ -126441,7 +126441,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -126449,7 +126449,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -126478,7 +126478,7 @@
         "name": {
             "fr": "Dogrino",
             "en": "Mabosstiff",
-            "jp": "Mafitifu"
+            "jp": "\u30de\u30d5\u30a3\u30c6\u30a3\u30d5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/943/regular.png",
@@ -126520,7 +126520,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -126540,7 +126540,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -126556,11 +126556,11 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -126568,7 +126568,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Dragon",
@@ -126576,7 +126576,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -126584,7 +126584,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": {
@@ -126613,7 +126613,7 @@
         "name": {
             "fr": "Gribouraigne",
             "en": "Shroodle",
-            "jp": "Shirushur\u016b"
+            "jp": "\u30b7\u30eb\u30b7\u30e5\u30eb\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/944/regular.png",
@@ -126752,7 +126752,7 @@
         "name": {
             "fr": "Tag-Tag",
             "en": "Grafaiai",
-            "jp": "Taginguru"
+            "jp": "\u30bf\u30ae\u30f3\u30b0\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/945/regular.png",
@@ -126891,7 +126891,7 @@
         "name": {
             "fr": "Virovent",
             "en": "Bramblin",
-            "jp": "Anokusa"
+            "jp": "\u30a2\u30ce\u30af\u30b5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/946/regular.png",
@@ -126929,31 +126929,31 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
                 "multiplier": 0
             },
             {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
@@ -126961,11 +126961,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -126981,7 +126981,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -126989,7 +126989,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -127026,7 +127026,7 @@
         "name": {
             "fr": "Virevorreur",
             "en": "Brambleghast",
-            "jp": "Anohoragusa"
+            "jp": "\u30a2\u30ce\u30db\u30e9\u30b0\u30b5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/947/regular.png",
@@ -127064,31 +127064,31 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
-            },
-            {
-                "name": "Plante",
                 "multiplier": 0
             },
             {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
@@ -127096,11 +127096,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127116,7 +127116,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -127124,7 +127124,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -127161,7 +127161,7 @@
         "name": {
             "fr": "Terracool",
             "en": "Toedscool",
-            "jp": "Nonokurage"
+            "jp": "\u30ce\u30ce\u30af\u30e9\u30b2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/948/regular.png",
@@ -127199,11 +127199,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -127211,11 +127211,11 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Combat",
@@ -127227,11 +127227,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127239,11 +127239,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -127292,7 +127292,7 @@
         "name": {
             "fr": "Terracruel",
             "en": "Toedscruel",
-            "jp": "Rikukurage"
+            "jp": "\u30ea\u30af\u30af\u30e9\u30b2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/949/regular.png",
@@ -127330,11 +127330,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -127342,11 +127342,11 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Combat",
@@ -127358,11 +127358,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127370,11 +127370,11 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -127423,7 +127423,7 @@
         "name": {
             "fr": "Craparoi",
             "en": "Klawf",
-            "jp": "Gakegani"
+            "jp": "\u30ac\u30b1\u30ac\u30cb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/950/regular.png",
@@ -127552,7 +127552,7 @@
         "name": {
             "fr": "Pimito",
             "en": "Capsakid",
-            "jp": "Kapusaiji"
+            "jp": "\u30ab\u30d7\u30b5\u30a4\u30b8"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/951/regular.png",
@@ -127590,27 +127590,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
@@ -127618,15 +127618,15 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127634,7 +127634,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -127687,7 +127687,7 @@
         "name": {
             "fr": "Scovilain",
             "en": "Scovillain",
-            "jp": "Sukoviran"
+            "jp": "\u30b9\u30b3\u30f4\u30a3\u30e9\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/952/regular.png",
@@ -127729,11 +127729,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.25
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.25
             },
             {
                 "name": "Feu",
@@ -127745,7 +127745,7 @@
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -127757,7 +127757,7 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Sol",
@@ -127765,7 +127765,7 @@
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127777,7 +127777,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -127793,11 +127793,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -127826,7 +127826,7 @@
         "name": {
             "fr": "L\u00e9boul\u00e9rou",
             "en": "Rellor",
-            "jp": "Shigaroko"
+            "jp": "\u30b7\u30ac\u30ed\u30b3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/953/regular.png",
@@ -127860,15 +127860,15 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -127884,7 +127884,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -127892,11 +127892,11 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Psy",
@@ -127908,7 +127908,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -127957,7 +127957,7 @@
         "name": {
             "fr": "B\u00e9rasca",
             "en": "Rabsca",
-            "jp": "Berakasu"
+            "jp": "\u30d9\u30e9\u30ab\u30b9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/954/regular.png",
@@ -128092,7 +128092,7 @@
         "name": {
             "fr": "Flotillon",
             "en": "Flittle",
-            "jp": "Hirahina"
+            "jp": "\u30d2\u30e9\u30d2\u30ca"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/955/regular.png",
@@ -128134,7 +128134,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -128154,7 +128154,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -128170,11 +128170,11 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -128182,7 +128182,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -128190,7 +128190,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -128227,7 +128227,7 @@
         "name": {
             "fr": "Cl\u00e9opsytra",
             "en": "Espathra",
-            "jp": "Kuesupatora"
+            "jp": "\u30af\u30a8\u30b9\u30d1\u30c8\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/956/regular.png",
@@ -128269,7 +128269,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -128289,7 +128289,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
@@ -128305,11 +128305,11 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -128317,7 +128317,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -128325,7 +128325,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -128362,7 +128362,7 @@
         "name": {
             "fr": "Forgerette",
             "en": "Tinkatink",
-            "jp": "Kanuchan"
+            "jp": "\u30ab\u30cc\u30c1\u30e3\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/957/regular.png",
@@ -128408,11 +128408,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -128424,7 +128424,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -128432,27 +128432,27 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -128460,11 +128460,11 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -128472,7 +128472,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -128502,7 +128502,7 @@
         "name": {
             "fr": "Forgella",
             "en": "Tinkatuff",
-            "jp": "Nakanuchan"
+            "jp": "\u30ca\u30ab\u30cc\u30c1\u30e3\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/958/regular.png",
@@ -128548,11 +128548,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -128564,7 +128564,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -128572,27 +128572,27 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -128600,11 +128600,11 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -128612,7 +128612,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -128643,7 +128643,7 @@
         "name": {
             "fr": "Forgelina",
             "en": "Tinkaton",
-            "jp": "Dekanuchan"
+            "jp": "\u30c7\u30ab\u30cc\u30c1\u30e3\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/959/regular.png",
@@ -128689,11 +128689,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -128705,7 +128705,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -128713,27 +128713,27 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -128741,11 +128741,11 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
@@ -128753,7 +128753,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -128783,7 +128783,7 @@
         "name": {
             "fr": "Taupikeau",
             "en": "Wiglett",
-            "jp": "Umidigda"
+            "jp": "\u30a6\u30df\u30c7\u30a3\u30b0\u30c0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/960/regular.png",
@@ -128821,27 +128821,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -128885,7 +128885,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -128918,7 +128918,7 @@
         "name": {
             "fr": "Triopikeau",
             "en": "Wugtrio",
-            "jp": "Umitrio"
+            "jp": "\u30a6\u30df\u30c8\u30ea\u30aa"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/961/regular.png",
@@ -128956,27 +128956,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -129020,7 +129020,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -129053,7 +129053,7 @@
         "name": {
             "fr": "Lestombaile",
             "en": "Bombirdier",
-            "jp": "Otoshidori"
+            "jp": "\u30aa\u30c8\u30b7\u30c9\u30ea"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/962/regular.png",
@@ -129084,8 +129084,88 @@
                 "tc": true
             }
         ],
-        "stats": {},
-        "resistances": [],
+        "stats": {
+            "hp": 70,
+            "atk":103,
+            "def":85,
+            "spe_atk": 60,
+            "spe_def": 85,
+            "vit": 82
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 2
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
+        ],
         "evolution": null,
         "height": "1,5 m",
         "weight": "42,9 kg",
@@ -129106,7 +129186,7 @@
         "name": {
             "fr": "Dofin",
             "en": "Finizen",
-            "jp": "Namiiruka"
+            "jp": "\u30ca\u30df\u30a4\u30eb\u30ab"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/963/regular.png",
@@ -129136,27 +129216,27 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 2
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -129200,7 +129280,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -129361,7 +129441,7 @@
         "name": {
             "fr": "Vrombi",
             "en": "Varoom",
-            "jp": "Buroron"
+            "jp": "\u30d6\u30ed\u30ed\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/965/regular.png",
@@ -129496,7 +129576,7 @@
         "name": {
             "fr": "Vrombotor",
             "en": "Revavroom",
-            "jp": "Buroror\u014dmu"
+            "jp": "\u30d6\u30ed\u30ed\u30ed\u30fc\u30e0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/966/regular.png",
@@ -129631,7 +129711,7 @@
         "name": {
             "fr": "Motorizard",
             "en": "Cyclizar",
-            "jp": "Mototokage"
+            "jp": "\u30e2\u30c8\u30c8\u30ab\u30b2"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/967/regular.png",
@@ -129761,7 +129841,7 @@
         "name": {
             "fr": "Ferdeter",
             "en": "Orthworm",
-            "jp": "Mimizuzu"
+            "jp": "\u30df\u30df\u30ba\u30ba"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/968/regular.png",
@@ -129886,7 +129966,7 @@
         "name": {
             "fr": "Germ\u00e9clat",
             "en": "Glimmet",
-            "jp": "Kir\u0101me"
+            "jp": "\u30ad\u30e9\u30fc\u30e1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/969/regular.png",
@@ -129924,19 +130004,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -129952,23 +130032,23 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -129988,11 +130068,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -130021,7 +130101,7 @@
         "name": {
             "fr": "Flor\u00e9clat",
             "en": "Glimmora",
-            "jp": "Kirafuroru"
+            "jp": "\u30ad\u30e9\u30d5\u30ed\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/970/regular.png",
@@ -130059,19 +130139,19 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
@@ -130087,23 +130167,23 @@
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -130123,11 +130203,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -130156,7 +130236,7 @@
         "name": {
             "fr": "Toutombe",
             "en": "Greavard",
-            "jp": "Bochi"
+            "jp": "\u30dc\u30c1"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/971/regular.png",
@@ -130190,11 +130270,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -130214,11 +130294,11 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Sol",
@@ -130234,7 +130314,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -130242,7 +130322,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -130250,7 +130330,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -130287,7 +130367,7 @@
         "name": {
             "fr": "Tomberro",
             "en": "Houndstone",
-            "jp": "Hakadoggu"
+            "jp": "\u30cf\u30ab\u30c9\u30c3\u30b0"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/972/regular.png",
@@ -130321,11 +130401,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -130345,11 +130425,11 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Sol",
@@ -130365,7 +130445,7 @@
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
@@ -130373,7 +130453,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Dragon",
@@ -130381,7 +130461,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -130418,7 +130498,7 @@
         "name": {
             "fr": "Flamenroule",
             "en": "Flamigo",
-            "jp": "Karamingo"
+            "jp": "\u30ab\u30e9\u30df\u30f3\u30b4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/973/regular.png",
@@ -130551,7 +130631,7 @@
         "name": {
             "fr": "Pi\u00e9tac\u00e9",
             "en": "Cetoddle",
-            "jp": "Arukujira"
+            "jp": "\u30a2\u30eb\u30af\u30b8\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/974/regular.png",
@@ -130593,11 +130673,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -130609,11 +130689,11 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -130637,7 +130717,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -130653,7 +130733,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
@@ -130686,7 +130766,7 @@
         "name": {
             "fr": "Balbal\u00e8ze",
             "en": "Cetitan",
-            "jp": "Harukujira"
+            "jp": "\u30cf\u30eb\u30af\u30b8\u30e9"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/975/regular.png",
@@ -130728,11 +130808,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -130744,11 +130824,11 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -130772,7 +130852,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -130788,7 +130868,7 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
@@ -130821,7 +130901,7 @@
         "name": {
             "fr": "D\u00e9lestin",
             "en": "Veluza",
-            "jp": "Migar\u016bsa"
+            "jp": "\u30df\u30ac\u30eb\u30fc\u30b5"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/976/regular.png",
@@ -130950,7 +131030,7 @@
         "name": {
             "fr": "Oyacata",
             "en": "Dondozo",
-            "jp": "Heyrusher"
+            "jp": "\u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/977/regular.png",
@@ -131079,7 +131159,7 @@
         "name": {
             "fr": "Nigirigon",
             "en": "Tatsugiri",
-            "jp": "Syaritatsu"
+            "jp": "\u30b7\u30e3\u30ea\u30bf\u30c4"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/978/regular.png",
@@ -131208,7 +131288,7 @@
         "name": {
             "fr": "Courrousinge",
             "en": "Annihilape",
-            "jp": "Konoyozaru"
+            "jp": "\u30b3\u30ce\u30e8\u30b6\u30eb"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/979/regular.png",
@@ -131348,7 +131428,7 @@
         "name": {
             "fr": "Terraiste",
             "en": "Clodsire",
-            "jp": "Dooh"
+            "jp": "\u30c9\u30aa\u30fc"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/980/regular.png",
@@ -131394,7 +131474,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -131402,27 +131482,27 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0.25
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -131430,15 +131510,15 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
@@ -131458,7 +131538,7 @@
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 0.5
             }
         ],
         "evolution": {
@@ -131488,7 +131568,7 @@
         "name": {
             "fr": "Farigiraf",
             "en": "Farigiraf",
-            "jp": "Rikikirin"
+            "jp": "\u30ea\u30ad\u30ad\u30ea\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/981/regular.png",
@@ -131534,7 +131614,7 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Feu",
@@ -131570,11 +131650,11 @@
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Insecte",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Roche",
@@ -131582,7 +131662,7 @@
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Dragon",
@@ -131590,7 +131670,7 @@
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Acier",
@@ -131762,7 +131842,7 @@
         "name": {
             "fr": "Scalpereur",
             "en": "Kingambit",
-            "jp": "Dodogezan"
+            "jp": "\u30c9\u30c9\u30b2\u30b6\u30f3"
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/983/regular.png",
@@ -131808,11 +131888,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Eau",
@@ -131824,27 +131904,27 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 4
             },
             {
                 "name": "Poison",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Sol",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Vol",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Psy",
-                "multiplier": 1
+                "multiplier": 0
             },
             {
                 "name": "Insecte",
@@ -131852,23 +131932,23 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Spectre",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "T\u00e9n\u00e8bres",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "F\u00e9e",
@@ -133404,11 +133484,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
@@ -133416,11 +133496,11 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -133428,7 +133508,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -133452,7 +133532,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -133460,7 +133540,7 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "T\u00e9n\u00e8bres",
@@ -133468,11 +133548,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": null,
@@ -133533,78 +133613,78 @@
             
         },
         "resistances": [
-        {
-            "name": "Normal",
-            "multiplier": 0.5
-        },
-        {
-            "name": "Plante",
-            "multiplier": 0
-        },
-        {
-            "name": "Feu",
-            "multiplier": 1
-        },
-        {
-            "name": "Eau",
-            "multiplier": 1
-        },
-        {
-            "name": "\u00c9lectrik",
-            "multiplier": 1
-        },
-        {
-            "name": "Glace",
-            "multiplier": 1
-        },
-        {
-            "name": "Combat",
-            "multiplier": 1
-        },
-        {
-            "name": "Poison",
-            "multiplier": 1
-        },
-        {
-            "name": "Sol",
-            "multiplier": 1
-        },
-        {
-            "name": "Vol",
-            "multiplier": 1
-        },
-        {
-            "name": "Psy",
-            "multiplier": 1
-        },
-        {
-            "name": "Insecte",
-            "multiplier": 1
-        },
-        {
-            "name": "Roche",
-            "multiplier": 1
-        },
-        {
-            "name": "Spectre",
-            "multiplier": 1
-        },
-        {
-            "name": "Dragon",
-            "multiplier": 1
-        },
-        {
-            "name": "T\u00e9n\u00e8bres",
-            "multiplier": 1
-        },
-        {
-            "name": "Acier",
-            "multiplier": 1
-        },
-        {
-            "name": "F\u00e9e",
-            "multiplier": 1
-        }
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.5
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 2
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 2
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
     ],
         "evolution": null,
         "height": "0,8 m",
@@ -133665,11 +133745,11 @@
         "resistances": [
             {
                 "name": "Normal",
-                "multiplier": 0.5
+                "multiplier": 1
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Feu",
@@ -133677,11 +133757,11 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
-                "multiplier": 1
+                "multiplier": 0.5
             },
             {
                 "name": "Glace",
@@ -133689,7 +133769,7 @@
             },
             {
                 "name": "Combat",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Poison",
@@ -133713,7 +133793,7 @@
             },
             {
                 "name": "Roche",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "Spectre",
@@ -133721,7 +133801,7 @@
             },
             {
                 "name": "Dragon",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "T\u00e9n\u00e8bres",
@@ -133729,11 +133809,11 @@
             },
             {
                 "name": "Acier",
-                "multiplier": 1
+                "multiplier": 2
             },
             {
                 "name": "F\u00e9e",
-                "multiplier": 1
+                "multiplier": 2
             }
         ],
         "evolution": null,
