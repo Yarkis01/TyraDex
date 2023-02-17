@@ -123,8 +123,6 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     text-decoration: none;
 }
 
-#carousel__shiny {cursor: pointer;}
-
 #tryit-container {
     display: flex;
     flex-direction: column;

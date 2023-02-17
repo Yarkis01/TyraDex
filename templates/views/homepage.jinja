@@ -33,7 +33,7 @@
 
 <section id="routes-container">
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png" />
         <p>
             <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
@@ -41,7 +41,7 @@
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" />
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
@@ -73,7 +73,7 @@
         <input type="text" placeholder="pokemon/bulbizarre" id="tryit__input-text" />
         <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
     </div>
-    <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/bulbizarre')">pokemon/bulbizarre</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
+    <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/tyranocif')">pokemon/tyranocif</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
     <pre id="tryit__json-area">
         <img src="/assets/carousel/loader.svg" />
     </pre>
@@ -125,15 +125,38 @@
         return response.redirected ? null : await response.json()
     }
 
+    async function setShinyLock(shinylock) {
+        if(shinylock) {
+            shiny.title = "Shiny Lock";
+            shiny.style.cursor = "not-allowed";
+            shiny.style.filter = "invert(53%) sepia(0%) saturate(0%) hue-rotate(350deg) brightness(95%) contrast(89%)";
+        } else {
+            shiny.title = "Non chromatique";
+            shiny.style.cursor = "pointer";
+            shiny.style.filter = "";
+        }
+    }
+
     async function setShiny(number) {
+        if(pkm_data.sprites.shiny == null) {
+            return;
+        }
+
         if(is_shiny) {
             shiny.src   = "/assets/carousel/star_FILL0.svg";
             shiny.title = "Non chromatique";
-            await changeCarouselImage(pkm_data.sprite.regular, image);
+            await changeCarouselImage(pkm_data.sprites.regular, image);
         } else {
-            shiny.src = "/assets/carousel/star_FILL1.svg";
-            shiny.title = "Chromatique";
-            await changeCarouselImage(pkm_data.sprite.shiny, image);
+            try {
+                shiny.src = "/assets/carousel/star_FILL1.svg";
+                shiny.title = "Chromatique";
+                await changeCarouselImage(pkm_data.sprites.shiny, image);
+            } catch {
+                setShinyLock(true);
+                is_shiny = !is_shiny;
+                console.log(`Erreur: Impossible d'afficher la forme shiny du Pokémon (${pkm_data.name.fr})`);
+                return setShiny();
+            }
         }
         is_shiny = !is_shiny;
     }
@@ -148,6 +171,8 @@
         shiny.src = "/assets/carousel/star_FILL0.svg";
         is_shiny = false;
 
+        await setShinyLock(false);
+
         types.style.visibility = "hidden";
         pkm_name.textContent   = "Chargement...";
 
@@ -158,7 +183,11 @@
             return;
         }
 
-        await changeCarouselImage(pkm_data.sprite.regular, image);
+        if(pkm_data.sprites.shiny == null) {
+            await setShinyLock(true);
+        }
+
+        await changeCarouselImage(pkm_data.sprites.regular, image);
         
         pkm_name.textContent = pkm_data.name.fr;
         shiny.style.visibility  = "visible";
