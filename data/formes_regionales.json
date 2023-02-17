@@ -60,7 +60,9 @@
             },
             "height": "0,3 m",
             "weight": "3,8 kg",
-            "egg_groups": ["Terrestre"],
+            "egg_groups": [
+                "Terrestre"
+            ],
             "sexe": {
                 "male": 50,
                 "female": 50
@@ -128,12 +130,1129 @@
             },
             "height": "0,7 m",
             "weight": "25,5 kg",
-            "egg_groups": ["Terrestre"],
+            "egg_groups": [
+                "Terrestre"
+            ],
             "sexe": {
                 "male": 50,
                 "female": 50
             },
             "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "26": {
+            "pokedexId": 26,
+            "generation": 7,
+            "category": "Pokémon Souris",
+            "name": {
+                "fr": "Raichu d'Alola",
+                "en": "Alolan Raichu",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30a4\u30c1\u30e5\u30a6"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+            ],
+            "talents": [
+                {"name": "Surf Caudal", "tc": false}
+            ],
+            "stats": {
+                "hp": 60,
+                "atk": 85,
+                "def": 50,
+                "spe_atk": 95,
+                "spe_def": 85,
+                "vit": 110
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 0.5},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 2},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":172, "name": "Pichu"},
+                    {"pokedexId":25, "name": "Pikachu"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "21,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 75,
+            "level_100": 1000000
+        },
+        "27": {
+            "pokedexId": 27,
+            "generation": 7,
+            "category": "Pokémon Souris",
+            "name": {
+                "fr": "Sabelette d'Alola",
+                "en": "Alolan Sandshrew",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+            ],
+            "talents": [
+                {"name": "Rideau Neige", "tc": false},
+                {"name": "Chasse-Neige", "tc": true}
+            ],
+            "stats": {
+                "hp": 50,
+                "atk": 75,
+                "def": 90,
+                "spe_atk": 10,
+                "spe_def": 35,
+                "vit": 40
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 4},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.25},
+                {"name": "Combat", "multiplier": 4},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 0.5},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":28, "name": "Sablaireau d'Alola","condition":"Pierre Glace"}
+                ],
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "40,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "28": {
+            "pokedexId": 28,
+            "generation": 7,
+            "category": "Pokémon Souris",
+            "name": {
+                "fr": "Sablaireau d'Alola",
+                "en": "Alolan Sandslash",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9\u30d1\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+            ],
+            "talents": [
+                {"name": "Rideau Neige", "tc": false},
+                {"name": "Chasse-Neige", "tc": true}
+            ],
+            "stats": {
+                "hp": 75,
+                "atk": 100,
+                "def": 120,
+                "spe_atk": 25,
+                "spe_def": 65,
+                "vit": 65
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 4},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.25},
+                {"name": "Combat", "multiplier": 4},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 0.5},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":27, "name": "Sabelette d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,2 m",
+            "weight": "55,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 90,
+            "level_100": 1000000
+        },
+        "37": {
+            "pokedexId": 37,
+            "generation": 7,
+            "category": "Pokémon Renard",
+            "name": {
+                "fr": "Goupix d'Alola",
+                "en": "Alolan Vulpix",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"}
+            ],
+            "talents": [
+                {"name": "Rideau Neige", "tc": false},
+                {"name": "Alerte Neige", "tc": true}
+            ],
+            "stats": {
+                "hp": 38,
+                "atk": 41,
+                "def": 40,
+                "spe_atk": 50,
+                "spe_def": 65,
+                "vit": 65
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 2},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":38, "name": "Feunard d'Alola", "condition":"Pierre Glace"}
+                ],
+                "mega": null
+            },
+            "height": "0,6 m",
+            "weight": "9,9 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 190,
+            "level_100": 1000000
+        },
+        "38": {
+            "pokedexId": 38,
+            "generation": 7,
+            "category": "Pokémon Renard",
+            "name": {
+                "fr": "Feunard d'Alola",
+                "en": "Alolan Ninetales",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
+                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+            ],
+            "talents": [
+                {"name": "Rideau Neige", "tc": false},
+                {"name": "Alerte Neige", "tc": true}
+            ],
+            "stats": {
+                "hp": 73,
+                "atk": 67,
+                "def": 75,
+                "spe_atk": 81,
+                "spe_def": 100,
+                "vit": 109
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 0},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 4},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":37, "name": "Goupix d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,1 m",
+            "weight": "19,9 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 25,
+                "female": 75
+            },
+            "catch_rate": 75,
+            "level_100": 1000000
+        },
+        "50": {
+            "pokedexId": 50,
+            "generation": 7,
+            "category": "Pokémon Taupe",
+            "name": {
+                "fr": "Taupiqueur d'Alola",
+                "en": "Alolan Diglett",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c7\u30a3\u30b0\u30c0"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+            ],
+            "talents": [
+                {"name": "Voile Sable", "tc": false},
+                {"name": "M\u00e8che Rebelle", "tc": false},
+                {"name": "Force Sable", "tc": true}
+            ],
+            "stats": {
+                "hp": 10,
+                "atk": 55,
+                "def": 30,
+                "spe_atk": 35,
+                "spe_def": 45,
+                "vit": 90
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 0},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.25},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 0.5},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "Fée", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":51, "name": "Triopikeur d'Alola", "condition":"Niveau 26"}
+                ],
+                "mega": null
+            },
+            "height": "0,2 m",
+            "weight": "1,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "51": {
+            "pokedexId": 51,
+            "generation": 7,
+            "category": "Pokémon Taupe",
+            "name": {
+                "fr": "Triopikeur d'Alola",
+                "en": "Alolan Dugtrio",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c0\u30b0\u30c8\u30ea\u30aa"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+            ],
+            "talents": [
+                {"name": "Voile Sable", "tc": false},
+                {"name": "M\u00e8che Rebelle", "tc": false},
+                {"name": "Force Sable", "tc": true}
+            ],
+            "stats": {
+                "hp": 35,
+                "atk": 100,
+                "def": 60,
+                "spe_atk": 50,
+                "spe_def": 70,
+                "vit": 110
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 0},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.25},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 0.5},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "Fée", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":50, "name": "Taupiqueur d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "66,6 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 50,
+            "level_100": 1000000
+        },
+        "52": {
+            "pokedexId": 52,
+            "generation": 7,
+            "category": "Pokémon Chad\u00e9go\u00eft",
+            "name": {
+                "fr": "Miaouss d'Alola",
+                "en": "Alolan Meowth",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30cb\u30e3\u30fc\u30b9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+            ],
+            "talents": [
+                {"name": "Ramassage", "tc": false},
+                {"name": "Technicien", "tc": false},
+                {"name": "Phobique", "tc": true}
+            ],
+            "stats": {
+                "hp": 40,
+                "atk": 35,
+                "def": 35,
+                "spe_atk": 50,
+                "spe_def": 40,
+                "vit": 90
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":53, "name": "Persian d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
+                ],
+                "mega": null
+            },
+            "height": "0,4 m",
+            "weight": "4,2 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "53": {
+            "pokedexId": 53,
+            "generation": 7,
+            "category": "Pokémon Chadeville",
+            "name": {
+                "fr": "Persian d'Alola",
+                "en": "Alolan Persian",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30da\u30eb\u30b7\u30a2\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+            ],
+            "talents": [
+                {"name": "Toison \u00c9paisse", "tc": false},
+                {"name": "Technicien", "tc": false},
+                {"name": "Phobique", "tc": true}
+            ],
+            "stats": {
+                "hp": 65,
+                "atk": 60,
+                "def": 60,
+                "spe_atk": 75,
+                "spe_def": 65,
+                "vit": 115
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":52, "name": "Miaouss d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "0,4 m",
+            "weight": "4,2 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "74": {
+            "pokedexId": 74,
+            "generation": 7,
+            "category": "Pokémon Roche",
+            "name": {
+                "fr": "Racaillou d'Alola",
+                "en": "Alolan Geodude",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30a4\u30b7\u30c4\u30d6\u30c6"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+            ],
+            "talents": [
+                {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
+                {"name": "Fermet\u00e9", "tc": false},
+                {"name": "Peau \u00c9lectrique", "tc": true}
+            ],
+            "stats": {
+                "hp": 40,
+                "atk": 80,
+                "def": 100,
+                "spe_atk": 30,
+                "spe_def": 30,
+                "vit": 20
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 2},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 4},
+                {"name": "Vol", "multiplier": 0.25},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":75, "name": "Gravalanch d'Alola","condition":"Niveau 25"},
+                    {"pokedexId":76, "name": "Grolem d'Alola","condition":"Echange"}
+                ],
+                "mega": null
+            },
+            "height": "0,4 m",
+            "weight": "20,3 kg",
+            "egg_groups": [
+                "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1059860
+        },
+        "75": {
+            "pokedexId": 75,
+            "generation": 7,
+            "category": "Pokémon Roche",
+            "name": {
+                "fr": "Gravalanch d'Alola",
+                "en": "Alolan Graveler",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+            ],
+            "talents": [
+                {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
+                {"name": "Fermet\u00e9", "tc": false},
+                {"name": "Peau \u00c9lectrique", "tc": true}
+            ],
+            "stats": {
+                "hp": 55,
+                "atk": 95,
+                "def": 115,
+                "spe_atk": 45,
+                "spe_def": 45,
+                "vit": 35
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 2},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 4},
+                {"name": "Vol", "multiplier": 0.25},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":74, "name": "Racaillou d'Alola"}
+                ],
+                "next": [
+                    {"pokedexId":76, "name": "Grolem d'Alola","condition":"Echange"}
+                ],
+                "mega": null
+            },
+            "height": "1,0 m",
+            "weight": "110,0 kg",
+            "egg_groups": [
+                "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 120,
+            "level_100": 1059860
+        },
+        "76": {
+            "pokedexId": 76,
+            "generation": 7,
+            "category": "Pokémon Titanesque",
+            "name": {
+                "fr": "Grolem d'Alola",
+                "en": "Alolan Golem",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30cb\u30e3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+            ],
+            "talents": [
+                {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
+                {"name": "Fermet\u00e9", "tc": false},
+                {"name": "Peau \u00c9lectrique", "tc": true}
+            ],
+            "stats": {
+                "hp": 80,
+                "atk": 120,
+                "def": 130,
+                "spe_atk": 55,
+                "spe_def": 65,
+                "vit": 45
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 2},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 4},
+                {"name": "Vol", "multiplier": 0.25},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":74, "name": "Racaillou d'Alola"},
+                    {"pokedexId":75, "name": "Gravalanch d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,7 m",
+            "weight": "316,0 kg",
+            "egg_groups": [
+                "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 45,
+            "level_100": 1059860
+        },
+        "88": {
+            "pokedexId": 88,
+            "generation": 7,
+            "category": "Pokémon D\u88e9gueu",
+            "name": {
+                "fr": "Tadmorv d'Alola",
+                "en": "Alolan Grimer",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30bf\u30fc"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+            ],
+            "talents": [
+                {"name": "Toxitouche", "tc": false},
+                {"name": "Gloutonnerie", "tc": false},
+                {"name": "Osmose", "tc": true}
+            ],
+            "stats": {
+                "hp": 80,
+                "atk": 80,
+                "def": 50,
+                "spe_atk": 40,
+                "spe_def": 50,
+                "vit": 25
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId":89, "name": "Grotadmorv d'Alola", "condition":"Niveau 38"}
+                ],
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "42,0 kg",
+            "egg_groups": [
+                "Amorphe"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 190,
+            "level_100": 1000000
+        },
+        "89": {
+            "pokedexId": 89,
+            "generation": 7,
+            "category": "Pokémon D\u88e9gueu",
+            "name": {
+                "fr": "Grotadmorv d'Alola",
+                "en": "Alolan Muk",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30c8\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+            ],
+            "talents": [
+                {"name": "Toxitouche", "tc": false},
+                {"name": "Gloutonnerie", "tc": false},
+                {"name": "Osmose", "tc": true}
+            ],
+            "stats": {
+                "hp": 105,
+                "atk": 105,
+                "def": 75,
+                "spe_atk": 65,
+                "spe_def": 100,
+                "vit": 50
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":88, "name": "Tadmorv d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,0 m",
+            "weight": "52,0 kg",
+            "egg_groups": [
+                "Amorphe"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 75,
+            "level_100": 1000000
+        },
+        "103": {
+            "pokedexId": 103,
+            "generation": 7,
+            "category": "Pokémon Fruitpalme",
+            "name": {
+                "fr": "Noadkoko d'Alola",
+                "en": "Alolan Exeggutor",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ca\u30c3\u30b7\u30fc"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+            ],
+            "talents": [
+                {"name": "Fouille", "tc": false},
+                {"name": "R\u00e9colte", "tc": true}
+            ],
+            "stats": {
+                "hp": 95,
+                "atk": 105,
+                "def": 85,
+                "spe_atk": 125,
+                "spe_def": 75,
+                "vit": 45
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.25},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 0.25},
+                {"name": "Électrik", "multiplier": 0.25},
+                {"name": "Glace", "multiplier": 4},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 0.5},
+                {"name": "Vol", "multiplier": 2},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 2},
+                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":102, "name":"Noeunoeuf"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "10,9 m",
+            "weight": "415,6 kg",
+            "egg_groups": [
+                "V\u00e9g\u00e9tal"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 45,
+            "level_100": 1250000
+        },
+        "105":{
+            "pokedexId": 105,
+            "generation": 7,
+            "category": "Pokémon Gard'Os",
+            "name": {
+                "fr": "Ossatueur d'Alola",
+                "en": "Alolan Marowak",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u30ac\u30e9\u30ac\u30e9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+            ],
+            "talents": [
+                {"name": "Corps Maudit", "tc": false},
+                {"name": "Paratonnerre", "tc": false},
+                {"name": "T\u00eate de Roc", "tc": true}
+            ],
+            "stats": {
+                "hp": 60,
+                "atk": 80,
+                "def": 110,
+                "spe_atk": 50,
+                "spe_def": 80,
+                "vit": 45
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 0},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.25},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 2},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "Fée", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId":102, "name":"Osselait"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,0 m",
+            "weight": "34,à kg",
+            "egg_groups": [
+                "Monstrueux"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 75,
             "level_100": 1000000
         }
     },
