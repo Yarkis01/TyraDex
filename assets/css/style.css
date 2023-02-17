@@ -59,7 +59,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 }
 
 #carousel__left-arrow img, #carousel_right-arrow img {width: 72px; cursor: pointer;}
-#carousel__image, #carousel__loading {width: 60%; height: 60%;}
+#carousel__image, #carousel__loading {width: 50vw; max-width: 300px;}
 
 #carousel__loading {
     animation: 2s ease-in-out infinite loading;
