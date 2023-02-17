@@ -116,11 +116,13 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 }
 #routes-container div p span {color: var(--secondary-color); font-weight: bold; font-family: 'Lexend Deca', sans-serif;}
 #routes-container div p a {
+    display: block;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 6px;
     border-radius: 4px;
     text-decoration: none;
+    text-align: center;
 }
 
 #tryit-container {

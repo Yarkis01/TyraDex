@@ -1,0 +1,149 @@
+{
+    "alola": {
+        "19": {
+            "pokedexId": 19,
+            "generation": 7,
+            "category": "Pokémon Souris",
+            "name": {
+                "fr": "Rattata d'Alola",
+                "en": "Alolan Rattata",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b3\u30e9\u30c3\u30bf"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Ténèbres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+            ],
+            "talents": [
+                {"name": "Gloutonnerie", "tc": false},
+                {"name": "Agitation", "tc": false},
+                {"name": "Isograisse", "tc": true}
+            ],
+            "stats": {
+                "hp": 30,
+                "atk": 56,
+                "def": 35,
+                "spe_atk": 25,
+                "spe_def": 35,
+                "vit": 72
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 4},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": 20, "name": "Rattatac d'Alola", "condition": "Niveau 20 (nuit)"}
+                ],
+                "mega": null
+            },
+            "height": "0,3 m",
+            "weight": "3,8 kg",
+            "egg_groups": ["Terrestre"],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        },
+        "20": {
+            "pokedexId": 20,
+            "generation": 7,
+            "category": "Pokémon Souris",
+            "name": {
+                "fr": "Rattatac d'Alola",
+                "en": "Alolan Raticate",
+                "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30c3\u30bf"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/shiny_alola.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Ténèbres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+            ],
+            "talents": [
+                {"name": "Gloutonnerie", "tc": false},
+                {"name": "Agitation", "tc": false},
+                {"name": "Isograisse", "tc": true}
+            ],
+            "stats": {
+                "hp": 75,
+                "atk": 71,
+                "def": 70,
+                "spe_atk": 40,
+                "spe_def": 80,
+                "vit": 77
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "Électrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 4},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "Fée", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": 19, "name": "Rattata d'Alola"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "25,5 kg",
+            "egg_groups": ["Terrestre"],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        }
+    },
+    "galar": {
+
+    },
+    "hisui": {
+
+    },
+    "paldea": {
+        
+    }
+}
