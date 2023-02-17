@@ -3,7 +3,7 @@
         "19": {
             "pokedexId": 19,
             "generation": 7,
-            "category": "Pokémon Souris",
+            "category": "Pok\u00e9mon Souris",
             "name": {
                 "fr": "Rattata d'Alola",
                 "en": "Alolan Rattata",
@@ -15,7 +15,7 @@
                 "gmax": null
             },
             "types": [
-                {"name": "Ténèbres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
                 {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
             ],
             "talents": [
@@ -36,7 +36,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 4},
                 {"name": "Poison", "multiplier": 1},
@@ -47,9 +47,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 2}
+                {"name": "F\u00e9e", "multiplier": 2}
             ],
             "evolution": {
                 "pre": null,
@@ -73,7 +73,7 @@
         "20": {
             "pokedexId": 20,
             "generation": 7,
-            "category": "Pokémon Souris",
+            "category": "Pok\u00e9mon Souris",
             "name": {
                 "fr": "Rattatac d'Alola",
                 "en": "Alolan Raticate",
@@ -85,7 +85,7 @@
                 "gmax": null
             },
             "types": [
-                {"name": "Ténèbres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
                 {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
             ],
             "talents": [
@@ -106,7 +106,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 4},
                 {"name": "Poison", "multiplier": 1},
@@ -117,9 +117,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 2}
+                {"name": "F\u00e9e", "multiplier": 2}
             ],
             "evolution": {
                 "pre": [
@@ -143,7 +143,7 @@
         "26": {
             "pokedexId": 26,
             "generation": 7,
-            "category": "Pokémon Souris",
+            "category": "Pok\u00e9mon Souris",
             "name": {
                 "fr": "Raichu d'Alola",
                 "en": "Alolan Raichu",
@@ -174,7 +174,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 0.5},
                 {"name": "Poison", "multiplier": 1},
@@ -185,9 +185,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 2},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 2},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
                 {"name": "Acier", "multiplier": 0.5},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": [
@@ -212,7 +212,7 @@
         "27": {
             "pokedexId": 27,
             "generation": 7,
-            "category": "Pokémon Souris",
+            "category": "Pok\u00e9mon Souris",
             "name": {
                 "fr": "Sabelette d'Alola",
                 "en": "Alolan Sandshrew",
@@ -244,7 +244,7 @@
                 {"name": "Plante", "multiplier": 0.5},
                 {"name": "Feu", "multiplier": 4},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 0.25},
                 {"name": "Combat", "multiplier": 4},
                 {"name": "Poison", "multiplier": 0},
@@ -255,9 +255,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 0.5},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 0.5}
+                {"name": "F\u00e9e", "multiplier": 0.5}
             ],
             "evolution": {
                 "pre": null,
@@ -281,7 +281,7 @@
         "28": {
             "pokedexId": 28,
             "generation": 7,
-            "category": "Pokémon Souris",
+            "category": "Pok\u00e9mon Souris",
             "name": {
                 "fr": "Sablaireau d'Alola",
                 "en": "Alolan Sandslash",
@@ -313,7 +313,7 @@
                 {"name": "Plante", "multiplier": 0.5},
                 {"name": "Feu", "multiplier": 4},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 0.25},
                 {"name": "Combat", "multiplier": 4},
                 {"name": "Poison", "multiplier": 0},
@@ -324,9 +324,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 0.5},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 0.5}
+                {"name": "F\u00e9e", "multiplier": 0.5}
             ],
             "evolution": {
                 "pre": [
@@ -350,7 +350,7 @@
         "37": {
             "pokedexId": 37,
             "generation": 7,
-            "category": "Pokémon Renard",
+            "category": "Pok\u00e9mon Renard",
             "name": {
                 "fr": "Goupix d'Alola",
                 "en": "Alolan Vulpix",
@@ -381,7 +381,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 2},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 0.5},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 1},
@@ -392,9 +392,9 @@
                 {"name": "Roche", "multiplier": 2},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 2},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": null,
@@ -418,7 +418,7 @@
         "38": {
             "pokedexId": 38,
             "generation": 7,
-            "category": "Pokémon Renard",
+            "category": "Pok\u00e9mon Renard",
             "name": {
                 "fr": "Feunard d'Alola",
                 "en": "Alolan Ninetales",
@@ -450,7 +450,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 2},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 0.5},
                 {"name": "Combat", "multiplier": 1},
                 {"name": "Poison", "multiplier": 2},
@@ -461,9 +461,9 @@
                 {"name": "Roche", "multiplier": 2},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 0},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 4},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": [
@@ -487,7 +487,7 @@
         "50": {
             "pokedexId": 50,
             "generation": 7,
-            "category": "Pokémon Taupe",
+            "category": "Pok\u00e9mon Taupe",
             "name": {
                 "fr": "Taupiqueur d'Alola",
                 "en": "Alolan Diglett",
@@ -520,7 +520,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 2},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 0},
+                {"name": "\u00c9lectrik", "multiplier": 0},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 0},
@@ -531,9 +531,9 @@
                 {"name": "Roche", "multiplier": 0.25},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 0.5},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 0.5},
-                {"name": "Fée", "multiplier": 0.5}
+                {"name": "F\u00e9e", "multiplier": 0.5}
             ],
             "evolution": {
                 "pre": null,
@@ -557,7 +557,7 @@
         "51": {
             "pokedexId": 51,
             "generation": 7,
-            "category": "Pokémon Taupe",
+            "category": "Pok\u00e9mon Taupe",
             "name": {
                 "fr": "Triopikeur d'Alola",
                 "en": "Alolan Dugtrio",
@@ -590,7 +590,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 2},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 0},
+                {"name": "\u00c9lectrik", "multiplier": 0},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 0},
@@ -601,9 +601,9 @@
                 {"name": "Roche", "multiplier": 0.25},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 0.5},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 0.5},
-                {"name": "Fée", "multiplier": 0.5}
+                {"name": "F\u00e9e", "multiplier": 0.5}
             ],
             "evolution": {
                 "pre": [
@@ -627,7 +627,7 @@
         "52": {
             "pokedexId": 52,
             "generation": 7,
-            "category": "Pokémon Chad\u00e9go\u00eft",
+            "category": "Pok\u00e9mon Chad\u00e9go\u00eft",
             "name": {
                 "fr": "Miaouss d'Alola",
                 "en": "Alolan Meowth",
@@ -659,7 +659,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 1},
@@ -670,9 +670,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0.5},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 2}
+                {"name": "F\u00e9e", "multiplier": 2}
             ],
             "evolution": {
                 "pre": null,
@@ -696,7 +696,7 @@
         "53": {
             "pokedexId": 53,
             "generation": 7,
-            "category": "Pokémon Chadeville",
+            "category": "Pok\u00e9mon Chadeville",
             "name": {
                 "fr": "Persian d'Alola",
                 "en": "Alolan Persian",
@@ -728,7 +728,7 @@
                 {"name": "Plante", "multiplier": 1},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 1},
@@ -739,9 +739,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0.5},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 2}
+                {"name": "F\u00e9e", "multiplier": 2}
             ],
             "evolution": {
                 "pre": [
@@ -765,7 +765,7 @@
         "74": {
             "pokedexId": 74,
             "generation": 7,
-            "category": "Pokémon Roche",
+            "category": "Pok\u00e9mon Roche",
             "name": {
                 "fr": "Racaillou d'Alola",
                 "en": "Alolan Geodude",
@@ -798,7 +798,7 @@
                 {"name": "Plante", "multiplier": 2},
                 {"name": "Feu", "multiplier": 0.5},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 0.5},
@@ -809,9 +809,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": null,
@@ -836,7 +836,7 @@
         "75": {
             "pokedexId": 75,
             "generation": 7,
-            "category": "Pokémon Roche",
+            "category": "Pok\u00e9mon Roche",
             "name": {
                 "fr": "Gravalanch d'Alola",
                 "en": "Alolan Graveler",
@@ -869,7 +869,7 @@
                 {"name": "Plante", "multiplier": 2},
                 {"name": "Feu", "multiplier": 0.5},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 0.5},
@@ -880,9 +880,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": [
@@ -908,7 +908,7 @@
         "76": {
             "pokedexId": 76,
             "generation": 7,
-            "category": "Pokémon Titanesque",
+            "category": "Pok\u00e9mon Titanesque",
             "name": {
                 "fr": "Grolem d'Alola",
                 "en": "Alolan Golem",
@@ -941,7 +941,7 @@
                 {"name": "Plante", "multiplier": 2},
                 {"name": "Feu", "multiplier": 0.5},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 2},
                 {"name": "Poison", "multiplier": 0.5},
@@ -952,9 +952,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": [
@@ -979,7 +979,7 @@
         "88": {
             "pokedexId": 88,
             "generation": 7,
-            "category": "Pokémon D\u88e9gueu",
+            "category": "Pok\u00e9mon D\u88e9gueu",
             "name": {
                 "fr": "Tadmorv d'Alola",
                 "en": "Alolan Grimer",
@@ -1012,7 +1012,7 @@
                 {"name": "Plante", "multiplier": 0.5},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 1},
                 {"name": "Poison", "multiplier": 0.5},
@@ -1023,9 +1023,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0.5},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": null,
@@ -1049,7 +1049,7 @@
         "89": {
             "pokedexId": 89,
             "generation": 7,
-            "category": "Pokémon D\u88e9gueu",
+            "category": "Pok\u00e9mon D\u88e9gueu",
             "name": {
                 "fr": "Grotadmorv d'Alola",
                 "en": "Alolan Muk",
@@ -1082,7 +1082,7 @@
                 {"name": "Plante", "multiplier": 0.5},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 1},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 1},
                 {"name": "Combat", "multiplier": 1},
                 {"name": "Poison", "multiplier": 0.5},
@@ -1093,9 +1093,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 0.5},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 0.5},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 1}
+                {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
                 "pre": [
@@ -1119,7 +1119,7 @@
         "103": {
             "pokedexId": 103,
             "generation": 7,
-            "category": "Pokémon Fruitpalme",
+            "category": "Pok\u00e9mon Fruitpalme",
             "name": {
                 "fr": "Noadkoko d'Alola",
                 "en": "Alolan Exeggutor",
@@ -1151,7 +1151,7 @@
                 {"name": "Plante", "multiplier": 0.25},
                 {"name": "Feu", "multiplier": 1},
                 {"name": "Eau", "multiplier": 0.25},
-                {"name": "Électrik", "multiplier": 0.25},
+                {"name": "\u00c9lectrik", "multiplier": 0.25},
                 {"name": "Glace", "multiplier": 4},
                 {"name": "Combat", "multiplier": 1},
                 {"name": "Poison", "multiplier": 2},
@@ -1162,9 +1162,9 @@
                 {"name": "Roche", "multiplier": 1},
                 {"name": "Spectre", "multiplier": 1},
                 {"name": "Dragon", "multiplier": 2},
-                {"name": "Ténèbres", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
                 {"name": "Acier", "multiplier": 1},
-                {"name": "Fée", "multiplier": 2}
+                {"name": "F\u00e9e", "multiplier": 2}
             ],
             "evolution": {
                 "pre": [
@@ -1188,7 +1188,7 @@
         "105":{
             "pokedexId": 105,
             "generation": 7,
-            "category": "Pokémon Gard'Os",
+            "category": "Pok\u00e9mon Gard'Os",
             "name": {
                 "fr": "Ossatueur d'Alola",
                 "en": "Alolan Marowak",
@@ -1221,7 +1221,7 @@
                 {"name": "Plante", "multiplier": 0.5},
                 {"name": "Feu", "multiplier": 0.5},
                 {"name": "Eau", "multiplier": 2},
-                {"name": "Électrik", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
                 {"name": "Glace", "multiplier": 0.5},
                 {"name": "Combat", "multiplier": 0},
                 {"name": "Poison", "multiplier": 0.5},
@@ -1232,9 +1232,9 @@
                 {"name": "Roche", "multiplier": 2},
                 {"name": "Spectre", "multiplier": 2},
                 {"name": "Dragon", "multiplier": 1},
-                {"name": "Ténèbres", "multiplier": 2},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
                 {"name": "Acier", "multiplier": 0.5},
-                {"name": "Fée", "multiplier": 0.5}
+                {"name": "F\u00e9e", "multiplier": 0.5}
             ],
             "evolution": {
                 "pre": [
@@ -1244,7 +1244,7 @@
                 "mega": null
             },
             "height": "1,0 m",
-            "weight": "34,à kg",
+            "weight": "34,0 kg",
             "egg_groups": [
                 "Monstrueux"
             ],
@@ -1263,6 +1263,142 @@
 
     },
     "paldea": {
-        
+        "128":{
+            "pokedexId": 128,
+            "generation": 9,
+            "category": "Pok\u00e9mon Buffle",
+            "name": {
+                "fr": "Tauros de Paldea",
+                "en": "Paldean Tauros",
+                "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30b1\u30f3\u30bf\u30ed\u30b9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/regular_paldea.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/shiny_paldea.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+            ],
+            "talents": [
+                {"name": "Intimidation", "tc": false},
+                {"name": "Col\u00e9rique", "tc": false},
+                {"name": "Ruminant", "tc": true}
+            ],
+            "stats": {
+                "hp": 75,
+                "atk": 110,
+                "def": 105,
+                "spe_atk": 30,
+                "spe_def": 70,
+                "vit": 100
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 2},
+                {"name": "Psy", "multiplier": 2},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": null,
+                "mega": null
+            },
+            "height": "1,4 m",
+            "weight": "115,5 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 100,
+                "female": 0
+            },
+            "catch_rate": 45,
+            "level_100": 1250000
+        },
+        "194":{
+            "pokedexId": 194,
+            "generation": 9,
+            "category": "Pok\u00e9mon Poizzon",
+            "name": {
+                "fr": "Axoloto de Paldea",
+                "en": "Paldean Wooper",
+                "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30a6\u30d1\u30fc"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/regular_paldea.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/shiny_paldea.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
+            ],
+            "talents": [
+                {"name": "Point Poison", "tc": false},
+                {"name": "Absorbe-Eau", "tc": false},
+                {"name": "Inconscient", "tc": true}
+            ],
+            "stats": {
+                "hp": 55,
+                "atk": 45,
+                "def": 45,
+                "spe_atk": 25,
+                "spe_def": 25,
+                "vit": 15
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "\u00c9lectrik", "multiplier": 0},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 0.5},
+                {"name": "Poison", "multiplier": 0.25},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 2},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "980", "name": "Terraiste", "condition": "Niveau 20"}
+                ],
+                "mega": null
+            },
+            "height": "0,4 m",
+            "weight": "11,5 kg",
+            "egg_groups": [
+                "Aquatique 1", "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 255,
+            "level_100": 1000000
+        }
     }
 }
