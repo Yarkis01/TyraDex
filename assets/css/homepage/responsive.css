@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    #routes-container div {
+        flex: 0 0 85%;
+    }
+    #carousel__infobox, #tryit-container, #warnings {
+        margin: 16px 6.5vw 16px 6.5vw;
+    }
+
+    #tryit-container div {
+        flex-direction: column;
+    }
+
+    #tryit-container div label {
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+    }
+
+    #tryit-container div input {
+        margin: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    #tryit__input-button {
+        border-radius: 0 0 8px 8px;
+        margin: 0;
+    }
+
+    #tryit__copy-url, #tryit__copy-json {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #carousel__infobox, #tryit-container, #routes-container div img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #carousel__shiny {display: none;}
+}

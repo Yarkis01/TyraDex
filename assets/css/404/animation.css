@@ -1,0 +1,26 @@
+@keyframes pokeball {
+    from {transform: translateX(-50%);}
+    to   {transform: translateX(-50%) rotateY(180deg);}
+}
+
+@keyframes pulse {
+    0% {
+        scale: 1.0;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    33% {
+        scale: 2.0;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    
+    66% {
+        scale: 1.0;
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        scale: 2.0;
+        transform: translateY(0) translateX(0);
+    }
+}
