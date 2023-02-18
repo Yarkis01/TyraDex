@@ -831,7 +831,7 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1059860
+            "level_100": 1059862
         },
         "75": {
             "pokedexId": 75,
@@ -903,7 +903,7 @@
                 "female": 50
             },
             "catch_rate": 120,
-            "level_100": 1059860
+            "level_100": 1059862
         },
         "76": {
             "pokedexId": 76,
@@ -974,7 +974,7 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1059860
+            "level_100": 1059862
         },
         "88": {
             "pokedexId": 88,
@@ -1260,7 +1260,1125 @@
 
     },
     "hisui": {
-
+        "58":{
+            "pokedexId": 58,
+            "generation": 8,
+            "category": "Pok\u00e9mon Espion",
+            "name": {
+                "fr": "Caninos de Hisui",
+                "en": "Hisuian Growlithe",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30ac\u30fc\u30c7\u30a3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+            ],
+            "talents": [
+                {"name": "Intimidation", "tc": false},
+                {"name": "Torche", "tc": false},
+                {"name": "T\u00eate de Roc", "tc": true}
+            ],
+            "stats": {
+                "hp": 60,
+                "atk": 75,
+                "def": 45,
+                "spe_atk": 65,
+                "spe_def": 50,
+                "vit": 55
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 0.25},
+                {"name": "Eau", "multiplier": 4},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 4},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "59", "name": "Arcanin de Hisui", "condition": "Pierre Feu"}
+                ],
+                "mega": null
+            },
+            "height": "0,8 m",
+            "weight": "22,7 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 75,
+                "female": 25
+            },
+            "catch_rate": 190,
+            "level_100": 1250000
+        },
+        "59":{
+            "pokedexId": 59,
+            "generation": 8,
+            "category": "Pok\u00e9mon L\u00e9gendaire",
+            "name": {
+                "fr": "Arcanin de Hisui",
+                "en": "Hisuian Arcanine",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a4\u30f3\u30c7\u30a3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+            ],
+            "talents": [
+                {"name": "Intimidation", "tc": false},
+                {"name": "Torche", "tc": false},
+                {"name": "T\u00eate de Roc", "tc": true}
+            ],
+            "stats": {
+                "hp": 95,
+                "atk": 115,
+                "def": 80,
+                "spe_atk": 95,
+                "spe_def": 80,
+                "vit": 90
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 0.25},
+                {"name": "Eau", "multiplier": 4},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 4},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "58", "name": "Caninos de Hisui"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "2,0 m",
+            "weight": "168,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 75,
+                "female": 25
+            },
+            "catch_rate": 75,
+            "level_100": 1250000
+        },
+        "100":{
+            "pokedexId": 100,
+            "generation": 8,
+            "category": "Pok\u00e9mon Sph\u00e8re",
+            "name": {
+                "fr": "Voltorbe de Hisui",
+                "en": "Hisuian Voltorb",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30d3\u30ea\u30ea\u30c0\u30de"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+            ],
+            "talents": [
+                {"name": "Anti-bruit", "tc": false},
+                {"name": "Statik", "tc": false},
+                {"name": "Boom Final", "tc": true}
+            ],
+            "stats": {
+                "hp": 40,
+                "atk": 30,
+                "def": 50,
+                "spe_atk": 55,
+                "spe_def": 55,
+                "vit": 100
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.25},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "101", "name": "\u00c9lectrode de Hisui", "condition": "Pierre Plante"}
+                ],
+                "mega": null
+            },
+            "height": "0,5 m",
+            "weight": "13,0 kg",
+            "egg_groups": [
+                "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 100,
+                "female": 0
+            },
+            "catch_rate": 190,
+            "level_100": 1000000
+        },
+        "101":{
+            "pokedexId": 101,
+            "generation": 8,
+            "category": "Pok\u00e9mon Sph\u00e8re",
+            "name": {
+                "fr": "\u00c9lectrode de Hisui",
+                "en": "Hisuian Electrode",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30de\u30eb\u30de\u30a4\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+            ],
+            "talents": [
+                {"name": "Anti-bruit", "tc": false},
+                {"name": "Statik", "tc": false},
+                {"name": "Boom Final", "tc": true}
+            ],
+            "stats": {
+                "hp": 60,
+                "atk": 50,
+                "def": 70,
+                "spe_atk": 80,
+                "spe_def": 80,
+                "vit": 150
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.25},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "100", "name": "Voltorbe de Hisui"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,2 m",
+            "weight": "71,0 kg",
+            "egg_groups": [
+                "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 100,
+                "female": 0
+            },
+            "catch_rate": 60,
+            "level_100": 1000000
+        },
+        "157":{
+            "pokedexId": 157,
+            "generation": 8,
+            "category": "Pok\u00e9mon Feu Follet",
+            "name": {
+                "fr": "Typhlosion de Hisui",
+                "en": "Hisuian Typhlosion",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30d0\u30af\u30d5\u30fc\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+            ],
+            "talents": [
+                {"name": "Brasier", "tc": false},
+                {"name": "Fouille", "tc": true}
+            ],
+            "stats": {
+                "hp": 73,
+                "atk": 84,
+                "def": 78,
+                "spe_atk": 119,
+                "spe_def": 85,
+                "vit": 95
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 0},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.25},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 2},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 0.5}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "155", "name": "H\u00e9ricendre"},
+                    {"pokedexId": "156", "name": "Feurisson"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,6 m",
+            "weight": "69,8 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 87.5,
+                "female": 12.5
+            },
+            "catch_rate": 45,
+            "level_100": 1059862
+        },
+        "211":{
+            "pokedexId": 211,
+            "generation": 8,
+            "category": "Pok\u00e9mon Bouboule",
+            "name": {
+                "fr": "Qwilfish de Hisui",
+                "en": "Hisuian Qwilfish",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30cf\u30ea\u30fc\u30bb\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+            ],
+            "talents": [
+                {"name": "Point Poison", "tc": false},
+                {"name": "Glissade", "tc": false},
+                {"name": "Intimidation", "tc": true}
+            ],
+            "stats": {
+                "hp": 65,
+                "atk": 95,
+                "def": 85,
+                "spe_atk": 55,
+                "spe_def": 55,
+                "vit": 85
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "904", "name": "Qwilpik", "condition": "Utiliser 20 fois ou plus la capacité Multitoxik sous Style Puissant"}
+                ],
+                "mega": null
+            },
+            "height": "0,5 m",
+            "weight": "3,9 kg",
+            "egg_groups": [
+                "Aquatique 2"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 45,
+            "level_100": 1000000
+        },
+        "215":{
+            "pokedexId": 215,
+            "generation": 8,
+            "category": "Pok\u00e9mon Grifac\u00e9r\u00e9e",
+            "name": {
+                "fr": "Farfuret de Hisui",
+                "en": "Hisuian Sneasel",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30cb\u30e5\u30fc\u30e9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"},
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+            ],
+            "talents": [
+                {"name": "Attention", "tc": false},
+                {"name": "Regard Vif", "tc": false},
+                {"name": "Pickpocket", "tc": true}
+            ],
+            "stats": {
+                "hp": 55,
+                "atk": 95,
+                "def": 55,
+                "spe_atk": 35,
+                "spe_def": 75,
+                "vit": 115
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 0.5},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 2},
+                {"name": "Psy", "multiplier": 4},
+                {"name": "Insecte", "multiplier": 0.25},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "903", "name": "Farfurex", "condition": "Au contact d'une Griffe Rasoir de jour"}
+                ],
+                "mega": null
+            },
+            "height": "0,9 m",
+            "weight": "27,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 60,
+            "level_100": 1059862
+        },
+        "503":{
+            "pokedexId": 503,
+            "generation": 8,
+            "category": "Pok\u00e9mon Dignitaire",
+            "name": {
+                "fr": "Clamiral de Hisui",
+                "en": "Hisuian Samurott",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30c0\u30a4\u30b1\u30f3\u30ad"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+            ],
+            "talents": [
+                {"name": "Torrent", "tc": false},
+                {"name": "Incisif", "tc": true}
+            ],
+            "stats": {
+                "hp": 90,
+                "atk": 108,
+                "def": 80,
+                "spe_atk": 100,
+                "spe_def": 65,
+                "vit": 85
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 2},
+                {"name": "Feu", "multiplier": 0.5},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 2},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 0},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0.5},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "501", "name": "Moustillon"},
+                    {"pokedexId": "502", "name": "Mateloutre"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "0,9 m",
+            "weight": "27,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 87.5,
+                "female": 12.5
+            },
+            "catch_rate": 45,
+            "level_100": 1059862
+        },
+        "549":{
+            "pokedexId": 549,
+            "generation": 8,
+            "category": "Pok\u00e9mon Pirouette",
+            "name": {
+                "fr": "Fragilady de Hisui",
+                "en": "Hisuian Lilligant",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30c9\u30ec\u30c7\u30a3\u30a2"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+            ],
+            "talents": [
+                {"name": "Chlorophylle", "tc": false},
+                {"name": "Agitation", "tc": false},
+                {"name": "Feuille Garde", "tc": true}
+            ],
+            "stats": {
+                "hp": 70,
+                "atk": 105,
+                "def": 75,
+                "spe_atk": 50,
+                "spe_def": 75,
+                "vit": 105
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 0.5},
+                {"name": "Vol", "multiplier": 4},
+                {"name": "Psy", "multiplier": 2},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "548", "name": "Chlorobule"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,2 m",
+            "weight": "19,2 kg",
+            "egg_groups": [
+                "V\u00e9g\u00e9tal"
+            ],
+            "sexe": {
+                "male": 0,
+                "female": 100
+            },
+            "catch_rate": 75,
+            "level_100": 1000000
+        },
+        "570":{
+            "pokedexId": 570,
+            "generation": 8,
+            "category": "Pok\u00e9mon Ranc\u0153urenard",
+            "name": {
+                "fr": "Zorua de Hisui",
+                "en": "Hisuian Zorua",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+            ],
+            "talents": [
+                {"name": "Illusion", "tc": false}
+            ],
+            "stats": {
+                "hp": 35,
+                "atk": 60,
+                "def": 40,
+                "spe_atk": 85,
+                "spe_def": 40,
+                "vit": 70
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 0},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "571", "name": "Zoroark de Hisui", "condition": "Niveau 30"}
+                ],
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "12,5 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 87.5,
+                "female": 12.5
+            },
+            "catch_rate": 75,
+            "level_100": 1059862
+        },
+        "571":{
+            "pokedexId": 571,
+            "generation": 8,
+            "category": "Pok\u00e9mon Maudirenard",
+            "name": {
+                "fr": "Zoroark de Hisui",
+                "en": "Hisuian Zoroark",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2\u30fc\u30af"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+            ],
+            "talents": [
+                {"name": "Illusion", "tc": false}
+            ],
+            "stats": {
+                "hp": 60,
+                "atk": 105,
+                "def": 60,
+                "spe_atk": 120,
+                "spe_def": 60,
+                "vit": 105
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0},
+                {"name": "Plante", "multiplier": 1},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 0},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 1},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 0},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": null,
+                "next": [
+                    {"pokedexId": "571", "name": "Zoroark de Hisui", "condition": "Niveau 30"}
+                ],
+                "mega": null
+            },
+            "height": "1,6 m",
+            "weight": "73,0 kg",
+            "egg_groups": [
+                "Terrestre"
+            ],
+            "sexe": {
+                "male": 87.5,
+                "female": 12.5
+            },
+            "catch_rate": 45,
+            "level_100": 1059862
+        },
+        "628":{
+            "pokedexId": 628,
+            "generation": 8,
+            "category": "Pok\u00e9mon Cri Guerrier",
+            "name": {
+                "fr": "Gueriaigle de Hisui",
+                "en": "Hisuian Braviary",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a9\u30fc\u30b0\u30eb"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
+                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+            ],
+            "talents": [
+                {"name": "Regard Vif", "tc": false},
+                {"name": "Sans Limite", "tc": false},
+                {"name": "Lentiteint\u00e9e", "tc": true}
+            ],
+            "stats": {
+                "hp": 110,
+                "atk": 83,
+                "def": 70,
+                "spe_atk": 112,
+                "spe_def": 70,
+                "vit": 65
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 1},
+                {"name": "\u00c9lectrik", "multiplier": 2},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 0.25},
+                {"name": "Poison", "multiplier": 1},
+                {"name": "Sol", "multiplier": 0},
+                {"name": "Vol", "multiplier": 1},
+                {"name": "Psy", "multiplier": 2},
+                {"name": "Insecte", "multiplier": 2},
+                {"name": "Roche", "multiplier": 1},
+                {"name": "Spectre", "multiplier": 2},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 2},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "627", "name": "Furaiglon"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,7 m",
+            "weight": "43,4 kg",
+            "egg_groups": [
+                "A\u00e9rien"
+            ],
+            "sexe": {
+                "male": 100,
+                "female": 0
+            },
+            "catch_rate": 60,
+            "level_100": 1250000
+        },
+        "705":{
+            "pokedexId": 705,
+            "generation": 8,
+            "category": "Pok\u00e9mon Escargot",
+            "name": {
+                "fr": "Colimucus de Hisui",
+                "en": "Hisuian Sliggoo",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30a4\u30eb"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+            ],
+            "talents": [
+                {"name": "Herbivore", "tc": false},
+                {"name": "Coque Armure", "tc": false},
+                {"name": "Poisseux", "tc": true}
+            ],
+            "stats": {
+                "hp": 58,
+                "atk": 75,
+                "def": 83,
+                "spe_atk": 83,
+                "spe_def": 113,
+                "vit": 40
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 0.25},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "704", "name": "Mucuscule"}
+                ],
+                "next": [
+                    {"pokedexId": "706", "name": "Muplodocus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
+                ],
+                "mega": null
+            },
+            "height": "0,7 m",
+            "weight": "68,5 kg",
+            "egg_groups": [
+                "Draconique"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 45,
+            "level_100": 1250000
+        },
+        "706":{
+            "pokedexId": 706,
+            "generation": 8,
+            "category": "Pok\u00e9mon Escamoquille",
+            "name": {
+                "fr": "Muplodocus de Hisui",
+                "en": "Hisuian Goodra",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30eb\u30b4\u30f3"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+            ],
+            "talents": [
+                {"name": "Herbivore", "tc": false},
+                {"name": "Coque Armure", "tc": false},
+                {"name": "Poisseux", "tc": true}
+            ],
+            "stats": {
+                "hp": 80,
+                "atk": 100,
+                "def": 100,
+                "spe_atk": 110,
+                "spe_def": 150,
+                "vit": 60
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 0.25},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 1},
+                {"name": "Combat", "multiplier": 2},
+                {"name": "Poison", "multiplier": 0},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 0.5},
+                {"name": "Insecte", "multiplier": 0.5},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 0.5},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "704", "name": "Mucuscule"},
+                    {"pokedexId": "705", "name": "Colimucus de Hisui"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,7 m",
+            "weight": "334,1 kg",
+            "egg_groups": [
+                "Draconique"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 45,
+            "level_100": 1250000
+        },
+        "713":{
+            "pokedexId": 713,
+            "generation": 8,
+            "category": "Pok\u00e9mon Iceberg",
+            "name": {
+                "fr": "S\u00e9racrawl de Hisui",
+                "en": "Hisuian Avalugg",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30af\u30ec\u30d9\u30fc\u30b9"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+            ],
+            "talents": [
+                {"name": "Prognathe", "tc": false},
+                {"name": "Corps Gel", "tc": false},
+                {"name": "Fermet\u00e9", "tc": true}
+            ],
+            "stats": {
+                "hp": 95,
+                "atk": 127,
+                "def": 184,
+                "spe_atk": 34,
+                "spe_def": 36,
+                "vit": 38
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 0.5},
+                {"name": "Plante", "multiplier": 2},
+                {"name": "Feu", "multiplier": 1},
+                {"name": "Eau", "multiplier": 2},
+                {"name": "\u00c9lectrik", "multiplier": 1},
+                {"name": "Glace", "multiplier": 0.5},
+                {"name": "Combat", "multiplier": 4},
+                {"name": "Poison", "multiplier": 0.5},
+                {"name": "Sol", "multiplier": 2},
+                {"name": "Vol", "multiplier": 0.5},
+                {"name": "Psy", "multiplier": 1},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 2},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 1},
+                {"name": "Acier", "multiplier": 4},
+                {"name": "F\u00e9e", "multiplier": 1}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "704", "name": "Grela\u00e7on"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,4 m",
+            "weight": "262,4 kg",
+            "egg_groups": [
+                "Monstrueux", "Min\u00e9ral"
+            ],
+            "sexe": {
+                "male": 50,
+                "female": 50
+            },
+            "catch_rate": 55,
+            "level_100": 1000000
+        },
+        "724":{
+            "pokedexId": 724,
+            "generation": 8,
+            "category": "Pok\u00e9mon Plumefl\u00e8che",
+            "name": {
+                "fr": "Arch\u00e9duc de Hisui",
+                "en": "Hisuian Decidueye",
+                "jp": "\u30d2\u30b9\u30a4\u306e\u30b8\u30e5\u30ca\u30a4\u30d1\u30fc"
+            },
+            "sprites": {
+                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/shiny_hisui.png",
+                "gmax": null
+            },
+            "types": [
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+            ],
+            "talents": [
+                {"name": "Engrais", "tc": false},
+                {"name": "Longue Port\u00e9e", "tc": true}
+            ],
+            "stats": {
+                "hp": 78,
+                "atk": 107,
+                "def": 75,
+                "spe_atk": 100,
+                "spe_def": 100,
+                "vit": 70
+            },
+            "resistances": [
+                {"name": "Normal", "multiplier": 1},
+                {"name": "Plante", "multiplier": 0.5},
+                {"name": "Feu", "multiplier": 2},
+                {"name": "Eau", "multiplier": 0.5},
+                {"name": "\u00c9lectrik", "multiplier": 0.5},
+                {"name": "Glace", "multiplier": 2},
+                {"name": "Combat", "multiplier": 1},
+                {"name": "Poison", "multiplier": 2},
+                {"name": "Sol", "multiplier": 0.5},
+                {"name": "Vol", "multiplier": 4},
+                {"name": "Psy", "multiplier": 2},
+                {"name": "Insecte", "multiplier": 1},
+                {"name": "Roche", "multiplier": 0.5},
+                {"name": "Spectre", "multiplier": 1},
+                {"name": "Dragon", "multiplier": 1},
+                {"name": "T\u00e9n\u00e8bres", "multiplier": 0.5},
+                {"name": "Acier", "multiplier": 1},
+                {"name": "F\u00e9e", "multiplier": 2}
+            ],
+            "evolution": {
+                "pre": [
+                    {"pokedexId": "722", "name": "Brindibou"},
+                    {"pokedexId": "723", "name": "Effl\u00e8che"}
+                ],
+                "next": null,
+                "mega": null
+            },
+            "height": "1,6 m",
+            "weight": "37,0 kg",
+            "egg_groups": [
+                "A\u00e9rien"
+            ],
+            "sexe": {
+                "male": 87.5,
+                "female": 12.5
+            },
+            "catch_rate": 45,
+            "level_100": 1059862
+        }
     },
     "paldea": {
         "128":{
