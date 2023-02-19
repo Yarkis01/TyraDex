@@ -204,6 +204,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.warning__description a {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
 #warnings div {
     width: 100%;
     border-radius: 8px;
