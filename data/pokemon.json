@@ -1259,14 +1259,14 @@
             ],
             "next": null,
             "mega": [
-            {
-                "orbe":"Tortankite",
-                "sprites": {
-                    "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-regular.png",
-                    "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-shiny.png"
+                {
+                    "orbe":"Tortankite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-shiny.png"
+                    }
                 }
-            }
-]
+            ]
         },
         "height": "1,6 m",
         "weight": "85,5 kg",
@@ -4127,9 +4127,7 @@
         },
         "height": "0,8 m",
         "weight": "20,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -4267,9 +4265,7 @@
         },
         "height": "1,3 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -19725,9 +19721,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "55,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -19851,9 +19845,7 @@
         "evolution": null,
         "height": "1,6 m",
         "weight": "52,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -19977,9 +19969,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -20503,9 +20493,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "122,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -20621,9 +20609,7 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1059860
@@ -23465,9 +23451,7 @@
         },
         "height": "0,3 m",
         "weight": "2,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -23601,9 +23585,7 @@
         },
         "height": "0,3 m",
         "weight": "3,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -23741,9 +23723,7 @@
         },
         "height": "0,3 m",
         "weight": "1,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -23877,9 +23857,7 @@
         },
         "height": "0,3 m",
         "weight": "1,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
@@ -27428,9 +27406,7 @@
         "evolution": null,
         "height": "0,5 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 225,
         "level_100": 1000000
@@ -32207,9 +32183,7 @@
         },
         "height": "0,7 m",
         "weight": "21,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 100.0,
             "female": 0.0
@@ -32481,9 +32455,7 @@
         },
         "height": "0,6 m",
         "weight": "6,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -32613,9 +32585,7 @@
         },
         "height": "0,6 m",
         "weight": "23,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 75.0,
             "female": 25.0
@@ -32745,9 +32715,7 @@
         },
         "height": "0,7 m",
         "weight": "21,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 75.0,
             "female": 25.0
@@ -33135,9 +33103,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "178,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33257,9 +33223,7 @@
         "evolution": null,
         "height": "2,1 m",
         "weight": "198,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33379,9 +33343,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "187,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33918,9 +33880,7 @@
         "evolution": null,
         "height": "5,2 m",
         "weight": "216,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate" : 3,
         "level_100": 1250000
@@ -34044,9 +34004,7 @@
         "evolution": null,
         "height": "3,8 m",
         "weight": "199,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -34166,9 +34124,7 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1059860
@@ -40574,9 +40530,7 @@
         },
         "height": "0,2 m",
         "weight": "2,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -48936,9 +48890,7 @@
         },
         "height": "0,6 m",
         "weight": "14,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -51236,9 +51188,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51358,9 +51308,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "175,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51480,9 +51428,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "205,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51602,9 +51548,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "40,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -51727,9 +51671,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 100.0,
             "female": 0.0
@@ -51848,9 +51790,7 @@
         "evolution": null,
         "height": "4,5 m",
         "weight": "352,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -51966,9 +51906,7 @@
         "evolution": null,
         "height": "3,5 m",
         "weight": "950,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -52088,9 +52026,7 @@
         "evolution": null,
         "height": "7,0 m",
         "weight": "206,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -52210,9 +52146,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "1,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -52328,9 +52262,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "60,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -55037,9 +54969,7 @@
         },
         "height": "0,2 m",
         "weight": "1,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -58664,9 +58594,7 @@
         },
         "height": "0,2 m",
         "weight": "0,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59349,9 +59277,7 @@
         },
         "height": "0,5 m",
         "weight": "15,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59488,9 +59414,7 @@
         },
         "height": "0,6 m",
         "weight": "13,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59624,9 +59548,7 @@
         },
         "height": "0,6 m",
         "weight": "24,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -60433,9 +60355,7 @@
         },
         "height": "0,6 m",
         "weight": "105,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
@@ -60568,9 +60488,7 @@
         },
         "height": "0,7 m",
         "weight": "20,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
@@ -62066,9 +61984,7 @@
         },
         "height": "1,0 m",
         "weight": "65,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -65046,9 +64962,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65164,9 +65078,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65282,9 +65194,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65408,9 +65318,7 @@
         "evolution": null,
         "height": "5,4 m",
         "weight": "683,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65534,9 +65442,7 @@
         "evolution": null,
         "height": "4,2 m",
         "weight": "336,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65660,9 +65566,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "430,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -65781,9 +65685,7 @@
         "evolution": null,
         "height": "3,7 m",
         "weight": "420,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65907,9 +65809,7 @@
         "evolution": null,
         "height": "4,5 m",
         "weight": "750,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66025,9 +65925,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "85,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -66384,9 +66282,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "50,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66502,9 +66398,7 @@
         "evolution": null,
         "height": "0,2 m",
         "weight": "2,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1059860
@@ -66620,9 +66514,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "320,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66742,9 +66634,7 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86237,9 +86127,7 @@
         "evolution": null,
         "height": "2,1 m",
         "weight": "250,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86359,9 +86247,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "260,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86481,9 +86367,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "200,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86603,9 +86487,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "63,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -86732,9 +86614,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "61,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -86857,9 +86737,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "330,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86979,9 +86857,7 @@
         "evolution": null,
         "height": "2,9 m",
         "weight": "345,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87105,9 +86981,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "68,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -87230,9 +87104,7 @@
         "evolution": null,
         "height": "3,0 m",
         "weight": "325,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87352,9 +87224,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "48,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87474,9 +87344,7 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "6,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -87596,9 +87464,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "82,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -96628,9 +96494,7 @@
         "evolution": null,
         "height": "3,0 m",
         "weight": "215,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -96750,9 +96614,7 @@
         "evolution": null,
         "height": "5,8 m",
         "weight": "203,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -96876,9 +96738,7 @@
         "evolution": null,
         "height": "5,0 m",
         "weight": "305,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -96998,9 +96858,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "8,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -97120,9 +96978,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "8,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -97242,9 +97098,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "195,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -104103,9 +103957,7 @@
         },
         "height": "1,9 m",
         "weight": "120,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": "\u2014"
@@ -104227,9 +104079,7 @@
         },
         "height": "2,3 m",
         "weight": "100,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -105787,9 +105637,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "20,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -105913,9 +105761,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "18,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106039,9 +105885,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "45,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106165,9 +106009,7 @@
         "evolution": null,
         "height": "1,3 m",
         "weight": "21,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106292,9 +106134,7 @@
         },
         "height": "0,2 m",
         "weight": "0,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106419,9 +106259,7 @@
         },
         "height": "0,1 m",
         "weight": "999,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106548,9 +106386,7 @@
         },
         "height": "3,4 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106677,9 +106513,7 @@
         },
         "height": "4,0 m",
         "weight": "120,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106799,9 +106633,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "55,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106921,9 +106753,7 @@
         "evolution": null,
         "height": "2,4 m",
         "weight": "333,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107043,9 +106873,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "25,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107161,9 +106989,7 @@
         "evolution": null,
         "height": "3,8 m",
         "weight": "100,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -107283,9 +107109,7 @@
         "evolution": null,
         "height": "9,2 m",
         "weight": "999,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107405,9 +107229,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107527,9 +107349,7 @@
         "evolution": null,
         "height": "5,5 m",
         "weight": "888,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 15,
         "level_100": 1250000
@@ -107645,9 +107465,7 @@
         "evolution": null,
         "height": "2,4 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -107767,9 +107585,7 @@
         "evolution": null,
         "height": "1,0 m",
         "weight": "80,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -107889,9 +107705,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "22,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108013,9 +107827,7 @@
         },
         "height": "0,6 m",
         "weight": "1,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -108141,9 +107953,7 @@
         },
         "height": "3,6 m",
         "weight": "150,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -108263,9 +108073,7 @@
         "evolution": null,
         "height": "5,5 m",
         "weight": "820,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -108385,9 +108193,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "13,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -108503,9 +108309,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "44,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108627,9 +108431,7 @@
         },
         "height": "0,2 m",
         "weight": "8,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108754,9 +108556,7 @@
         },
         "height": "2,5 m",
         "weight": "800,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -114054,9 +113854,7 @@
         },
         "height": "0,4 m",
         "weight": "11,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -114196,9 +113994,7 @@
         },
         "height": "1,6 m",
         "weight": "40,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -116513,7 +116309,7 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId":122,"name":"M.Mime de Galar"}
+                {"pokedexId": 122, "name":"M.Mime de Galar"}
             ],
             "next": null,
             "mega":null
@@ -118333,9 +118129,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "190,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118463,9 +118257,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "150,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118593,9 +118385,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "215,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118723,9 +118513,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "175,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -119402,9 +119190,7 @@
         "evolution": null,
         "height": "2,8m",
         "weight": "110,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": 1250000
@@ -119520,9 +119306,7 @@
         "evolution": null,
         "height": "2,9m",
         "weight": "210,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": 1250000
@@ -119642,9 +119426,7 @@
         "evolution": null,
         "height": "0,6m",
         "weight": "12,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -119768,9 +119550,7 @@
         },
         "height": "0,6m",
         "weight": "12,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -119901,9 +119681,7 @@
         },
         "height": "1,9m",
         "weight": "105,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -120021,9 +119799,7 @@
         "evolution": null,
         "height": "1,8m",
         "weight": "70,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120138,9 +119914,7 @@
         "evolution": null,
         "height": "1,2m",
         "weight": "145,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120255,9 +120029,7 @@
         "evolution": null,
         "height": "2,1m",
         "weight": "200,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120372,9 +120144,7 @@
         "evolution": null,
         "height": "2,2m",
         "weight": "800,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120489,9 +120259,7 @@
         "evolution": null,
         "height": "2,0m",
         "weight": "44,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120610,9 +120378,7 @@
         "evolution": null,
         "height": "1,1m",
         "weight": "7,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -132090,9 +131856,7 @@
         "evolution": null,
         "height": "2,2 m",
         "weight": "320,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132212,9 +131976,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "8,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -132334,9 +132096,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "21,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -132456,9 +132216,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132578,9 +132336,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "92,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132700,9 +132456,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132822,9 +132576,7 @@
         "evolution": null,
         "height": "0,9 m",
         "weight": "240,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132944,9 +132696,7 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "11,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -133066,9 +132816,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "380,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -133188,9 +132936,7 @@
         "evolution": null,
         "height": "1,3 m",
         "weight": "111,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133310,9 +133056,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "36,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133432,9 +133176,7 @@
         "evolution": null,
         "height": "1,6 m",
         "weight": "303,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133947,9 +133689,7 @@
         },
         "height": "0,3 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": null,
         "level_100": null
@@ -134075,9 +133815,7 @@
         },
         "height": "1,2 m",
         "weight": "30,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": null,
         "level_100": null
@@ -134197,9 +133935,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "74,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134319,9 +134055,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "152,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134441,9 +134175,7 @@
         "evolution": null,
         "height": "2,7 m",
         "weight": "699,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134563,9 +134295,7 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134685,9 +134415,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "380,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": null
@@ -134807,9 +134535,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "35,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": null
@@ -134929,9 +134655,7 @@
         "evolution": null,
         "height": "2,5 m",
         "weight": "303,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -135051,9 +134775,7 @@
         "evolution": null,
         "height": "3,5 m",
         "weight": "240,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000

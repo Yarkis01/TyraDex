@@ -1864,11 +1864,7 @@
                 {"name": "Acier", "multiplier": 1},
                 {"name": "F\u00e9e", "multiplier": 1}
             ],
-            "evolution": {
-                "pre": null,
-                "next": null,
-                "mega": null
-            },
+            "evolution": null,
             "height": "1,4 m",
             "weight": "56,8 kg",
             "egg_groups": null,
@@ -1925,11 +1921,7 @@
                 {"name": "Acier", "multiplier": 1},
                 {"name": "F\u00e9e", "multiplier": 2}
             ],
-            "evolution": {
-                "pre": null,
-                "next": null,
-                "mega": null
-            },
+            "evolution": null,
             "height": "1,6 m",
             "weight": "58,2 kg",
             "egg_groups": null,
@@ -1986,11 +1978,7 @@
                 {"name": "Acier", "multiplier": 1},
                 {"name": "F\u00e9e", "multiplier": 2}
             ],
-            "evolution": {
-                "pre": null,
-                "next": null,
-                "mega": null
-            },
+            "evolution": null,
             "height": "2,0 m",
             "weight": "66,0 kg",
             "egg_groups": null,
@@ -2530,11 +2518,7 @@
                 {"name": "Acier", "multiplier": 0.5},
                 {"name": "F\u00e9e", "multiplier": 0.5}
             ],
-            "evolution": {
-                "pre": null,
-                "next": null,
-                "mega": null
-            },
+            "evolution": null,
             "height": "0,7 m",
             "weight": "20,5 kg",
             "egg_groups": [
@@ -3023,7 +3007,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 903, "name": "Farfurex", "condition": "Au contact d'une Griffe Rasoir de jour"}
+                    {"pokedexId": 903, "name": "Farfurex", "condition": "Au contact d'une Griffe Rasoir (jour)"}
                 ],
                 "mega": null
             },
@@ -3720,11 +3704,7 @@
                 {"name": "Acier", "multiplier": 1},
                 {"name": "F\u00e9e", "multiplier": 2}
             ],
-            "evolution": {
-                "pre": null,
-                "next": null,
-                "mega": null
-            },
+            "evolution": null,
             "height": "1,4 m",
             "weight": "115,5 kg",
             "egg_groups": [
