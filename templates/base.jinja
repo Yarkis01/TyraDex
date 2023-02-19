@@ -15,12 +15,8 @@
         <meta property="og:image" content="https://mon-api-pokemon.vercel.app/assets/logo.png" />
         <meta property="og:description" content="Une simple API Pokémon en français." />
 
-        {% assets "base_css" %}
-            <link rel="stylesheet" href="{{ ASSET_URL }}" />
-        {% endassets %}
-        {% assets css_file %}
-            <link rel="stylesheet" href="{{ ASSET_URL }}" />
-        {% endassets %}
+        <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/{{ css_file }}" />
     </head>
     <body>
         <header>
