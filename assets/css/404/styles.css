@@ -1,5 +1,3 @@
-@import url('animation.css');
-
 #error_page {
     display: flex;
     flex-direction: column;
