@@ -1,12 +1,17 @@
 {% extends "base.jinja" %}
 
+{% block style %}
+<link rel="stylesheet" type="text/css" href="/assets/css/homepage/styles.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/homepage/responsive.css" />
+{% endblock %}
+
 {% block content %}
 <section id="warnings">
     <div class="danger">
-        <p class="warning__title">L'API est encore en développement...</p>
+        <p class="warning__title">Une erreur ?</p>
         <p class="warning__description">
-            Certaines fonctionnalités / pokémons peuvent ne pas fonctionner, ou tout simplement ne pas être présent.<br />
-            Cela est dû au fait que l'API soit encore en développement, et que ces fonctionalité / pokémons seront rajouter dans de prochaines mises à jour.
+            L'api est encore jeune (même si elle dispose d'un grand jeu de donnés) alors il se peut que certaines données soit erronées.<br />
+            Si vous constatez la moindre erreur, vous pouvez nous la signaler en <a href="https://github.com/Yarkis01/PokeAPI/issues/new?assignees=Yarkis01&labels=invalid+data&template=donn%C3%A9es-invalides.md&title=%5BDATA%5D" target="_blank">cliquant ici</a>.
         </p>
     </div>
 </section>
@@ -37,7 +42,7 @@
         <p>
             <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/1">Voir la fiche du Pokémon</a>
+            <a href="{{ base_url }}api/v1/pokemon/4">Voir la fiche du Pokémon</a>
         </p>
     </div>
     <div>
@@ -45,15 +50,15 @@
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/salameche">Voir la fiche du Pokémon</a>
+            <a href="{{ base_url }}api/v1/pokemon/embrylex">Voir la fiche du Pokémon</a>
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png" />
         <p>
-            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
-            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
-            <a href="{{ base_url }}api/v1/gen/1">Voir les Pokémons de la Gen. 1</a>
+            <span>/api/v1/pokemon/&lt;nom&gt;/&lt;region&gt;</span><br /><br />
+            Permet d'obtenir la forme régionale d'un Pokémon<br /><br />
+            <a href="{{ base_url }}api/v1/pokemon/rattata/alola">Voir Rattata d'Alola</a>
         </p>
     </div>
     <div>
@@ -62,6 +67,22 @@
             <span>/api/v1/pokemon</span><br /><br />
             Permet de récupérer la liste de tous les Pokémons<br /><br />
             <a href="{{ base_url }}api/v1/pokemon">Voir tous les Pokémons</a>
+        </p>
+    </div>
+    <div>
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png" />
+        <p>
+            <span>/api/v1/gen</span><br /><br />
+            Permet de récupérer la liste des différentes générations<br /><br />
+            <a href="{{ base_url }}api/v1/gen">Voir les différentes générations</a>
+        </p>
+    </div>
+    <div>
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png" />
+        <p>
+            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
+            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
+            <a href="{{ base_url }}api/v1/gen/9">Voir les Pokémons de la Gen. 9</a>
         </p>
     </div>
 </section>

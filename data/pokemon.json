@@ -160,7 +160,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 2,
@@ -298,7 +298,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 3,
@@ -446,7 +446,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 4,
@@ -579,7 +579,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 5,
@@ -713,7 +713,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 6,
@@ -868,7 +868,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 7,
@@ -1001,7 +1001,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 8,
@@ -1135,7 +1135,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 9,
@@ -1259,14 +1259,14 @@
             ],
             "next": null,
             "mega": [
-            {
-                "orbe":"Tortankite",
-                "sprites": {
-                    "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-regular.png",
-                    "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-shiny.png"
+                {
+                    "orbe":"Tortankite",
+                    "sprites": {
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/9/mega-shiny.png"
+                    }
                 }
-            }
-]
+            ]
         },
         "height": "1,6 m",
         "weight": "85,5 kg",
@@ -1279,7 +1279,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 10,
@@ -2224,7 +2224,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 17,
@@ -2365,7 +2365,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 18,
@@ -2513,7 +2513,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 19,
@@ -3998,7 +3998,7 @@
             "female": 100.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 30,
@@ -4127,15 +4127,13 @@
         },
         "height": "0,8 m",
         "weight": "20,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 31,
@@ -4267,15 +4265,13 @@
         },
         "height": "1,3 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 32,
@@ -4412,7 +4408,7 @@
             "female": 0.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 33,
@@ -4550,7 +4546,7 @@
             "female": 0.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 34,
@@ -4691,7 +4687,7 @@
             "female": 0.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 35,
@@ -5917,7 +5913,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 44,
@@ -6055,7 +6051,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 45,
@@ -6191,7 +6187,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 46,
@@ -8244,7 +8240,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 61,
@@ -8382,7 +8378,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 62,
@@ -8522,7 +8518,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 63,
@@ -8658,7 +8654,7 @@
             "female": 25.0
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 64,
@@ -8795,7 +8791,7 @@
             "female": 25.0
         },
         "catch_rate": 100,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 65,
@@ -8939,7 +8935,7 @@
             "female": 25.0
         },
         "catch_rate": 50,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 66,
@@ -9075,7 +9071,7 @@
             "female": 25.0
         },
         "catch_rate": 180,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 67,
@@ -9212,7 +9208,7 @@
             "female": 25.0
         },
         "catch_rate": 90,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 68,
@@ -9351,7 +9347,7 @@
             "female": 25.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 69,
@@ -9487,7 +9483,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 70,
@@ -9624,7 +9620,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 71,
@@ -9760,7 +9756,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 72,
@@ -10178,7 +10174,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 75,
@@ -10319,7 +10315,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 76,
@@ -10459,7 +10455,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 77,
@@ -12658,7 +12654,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 93,
@@ -12791,7 +12787,7 @@
             "female": 50.0
         },
         "catch_rate": 90,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 94,
@@ -12938,7 +12934,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 95,
@@ -19725,9 +19721,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "55,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -19851,9 +19845,7 @@
         "evolution": null,
         "height": "1,6 m",
         "weight": "52,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -19977,9 +19969,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -20503,9 +20493,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "122,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -20621,12 +20609,10 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 152,
@@ -20759,7 +20745,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 153,
@@ -20893,7 +20879,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 154,
@@ -21026,7 +21012,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 155,
@@ -21158,7 +21144,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 156,
@@ -21291,7 +21277,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 157,
@@ -21423,7 +21409,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 158,
@@ -21556,7 +21542,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 159,
@@ -21690,7 +21676,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 160,
@@ -21823,7 +21809,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 161,
@@ -23465,9 +23451,7 @@
         },
         "height": "0,3 m",
         "weight": "2,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -23601,9 +23585,7 @@
         },
         "height": "0,3 m",
         "weight": "3,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -23741,9 +23723,7 @@
         },
         "height": "0,3 m",
         "weight": "1,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -23877,9 +23857,7 @@
         },
         "height": "0,3 m",
         "weight": "1,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
@@ -24438,7 +24416,7 @@
             "female": 50.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 180,
@@ -24572,7 +24550,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 181,
@@ -24713,7 +24691,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 182,
@@ -24845,7 +24823,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 183,
@@ -25263,7 +25241,7 @@
             "female": 50.0
         },
         "catch_rate": 65,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 186,
@@ -25399,7 +25377,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 187,
@@ -25540,7 +25518,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 188,
@@ -25682,7 +25660,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 189,
@@ -25823,7 +25801,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 190,
@@ -26093,7 +26071,7 @@
             "female": 50.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 192,
@@ -26228,7 +26206,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 193,
@@ -27048,7 +27026,7 @@
             "female": 50.0
         },
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 199,
@@ -27428,9 +27406,7 @@
         "evolution": null,
         "height": "0,5 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 225,
         "level_100": 1000000
@@ -28243,7 +28219,7 @@
             "female": 50.0
         },
         "catch_rate": 60,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 208,
@@ -29067,7 +29043,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 214,
@@ -29351,7 +29327,7 @@
             "female": 50.0
         },
         "catch_rate": 60,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 216,
@@ -32207,9 +32183,7 @@
         },
         "height": "0,7 m",
         "weight": "21,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 100.0,
             "female": 0.0
@@ -32481,9 +32455,7 @@
         },
         "height": "0,6 m",
         "weight": "6,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -32613,9 +32585,7 @@
         },
         "height": "0,6 m",
         "weight": "23,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 75.0,
             "female": 25.0
@@ -32745,9 +32715,7 @@
         },
         "height": "0,7 m",
         "weight": "21,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 75.0,
             "female": 25.0
@@ -33135,9 +33103,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "178,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33257,9 +33223,7 @@
         "evolution": null,
         "height": "2,1 m",
         "weight": "198,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33379,9 +33343,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "187,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -33918,9 +33880,7 @@
         "evolution": null,
         "height": "5,2 m",
         "weight": "216,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate" : 3,
         "level_100": 1250000
@@ -34044,9 +34004,7 @@
         "evolution": null,
         "height": "3,8 m",
         "weight": "199,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -34166,12 +34124,10 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 252,
@@ -34304,7 +34260,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 253,
@@ -34438,7 +34394,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 254,
@@ -34579,7 +34535,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 255,
@@ -34711,7 +34667,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 256,
@@ -34848,7 +34804,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 257,
@@ -34992,7 +34948,7 @@
             "female": 12.5
         },
         "catch_rate" : 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 258,
@@ -35125,7 +35081,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 259,
@@ -35263,7 +35219,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 260,
@@ -35408,7 +35364,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 261,
@@ -36753,7 +36709,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 271,
@@ -36895,7 +36851,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 272,
@@ -37036,7 +36992,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 273,
@@ -37173,7 +37129,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 274,
@@ -37315,7 +37271,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 275,
@@ -37456,7 +37412,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 276,
@@ -37591,7 +37547,7 @@
             "female": 50.0
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 277,
@@ -37726,7 +37682,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 278,
@@ -39905,7 +39861,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 294,
@@ -40039,7 +39995,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 295,
@@ -40172,7 +40128,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 296,
@@ -40574,9 +40530,7 @@
         },
         "height": "0,2 m",
         "weight": "2,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 25.0,
             "female": 75.0
@@ -41134,7 +41088,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 303,
@@ -42917,7 +42871,7 @@
             "female": 50.0
         },
         "catch_rate": 150,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 316,
@@ -44689,7 +44643,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 329,
@@ -44823,7 +44777,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 330,
@@ -44956,7 +44910,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 331,
@@ -45088,7 +45042,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 332,
@@ -45224,7 +45178,7 @@
             "female": 50.0
         },
         "catch_rate": 60,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 333,
@@ -47868,7 +47822,7 @@
             "female": 50.0
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 353,
@@ -48813,7 +48767,7 @@
             "female": 50.0
         },
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 360,
@@ -48936,9 +48890,7 @@
         },
         "height": "0,6 m",
         "weight": "14,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -49366,7 +49318,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 364,
@@ -49508,7 +49460,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 365,
@@ -49649,7 +49601,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 366,
@@ -51236,9 +51188,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51358,9 +51308,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "175,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51480,9 +51428,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "205,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -51602,9 +51548,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "40,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -51727,9 +51671,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 100.0,
             "female": 0.0
@@ -51848,9 +51790,7 @@
         "evolution": null,
         "height": "4,5 m",
         "weight": "352,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -51966,9 +51906,7 @@
         "evolution": null,
         "height": "3,5 m",
         "weight": "950,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -52088,9 +52026,7 @@
         "evolution": null,
         "height": "7,0 m",
         "weight": "206,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -52210,9 +52146,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "1,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -52328,9 +52262,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "60,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -52466,7 +52398,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 388,
@@ -52600,7 +52532,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 389,
@@ -52737,7 +52669,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 390,
@@ -52870,7 +52802,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 391,
@@ -53008,7 +52940,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 392,
@@ -53145,7 +53077,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 393,
@@ -53278,7 +53210,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 394,
@@ -53412,7 +53344,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 395,
@@ -53549,7 +53481,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 396,
@@ -53685,7 +53617,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 397,
@@ -53822,7 +53754,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 398,
@@ -53958,7 +53890,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 399,
@@ -54365,7 +54297,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 402,
@@ -54496,7 +54428,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 403,
@@ -54632,7 +54564,7 @@
             "female": 50.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 404,
@@ -54769,7 +54701,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 405,
@@ -54905,7 +54837,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 406,
@@ -55037,15 +54969,13 @@
         },
         "height": "0,2 m",
         "weight": "1,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 407,
@@ -55186,7 +55116,7 @@
             "female": 50.0
         },
         "catch_rate": 75,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 408,
@@ -56255,7 +56185,7 @@
             "female": 12.5
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 416,
@@ -56390,7 +56320,7 @@
             "female": 100.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 417,
@@ -58275,7 +58205,7 @@
             "female": 50.0
         },
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 431,
@@ -58664,9 +58594,7 @@
         },
         "height": "0,2 m",
         "weight": "0,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59349,9 +59277,7 @@
         },
         "height": "0,5 m",
         "weight": "15,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59488,9 +59414,7 @@
         },
         "height": "0,6 m",
         "weight": "13,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -59624,9 +59548,7 @@
         },
         "height": "0,6 m",
         "weight": "24,4 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -59765,7 +59687,7 @@
             "female": 50.0
         },
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 442,
@@ -60433,9 +60355,7 @@
         },
         "height": "0,6 m",
         "weight": "105,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
@@ -60568,15 +60488,13 @@
         },
         "height": "0,7 m",
         "weight": "20,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 87.5,
             "female": 12.5
         },
         "catch_rate": 75,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 448,
@@ -60724,7 +60642,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 449,
@@ -62066,9 +61984,7 @@
         },
         "height": "1,0 m",
         "weight": "65,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -62489,7 +62405,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 462,
@@ -63982,7 +63898,7 @@
             "female": 50.0
         },
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 473,
@@ -65046,9 +64962,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65164,9 +65078,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65282,9 +65194,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,3 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65408,9 +65318,7 @@
         "evolution": null,
         "height": "5,4 m",
         "weight": "683,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65534,9 +65442,7 @@
         "evolution": null,
         "height": "4,2 m",
         "weight": "336,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65660,9 +65566,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "430,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
@@ -65781,9 +65685,7 @@
         "evolution": null,
         "height": "3,7 m",
         "weight": "420,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -65907,9 +65809,7 @@
         "evolution": null,
         "height": "4,5 m",
         "weight": "750,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66025,9 +65925,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "85,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 0.0,
             "female": 100.0
@@ -66384,9 +66282,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "50,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66502,12 +66398,10 @@
         "evolution": null,
         "height": "0,2 m",
         "weight": "2,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 493,
@@ -66620,9 +66514,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "320,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66742,9 +66634,7 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -66880,7 +66770,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 496,
@@ -67014,7 +66904,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 497,
@@ -67147,7 +67037,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 498,
@@ -67279,7 +67169,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 499,
@@ -67416,7 +67306,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 500,
@@ -67552,7 +67442,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 501,
@@ -67685,7 +67575,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 502,
@@ -67818,7 +67708,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 503,
@@ -67950,7 +67840,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 504,
@@ -68356,7 +68246,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 507,
@@ -68493,7 +68383,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 508,
@@ -68629,7 +68519,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 509,
@@ -70095,7 +69985,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 520,
@@ -70236,7 +70126,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 521,
@@ -70376,7 +70266,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 522,
@@ -70782,7 +70672,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 525,
@@ -70919,7 +70809,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 526,
@@ -71055,7 +70945,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 527,
@@ -71874,7 +71764,7 @@
             "female": 25.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 533,
@@ -72011,7 +71901,7 @@
             "female": 25.0
         },
         "catch_rate": 90,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 534,
@@ -72147,7 +72037,7 @@
             "female": 25.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 535,
@@ -72283,7 +72173,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 536,
@@ -72424,7 +72314,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 537,
@@ -72564,7 +72454,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 538,
@@ -72962,7 +72852,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 541,
@@ -73103,7 +72993,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 542,
@@ -73243,7 +73133,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 543,
@@ -73383,7 +73273,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 544,
@@ -73524,7 +73414,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 545,
@@ -73668,7 +73558,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 546,
@@ -74493,7 +74383,7 @@
             "female": 50.0
         },
         "catch_rate": 180,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 552,
@@ -74634,7 +74524,7 @@
             "female": 50.0
         },
         "catch_rate": 90,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 553,
@@ -74774,7 +74664,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 554,
@@ -74905,7 +74795,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 555,
@@ -75036,7 +74926,7 @@
             "female": 50.0
         },
         "catch_rate": 60,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 556,
@@ -77058,7 +76948,7 @@
             "female": 12.5
         },
         "catch_rate": 75,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 571,
@@ -77185,7 +77075,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 572,
@@ -77591,7 +77481,7 @@
             "female": 75.0
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 575,
@@ -77728,7 +77618,7 @@
             "female": 75.0
         },
         "catch_rate": 100,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 576,
@@ -77864,7 +77754,7 @@
             "female": 75.0
         },
         "catch_rate": 50,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 577,
@@ -78000,7 +77890,7 @@
             "female": 50.0
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 578,
@@ -78137,7 +78027,7 @@
             "female": 50.0
         },
         "catch_rate": 100,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 579,
@@ -78273,7 +78163,7 @@
             "female": 50.0
         },
         "catch_rate": 50,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 580,
@@ -81000,7 +80890,7 @@
         ],
         "sexe": null,
         "catch_rate": 130,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 600,
@@ -81134,7 +81024,7 @@
         ],
         "sexe": null,
         "catch_rate": 60,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 601,
@@ -81267,7 +81157,7 @@
         ],
         "sexe": null,
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 602,
@@ -82062,7 +81952,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 608,
@@ -82203,7 +82093,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 609,
@@ -82347,7 +82237,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 610,
@@ -83687,7 +83577,7 @@
             "female": 50.0
         },
         "catch_rate": 180,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 620,
@@ -83823,7 +83713,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 621,
@@ -86237,9 +86127,7 @@
         "evolution": null,
         "height": "2,1 m",
         "weight": "250,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86359,9 +86247,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "260,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86481,9 +86367,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "200,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86603,9 +86487,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "63,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -86732,9 +86614,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "61,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -86857,9 +86737,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "330,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -86979,9 +86857,7 @@
         "evolution": null,
         "height": "2,9 m",
         "weight": "345,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87105,9 +86981,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "68,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":100,
             "female":0
@@ -87230,9 +87104,7 @@
         "evolution": null,
         "height": "3,0 m",
         "weight": "325,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87352,9 +87224,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "48,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87474,9 +87344,7 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "6,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
         "level_100": 1250000
@@ -87596,9 +87464,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "82,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -87733,7 +87599,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 651,
@@ -87866,7 +87732,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 652,
@@ -88002,7 +87868,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 653,
@@ -88134,7 +88000,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 654,
@@ -88267,7 +88133,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 655,
@@ -88403,7 +88269,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 656,
@@ -88535,7 +88401,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 657,
@@ -88668,7 +88534,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 658,
@@ -88808,7 +88674,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 659,
@@ -89218,7 +89084,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 662,
@@ -89355,7 +89221,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 663,
@@ -89491,7 +89357,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 664,
@@ -90039,7 +89905,7 @@
             "female": 87.5
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 668,
@@ -90178,7 +90044,7 @@
             "female": 87.5
         },
         "catch_rate": 200,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 669,
@@ -96628,9 +96494,7 @@
         "evolution": null,
         "height": "3,0 m",
         "weight": "215,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -96750,9 +96614,7 @@
         "evolution": null,
         "height": "5,8 m",
         "weight": "203,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -96876,9 +96738,7 @@
         "evolution": null,
         "height": "5,0 m",
         "weight": "305,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -96998,9 +96858,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "8,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -97120,9 +96978,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "8,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -97242,9 +97098,7 @@
         "evolution": null,
         "height": "1,7 m",
         "weight": "195,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -97383,7 +97237,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 723,
@@ -97520,7 +97374,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 724,
@@ -97656,7 +97510,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 725,
@@ -97788,7 +97642,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 726,
@@ -97921,7 +97775,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 727,
@@ -98057,7 +97911,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 728,
@@ -98190,7 +98044,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 729,
@@ -98324,7 +98178,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 730,
@@ -98461,7 +98315,7 @@
             "female": 12.5
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 731,
@@ -102665,7 +102519,7 @@
             "female": 100.0
         },
         "catch_rate": 235,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 762,
@@ -102802,7 +102656,7 @@
             "female": 100.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 763,
@@ -102938,7 +102792,7 @@
             "female": 100.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 764,
@@ -104103,9 +103957,7 @@
         },
         "height": "1,9 m",
         "weight": "120,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": "\u2014"
@@ -104227,9 +104079,7 @@
         },
         "height": "2,3 m",
         "weight": "100,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -104354,7 +104204,7 @@
         ],
         "sexe": null,
         "catch_rate": 30,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 775,
@@ -105787,9 +105637,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "20,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -105913,9 +105761,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "18,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106039,9 +105885,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "45,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106165,9 +106009,7 @@
         "evolution": null,
         "height": "1,3 m",
         "weight": "21,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -106292,9 +106134,7 @@
         },
         "height": "0,2 m",
         "weight": "0,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106419,9 +106259,7 @@
         },
         "height": "0,1 m",
         "weight": "999,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106548,9 +106386,7 @@
         },
         "height": "3,4 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106677,9 +106513,7 @@
         },
         "height": "4,0 m",
         "weight": "120,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106799,9 +106633,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "55,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -106921,9 +106753,7 @@
         "evolution": null,
         "height": "2,4 m",
         "weight": "333,6 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107043,9 +106873,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "25,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107161,9 +106989,7 @@
         "evolution": null,
         "height": "3,8 m",
         "weight": "100,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -107283,9 +107109,7 @@
         "evolution": null,
         "height": "9,2 m",
         "weight": "999,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107405,9 +107229,7 @@
         "evolution": null,
         "height": "0,3 m",
         "weight": "0,1 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 25,
         "level_100": 1250000
@@ -107527,9 +107349,7 @@
         "evolution": null,
         "height": "5,5 m",
         "weight": "888,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 15,
         "level_100": 1250000
@@ -107645,9 +107465,7 @@
         "evolution": null,
         "height": "2,4 m",
         "weight": "230,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -107767,9 +107585,7 @@
         "evolution": null,
         "height": "1,0 m",
         "weight": "80,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -107889,9 +107705,7 @@
         "evolution": null,
         "height": "0,7 m",
         "weight": "22,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108013,9 +107827,7 @@
         },
         "height": "0,6 m",
         "weight": "1,8 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -108141,9 +107953,7 @@
         },
         "height": "3,6 m",
         "weight": "150,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -108263,9 +108073,7 @@
         "evolution": null,
         "height": "5,5 m",
         "weight": "820,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -108385,9 +108193,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "13,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": 1250000
@@ -108503,9 +108309,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "44,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108627,9 +108431,7 @@
         },
         "height": "0,2 m",
         "weight": "8,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -108754,9 +108556,7 @@
         },
         "height": "2,5 m",
         "weight": "800,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -110364,7 +110164,7 @@
             "female": 50.0
         },
         "catch_rate": 255,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 822,
@@ -110501,7 +110301,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 823,
@@ -110644,7 +110444,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 824,
@@ -114054,15 +113854,13 @@
         },
         "height": "0,4 m",
         "weight": "11,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
         "catch_rate": 75,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 849,
@@ -114196,15 +113994,13 @@
         },
         "height": "1,6 m",
         "weight": "40,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 850,
@@ -114617,7 +114413,7 @@
             "female": 50.0
         },
         "catch_rate": 180,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 853,
@@ -114749,7 +114545,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": 1059860
+        "level_100": 1059862
     },
     {
         "pokedexId": 854,
@@ -116513,7 +116309,7 @@
         ],
         "evolution": {
             "pre": [
-                {"pokedexId":122,"name":"M.Mime de Galar"}
+                {"pokedexId": 122, "name":"M.Mime de Galar"}
             ],
             "next": null,
             "mega":null
@@ -118333,9 +118129,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "190,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118463,9 +118257,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "150,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118593,9 +118385,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "215,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -118723,9 +118513,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "175,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 45,
         "level_100": 1250000
@@ -119402,9 +119190,7 @@
         "evolution": null,
         "height": "2,8m",
         "weight": "110,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": 1250000
@@ -119520,9 +119306,7 @@
         "evolution": null,
         "height": "2,9m",
         "weight": "210,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": 1250000
@@ -119642,9 +119426,7 @@
         "evolution": null,
         "height": "0,6m",
         "weight": "12,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -119768,9 +119550,7 @@
         },
         "height": "0,6m",
         "weight": "12,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -119901,9 +119681,7 @@
         },
         "height": "1,9m",
         "weight": "105,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": {
             "male":87.5,
             "female":12.5
@@ -120021,9 +119799,7 @@
         "evolution": null,
         "height": "1,8m",
         "weight": "70,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120138,9 +119914,7 @@
         "evolution": null,
         "height": "1,2m",
         "weight": "145,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120255,9 +120029,7 @@
         "evolution": null,
         "height": "2,1m",
         "weight": "200,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120372,9 +120144,7 @@
         "evolution": null,
         "height": "2,2m",
         "weight": "800,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120489,9 +120259,7 @@
         "evolution": null,
         "height": "2,0m",
         "weight": "44,5 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -120610,9 +120378,7 @@
         "evolution": null,
         "height": "1,1m",
         "weight": "7,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -132090,9 +131856,7 @@
         "evolution": null,
         "height": "2,2 m",
         "weight": "320,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132212,9 +131976,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "8,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -132334,9 +132096,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "21,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -132456,9 +132216,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "4,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132578,9 +132336,7 @@
         "evolution": null,
         "height": "3,2 m",
         "weight": "92,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132700,9 +132456,7 @@
         "evolution": null,
         "height": "2,3 m",
         "weight": "60,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132822,9 +132576,7 @@
         "evolution": null,
         "height": "0,9 m",
         "weight": "240,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -132944,9 +132696,7 @@
         "evolution": null,
         "height": "0,6 m",
         "weight": "11,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -133066,9 +132816,7 @@
         "evolution": null,
         "height": "1,8 m",
         "weight": "380,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
         "level_100": null
@@ -133188,9 +132936,7 @@
         "evolution": null,
         "height": "1,3 m",
         "weight": "111,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133310,9 +133056,7 @@
         "evolution": null,
         "height": "1,2 m",
         "weight": "36,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133432,9 +133176,7 @@
         "evolution": null,
         "height": "1,6 m",
         "weight": "303,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
         "level_100": null
@@ -133947,9 +133689,7 @@
         },
         "height": "0,3 m",
         "weight": "5,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": null,
         "level_100": null
@@ -134075,9 +133815,7 @@
         },
         "height": "1,2 m",
         "weight": "30,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": null,
         "level_100": null
@@ -134197,9 +133935,7 @@
         "evolution": null,
         "height": "1,5 m",
         "weight": "74,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134319,9 +134055,7 @@
         "evolution": null,
         "height": "1,9 m",
         "weight": "152,2 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134441,9 +134175,7 @@
         "evolution": null,
         "height": "2,7 m",
         "weight": "699,7 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134563,9 +134295,7 @@
         "evolution": null,
         "height": "0,4 m",
         "weight": "4,9 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
         "level_100": null
@@ -134685,9 +134415,7 @@
         "evolution": null,
         "height": "2,0 m",
         "weight": "380,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": null
@@ -134807,9 +134535,7 @@
         "evolution": null,
         "height": "1,4 m",
         "weight": "35,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
         "level_100": null
@@ -134929,9 +134655,7 @@
         "evolution": null,
         "height": "2,5 m",
         "weight": "303,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
@@ -135051,9 +134775,7 @@
         "evolution": null,
         "height": "3,5 m",
         "weight": "240,0 kg",
-        "egg_groups": [
-            "Inconnu"
-        ],
+        "egg_groups": null,
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
