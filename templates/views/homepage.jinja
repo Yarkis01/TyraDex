@@ -14,26 +14,26 @@
 <section id="carousel-container">
     <div id="carousel">
         <div id="carousel__left-arrow" onclick="setPokemon(actual_pkm - 1);">
-            <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;"/>
+            <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;" alt="Chevron gauche" />
         </div>
         <div style="text-align: center;">
-            <img id="carousel__image" src="" style="display: none;" />
-            <img id="carousel__loading" src="/assets/carousel/loader.svg" style="" />
+            <img id="carousel__image" style="display: none;" alt="Pokémon" />
+            <img id="carousel__loading" src="/assets/carousel/loader.svg" alt="loader" />
         </div>
         <div id="carousel_right-arrow" onclick="setPokemon(actual_pkm + 1);">
-            <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" />
+            <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" alt="Chevron droit" />
         </div>
     </div>
     <div id="carousel__infobox">
         <p id="carousel__info-pkmname"></p>
         <div id="carousel__info-types"></div>
-        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" title="Non chromatique" /> 
+        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" title="Non chromatique" alt="Étoile" /> 
     </div>
 </section>
 
 <section id="routes-container">
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png" loading="lazy" alt="Salamèche" />
         <p>
             <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
@@ -41,7 +41,7 @@
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" loading="lazy" alt="Embrylex" />
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
@@ -49,7 +49,7 @@
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png" loading="lazy" alt="Rattata d'Alola" />
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;/&lt;region&gt;</span><br /><br />
             Permet d'obtenir la forme régionale d'un Pokémon<br /><br />
@@ -57,7 +57,7 @@
         </p>
     </div>
     <div>
-        <img src="{{ base_url }}assets/logo.png" />
+        <img src="{{ base_url }}assets/logo.png" loading="lazy" alt="Pokéball" />
         <p>
             <span>/api/v1/pokemon</span><br /><br />
             Permet de récupérer la liste de tous les Pokémons<br /><br />
@@ -65,7 +65,7 @@
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png" loading="lazy" alt="Pikachu" />
         <p>
             <span>/api/v1/gen</span><br /><br />
             Permet de récupérer la liste des différentes générations<br /><br />
@@ -73,7 +73,7 @@
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png" loading="lazy" alt="Chochodile" />
         <p>
             <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
             Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
@@ -91,7 +91,7 @@
     </div>
     <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/tyranocif')">pokemon/tyranocif</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
     <pre id="tryit__json-area">
-        <img src="/assets/carousel/loader.svg" />
+        <img src="/assets/carousel/loader.svg" loading="lazy" />
     </pre>
     <div>
         <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
