@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="robots" content="index, nofollow" />
         <meta name="description" content="Une simple API Pokémon en français." />
+        <meta name="keywords" content="pokemon pok&eacute;mon api pokeapi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>PokéAPI - Une simple API Pokémon</title>
@@ -15,23 +16,21 @@
         <meta property="og:image" content="https://mon-api-pokemon.vercel.app/assets/logo.png" />
         <meta property="og:description" content="Une simple API Pokémon en français." />
 
-        <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
-        {% block style %}
-        {% endblock %}
+        <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/{{ css_file }}" />
     </head>
     <body>
         <header>
             <div>
                 <a href="{{ url_for('_home') }}">
-                    <img src="/assets/logo.png" draggable="false" />
+                    <img src="/assets/logo.png" draggable="false" alt="Pokéball" />
                     <p>PokéAPI</p>
                 </a>
             </div>
             <div>
                 <a href="https://github.com/Yarkis01/PokeAPI" target="_blank">
                     <p>Github</p>
-                    <img src="/assets/github.png" draggable="false" />
+                    <img src="/assets/github.png" draggable="false" alt="Logo github" />
                 </a>
             </div>
         </header>

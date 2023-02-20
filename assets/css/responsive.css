@@ -1,6 +1,0 @@
-@media screen and (max-width: 560px) {
-    header {height: 60px;}
-    header img {width: 32px; height: 32px;}
-    header div a {font-size: 16px;}
-    header div a p {margin: calc(calc(32px - 16px) / 2);}
-}
