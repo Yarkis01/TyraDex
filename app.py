@@ -1,4 +1,4 @@
-from flask          import Flask, render_template, request
+from flask          import Flask, render_template, send_file, request
 from flask_restful  import Api
 from flask_minify   import Minify
 from flask_squeeze  import Squeeze
@@ -26,6 +26,10 @@ Minify(app = app, html = True, js = True, cssless = True)
 def _home():
     pokemon = json.load(open("data/pokemon.json", encoding = "utf8"))
     return render_template("views/homepage.jinja", date = datetime.date.today(), total_pkm = (len(pokemon) - 1), base_url = f"{request.base_url}", css_file = "homepage.css")
+
+@app.route('/robots.txt')
+def _robots():
+    return send_file("robots.txt")
 
 @app.errorhandler(404)
 def _page_not_found(error):

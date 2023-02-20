@@ -13,21 +13,21 @@
 
 <section id="carousel-container">
     <div id="carousel">
-        <div id="carousel__left-arrow" onclick="setPokemon(actual_pkm - 1);">
+        <div id="carousel__left-arrow" onclick="setPokemon(actualPkm - 1);">
             <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;" alt="Chevron gauche" />
         </div>
         <div style="text-align: center;">
             <img id="carousel__image" style="display: none;" alt="Pokémon" />
             <img id="carousel__loading" src="/assets/carousel/loader.svg" alt="loader" />
         </div>
-        <div id="carousel_right-arrow" onclick="setPokemon(actual_pkm + 1);">
+        <div id="carousel_right-arrow" onclick="setPokemon(actualPkm + 1);">
             <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" alt="Chevron droit" />
         </div>
     </div>
     <div id="carousel__infobox">
         <p id="carousel__info-pkmname"></p>
         <div id="carousel__info-types"></div>
-        <img id="carousel__shiny" src="" onclick="setShiny(actual_pkm);" title="Non chromatique" alt="Étoile" /> 
+        <img id="carousel__shiny" src="" onclick="setShiny(actualPkm);" title="Non chromatique" alt="Étoile" /> 
     </div>
 </section>
 
@@ -94,7 +94,7 @@
         <img src="/assets/carousel/loader.svg" loading="lazy" />
     </pre>
     <div>
-        <button id="tryit__open-new-tab" onclick="window.open(last_url, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
+        <button id="tryit__open-new-tab" onclick="window.open(lastUrl, '_blank').focus()">Ouvrir dans un nouvel onglet</button>
         <button id="tryit__copy-url" onclick="copyRequestUrl();">Copier l'url de la requête</button>
         <button id="tryit__copy-json" onclick="copyJson();">Copier le contenue JSON</button>
     </div>
@@ -102,202 +102,9 @@
 {% endblock %}
 
 {% block javascript %}
-<script>
-    let total_pkm  = {{ total_pkm }},
-        base_url   = "{{ base_url }}api/v1",
-        actual_pkm = Math.floor(Math.random() * total_pkm) + 1,
-        pkm_data   = null,
-        is_shiny   = false,
-        last_url   = null,
-        req_json   = null;
-
-
-    let loader   = document.getElementById("carousel__loading"),
-        image    = document.getElementById("carousel__image"),
-        shiny    = document.getElementById("carousel__shiny"),
-        types    = document.getElementById("carousel__info-types"),
-        pkm_name = document.getElementById("carousel__info-pkmname");
-
-    async function loadImage(url, element) {
-        return new Promise((resolve, reject) => {
-            element.onload  = () => resolve(element);
-            element.onerror = reject;
-            element.src     = url;
-        });
-    }
-
-    async function changeCarouselImage(url, element) {
-        element.style.display = "none";
-        loader.style.display  = "inline";
-
-        await loadImage(url, element);
-
-        loader.style.display  = "none";
-        element.style.display = "inline";
-    }
-
-    async function apiRequest(routes) {
-        let response = await fetch(base_url + routes);
-        return response.redirected ? null : await response.json()
-    }
-
-    async function setShinyLock(shinylock) {
-        if(shinylock) {
-            shiny.title = "Shiny Lock";
-            shiny.style.cursor = "not-allowed";
-            shiny.style.filter = "invert(53%) sepia(0%) saturate(0%) hue-rotate(350deg) brightness(95%) contrast(89%)";
-        } else {
-            shiny.title = "Non chromatique";
-            shiny.style.cursor = "pointer";
-            shiny.style.filter = "";
-        }
-    }
-
-    async function setShiny(number) {
-        if(pkm_data.sprites.shiny == null) {
-            return;
-        }
-
-        if(is_shiny) {
-            shiny.src   = "/assets/carousel/star_FILL0.svg";
-            shiny.title = "Non chromatique";
-            await changeCarouselImage(pkm_data.sprites.regular, image);
-        } else {
-            try {
-                shiny.src = "/assets/carousel/star_FILL1.svg";
-                shiny.title = "Chromatique";
-                await changeCarouselImage(pkm_data.sprites.shiny, image);
-            } catch {
-                setShinyLock(true);
-                is_shiny = !is_shiny;
-                console.log(`Erreur: Impossible d'afficher la forme shiny du Pokémon (${pkm_data.name.fr})`);
-                return setShiny();
-            }
-        }
-        is_shiny = !is_shiny;
-    }
-
-    async function setPokemon(number) {
-        if(number == 0)
-            number = total_pkm;
-        if (number > total_pkm)
-            number = 1;
-
-        shiny.style.visibility = "hidden";
-        shiny.src = "/assets/carousel/star_FILL0.svg";
-        is_shiny = false;
-
-        await setShinyLock(false);
-
-        types.style.visibility = "hidden";
-        pkm_name.textContent   = "Chargement...";
-
-        pkm_data   = await apiRequest("/pokemon/" + number);
-        actual_pkm = number;
-        if(pkm_data == null) {
-            document.getElementById("carousel-container").style.display = "none";
-            return;
-        }
-
-        if(pkm_data.sprites.shiny == null) {
-            await setShinyLock(true);
-        }
-
-        await changeCarouselImage(pkm_data.sprites.regular, image);
-        
-        pkm_name.textContent = pkm_data.name.fr;
-        shiny.style.visibility  = "visible";
-
-        types.innerHTML = "";
-        for(let i = 0; i < pkm_data.types.length; i++) {
-            types.innerHTML += `<img src="${pkm_data.types[i].image}" title="${pkm_data.types[i].name}" />`;
-        }
-        types.style.visibility = "visible";
-    }
-
-    function syntaxHighlight(json) {
-        return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
-            let type = 'number';
-            if (/^"/.test(match)) {
-                if (/:$/.test(match)) {
-                    type = 'key';
-                } else {
-                    type = 'string';
-                }
-            } else if (/true|false/.test(match)) {
-                type = 'boolean';
-            } else if (/null/.test(match)) {
-                type = 'null';
-            }
-            if (/https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)/g.test(match)) {
-                let match_array = match.split('"');
-                return `<span class="${type}">"<a href="${match_array[1]}" target="_blank">${match_array[1]}</a>"</span>`;
-            }
-            return `<span class="${type}">${match}</span>`;
-        });
-    }
-
-    async function customApiRequest() {
-        let json_area = document.getElementById("tryit__json-area");
-        json_area.innerHTML = '<img src="/assets/carousel/loader.svg" />';
-
-        request = await apiRequest(`/${document.getElementById("tryit__input-text").value}`);
-
-        if(request == null) {
-            request = {
-                "error": 302,
-                "message": "Il semblerait que vous vous soyez perdu... Êtes-vous sûr d'être sur la bonne route ?"
-            }
-        } else {
-            last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
-        }
-
-        req_json = JSON.stringify(request, null, 4)
-        json_area.innerHTML = syntaxHighlight(req_json);
-    }
-
-    async function tryApiExample(url) {
-        document.getElementById("tryit__input-text").value = url;
-        await customApiRequest();
-    }
-
-    async function copyRequestUrl() {
-        let input = document.getElementById("tryit__input-text"),
-                value = input.value;
-
-        input.value = base_url + "/" + value;
-        input.select();
-        document.execCommand("copy");
-        input.value = value;
-
-        alert("L'url a été copiée avec succès.");
-    }
-
-    async function copyJson() {
-        let element = document.createElement("textarea");
-        element.value = req_json;
-        document.body.appendChild(element);
-        element.select();
-        document.execCommand("copy");
-        document.body.removeChild(element);
-        
-        alert("Le résultat de la requête a bien été copié.");
-    }
-
-
-    (async function init() {
-        await setPokemon(actual_pkm);
-        req_json = JSON.stringify(pkm_data, null, 4);
-        document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(req_json);
-        document.getElementById("tryit__input-text").value = `pokemon/${pkm_data.name.fr.normalize("NFD").replace(/[^a-zA-Z0-9 ]/g, "").toLowerCase()}`;
-        last_url = `${base_url}/${document.getElementById("tryit__input-text").value}`;
-    })();
-
-    document.getElementById("tryit__input-text").addEventListener("keyup", (event) => {
-        if(event.keyCode === 13) {
-            event.preventDefault();
-            document.getElementById("tryit__input-button").click();
-        }
-    });
+<script type="text/javascript">
+    const   totalPkm = {{ total_pkm }},
+            baseUrl  = "{{ base_url }}api/v1";
 </script>
+<script type="text/javascript" src="/assets/js/homepage.js" defer></script>
 {% endblock %}
