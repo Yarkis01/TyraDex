@@ -16,10 +16,10 @@
         <meta property="og:image" content="https://mon-api-pokemon.vercel.app/assets/logo.png" />
         <meta property="og:description" content="Une simple API Pokémon en français." />
 
-        <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
-        <link rel="stylesheet" type="text/css" href="/assets/css/{{ css_file }}" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
     </head>
-    <body>
+    <body hx-boost="true">
         <header>
             <div>
                 <a href="{{ url_for('_home') }}">
@@ -45,11 +45,12 @@
                 © Pokémon et tous les noms respectifs sont des marques déposées de <u>The Pokémon Company International</u>, <u>Game Freak</u> et <u>Nintendo</u>.
             </p>
         </footer>
-    <script>
-        document.getElementById("copy_date").innerText = new Date().getFullYear();
-    </script>
-    {% block javascript %}
-    {% endblock %}
-    <script defer src="/_vercel/insights/script.js" defer></script>
+        <script>
+            document.getElementById("copy_date").innerText = new Date().getFullYear();
+        </script>
+        {% block javascript %}
+        {% endblock %}
+        <script defer src="/_vercel/insights/script.js" defer></script>
+        <script src="https://unpkg.com/htmx.org@1.8.5" defer></script>
     </body>
 </html>

@@ -1,3 +1,65 @@
+@import url('fonts.css');
+@import url('animation.css');
+
+/*
+ *  Base
+ */
+
+
+:root {
+    --primary-background-color  : #2c3e50;
+    --secondary-background-color: #34495e;
+
+    --primary-color  : #ffffff;
+    --secondary-color: #ff7675;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-background-color);
+}
+
+header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    margin-bottom: 16px;
+}
+
+header div a {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+header div a p {margin: calc(calc(56px - 32px) / 2);}
+
+header img {
+    width: 56px;
+    height: 56px;
+}
+
+footer {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+footer p {padding: 16px; font-family: 'Roboto', sans-serif; margin-bottom: 0;}
+footer p a {text-decoration: underline; color: var(--secondary-color);}
+
+/*
+ *  Homepage
+ */
+
 #carousel {
     display: flex;
     width: 100%;
@@ -19,7 +81,7 @@
 
     background-color: var(--primary-background-color);
     border-radius: 8px;
-    margin: 16px 2vw 16px 2vw;
+    margin: 16px 2vw;
     
     color: var(--secondary-color);
     font-family: 'Roboto', sans-serif;
@@ -80,7 +142,7 @@
 
     background-color: var(--primary-background-color);
     border-radius: 8px;
-    margin: 16px 2vw 16px 2vw;
+    margin: 16px 2vw;
 
     font-family: 'Roboto', sans-serif;
 }
@@ -189,6 +251,7 @@
     justify-content: center;
     align-items: center;
     margin: 16px 2vw;
+    opacity: 0.7;
 }
 
 .warning__title {
@@ -217,52 +280,187 @@
     color: var(--primary-color);
 }
 
-/* RESPONSIVE */
-@media screen and (max-width: 768px) {
-    #routes-container div {
-        flex: 0 0 85%;
-    }
-    #carousel__infobox, #tryit-container, #warnings {
-        margin: 16px 6.5vw 16px 6.5vw;
-    }
-
-    #tryit-container div {
-        flex-direction: column;
-    }
-
-    #tryit-container div label {
-        text-align: center;
-        border-radius: 8px 8px 0 0;
-    }
-
-    #tryit-container div input {
-        margin: 0;
-        text-align: center;
-        width: auto;
-    }
-
-    #tryit__input-button {
-        border-radius: 0 0 8px 8px;
-        margin: 0;
-    }
-
-    #tryit__copy-url, #tryit__copy-json {
-        display: none;
-    }
+#documentation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px 2vw;
 }
 
-@media screen and (max-width: 300px) {
-    #carousel__infobox, #tryit-container, #routes-container div img {
-        display: none;
-    }
+#documentation-container h1 {
+    color: var(--secondary-color);
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
 }
 
-@media screen and (max-width: 560px) {
-    #carousel__shiny {display: none;}
+#documentation-container p {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
 }
 
-/* ANIMATION */
-@keyframes loading {
-    from {rotate: 0deg;}
-    to   {rotate: 360deg;}
+#documentation-container a {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+    padding: 16px;
+    border-radius: 8px;
 }
+
+/*
+ *  404
+ */
+
+#error_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+    margin: 16px 5vw;
+}
+
+#error_page h1 {
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+#error_page p {
+    color: var(--primary-color);
+}
+
+#error_page img {
+    max-width: 500px;
+    width: 100%;
+}
+
+#error_page a {
+    display: block;
+
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+    padding: 6px;
+    margin-top: 16px;
+
+    border-radius: 4px;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+#easter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #FF0000;
+    transition: background 1s;
+}
+
+#easter h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+    margin: 0;
+    z-index: 999;
+
+    font-size: 32px;
+    font-family: "Lexend Deca", sans-serif;
+
+    color: #FFFFFF;
+    white-space: nowrap;
+
+    transition: top 0.5s, left 0.5s, color 1s;
+    animation: 0.75s ease-in-out infinite alternate pulse;
+}
+
+#easter_pokeball {
+    position: absolute;
+    left: 50%;
+    animation: 0.248s linear infinite alternate pokeball;
+}
+
+#easter_t1-left, #easter_t1-right {
+    position: absolute;
+    height: 256px;
+    bottom: 0;
+}
+
+#easter_t1-left  {transform: rotateY(180deg);}
+#easter_t1-right {right: 0;}
+
+#easter_t2-left, #easter_t2-right {
+    position: absolute;
+    rotate: 180deg;
+}
+
+#easter_t2-left  {left: 0;}
+#easter_t2-right {right: 0; transform: scaleX(-1);}
+
+#easter_t3-left, #easter_t3-right {
+    position: absolute;
+    height: 328px;
+    bottom: 0;
+}
+
+#easter_t3-left  {right: 45%;}
+#easter_t3-right {left: 45%; transform: scaleX(-1);}
+
+/*
+ *  Documentation
+ */
+
+.documentation {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 2vw;
+}
+
+.documentation_menu, .documentation_content {
+    background-color: var(--primary-background-color);
+    border-radius: 8px;
+}
+
+.documentation_menu {
+    margin-right: 16px;
+    padding: 0 16px;
+    width: 175px;
+}
+
+.documentation_menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.documentation li {margin: 4px;}
+
+
+.documentation_menu li ul {
+    padding-left: 16px;
+    display: none;
+}
+
+.documentation_content {flex: 2 1 auto;}
+
+.documentation_menu strong, .documentation_menu a {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    user-select: none;
+}
+
+.documentation_menu strong::before {content: "⮞ ";}
+.documentation_menu strong.open::before {content: "⮟ " !important;}

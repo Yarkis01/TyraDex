@@ -33,43 +33,27 @@
 
 <section id="routes-container">
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/4/regular.png" loading="lazy" alt="Salamèche" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" loading="lazy" alt="Tyranocif" />
         <p>
             <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
             Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/4">Voir la fiche du Pokémon</a>
+            <a href="{{ base_url }}api/v1/pokemon/246" hx-boost="false">Voir la fiche du Pokémon</a>
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" loading="lazy" alt="Embrylex" />
-        <p>
-            <span>/api/v1/pokemon/&lt;nom&gt;</span><br /><br />
-            Permet de récupérer la fiche d'un Pokémon grâce à son nom (français ou anglais)<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/embrylex">Voir la fiche du Pokémon</a>
-        </p>
-    </div>
-    <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png" loading="lazy" alt="Rattata d'Alola" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular_hisui.png" loading="lazy" alt="Caninos de Hisui" />
         <p>
             <span>/api/v1/pokemon/&lt;nom&gt;/&lt;region&gt;</span><br /><br />
             Permet d'obtenir la forme régionale d'un Pokémon<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon/rattata/alola">Voir Rattata d'Alola</a>
+            <a href="{{ base_url }}api/v1/pokemon/caninos/hisui" hx-boost="false">Voir la fiche de Caninos de Hisui</a>
         </p>
     </div>
     <div>
-        <img src="{{ base_url }}assets/logo.png" loading="lazy" alt="Pokéball" />
+        <img src="/assets/logo.png" loading="lazy" alt="Pokéball" />
         <p>
             <span>/api/v1/pokemon</span><br /><br />
             Permet de récupérer la liste de tous les Pokémons<br /><br />
-            <a href="{{ base_url }}api/v1/pokemon">Voir tous les Pokémons</a>
-        </p>
-    </div>
-    <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/25/regular.png" loading="lazy" alt="Pikachu" />
-        <p>
-            <span>/api/v1/gen</span><br /><br />
-            Permet de récupérer la liste des différentes générations<br /><br />
-            <a href="{{ base_url }}api/v1/gen">Voir les différentes générations</a>
+            <a href="{{ base_url }}api/v1/pokemon" hx-boost="false">Voir tous les Pokémons</a>
         </p>
     </div>
     <div>
@@ -77,15 +61,21 @@
         <p>
             <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
             Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
-            <a href="{{ base_url }}api/v1/gen/9">Voir les Pokémons de la Gen. 9</a>
+            <a href="{{ base_url }}api/v1/gen/9" hx-boost="false">Voir les Pokémons de la Gen. 9</a>
         </p>
     </div>
+</section>
+
+<section id="documentation-container">
+    <h1>Envie d'aller plus loin ?</h1>
+    <p>Penser à aller voir la documentation pour voir toutes les fonctionnalités disponibles.</p>
+    <a href="/docs">Documentation</a>
 </section>
 
 <section id="tryit-container">
     <p id="tryit__title">Essayez maintenant !</p>
     <div>
-        <label>{{ base_url }}api/v1/</label>
+        <label></label>
         <input type="text" placeholder="pokemon/bulbizarre" id="tryit__input-text" />
         <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
     </div>
@@ -103,20 +93,21 @@
 
 {% block javascript %}
 <script type="text/javascript" data-no-instant>
-    const   totalPkm = {{ total_pkm }},
-            baseUrl  = "{{ base_url }}api/v1";
-
-    let actualPkm   = Math.floor(Math.random() * totalPkm) + 1,
+    var totalPkm    = {{ total_pkm }},
+        baseUrl     = `${window.location.protocol}//${window.location.host}/api/v1`,
+        actualPkm   = Math.floor(Math.random() * totalPkm) + 1,
         pkmData     = null,
         isShiny     = false,
         lastUrl     = null,
         requestJson = null;
 
-    let loader  = document.getElementById("carousel__loading"),
+    var loader  = document.getElementById("carousel__loading"),
         image   = document.getElementById("carousel__image"),
         shiny   = document.getElementById("carousel__shiny"),
         types   = document.getElementById("carousel__info-types"),
         pkmName = document.getElementById("carousel__info-pkmname");
+
+    document.querySelector("#tryit-container div label").innerText = baseUrl + "/";
 </script>
 <script type="text/javascript" src="/assets/js/homepage.js" defer></script>
 {% endblock %}

@@ -25,13 +25,13 @@ Minify(app = app, html = True, js = True, cssless = True)
 @app.route("/")
 def _home():
     pokemon = json.load(open("data/pokemon.json", encoding = "utf8"))
-    return render_template("views/homepage.jinja", total_pkm = (len(pokemon) - 1), base_url = f"{request.base_url}", css_file = "homepage.css")
+    return render_template("views/homepage.jinja", total_pkm = (len(pokemon) - 1))
 
 @app.route('/docs')
 @app.route('/docs/<path:path>')
 def _docs(path: str = None):
     path = "./docs/index.md" if path is None else f"./docs/{path}.md"
-    return render_template('views/docs.jinja', markdown = markdown.markdown(open(path, encoding="utf-8").read()), navbar = markdown.markdown(open("./docs/navbar.md", encoding="utf-8").read()), css_file = "documentation.css") if os.path.exists(path) else abort(404)
+    return render_template('views/docs.jinja', markdown = markdown.markdown(open(path, encoding="utf-8").read()), navbar = markdown.markdown(open("./docs/navbar.md", encoding="utf-8").read())) if os.path.exists(path) else abort(404)
 
 @app.route('/robots.txt')
 def _robots():
@@ -39,7 +39,7 @@ def _robots():
 
 @app.errorhandler(404)
 def _page_not_found(error):
-    return render_template("views/404.jinja", css_file = "404.css"), 404
+    return render_template("views/404.jinja"), 404
 
 api.add_resource(Pokemon, "/pokemon", "/pokemon/<string:pokemon>", "/pokemon/<string:pokemon>/<string:forme>")
 api.add_resource(Generation, "/gen", "/gen/<string:gen>")

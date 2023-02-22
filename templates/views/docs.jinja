@@ -13,14 +13,5 @@
 
 
 {% block javascript %}
-<script>
-    let menus = document.querySelectorAll("a[href='#']");
-
-    menus.forEach(menu => {
-        menu.addEventListener('click', () => {
-            let element = menu.parentElement.getElementsByTagName("ul")[0];
-            element.style.display = ["none", ""].includes(element.style.display) ? "block" : "none";
-        });
-    });
-</script>
+<script src="/assets/js/documentation.js" defer hx-trigger="load delay:1s"></script>
 {% endblock %}
