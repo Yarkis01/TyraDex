@@ -16,8 +16,8 @@
         <meta property="og:image" content="https://mon-api-pokemon.vercel.app/assets/logo.png" />
         <meta property="og:description" content="Une simple API Pokémon en français." />
 
-        <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/{{ css_file }}" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/{{ css_file }}" />
     </head>
     <body>
         <header>
@@ -40,12 +40,16 @@
         </main>
         <footer>
             <p>
-                {{ date.year }} | <a href="https://github.com/Yarkis01/PokeAPI/blob/main/LICENSE" target="_blank">Mit License</a> | Une simple API crée avec ❤️ par <a href="https://github.com/Yarkis01" target="_blank">Yarkis</a> & <a href="https://github.com/Ashzuu" target="_blank">Ashzuu</a>
+                © <span id="copy_date"></span> | <a href="https://github.com/Yarkis01/PokeAPI/blob/main/LICENSE" target="_blank">Mit License</a> | Une simple API crée avec ❤️ par <a href="https://github.com/Yarkis01" target="_blank">Yarkis</a> & <a href="https://github.com/Ashzuu" target="_blank">Ashzuu</a>
                 <br />
                 © Pokémon et tous les noms respectifs sont des marques déposées de <u>The Pokémon Company International</u>, <u>Game Freak</u> et <u>Nintendo</u>.
             </p>
         </footer>
+    <script>
+        document.getElementById("copy_date").innerText = new Date().getFullYear();
+    </script>
     {% block javascript %}
     {% endblock %}
+    <script defer src="/_vercel/insights/script.js" defer></script>
     </body>
 </html>

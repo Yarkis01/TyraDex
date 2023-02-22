@@ -1,0 +1,26 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<section class="documentation">
+    <div class="documentation_menu">
+        {{ navbar }}
+    </div>
+    <div class="documentation_content">
+        {{ markdown }}
+    </div>
+</section>
+{% endblock %}
+
+
+{% block javascript %}
+<script>
+    let menus = document.querySelectorAll("a[href='#']");
+
+    menus.forEach(menu => {
+        menu.addEventListener('click', () => {
+            let element = menu.parentElement.getElementsByTagName("ul")[0];
+            element.style.display = ["none", ""].includes(element.style.display) ? "block" : "none";
+        });
+    });
+</script>
+{% endblock %}

@@ -102,9 +102,21 @@
 {% endblock %}
 
 {% block javascript %}
-<script type="text/javascript">
+<script type="text/javascript" data-no-instant>
     const   totalPkm = {{ total_pkm }},
             baseUrl  = "{{ base_url }}api/v1";
+
+    let actualPkm   = Math.floor(Math.random() * totalPkm) + 1,
+        pkmData     = null,
+        isShiny     = false,
+        lastUrl     = null,
+        requestJson = null;
+
+    let loader  = document.getElementById("carousel__loading"),
+        image   = document.getElementById("carousel__image"),
+        shiny   = document.getElementById("carousel__shiny"),
+        types   = document.getElementById("carousel__info-types"),
+        pkmName = document.getElementById("carousel__info-pkmname");
 </script>
 <script type="text/javascript" src="/assets/js/homepage.js" defer></script>
 {% endblock %}

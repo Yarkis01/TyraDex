@@ -1,15 +1,3 @@
-let actualPkm   = Math.floor(Math.random() * totalPkm) + 1,
-    pkmData     = null,
-    isShiny     = false,
-    lastUrl     = null,
-    requestJson = null;
-
-let loader  = document.getElementById("carousel__loading"),
-    image   = document.getElementById("carousel__image"),
-    shiny   = document.getElementById("carousel__shiny"),
-    types   = document.getElementById("carousel__info-types"),
-    pkmName = document.getElementById("carousel__info-pkmname");
-
 async function loadImage(url, element) {
     return new Promise((resolve, reject) => {
         element.onload  = () => resolve(element);
