@@ -2,6 +2,9 @@
 
 {% block content %}
 <section class="documentation">
+    <div id="open_documentation_menu">
+        <button>Ouvrir le menu de navigation</button>
+    </div>
     <div class="documentation_menu">
         {{ navbar }}
     </div>
@@ -13,5 +16,5 @@
 
 
 {% block javascript %}
-<script src="/assets/js/documentation.js" defer hx-trigger="load delay:1s"></script>
+<script src="/assets/js/documentation.js" defer hx-trigger="load delay:0.5s"></script>
 {% endblock %}

@@ -3,7 +3,7 @@
         flex: 0 0 85%;
         max-width: 85%;
     }
-    #carousel__infobox, #tryit-container, #warnings, #documentation-container {
+    #carousel__infobox, #tryit-container, #warnings, #documentation-container, .documentation {
         margin: 16px 6.5vw 16px 6.5vw;
     }
 
@@ -29,6 +29,25 @@
 
     #tryit__copy-url, #tryit__copy-json {
         display: none;
+    }
+
+    .documentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    #open_documentation_menu {display: block;}
+
+    .documentation_menu {
+        display: none;
+        width: 100%;
+        margin: 8px;
+    }
+
+    .documentation_content {
+        width: 100%;
+        margin-top: 8px;
     }
 }
 

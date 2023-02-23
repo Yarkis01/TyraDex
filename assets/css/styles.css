@@ -14,6 +14,11 @@
     --secondary-color: #ff7675;
 }
 
+::selection {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -439,7 +444,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 .documentation_menu {
     margin-right: 16px;
     padding: 0 16px;
-    width: 175px;
+    width: 250px;
 }
 
 .documentation_menu ul {
@@ -455,14 +460,47 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     display: none;
 }
 
-.documentation_content {flex: 2 1 auto;}
-
-.documentation_menu strong, .documentation_menu a {
-    color: var(--primary-color);
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    user-select: none;
+.documentation_content {
+    flex: 2 1 auto;
+    padding: 0 16px;
 }
 
+.documentation_menu strong, .documentation_menu a {
+    display: block;
+    width: 100%;
+
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    text-decoration: none;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.documentation_menu a.selected {
+    color: var(--secondary-color) !important; 
+    border-right: 4px solid var(--secondary-color);
+}
 .documentation_menu strong::before {content: "⮞ ";}
 .documentation_menu strong.open::before {content: "⮟ " !important;}
+
+#open_documentation_menu {display: none;}
+
+#open_documentation_menu button {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    
+    padding: 8px;
+    margin-bottom: 8px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+    cursor: pointer;
+    width: 250px;
+}
