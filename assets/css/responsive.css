@@ -1,8 +1,9 @@
 @media screen and (max-width: 768px) {
     #routes-container div {
         flex: 0 0 85%;
+        max-width: 85%;
     }
-    #carousel__infobox, #tryit-container, #warnings {
+    #carousel__infobox, #tryit-container, #warnings, #documentation-container {
         margin: 16px 6.5vw 16px 6.5vw;
     }
 

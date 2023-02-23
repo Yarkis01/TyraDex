@@ -106,6 +106,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 
 #routes-container div {
     flex: 0 0 45%;
+    max-width: 45%;
     background-color: var(--primary-background-color);
     margin: 6px 0 6px 0;
     padding: 6px;
@@ -284,6 +285,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin: 64px 2vw;
 }
 
@@ -346,7 +348,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     background-color: var(--secondary-color);
     color: var(--primary-color);
 
-    padding: 6px;
+    padding: 12px;
     margin-top: 16px;
 
     border-radius: 4px;
