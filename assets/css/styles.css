@@ -60,6 +60,12 @@ footer {
 footer p {padding: 16px; font-family: 'Roboto', sans-serif; margin-bottom: 0;}
 footer p a {text-decoration: underline; color: var(--secondary-color);}
 
+pre code {
+    background-color: var(--secondary-background-color) !important;
+    color: var(--primary-color) !important;
+    border-radius: 4px;
+}
+
 /*
  *  Homepage
  */
@@ -210,8 +216,6 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     width: calc(80vw - 16px);
     height: 300px;
     border-radius: 8px;
-    background-color: var(--secondary-background-color);
-    color: var(--primary-color);
     margin: 16px;
     padding: 8px;
     overflow: scroll;

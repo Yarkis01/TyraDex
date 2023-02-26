@@ -1,7 +1,7 @@
 - [Accueil](/docs)
 - **Pokémon**
     - [Pokédex](/docs/pokemon/pokedex)
-    - [Fiches Pokémon](/docs/pokemon/fiche)
+    - [Fiche Pokémon](/docs/pokemon/fiche)
     - [Forme Régionale](/docs/pokemon/forme-regionale)
 - **Génération**
     - [Toutes les générations](/docs/generation/liste)

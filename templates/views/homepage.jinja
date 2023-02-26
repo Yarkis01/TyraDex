@@ -80,8 +80,9 @@
         <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
     </div>
     <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/tyranocif')">pokemon/tyranocif</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
-    <pre id="tryit__json-area">
-        <img src="/assets/carousel/loader.svg" loading="lazy" />
+    <pre>
+        <code class="language-json" id="tryit__json-area">
+        </code>
     </pre>
     <div>
         <button id="tryit__open-new-tab" onclick="window.open(lastUrl, '_blank').focus()">Ouvrir dans un nouvel onglet</button>

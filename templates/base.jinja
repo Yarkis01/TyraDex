@@ -18,6 +18,8 @@
 
         <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
+
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/styles/vs2015.min.css" />
     </head>
     <body hx-boost="true">
         <header>
@@ -52,7 +54,9 @@
         </script>
         {% block javascript %}
         {% endblock %}
-        <script defer src="/_vercel/insights/script.js" defer></script>
+        <script src="/_vercel/insights/script.js" defer></script>
         <script src="https://unpkg.com/htmx.org@1.8.5" defer></script>
+        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </body>
 </html>
