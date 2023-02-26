@@ -24,7 +24,6 @@ html, body {
     padding: 0;
     background-color: var(--secondary-background-color);
 }
-
 header {
     display: flex;
     height: 100px;
@@ -444,7 +443,7 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 .documentation_menu {
     margin-right: 16px;
     padding: 0 16px;
-    width: 250px;
+    min-width: 250px;
 }
 
 .documentation_menu ul {
@@ -458,11 +457,6 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
 .documentation_menu li ul {
     padding-left: 16px;
     display: none;
-}
-
-.documentation_content {
-    flex: 2 1 auto;
-    padding: 0 16px;
 }
 
 .documentation_menu strong, .documentation_menu a {
@@ -479,12 +473,20 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     cursor: pointer;
 }
 
+.documentation_menu ul li a {margin-left: 4px;}
+
 .documentation_menu a.selected {
     color: var(--secondary-color) !important; 
     border-right: 4px solid var(--secondary-color);
 }
-.documentation_menu strong::before {content: "⮞ ";}
-.documentation_menu strong.open::before {content: "⮟ " !important;}
+.documentation_menu strong::before {
+    content: url("/assets/docs/open.svg");
+    display: inline-block;
+    vertical-align: middle;
+    filter: invert(96%) sepia(32%) saturate(0%) hue-rotate(115deg) brightness(107%) contrast(101%);
+}
+
+.documentation_menu strong.open::before {content: url("/assets/docs/close.svg") !important;}
 
 #open_documentation_menu {display: none;}
 
@@ -503,4 +505,18 @@ footer p a {text-decoration: underline; color: var(--secondary-color);}
     
     cursor: pointer;
     width: 250px;
+}
+
+.documentation_content {
+    flex: 2 1 auto;
+    padding: 0 16px;
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-color);
+}
+
+.documentation_content h1 {
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--secondary-background-color);
 }
