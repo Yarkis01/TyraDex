@@ -134779,5 +134779,245 @@
         "sexe": null,
         "catch_rate": 3,
         "level_100": 1250000
+    },
+    {
+        "pokedexId": 1009,
+        "generation": 9,
+        "category": "Pok\u00e9mon Paradoxe",
+        "name": {
+            "fr": "Serpente-Eau",
+            "en": "Walking Wake",
+            "jp": "\u30A6\u30CD\u30EB\u30DF\u30CA\u30E2"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1009/regular.png",
+            "shiny": null,
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Eau",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"
+            },
+            {
+                "name": "Dragon",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Pal\u00e9osynth\u00e8se",
+                "tc": false
+            }
+        ],
+        "stats": {
+            "hp": 99,
+            "atk": 83,
+            "def": 91,
+            "spe_atk": 125,
+            "spe_def": 83,
+            "vit": 109
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.25
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 2
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
+        ],
+        "evolution": null,
+        "height": "3,5 m",
+        "weight": "280,0 kg",
+        "egg_groups": null,
+        "sexe": null,
+        "catch_rate": 5,
+        "level_100": null
+    },
+    {
+        "pokedexId": 1010,
+        "generation": 9,
+        "category": "Pok\u00e9mon Paradoxe",
+        "name": {
+            "fr": "Vert-de-Fer",
+            "en": "Iron Leaves",
+            "jp": "\u30C6\u30C4\u30CE\u30A4\u30B5\u30CF"
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1010/regular.png",
+            "shiny": null,
+            "gmax": null
+        },
+        "types": [
+            {
+                "name": "Plante",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+            },
+            {
+                "name": "Psy",
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"
+            }
+        ],
+        "talents": [
+            {
+                "name": "Charge Quantique",
+                "tc": false
+            }
+        ],
+        "stats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 88,
+            "spe_atk": 70,
+            "spe_def": 108,
+            "vit": 104
+        },
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.5
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Glace",
+                "multiplier": 2
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Poison",
+                "multiplier": 2
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 4
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 2
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 2
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ],
+        "evolution": null,
+        "height": "1,5 m",
+        "weight": "125,0 kg",
+        "egg_groups": null,
+        "sexe": null,
+        "catch_rate": 5,
+        "level_100": null
     }
 ]
