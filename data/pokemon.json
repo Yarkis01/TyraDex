@@ -429,8 +429,8 @@
                 {
                     "orbe":"Florizarrite",
                     "sprites": {
-                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/0/mega-regular.png",
-                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/0/mega-shiny.png"
+                        "regular":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/mega-regular.png",
+                        "shiny":"https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/3/mega-shiny.png"
                     }
                 }
             ]
