@@ -129074,7 +129074,7 @@
         "level_100": null
     },
     {
-        "pokedexId": 966,
+        "pokedexId": 964,
         "generation": 9,
         "category": "Pok\u00e9mon Dauphin",
         "name": {
@@ -129083,8 +129083,8 @@
             "jp": "\u30a4\u30eb\u30ab\u30de\u30f3"
         },
         "sprites": {
-            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/966/regular.png",
-            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/966/shiny.png",
+            "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/964/regular.png",
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/964/shiny.png",
             "gmax": null
         },
         "types": [
