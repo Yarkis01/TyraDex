@@ -1,4 +1,9 @@
 {
+    "region": {
+        "7": ["alola"],
+        "8": ["galar", "hisui"],
+        "9": ["paldea"]
+    },
     "alola": {
         "19": {
             "pokedexId": 19,

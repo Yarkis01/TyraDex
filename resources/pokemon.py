@@ -30,7 +30,16 @@ class Pokemon(Resource):
 class Generation(Resource):
     def get(self, gen: str = None) -> dict:
         if gen is not None:
-            return [pkm for pkm in JSON_pokemon if str(pkm["generation"]) == gen and pkm["pokedexId"] != 0] or {
+            formes_regionales = []
+
+            if gen in JSON_forme_pokemon["region"]:
+                for region in JSON_forme_pokemon["region"][gen]:
+                    formes_regionales.extend(
+                        JSON_forme_pokemon[region][pkm]
+                        for pkm in JSON_forme_pokemon[region]
+                    )
+
+            return ([pkm for pkm in JSON_pokemon if str(pkm["generation"]) == gen and pkm["pokedexId"] != 0] + formes_regionales) or {
                 "status": 404,
                 "message": "Impossible d'afficher cette génération, car elle n'existe pas.",
             }
