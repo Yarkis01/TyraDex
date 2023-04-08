@@ -29,9 +29,11 @@ openMenuButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', () => {
-    if(window.innerWidth > 768 && menuContainer.style.display != "block") {
+    const MAX_WIDTH = 968;
+
+    if(window.innerWidth > MAX_WIDTH && menuContainer.style.display != "block") {
         menuContainer.style.display = "block";
-    } else if (window.innerWidth <= 768) {
+    } else if (window.innerWidth <= MAX_WIDTH) {
         menuContainer.style.display = "none";
         openMenuButton.innerText    = "Ouvrir le menu de navigation"
     }

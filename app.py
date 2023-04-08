@@ -31,7 +31,7 @@ def _home():
 @app.route('/docs/<path:path>')
 def _docs(path: str = None):
     path = "./docs/index.md" if path is None else f"./docs/{path}.md"
-    return render_template('views/docs.jinja', markdown = markdown.markdown(open(path, encoding="utf-8").read(), extensions=['fenced_code']), navbar = markdown.markdown(open("./docs/navbar.md", encoding="utf-8").read())) if os.path.exists(path) else abort(404)
+    return render_template('views/docs.jinja', markdown = markdown.markdown(open(path, encoding="utf-8").read(), extensions=['fenced_code', 'tables']), navbar = markdown.markdown(open("./docs/navbar.md", encoding="utf-8").read())) if os.path.exists(path) else abort(404)
 
 @app.route('/robots.txt')
 def _robots():

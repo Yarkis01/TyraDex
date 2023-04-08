@@ -60,10 +60,17 @@ footer {
 footer p {padding: 16px; font-family: 'Roboto', sans-serif; margin-bottom: 0;}
 footer p a {text-decoration: underline; color: var(--secondary-color);}
 
-pre code {
+code {
     background-color: var(--secondary-background-color) !important;
     color: var(--primary-color) !important;
-    border-radius: 4px;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+pre code {
+    display: block !important;
+    padding: 1em !important;
 }
 
 /*
@@ -524,3 +531,39 @@ pre code {
     padding-bottom: 6px;
     border-bottom: 2px solid var(--secondary-background-color);
 }
+
+.documentation_content h2 {
+    font-size: 20px;
+    padding: 6px;
+    border-bottom: 1px solid var(--secondary-background-color);
+}
+
+.documentation_content a {
+    color: var(--secondary-color);
+}
+
+.documentation_get {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 8px;
+}
+
+.documentation_url {
+    font-weight: 100;
+    color: var(--secondary-color);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid var(--secondary-background-color);
+    padding: 8px;
+}
+
+th {background-color: var(--secondary-background-color);}
