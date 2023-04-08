@@ -1,0 +1,7 @@
+- [Accueil](/docs)
+- **Pokémon**
+    - [Pokédex](/docs/pokemon/pokedex)
+    - [Fiche Pokémon](/docs/pokemon/fiche)
+- **Génération**
+    - [Toutes les générations](/docs/generation/liste)
+    - [Pokémons d'une génération](/docs/generation/specifique)

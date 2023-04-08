@@ -1,0 +1,69 @@
+@media screen and (max-width: 968px) {
+    .documentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    #open_documentation_menu {display: block;}
+
+    .documentation_menu {
+        display: none;
+        width: 100%;
+        margin: 8px;
+    }
+
+    .documentation_content {
+        width: 100%;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #routes-container div {
+        flex: 0 0 85%;
+        max-width: 85%;
+    }
+    #carousel__infobox, #tryit-container, #warnings, #documentation-container, .documentation {
+        margin: 16px 6.5vw 16px 6.5vw;
+    }
+
+    #tryit-container div {
+        flex-direction: column;
+    }
+
+    #tryit-container div label {
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+    }
+
+    #tryit-container div input {
+        margin: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    #tryit__input-button {
+        border-radius: 0 0 8px 8px;
+        margin: 0;
+    }
+
+    #tryit__copy-url, #tryit__copy-json {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    header {height: 60px;}
+    header img {width: 32px; height: 32px;}
+    header div a {font-size: 16px;}
+    header div a p {margin: calc(calc(32px - 16px) / 2);}
+
+    #carousel__shiny {display: none;}
+}
+
+@media screen and (max-width: 300px) {
+    #carousel__infobox, #tryit-container, #routes-container div img {
+        display: none;
+    }
+}

@@ -1,15 +1,3 @@
-let actualPkm   = Math.floor(Math.random() * totalPkm) + 1,
-    pkmData     = null,
-    isShiny     = false,
-    lastUrl     = null,
-    requestJson = null;
-
-let loader  = document.getElementById("carousel__loading"),
-    image   = document.getElementById("carousel__image"),
-    shiny   = document.getElementById("carousel__shiny"),
-    types   = document.getElementById("carousel__info-types"),
-    pkmName = document.getElementById("carousel__info-pkmname");
-
 async function loadImage(url, element) {
     return new Promise((resolve, reject) => {
         element.onload  = () => resolve(element);
@@ -107,28 +95,6 @@ async function setPokemon(number) {
     types.style.visibility = "visible";
 }
 
-function syntaxHighlight(json) {
-    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
-        let type = 'number';
-        if (/^"/.test(match)) {
-            if (/:$/.test(match)) {
-                type = 'key';
-            } else {
-                type = 'string';
-            }
-        } else if (/true|false/.test(match)) {
-            type = 'boolean';
-        } else if (/null/.test(match)) {
-            type = 'null';
-        }
-        if (/https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)/g.test(match)) {
-            let match_array = match.split('"');
-            return `<span class="${type}">"<a href="${match_array[1]}" target="_blank">${match_array[1]}</a>"</span>`;
-        }
-        return `<span class="${type}">${match}</span>`;
-    });
-}
-
 async function customApiRequest() {
     let json_area = document.getElementById("tryit__json-area");
     json_area.innerHTML = '<img src="/assets/carousel/loader.svg" />';
@@ -144,8 +110,8 @@ async function customApiRequest() {
         lastUrl = `${baseUrl}/${document.getElementById("tryit__input-text").value}`;
     }
 
-    requestJson = JSON.stringify(request, null, 4);
-    json_area.innerHTML = syntaxHighlight(requestJson);
+    json_area.innerHTML = JSON.stringify(request, null, 4);
+    hljs.highlightElement(document.getElementById("tryit__json-area"));
 }
 
 async function tryApiExample(url) {
@@ -179,10 +145,10 @@ async function copyJson() {
 
 (async function init() {
     await setPokemon(actualPkm);
-    requestJson = JSON.stringify(pkmData, null, 4);
-    document.getElementById("tryit__json-area").innerHTML = syntaxHighlight(requestJson);
+    document.getElementById("tryit__json-area").innerHTML = JSON.stringify(pkmData, null, 4);;
     document.getElementById("tryit__input-text").value = `pokemon/${pkmData.name.fr.normalize("NFD").replace(/[^a-zA-Z0-9 ]/g, "").toLowerCase()}`;
     lastUrl = `${baseUrl}/${document.getElementById("tryit__input-text").value}`;
+    hljs.highlightElement(document.getElementById("tryit__json-area")) 
 })();
 
 document.getElementById("tryit__input-text").addEventListener("keyup", (event) => {

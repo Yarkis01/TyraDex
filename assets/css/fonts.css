@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lexend Deca";
+    font-display: swap;
+    src: url("../fonts/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-display: swap;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
