@@ -3346,7 +3346,7 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 22,
+                    "pokedexId": 24,
                     "name": "Arbok",
                     "condition": "Niveau 22"
                 }
@@ -3486,7 +3486,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 21,
+                    "pokedexId": 23,
                     "name": "Abo"
                 }
             ],
@@ -5640,7 +5640,7 @@
             "pre": [
                 {
                     "pokedexId": 174,
-                    "name": "Tondoudou"
+                    "name": "Toudoudou"
                 }
             ],
             "next": [
@@ -5789,7 +5789,7 @@
             "pre": [
                 {
                     "pokedexId": 174,
-                    "name": "Tondoudou"
+                    "name": "Toudoudou"
                 },
                 {
                     "pokedexId": 39,
@@ -8393,7 +8393,7 @@
             "next": [
                 {
                     "pokedexId": 59,
-                    "name": "Arcacin",
+                    "name": "Arcanin",
                     "condition": "Pierre Feu"
                 }
             ],
@@ -9270,13 +9270,13 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 59,
+                    "pokedexId": 63,
                     "name": "Abra"
                 }
             ],
             "next": [
                 {
-                    "pokedexId": 61,
+                    "pokedexId": 65,
                     "name": "Alakazam",
                     "condition": "Echange/Au contact d'un Fil de Liaison"
                 }
@@ -9415,11 +9415,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 59,
+                    "pokedexId": 63,
                     "name": "Abra"
                 },
                 {
-                    "pokedexId": 60,
+                    "pokedexId": 64,
                     "name": "Kadabra"
                 }
             ],
@@ -13211,7 +13211,7 @@
             "pre": [
                 {
                     "pokedexId": 90,
-                    "name": "Kokyias"
+                    "name": "Kokiyas"
                 }
             ],
             "next": null,
@@ -13792,7 +13792,7 @@
                 {
                     "pokedexId": 208,
                     "name": "Steelix",
-                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u0ee9tal"
+                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
                 }
             ],
             "mega": null
@@ -14769,14 +14769,14 @@
             }
         ],
         "evolution": {
-            "pre": [
+            "pre": null,
+            "next": [
                 {
                     "pokedexId": 103,
                     "name": "Noadkoko",
                     "condition": "Pierre Plante"
                 }
             ],
-            "next": null,
             "mega": null
         },
         "height": "0,4 m",
@@ -16338,15 +16338,16 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 111,
-                    "name": "Rhinocorne"
-                },
-                {
-                    "pokedexId": 112,
-                    "name": "Rhinof\u00e9ros"
+                    "pokedexId": 440,
+                    "name": "Ptiravi"
                 }
             ],
-            "next": null,
+            "next": [
+                {
+                    "pokedexId": 242,
+                    "name": "Leuphorie"
+                }
+            ],
             "mega": null
         },
         "height": "1,1 m",
@@ -16769,7 +16770,7 @@
                     "condition": "Niveau 32"
                 },
                 {
-                    "pokedexId": 118,
+                    "pokedexId": 230,
                     "name": "Hyporoi",
                     "condition": "Echange avec \u00c9caille Draco"
                 }
@@ -17765,7 +17766,7 @@
                 {
                     "pokedexId": 212,
                     "name": "Cizayox",
-                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u0ee9tal"
+                    "condition": "Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
                 },
                 {
                     "pokedexId": 900,
@@ -21127,7 +21128,7 @@
                 {
                     "pokedexId": 149,
                     "name": "Dracolosse",
-                    "condition": "Niveau 45"
+                    "condition": "Niveau 55"
                 }
             ],
             "mega": null
@@ -21269,7 +21270,7 @@
                 {
                     "pokedexId": 149,
                     "name": "Dracolosse",
-                    "condition": "Niveau 45"
+                    "condition": "Niveau 55"
                 }
             ],
             "mega": null
@@ -30310,7 +30311,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 209,
+                    "pokedexId": 123,
                     "name": "Ins\u00e9cateur"
                 }
             ],
@@ -33309,7 +33310,7 @@
             "next": [
                 {
                     "pokedexId": 474,
-                    "name": "Porygon",
+                    "name": "Porygon-Z",
                     "condition": "Echange avec CD Douteux/Contact d'un CD Douteux (PLA)"
                 }
             ],
@@ -34140,12 +34141,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 106,
+                    "pokedexId": 125,
                     "name": "\u00c9lektek",
                     "condition": "Niveau 30"
                 },
                 {
-                    "pokedexId": 107,
+                    "pokedexId": 466,
                     "name": "\u00c9lekable",
                     "condition": "Echange avec \u00c9lectriseur/Contact d'un \u00c9lectriseur"
                 }
@@ -34279,12 +34280,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 106,
+                    "pokedexId": 126,
                     "name": "Magmar",
                     "condition": "Niveau 30"
                 },
                 {
-                    "pokedexId": 107,
+                    "pokedexId": 467,
                     "name": "Maganon",
                     "condition": "Echange avec Magmariseur/Contact d'un Magmariseur"
                 }
