@@ -4049,16 +4049,12 @@
             }
         ],
         "evolution": {
-            "pre": {
-                "pre": [
-                    {
-                        "pokedexId": 27,
-                        "name": "Sabelette"
-                    }
-                ],
-                "next": null,
-                "mega": null
-            },
+            "pre": [
+                {
+                    "pokedexId": 27,
+                    "name": "Sabelette"
+                }
+            ],
             "next": null,
             "mega": null
         },
