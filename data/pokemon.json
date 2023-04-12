@@ -26510,7 +26510,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 298,
+                    "pokedexId": 438,
                     "name": "Manza\u00ed"
                 }
             ],
@@ -29048,7 +29048,7 @@
             "next": [
                 {
                     "pokedexId": 981,
-                    "name": "Farigriaf",
+                    "name": "Farigiraf",
                     "condition": "+1 Niveau avec Double Laser"
                 }
             ],
@@ -29607,7 +29607,7 @@
             "next": [
                 {
                     "pokedexId": 472,
-                    "name": "Scorovol",
+                    "name": "Scorvol",
                     "condition": "+1 Niveau avec Croc Rasoir / Contact d'un Croc Rasoir (PLA)"
                 }
             ],
@@ -30030,7 +30030,7 @@
             "pre": [
                 {
                     "pokedexId": 209,
-                    "name": "Snubbul"
+                    "name": "Snubbull"
                 }
             ],
             "next": null,
@@ -32594,7 +32594,7 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 224,
+                    "pokedexId": 229,
                     "name": "D\u00e9molosse",
                     "condition": "Niveau 24"
                 }
@@ -32737,7 +32737,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 458,
+                    "pokedexId": 228,
                     "name": "Malosse"
                 }
             ],
@@ -33164,7 +33164,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 458,
+                    "pokedexId": 231,
                     "name": "Phanpy"
                 }
             ],
@@ -35357,8 +35357,8 @@
                 {
                     "orbe": "Tyranocivite",
                     "sprites": {
-                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/242/mega-regular.png",
-                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/242/mega-shiny.png"
+                        "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/248/mega-regular.png",
+                        "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/248/mega-shiny.png"
                     }
                 }
             ]
@@ -60775,7 +60775,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 192,
+                    "pokedexId": 198,
                     "name": "Corn\u00e8bre"
                 }
             ],
@@ -66674,7 +66674,7 @@
             "pre": [
                 {
                     "pokedexId": 207,
-                    "name": "Scorovol"
+                    "name": "Scorplane"
                 }
             ],
             "next": null,
@@ -133476,12 +133476,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexID": 958,
+                    "pokedexId": 958,
                     "name": "Forgella",
                     "condition": "Niveau 24"
                 },
                 {
-                    "pokedexID": 959,
+                    "pokedexId": 959,
                     "name": "Forgelina",
                     "condition": "Niveau 38"
                 }
@@ -133624,13 +133624,13 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexID": 957,
+                    "pokedexId": 957,
                     "name": "Forgerette"
                 }
             ],
             "next": [
                 {
-                    "pokedexID": 959,
+                    "pokedexId": 959,
                     "name": "Forgelina",
                     "condition": "Niveau 38"
                 }
@@ -133773,11 +133773,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexID": 957,
+                    "pokedexId": 957,
                     "name": "Forgerette"
                 },
                 {
-                    "pokedexID": 958,
+                    "pokedexId": 958,
                     "name": "Forgelina"
                 }
             ],
@@ -136633,7 +136633,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexID": 194,
+                    "pokedexId": 194,
                     "name": "Axoloto de Paldea"
                 }
             ],
@@ -136777,8 +136777,8 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexID": 203,
-                    "name": "Giragarig"
+                    "pokedexId": 203,
+                    "name": "Girafarig"
                 }
             ],
             "next": null,
@@ -137059,11 +137059,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexID": 624,
+                    "pokedexId": 624,
                     "name": "Scalpion"
                 },
                 {
-                    "pokedexID": 625,
+                    "pokedexId": 625,
                     "name": "Scalproie"
                 }
             ],
