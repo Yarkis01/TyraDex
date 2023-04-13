@@ -35863,12 +35863,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 247,
+                    "pokedexId": 253,
                     "name": "Massko",
                     "condition": "Niveau 16"
                 },
                 {
-                    "pokedexId": 248,
+                    "pokedexId": 254,
                     "name": "Jungko",
                     "condition": "Niveau 36"
                 }
@@ -36295,12 +36295,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 252,
+                    "pokedexId": 256,
                     "name": "Galifeu",
                     "condition": "Niveau 16"
                 },
                 {
-                    "pokedexId": 253,
+                    "pokedexId": 257,
                     "name": "Bras\u00e9gali",
                     "condition": "Niveau 36"
                 }
@@ -36439,13 +36439,13 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 251,
+                    "pokedexId": 255,
                     "name": "Poussifeu"
                 }
             ],
             "next": [
                 {
-                    "pokedexId": 253,
+                    "pokedexId": 257,
                     "name": "Bras\u00e9gali",
                     "condition": "Niveau 36"
                 }
@@ -36584,11 +36584,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 252,
+                    "pokedexId": 255,
                     "name": "Poussifeu"
                 },
                 {
-                    "pokedexId": 253,
+                    "pokedexId": 257,
                     "name": "Galifeu"
                 }
             ],
@@ -37598,7 +37598,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 258,
+                    "pokedexId": 263,
                     "name": "Zigzaton"
                 }
             ],
@@ -39928,7 +39928,7 @@
                 },
                 {
                     "pokedexId": 475,
-                    "name": "Kirlia",
+                    "name": "Gallame",
                     "condition": "M\u00e2le + Pierre Aube"
                 }
             ],
@@ -40083,7 +40083,7 @@
                 },
                 {
                     "pokedexId": 475,
-                    "name": "Kirlia",
+                    "name": "Gallame",
                     "condition": "M\u00e2le + Pierre Aube"
                 }
             ],
@@ -43926,7 +43926,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 293,
+                    "pokedexId": 307,
                     "name": "M\u00e9ditikka"
                 }
             ],
@@ -47132,7 +47132,7 @@
             "next": [
                 {
                     "pokedexId": 332,
-                    "name": "Cacturn",
+                    "name": "Cacturne",
                     "condition": "Niveau 32"
                 }
             ],
@@ -51381,7 +51381,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 433,
+                    "pokedexId": 361,
                     "name": "Stalgamin"
                 }
             ],
@@ -53083,12 +53083,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 376,
+                    "pokedexId": 375,
                     "name": "M\u00e9tang",
                     "condition": "Niveau 20"
                 },
                 {
-                    "pokedexId": 377,
+                    "pokedexId": 376,
                     "name": "M\u00e9talosse",
                     "condition": "Niveau 45"
                 }
@@ -53224,13 +53224,13 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 375,
+                    "pokedexId": 374,
                     "name": "Terhal"
                 }
             ],
             "next": [
                 {
-                    "pokedexId": 377,
+                    "pokedexId": 376,
                     "name": "M\u00e9talosse",
                     "condition": "Niveau 45"
                 }
@@ -53366,11 +53366,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 375,
+                    "pokedexId": 374,
                     "name": "Terhal"
                 },
                 {
-                    "pokedexId": 376,
+                    "pokedexId": 375,
                     "name": "M\u00e9tang"
                 }
             ],
