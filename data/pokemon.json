@@ -32317,7 +32317,7 @@
             "pre": [
                 {
                     "pokedexId": 458,
-                    "name": "Babimenta"
+                    "name": "Babimanta"
                 }
             ],
             "next": null,
@@ -59641,7 +59641,7 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 422,
+                    "pokedexId": 423,
                     "name": "Tritosor",
                     "condition": "Niveau 30"
                 }
@@ -61616,7 +61616,7 @@
             "next": [
                 {
                     "pokedexId": 437,
-                    "name": "Arch\u00e9dong",
+                    "name": "Arch\u00e9odong",
                     "condition": "Niveau 33"
                 }
             ],
@@ -61756,7 +61756,7 @@
             "pre": [
                 {
                     "pokedexId": 436,
-                    "name": "Arch\u00e9mire"
+                    "name": "Arch\u00e9omire"
                 }
             ],
             "next": null,
