@@ -113150,7 +113150,7 @@
             "next": [
                 {
                     "pokedexId": 811,
-                    "name": "Bababouin",
+                    "name": "Badabouin",
                     "condition": "Niveau 16"
                 },
                 {
@@ -113440,7 +113440,7 @@
                 },
                 {
                     "pokedexId": 811,
-                    "name": "Bababouin"
+                    "name": "Badabouin"
                 }
             ],
             "next": null,
@@ -116574,8 +116574,7 @@
             "pre": [
                 {
                     "pokedexId": 833,
-                    "name": "Kh\u00e9locrok",
-                    "condition": "Niveau 22"
+                    "name": "Kh\u00e9locrok"
                 }
             ],
             "next": null,
@@ -121259,7 +121258,7 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 592,
+                    "pokedexId": 562,
                     "name": "Tutafeh de Galar"
                 }
             ],
