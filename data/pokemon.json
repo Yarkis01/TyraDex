@@ -132226,13 +132226,13 @@
                 "multiplier": 1
             }
         ],
-        "evolution": {
+        "evolution":{
             "pre": null,
             "next": [
                 {
                     "pokedexId": 949,
                     "name": "Terracruel",
-                    "condition": "Niveau 30"
+                    "condition":"Niveau 30"
                 }
             ],
             "mega": null
@@ -133778,7 +133778,7 @@
                 },
                 {
                     "pokedexId": 958,
-                    "name": "Forgelina"
+                    "name": "Forgella"
                 }
             ],
             "next": null,
@@ -138651,7 +138651,22 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": null,
+            "next": [
+                {
+                    "pokedexId": 997,
+                    "name": "Cryodo",
+                    "condition":"Niveau 35"
+                },
+                {
+                    "pokedexId": 998,
+                    "name": "Glaivodo",
+                    "condition":"Niveau 54"
+                }
+            ],
+            "mega": null
+        },
         "height": "0,5 m",
         "weight": "17,0 kg",
         "egg_groups": [
@@ -138782,7 +138797,22 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {
+                    "pokedexId": 996,
+                    "name": "Frigodo"
+                }
+            ],
+            "next": [
+                {
+                    "pokedexId": 998,
+                    "name": "Glaivodo",
+                    "condition":"Niveau 54"
+                }
+            ],
+            "mega": null
+        },
         "height": "0,8 m",
         "weight": "30,0 kg",
         "egg_groups": [
@@ -138913,7 +138943,20 @@
                 "multiplier": 2
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre": [
+                {
+                    "pokedexId": 996,
+                    "name": "Frigodo"
+                },
+                {
+                    "pokedexId": 997,
+                    "name": "Cryodo"
+                }
+            ],
+            "next": null,
+            "mega": null
+        },
         "height": "2,1 m",
         "weight": "210,0 kg",
         "egg_groups": [
