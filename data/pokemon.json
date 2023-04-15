@@ -22219,6 +22219,11 @@
                     "pokedexId": 157,
                     "name": "Typhlosion",
                     "condition": "Niveau 36"
+                },
+                {
+                    "pokedexId": 157,
+                    "name": "Typhlosion de Hisui",
+                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -22360,6 +22365,11 @@
                     "pokedexId": 157,
                     "name": "Typhlosion",
                     "condition": "Niveau 36"
+                },
+                {
+                    "pokedexId": 157,
+                    "name": "Typhlosion de Hisui",
+                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -70607,6 +70617,11 @@
                     "pokedexId": 503,
                     "name": "Clamiral",
                     "condition": "Niveau 36"
+                },
+                {
+                    "pokedexId": 503,
+                    "name": "Clarimal de Hisui",
+                    "condition": "Niveau 36 (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -73696,7 +73711,7 @@
             "next": [
                 {
                     "pokedexId": 525,
-                    "name": "G\u00e9lithe",
+                    "name": "G\u00e9olithe",
                     "condition": "Niveau 25"
                 },
                 {
@@ -73989,7 +74004,7 @@
                 },
                 {
                     "pokedexId": 525,
-                    "name": "G\u00e9lithe"
+                    "name": "G\u00e9olithe"
                 }
             ],
             "next": null,
@@ -77150,8 +77165,13 @@
             "next": [
                 {
                     "pokedexId": 549,
-                    "name": "Frgilady",
+                    "name": "Fragilady",
                     "condition": "Pierre Soleil"
+                },
+                {
+                    "pokedexId": 549,
+                    "name": "Fragilady de Hisui",
+                    "condition": "Pierre Soleil (Seulement PLA)"
                 }
             ],
             "mega": null
@@ -78719,7 +78739,7 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 544,
+                    "pokedexId": 560,
                     "name": "Bagga\u00efd",
                     "condition": "Niveau 39"
                 }
@@ -84766,12 +84786,12 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 602,
+                    "pokedexId": 603,
                     "name": "Lamp\u00e9roie",
                     "condition": "Niveau 38"
                 },
                 {
-                    "pokedexId": 603,
+                    "pokedexId": 604,
                     "name": "Ohmassacre",
                     "condition": "Pierre Foudre"
                 }
@@ -88291,6 +88311,11 @@
                     "pokedexId": 628,
                     "name": "Gueriaigle",
                     "condition": "Niveau 54"
+                },
+                {
+                    "pokedexId": 628,
+                    "name": "Gueriaigle de Hisui",
+                    "condition": "Niveau 54 (Seulement PLA)"
                 }
             ],
             "mega": null

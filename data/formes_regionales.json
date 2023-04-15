@@ -2390,7 +2390,9 @@
                 {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
-                "pre": {"pokedexId": 554, "name": "Darumarond de Galar"},
+                "pre": [
+                    {"pokedexId": 554, "name": "Darumarond de Galar"}
+                ],
                 "next": null,
                 "mega": null
             },
@@ -3286,10 +3288,10 @@
                 {"name": "F\u00e9e", "multiplier": 1}
             ],
             "evolution": {
-                "pre": null,
-                "next": [
-                    {"pokedexId": 571, "name": "Zoroark de Hisui", "condition": "Niveau 30"}
+                "pre": [
+                    {"pokedexId": 570, "name": "Zorua de Hisui"}
                 ],
+                "next": null,
                 "mega": null
             },
             "height": "1,6 m",
