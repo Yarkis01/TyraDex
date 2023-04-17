@@ -68554,7 +68554,7 @@
         "types": [
             {
                 "name": "Spectre",
-                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"
+                "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"
             },
             {
                 "name": "Dragon",
@@ -95135,7 +95135,7 @@
             "next": [
                 {
                     "pokedexId": 678,
-                    "name": "Mysitigrix",
+                    "name": "Mistigrix",
                     "condition": "Niveau 25"
                 }
             ],
@@ -96670,7 +96670,7 @@
             "next": [
                 {
                     "pokedexId": 689,
-                    "name": "Golopathe",
+                    "name": "Golgopathe",
                     "condition": "Niveau 39"
                 }
             ],
@@ -99896,7 +99896,7 @@
             "pre": [
                 {
                     "pokedexId": 710,
-                    "name": "Ptirouille"
+                    "name": "Pitrouille"
                 }
             ],
             "next": null,
@@ -100036,8 +100036,13 @@
             "next": [
                 {
                     "pokedexId": 713,
-                    "name": "S\u00e9crawl",
+                    "name": "S\u00e9racrawl",
                     "condition": "Niveau 37"
+                },
+                {
+                    "pokedexId": 713,
+                    "name": "S\u00e9racrawl de Hisui",
+                    "condition": "Niveau 37 (Seulement PLA)"
                 }
             ],
             "mega": null
