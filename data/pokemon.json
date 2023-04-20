@@ -102782,13 +102782,13 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 725,
+                    "pokedexId": 731,
                     "name": "Picassaut"
                 }
             ],
             "next": [
                 {
-                    "pokedexId": 727,
+                    "pokedexId": 733,
                     "name": "Bazoucan",
                     "condition": "Niveau 28"
                 }
@@ -102931,11 +102931,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": 725,
+                    "pokedexId": 732,
                     "name": "Picassaut"
                 },
                 {
-                    "pokedexId": 726,
+                    "pokedexId": 733,
                     "name": "Piclairon"
                 }
             ],
@@ -103772,7 +103772,7 @@
             "next": [
                 {
                     "pokedexId": 740,
-                    "name": "Carbominable",
+                    "name": "Crabominable",
                     "condition": "+1 Niveau Mont Lanakila / Pierre Glace (depuis EB)"
                 }
             ],
