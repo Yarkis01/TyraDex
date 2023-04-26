@@ -126761,7 +126761,7 @@
             "next": [
                 {
                     "pokedexId": 910,
-                    "name": "Chocogril",
+                    "name": "Crocogril",
                     "condition": "Niveau 16"
                 },
                 {
@@ -126901,7 +126901,7 @@
             "pre": [
                 {
                     "pokedexId": 909,
-                    "name": "Chocodile"
+                    "name": "Chochodile"
                 }
             ],
             "next": [
@@ -127046,7 +127046,7 @@
             "pre": [
                 {
                     "pokedexId": 909,
-                    "name": "Chocodile"
+                    "name": "Chochodile"
                 },
                 {
                     "pokedexId": 910,
@@ -133223,7 +133223,7 @@
             "next": [
                 {
                     "pokedexId": 956,
-                    "name": "Cl\u00e9psytra",
+                    "name": "Cl\u00e9opsytra",
                     "condition": "Niveau 35"
                 }
             ],
