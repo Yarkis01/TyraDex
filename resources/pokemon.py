@@ -2,19 +2,16 @@ from flask_restful import Resource
 from typing import Union
 import json
 
-JSON_pokemon       = json.load(open("data/pokemon.json", encoding="utf8"))
-JSON_pokemon_to_id = json.load(open("data/pokemon_to_id.json", encoding="utf8"))
-JSON_forme_pokemon = json.load(open("data/formes_regionales.json", encoding="utf-8"))
+JSON_pokemon       = json.load(open("data/pokemon/pokemon.json", encoding="utf8"))
+JSON_pokemon_to_id = json.load(open("data/pokemon/pokemon_to_id.json", encoding="utf8"))
+JSON_forme_pokemon = json.load(open("data/pokemon/formes_regionales.json", encoding="utf-8"))
 
 class Pokemon(Resource):
     def get(self, pokemon: Union[str, int] = None, forme: str = None) -> dict:
         if pokemon is None:
             return JSON_pokemon
 
-        try: pokemon_id = int(pokemon)
-        except Exception:
-            pokemon = str(pokemon).lower()
-            pokemon_id = JSON_pokemon_to_id[pokemon] if pokemon in JSON_pokemon_to_id else -1
+        pokemon_id = int(pokemon) if pokemon.isdigit() else JSON_pokemon_to_id.get(str(pokemon).lower(), -1)
 
         if pokemon_id == -1 or pokemon_id > len(JSON_pokemon) - 1:
             return {

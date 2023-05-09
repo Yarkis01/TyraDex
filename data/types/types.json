@@ -1,0 +1,219 @@
+[
+    {
+        "id": 0,
+        "name": {
+            "fr": "Acier",
+            "en": "Steel",
+            "jp": "\u306F\u304C\u306D"
+        },
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png",
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 2
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "Électrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 0
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Psy",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Ténèbres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Fée",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": {
+            "fr": "Combat",
+            "en": "Fighting",
+            "jp": "\u304B\u304F\u3068\u3046"
+        },
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png",
+        "resistances": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 1
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "Électrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 2
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "Ténèbres",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "Fée",
+                "multiplier": 2
+            }
+        ]
+    },
+    {
+        "hello": "world 2"
+    },
+    {
+        "hello": "world 3"
+    },
+    {
+        "hello": "world 4"
+    },
+    {
+        "hello": "world 5"
+    },
+    {
+        "hello": "world 6"
+    },
+    {
+        "hello": "world 7"
+    },
+    {
+        "hello": "world 8"
+    },
+    {
+        "hello": "world 9"
+    },
+    {
+        "hello": "world 10"
+    },
+    {
+        "hello": "world 11"
+    },
+    {
+        "hello": "world 12"
+    },
+    {
+        "hello": "world 12"
+    },
+    {
+        "hello": "world 13"
+    },
+    {
+        "hello": "world 14"
+    },
+    {
+        "hello": "world 15"
+    },
+    {
+        "hello": "world 16"
+    },
+    {
+        "hello": "world 17"
+    }
+]
