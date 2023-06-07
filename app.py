@@ -5,6 +5,7 @@ from flask_squeeze  import Squeeze
 from flask_cors     import CORS
 
 from resources.pokemon import Pokemon, Generation
+from resources.types   import Types
 
 import json, os, markdown
 
@@ -24,7 +25,7 @@ Minify(app = app, html = True, js = True, cssless = True)
 
 @app.route("/")
 def _home():
-    pokemon = json.load(open("data/pokemon.json", encoding = "utf8"))
+    pokemon = json.load(open("data/pokemon/pokemon.json", encoding = "utf8"))
     return render_template("views/homepage.jinja", total_pkm = (len(pokemon) - 1))
 
 @app.route('/docs')
@@ -43,6 +44,7 @@ def _page_not_found(error):
 
 api.add_resource(Pokemon, "/pokemon", "/pokemon/<string:pokemon>", "/pokemon/<string:pokemon>/<string:forme>")
 api.add_resource(Generation, "/gen", "/gen/<string:gen>")
+api.add_resource(Types, "/types", "/types/<string:first_type>",  "/types/<string:first_type>/<string:second_type>")
 
 if __name__ == "__main__":
     app.run(debug = True)

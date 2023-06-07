@@ -1,0 +1,25 @@
+{
+    "types_to_id": {
+        "acier"     :  0, "steel"   :  0,
+        "combat"    :  1, "fighting":  1,
+        "dragon"    :  2,
+        "eau"       :  3, "water"   :  3,
+        "electrik"  :  4, "electric":  4,
+        "fee"       :  5, "fairy"   :  5,
+        "feu"       :  6, "fire"    :  6,
+        "glace"     :  7, "ice"     :  7,
+        "insecte"   :  8, "bug"     :  8,
+        "normal"    :  9,
+        "plante"    : 10, "grass"   : 10,
+        "poison"    : 11,
+        "psy"       : 12, "psychic" : 12,
+        "roche"     : 13, "rock"    : 13,
+        "sol"       : 14, "ground"  : 14,
+        "spectre"   : 15, "ghost"   : 15,
+        "tenebres"  : 16, "dark"    : 16,
+        "vol"       : 17, "flying"  : 17
+    },
+    "id_to_type": [
+        "acier", "combat", "dragon", "eau", "electrik", "fee", "feu", "glace", "insecte", "normal", "plante", "poison", "psy", "roche", "sol", "spectre", "tenebres", "vol"
+    ]
+}

@@ -5,3 +5,6 @@
 - **Génération**
     - [Toutes les générations](/docs/generation/liste)
     - [Pokémons d'une génération](/docs/generation/specifique)
+- **Types**
+    - [Liste des types](/docs/types/liste)
+    - [Type spécifique](/docs/types/types)
