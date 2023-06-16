@@ -128,7 +128,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 19, "name": "Rattata d'Alola"}
+                    {"pokedexId": 19, "name": "Rattata d'Alola", "condition": "Niveau 20 (nuit)"}
                 ],
                 "next": null,
                 "mega": null
@@ -196,8 +196,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":172, "name": "Pichu"},
-                    {"pokedexId":25, "name": "Pikachu"}
+                    {"pokedexId":172, "name": "Pichu", "condition": "Bonheur"},
+                    {"pokedexId":25, "name": "Pikachu", "condition": "Pierre Foudre"}
                 ],
                 "next": null,
                 "mega": null
@@ -335,7 +335,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":27, "name": "Sabelette d'Alola"}
+                    {"pokedexId":27, "name": "Sabelette d'Alola", "condition": "Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -472,7 +472,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":37, "name": "Goupix d'Alola"}
+                    {"pokedexId":37, "name": "Goupix d'Alola", "condition":"Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -612,7 +612,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":50, "name": "Taupiqueur d'Alola"}
+                    {"pokedexId":50, "name": "Taupiqueur d'Alola", "condition":"Niveau 26"}
                 ],
                 "next": null,
                 "mega": null
@@ -750,7 +750,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":52, "name": "Miaouss d'Alola"}
+                    {"pokedexId":52, "name": "Miaouss d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
                 ],
                 "next": null,
                 "mega": null
@@ -821,8 +821,8 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":75, "name": "Gravalanch d'Alola","condition":"Niveau 25"},
-                    {"pokedexId":76, "name": "Grolem d'Alola","condition":"Echange"}
+                    {"pokedexId":75, "name": "Gravalanch d'Alola", "condition":"Niveau 25"},
+                    {"pokedexId":76, "name": "Grolem d'Alola", "condition":"Echange"}
                 ],
                 "mega": null
             },
@@ -891,10 +891,10 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":74, "name": "Racaillou d'Alola"}
+                    {"pokedexId":74, "name": "Racaillou d'Alola", "condition":"Niveau 25"}
                 ],
                 "next": [
-                    {"pokedexId":76, "name": "Grolem d'Alola","condition":"Echange"}
+                    {"pokedexId":76, "name": "Grolem d'Alola", "condition":"Echange"}
                 ],
                 "mega": null
             },
@@ -963,8 +963,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":74, "name": "Racaillou d'Alola"},
-                    {"pokedexId":75, "name": "Gravalanch d'Alola"}
+                    {"pokedexId":74, "name": "Racaillou d'Alola", "condition": "Niveau 25"},
+                    {"pokedexId":75, "name": "Gravalanch d'Alola", "condition":"Echange"}
                 ],
                 "next": null,
                 "mega": null
@@ -1104,7 +1104,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":88, "name": "Tadmorv d'Alola"}
+                    {"pokedexId":88, "name": "Tadmorv d'Alola", "condition": "Niveau 38"}
                 ],
                 "next": null,
                 "mega": null
@@ -1173,7 +1173,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":102, "name":"Noeunoeuf"}
+                    {"pokedexId":102, "name":"Noeunoeuf", "condition": "Pierre Plante"}
                 ],
                 "next": null,
                 "mega": null
@@ -1243,7 +1243,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":104, "name":"Osselait"}
+                    {"pokedexId":104, "name":"Osselait", "condition":"Niveau 28 (nuit)"}
                 ],
                 "next": null,
                 "mega": null
@@ -1453,7 +1453,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 77, "name": "Ponyta de Galar"}
+                    {"pokedexId": 77, "name": "Ponyta de Galar", "condition": "Niveau 40"}
                 ],
                 "next": null,
                 "mega": null
@@ -1593,7 +1593,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 79, "name": "Ramoloss de Galar"}
+                    {"pokedexId": 79, "name": "Ramoloss de Galar", "condition": "Avec un Bracelet Galanoa"}
                 ],
                 "next": null,
                 "mega": null
@@ -1731,7 +1731,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 109, "name": "Smogo"}
+                    {"pokedexId": 109, "name": "Smogo", "condition": "Niveau 35"}
                 ],
                 "next": null,
                 "mega": null
@@ -1801,7 +1801,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 439, "name": "Mime Jr."}
+                    {"pokedexId": 439, "name": "Mime Jr.", "condition": "Connaître la capacité Copie + 1 niveau"}
                 ],
                 "next": [
                     {"pokedexId": 866, "name": "M. Glaquette", "condition": "Niveau 42"}
@@ -2044,7 +2044,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 79, "name": "Ramoloss de Galar"}
+                    {"pokedexId": 79, "name": "Ramoloss de Galar", "condition": "Avec un Couronne Galanoa"}
                 ],
                 "next": null,
                 "mega": null
@@ -2253,7 +2253,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 263, "name": "Zigzaton de Galar"}
+                    {"pokedexId": 263, "name": "Zigzaton de Galar", "condition": "Niveau 20"}
                 ],
                 "next": [
                     {"pokedexId": 862, "name": "Ixon", "condition": "Niveau 35 (nuit)"}
@@ -2391,7 +2391,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 554, "name": "Darumarond de Galar"}
+                    {"pokedexId": 554, "name": "Darumarond de Galar", "condition": "Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -2663,7 +2663,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 58, "name": "Caninos de Hisui"}
+                    {"pokedexId": 58, "name": "Caninos de Hisui", "condition": "Pierre Feu"}
                 ],
                 "next": null,
                 "mega": null
@@ -2803,7 +2803,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 100, "name": "Voltorbe de Hisui"}
+                    {"pokedexId": 100, "name": "Voltorbe de Hisui", "condition": "Pierre Plante"}
                 ],
                 "next": null,
                 "mega": null
@@ -2872,8 +2872,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 155, "name": "H\u00e9ricendre"},
-                    {"pokedexId": 156, "name": "Feurisson"}
+                    {"pokedexId": 155, "name": "H\u00e9ricendre", "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"},
+                    {"pokedexId": 156, "name": "Feurisson", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
@@ -3082,8 +3082,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 501, "name": "Moustillon"},
-                    {"pokedexId": 502, "name": "Mateloutre"}
+                    {"pokedexId": 501, "name": "Moustillon", "condition": "Niveau 17"},
+                    {"pokedexId": 502, "name": "Mateloutre", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
@@ -3153,7 +3153,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 548, "name": "Chlorobule"}
+                    {"pokedexId": 548, "name": "Chlorobule", "condition": "Pierre Soleil"}
                 ],
                 "next": null,
                 "mega": null
@@ -3289,7 +3289,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 570, "name": "Zorua de Hisui"}
+                    {"pokedexId": 570, "name": "Zorua de Hisui", "condition": "Niveau 30"}
                 ],
                 "next": null,
                 "mega": null
@@ -3359,7 +3359,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 627, "name": "Furaiglon"}
+                    {"pokedexId": 627, "name": "Furaiglon", "condition": "Niveau 54"}
                 ],
                 "next": null,
                 "mega": null
@@ -3429,7 +3429,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 704, "name": "Mucuscule"}
+                    {"pokedexId": 704, "name": "Mucuscule", "condition": "Niveau 40"}
                 ],
                 "next": [
                     {"pokedexId": 706, "name": "Muplodocus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
@@ -3501,8 +3501,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 704, "name": "Mucuscule"},
-                    {"pokedexId": 705, "name": "Colimucus de Hisui"}
+                    {"pokedexId": 704, "name": "Mucuscule", "condition": "Niveau 40"},
+                    {"pokedexId": 705, "name": "Colimucus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
                 ],
                 "next": null,
                 "mega": null
@@ -3572,7 +3572,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 712, "name": "Grela\u00e7on"}
+                    {"pokedexId": 712, "name": "Grela\u00e7on", "condition": "Niveau 37"}
                 ],
                 "next": null,
                 "mega": null
@@ -3641,8 +3641,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 722, "name": "Brindibou"},
-                    {"pokedexId": 723, "name": "Effl\u00e8che"}
+                    {"pokedexId": 722, "name": "Brindibou", "condition": "Niveau 17"},
+                    {"pokedexId": 723, "name": "Effl\u00e8che", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
