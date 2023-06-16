@@ -440,11 +440,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": "1",
+                    "pokedexId": 1,
                     "name": "Bulbizarre"
                 },
                 {
-                    "pokedexId": "2",
+                    "pokedexId": 2,
                     "name": "Herbizarre"
                 }
             ],
