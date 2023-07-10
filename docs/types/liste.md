@@ -1,4 +1,4 @@
-<h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/&lt;type&gt;]</span> Liste des types</h1>
+<h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/]</span> Liste des types</h1>
 
 ```http
 https://api-pokemon-fr.vercel.app/api/v1/types/
