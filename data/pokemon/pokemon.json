@@ -116314,13 +116314,13 @@
             }
         ],
         "evolution": {
-            "pre": null,
-            "next": [
+            "pre": [
                 {
                     "pokedexId": 831,
                     "name": "Moumouton"
                 }
             ],
+            "next": null,
             "mega": null
         },
         "height": "1,3 m",
