@@ -171,3 +171,4 @@ poetry.toml
 # End of https://www.toptal.com/developers/gitignore/api/python
 .vercel
 .scripts
+data/openapi/PokéAPI.postman_collection.json

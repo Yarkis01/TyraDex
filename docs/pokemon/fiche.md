@@ -11,7 +11,7 @@ Permet d'obtenir des informations sur un Pokémon spécifique.<br>
 | Nom | Obligatoire | Type | Description |
 |---|---|---|---|
 | identifiant | ✔️ | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
-| region | ❌ | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forge régionale d'un Pokémon. |
+| region | ❌ | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forme régionale d'un Pokémon. |
 
 ## Curl
 ```curl
