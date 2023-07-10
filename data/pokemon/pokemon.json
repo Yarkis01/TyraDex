@@ -440,11 +440,11 @@
         "evolution": {
             "pre": [
                 {
-                    "pokedexId": "1",
+                    "pokedexId": 1,
                     "name": "Bulbizarre"
                 },
                 {
-                    "pokedexId": "2",
+                    "pokedexId": 2,
                     "name": "Herbizarre"
                 }
             ],
@@ -116475,13 +116475,13 @@
             }
         ],
         "evolution": {
-            "pre": null,
-            "next": [
+            "pre": [
                 {
                     "pokedexId": 831,
                     "name": "Moumouton"
                 }
             ],
+            "next": null,
             "mega": null
         },
         "height": "1,3 m",

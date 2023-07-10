@@ -1,7 +1,7 @@
 ---
 name: Données Invalides
 about: Quand des données sur un Pokémon sont erronés.
-title: "[DATA] "
+title: "[DATA] Données invalides"
 labels: invalid data
 assignees: Yarkis01
 
