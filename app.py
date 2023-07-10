@@ -34,6 +34,13 @@ def _docs(path: str = None):
     path = "./docs/index.md" if path is None else f"./docs/{path}.md"
     return render_template('views/docs.jinja', markdown = markdown.markdown(open(path, encoding="utf-8").read(), extensions=['fenced_code', 'tables']), navbar = markdown.markdown(open("./docs/navbar.md", encoding="utf-8").read())) if os.path.exists(path) else abort(404)
 
+@app.route('/openapi.<string:extension>')
+def _open_api(extension: str):
+    if extension.lower() == "json":
+        return send_file("./data/openapi/openapi.json", mimetype="text/json", as_attachment=False)
+
+    return send_file("./data/openapi/openapi.yml", mimetype="text/yaml", as_attachment=False)
+
 @app.route('/robots.txt')
 def _robots():
     return send_file("robots.txt")
