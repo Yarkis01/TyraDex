@@ -40247,7 +40247,7 @@
             "next": null,
             "mega": [
                 {
-                    "obre": "Gardevoirite",
+                    "orbe": "Gardevoirite",
                     "sprites": {
                         "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/282/mega-regular.png",
                         "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/282/mega-shiny.png"
