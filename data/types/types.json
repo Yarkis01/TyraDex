@@ -836,7 +836,7 @@
             "en": "Grass",
             "jp": "\u304f\u3055"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png",
         "resistances": [
             {
                 "name": "Normal",
