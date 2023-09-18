@@ -292,7 +292,8 @@
             "pre": [
                 {
                     "pokedexId": 1,
-                    "name": "Bulbizarre"
+                    "name": "Bulbizarre",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -441,11 +442,13 @@
             "pre": [
                 {
                     "pokedexId": 1,
-                    "name": "Bulbizarre"
+                    "name": "Bulbizarre",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 2,
-                    "name": "Herbizarre"
+                    "name": "Herbizarre",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -731,7 +734,8 @@
             "pre": [
                 {
                     "pokedexId": 4,
-                    "name": "Salam\u00e8che"
+                    "name": "Salam\u00e8che",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -880,11 +884,13 @@
             "pre": [
                 {
                     "pokedexId": 4,
-                    "name": "Salam\u00e8che"
+                    "name": "Salam\u00e8che",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 5,
-                    "name": "Reptincel"
+                    "name": "Reptincel",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -1177,14 +1183,15 @@
             "pre": [
                 {
                     "pokedexId": 7,
-                    "name": "Carapuce"
+                    "name": "Carapuce",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
                 {
                     "pokedexId": 9,
                     "name": "Tortank",
-                    "condition": "Niveau 16"
+                    "condition": "Niveau 36"
                 }
             ],
             "mega": null
@@ -1322,11 +1329,13 @@
             "pre": [
                 {
                     "pokedexId": 7,
-                    "name": "Carapuce"
+                    "name": "Carapuce",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 8,
-                    "name": "Carabaffe"
+                    "name": "Carabaffe",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -1607,7 +1616,8 @@
             "pre": [
                 {
                     "pokedexId": 10,
-                    "name": "Chenipan"
+                    "name": "Chenipan",
+                    "condition":"Niveau 7"
                 }
             ],
             "next": [
@@ -1755,11 +1765,13 @@
             "pre": [
                 {
                     "pokedexId": 10,
-                    "name": "Chenipan"
+                    "name": "Chenipan",
+                    "condition":"Niveau 7"
                 },
                 {
                     "pokedexId": 11,
-                    "name": "Chrysacier"
+                    "name": "Chrysacier",
+                    "condition":"Niveau 10"
                 }
             ],
             "next": null,
@@ -2039,7 +2051,8 @@
             "pre": [
                 {
                     "pokedexId": 13,
-                    "name": "Aspicot"
+                    "name": "Aspicot",
+                    "condition":"Niveau 7"
                 }
             ],
             "next": [
@@ -2184,11 +2197,13 @@
             "pre": [
                 {
                     "pokedexId": 13,
-                    "name": "Aspicot"
+                    "name": "Aspicot",
+                    "condition":"Niveau 7"
                 },
                 {
                     "pokedexId": 14,
-                    "name": "Coconfort"
+                    "name": "Coconfort",
+                    "condition":"Niveau 10"
                 }
             ],
             "next": null,
@@ -2480,7 +2495,8 @@
             "pre": [
                 {
                     "pokedexId": 16,
-                    "name": "Roucool"
+                    "name": "Roucool",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": [
@@ -2629,11 +2645,13 @@
             "pre": [
                 {
                     "pokedexId": 16,
-                    "name": "Roucool"
+                    "name": "Roucool",
+                    "condition":"Niveau 18"
                 },
                 {
                     "pokedexId": 17,
-                    "name": "Roucoups"
+                    "name": "Roucoups",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -2924,7 +2942,8 @@
             "pre": [
                 {
                     "pokedexId": 19,
-                    "name": "Rattata"
+                    "name": "Rattata",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -3207,7 +3226,8 @@
             "pre": [
                 {
                     "pokedexId": 21,
-                    "name": "Piafabec"
+                    "name": "Piafabec",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -3487,7 +3507,8 @@
             "pre": [
                 {
                     "pokedexId": 23,
-                    "name": "Abo"
+                    "name": "Abo",
+                    "condition":"Niveau 22"
                 }
             ],
             "next": null,
@@ -3626,7 +3647,8 @@
             "pre": [
                 {
                     "pokedexId": 172,
-                    "name": "Pichu"
+                    "name": "Pichu",
+                    "condition":"Bonheur"
                 }
             ],
             "next": [
@@ -3768,11 +3790,13 @@
             "pre": [
                 {
                     "pokedexId": 172,
-                    "name": "Pichu"
+                    "name": "Pichu",
+                    "condition":"+1 Niveau + Bonheur"
                 },
                 {
                     "pokedexId": 25,
-                    "name": "Pikachu"
+                    "name": "Pikachu",
+                    "condition":"Pierre Foudre"
                 }
             ],
             "next": null,
@@ -4052,7 +4076,8 @@
             "pre": [
                 {
                     "pokedexId": 27,
-                    "name": "Sabelette"
+                    "name": "Sabelette", 
+                    "condition":"Niveau 22"
                 }
             ],
             "next": null,
@@ -4341,7 +4366,8 @@
             "pre": [
                 {
                     "pokedexId": 29,
-                    "name": "Nidoran\u2640"
+                    "name": "Nidoran\u2640",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -4488,11 +4514,13 @@
             "pre": [
                 {
                     "pokedexId": 29,
-                    "name": "Nidoran\u2640"
+                    "name": "Nidoran\u2640",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 30,
-                    "name": "Nidorina"
+                    "name": "Nidorina",
+                    "condition":"Pierre Lune"
                 }
             ],
             "next": null,
@@ -4775,7 +4803,8 @@
             "pre": [
                 {
                     "pokedexId": 32,
-                    "name": "Nidoran\u2642"
+                    "name": "Nidoran\u2642",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -4925,11 +4954,13 @@
             "pre": [
                 {
                     "pokedexId": 32,
-                    "name": "Nidoran\u2642"
+                    "name": "Nidoran\u2642",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 33,
-                    "name": "Nidorino"
+                    "name": "Nidorino",
+                    "condition":"Pierre Lune"
                 }
             ],
             "next": null,
@@ -5069,7 +5100,8 @@
             "pre": [
                 {
                     "pokedexId": 173,
-                    "name": "M\u00e9lo"
+                    "name": "M\u00e9lo",
+                    "condition":"Bonheur"
                 }
             ],
             "next": [
@@ -5214,11 +5246,13 @@
             "pre": [
                 {
                     "pokedexId": 173,
-                    "name": "M\u00e9lo"
+                    "name": "M\u00e9lo",
+                    "condition":"Bonheur"
                 },
                 {
                     "pokedexId": 36,
-                    "name": "M\u00e9lof\u00e9e"
+                    "name": "M\u00e9lof\u00e9e",
+                    "condition":"Pierre Lune"
                 }
             ],
             "next": null,
@@ -5493,7 +5527,8 @@
             "pre": [
                 {
                     "pokedexId": 37,
-                    "name": "Goupix"
+                    "name": "Goupix",
+                    "condition":"Pierre Feu"
                 }
             ],
             "next": null,
@@ -5640,7 +5675,8 @@
             "pre": [
                 {
                     "pokedexId": 174,
-                    "name": "Toudoudou"
+                    "name": "Toudoudou",
+                    "condition":"Bonheur"
                 }
             ],
             "next": [
@@ -5789,11 +5825,13 @@
             "pre": [
                 {
                     "pokedexId": 174,
-                    "name": "Toudoudou"
+                    "name": "Toudoudou",
+                    "condition":"Bonheur"
                 },
                 {
                     "pokedexId": 39,
-                    "name": "Rondoudou"
+                    "name": "Rondoudou",
+                    "condition":"Pierre Lune"
                 }
             ],
             "next": null,
@@ -6077,7 +6115,8 @@
             "pre": [
                 {
                     "pokedexId": 41,
-                    "name": "Nosferapti"
+                    "name": "Nosferapti",
+                    "condition":"Niveau 22"
                 }
             ],
             "next": [
@@ -6372,7 +6411,8 @@
             "pre": [
                 {
                     "pokedexId": 43,
-                    "name": "Mystherbe"
+                    "name": "Mystherbe",
+                    "condition":"Niveau 21"
                 }
             ],
             "next": [
@@ -6522,11 +6562,13 @@
             "pre": [
                 {
                     "pokedexId": 43,
-                    "name": "Mystherbe"
+                    "name": "Mystherbe",
+                    "condition":"Niveau 21"
                 },
                 {
                     "pokedexId": 44,
-                    "name": "Ortide"
+                    "name": "Ortide",
+                    "condition":"Pierre Plante"
                 }
             ],
             "next": null,
@@ -6814,7 +6856,8 @@
             "pre": [
                 {
                     "pokedexId": 46,
-                    "name": "Paras"
+                    "name": "Paras",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": null,
@@ -7102,7 +7145,8 @@
             "pre": [
                 {
                     "pokedexId": 48,
-                    "name": "Mimitoss"
+                    "name": "Mimitoss",
+                    "condition":"Niveau 31"
                 }
             ],
             "next": null,
@@ -7385,7 +7429,8 @@
             "pre": [
                 {
                     "pokedexId": 50,
-                    "name": "Taupiqueur"
+                    "name": "Taupiqueur",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -7678,7 +7723,8 @@
             "pre": [
                 {
                     "pokedexId": 52,
-                    "name": "Miaouss"
+                    "name": "Miaouss",
+                    "condition":"Niveau 28"
                 }
             ],
             "next": null,
@@ -7962,7 +8008,8 @@
             "pre": [
                 {
                     "pokedexId": 54,
-                    "name": "Psykokwak"
+                    "name": "Psykokwak",
+                    "condition":"Niveau 33"
                 }
             ],
             "next": null,
@@ -8247,7 +8294,8 @@
             "pre": [
                 {
                     "pokedexId": 56,
-                    "name": "F\u00e9rosinge"
+                    "name": "F\u00e9rosinge",
+                    "condition":"Niveau 28"
                 }
             ],
             "next": [
@@ -8536,7 +8584,8 @@
             "pre": [
                 {
                     "pokedexId": 58,
-                    "name": "Caninos"
+                    "name": "Caninos",
+                    "condition":"Pierre Feu"
                 }
             ],
             "next": null,
@@ -8829,7 +8878,8 @@
             "pre": [
                 {
                     "pokedexId": 60,
-                    "name": "Ptitard"
+                    "name": "Ptitard",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": [
@@ -8983,11 +9033,13 @@
             "pre": [
                 {
                     "pokedexId": 60,
-                    "name": "Ptitard"
+                    "name": "Ptitard",
+                    "condition":"Niveau 25"
                 },
                 {
                     "pokedexId": 61,
-                    "name": "T\u00eatarte"
+                    "name": "T\u00eatarte",
+                    "condition":"Pierre Eau"
                 }
             ],
             "next": null,
@@ -9271,7 +9323,8 @@
             "pre": [
                 {
                     "pokedexId": 63,
-                    "name": "Abra"
+                    "name": "Abra",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": [
@@ -9416,11 +9469,13 @@
             "pre": [
                 {
                     "pokedexId": 63,
-                    "name": "Abra"
+                    "name": "Abra",
+                    "condition": "Niveau 25"
                 },
                 {
                     "pokedexId": 64,
-                    "name": "Kadabra"
+                    "name": "Kadabra",
+                    "condition": "Echange/Au contact d'un Fil de Liaison"
                 }
             ],
             "next": null,
@@ -9712,7 +9767,8 @@
             "pre": [
                 {
                     "pokedexId": 66,
-                    "name": "Machoc"
+                    "name": "Machoc",
+                    "condition": "Niveau 28"
                 }
             ],
             "next": [
@@ -9860,11 +9916,13 @@
             "pre": [
                 {
                     "pokedexId": 66,
-                    "name": "Machoc"
+                    "name": "Machoc",
+                    "condition": "Niveau 25"
                 },
                 {
                     "pokedexId": 67,
-                    "name": "Machopeur"
+                    "name": "Machopeur",
+                    "condition": "Echange/Au contact d'un Fil de Liaison"
                 }
             ],
             "next": null,
@@ -10148,7 +10206,8 @@
             "pre": [
                 {
                     "pokedexId": 69,
-                    "name": "Ch\u00e9tiflor"
+                    "name": "Ch\u00e9tiflor",
+                    "condition": "Niveau 21"
                 }
             ],
             "next": [
@@ -10293,11 +10352,13 @@
             "pre": [
                 {
                     "pokedexId": 69,
-                    "name": "Ch\u00e9tiflor"
+                    "name": "Ch\u00e9tiflor",
+                    "condition": "Niveau 21"
                 },
                 {
                     "pokedexId": 70,
-                    "name": "Boustiflor"
+                    "name": "Boustiflor",
+                    "condition": "Pierre Plante"
                 }
             ],
             "next": null,
@@ -10584,7 +10645,8 @@
             "pre": [
                 {
                     "pokedexId": 72,
-                    "name": "Tentacool"
+                    "name": "Tentacool",
+                    "condition": "Niveau 30"
                 }
             ],
             "next": null,
@@ -10880,7 +10942,8 @@
             "pre": [
                 {
                     "pokedexId": 74,
-                    "name": "Racaillou"
+                    "name": "Racaillou",
+                    "condition": "Niveau 25"
                 }
             ],
             "next": [
@@ -11033,11 +11096,13 @@
             "pre": [
                 {
                     "pokedexId": 74,
-                    "name": "Racaillou"
+                    "name": "Racaillou",
+                    "condition": "Niveau 25"
                 },
                 {
                     "pokedexId": 75,
-                    "name": "Gravalanch"
+                    "name": "Gravalanch",
+                    "condition": "Echange/Au contact d'un Fil de Liaison"
                 }
             ],
             "next": null,
@@ -11324,7 +11389,8 @@
             "pre": [
                 {
                     "pokedexId": 77,
-                    "name": "Ponyta"
+                    "name": "Ponyta",
+                    "condition": "Niveau 40"
                 }
             ],
             "next": null,
@@ -11625,7 +11691,8 @@
             "pre": [
                 {
                     "pokedexId": 79,
-                    "name": "Ramoloss"
+                    "name": "Ramoloss",
+                    "condition": "Niveau 37"
                 }
             ],
             "next": null,
@@ -11927,7 +11994,8 @@
             "pre": [
                 {
                     "pokedexId": 81,
-                    "name": "Magn\u00e9ti"
+                    "name": "Magn\u00e9ti",
+                    "condition": "Niveau 30"
                 }
             ],
             "next": [
@@ -12356,7 +12424,8 @@
             "pre": [
                 {
                     "pokedexId": 84,
-                    "name": "Doduo"
+                    "name": "Doduo",
+                    "condition": "Niveau 31"
                 }
             ],
             "next": null,
@@ -12640,7 +12709,8 @@
             "pre": [
                 {
                     "pokedexId": 86,
-                    "name": "Otaria"
+                    "name": "Otaria",
+                    "condition": "Niveau 34"
                 }
             ],
             "next": null,
@@ -12924,7 +12994,8 @@
             "pre": [
                 {
                     "pokedexId": 88,
-                    "name": "Tadmorv"
+                    "name": "Tadmorv",
+                    "condition": "Niveau 38"
                 }
             ],
             "next": null,
@@ -13211,7 +13282,8 @@
             "pre": [
                 {
                     "pokedexId": 90,
-                    "name": "Kokiyas"
+                    "name": "Kokiyas",
+                    "condition": "Pierre Eau"
                 }
             ],
             "next": null,
@@ -13487,7 +13559,8 @@
             "pre": [
                 {
                     "pokedexId": 92,
-                    "name": "Fantominus"
+                    "name": "Fantominus",
+                    "condition": "Niveau 25"
                 }
             ],
             "next": [
@@ -13635,11 +13708,13 @@
             "pre": [
                 {
                     "pokedexId": 92,
-                    "name": "Fantominus"
+                    "name": "Fantominus",
+                    "condition": "Niveau 25"
                 },
                 {
                     "pokedexId": 93,
-                    "name": "Spectrum"
+                    "name": "Spectrum", 
+                    "condition": "Echange/Au contact d'un Fil de Liaison"
                 }
             ],
             "next": null,
@@ -14070,7 +14145,8 @@
             "pre": [
                 {
                     "pokedexId": 96,
-                    "name": "Soporifik"
+                    "name": "Soporifik",
+                    "condition": "Niveau 26"
                 }
             ],
             "next": null,
@@ -14352,7 +14428,8 @@
             "pre": [
                 {
                     "pokedexId": 98,
-                    "name": "Krabby"
+                    "name": "Krabby",
+                    "condition": "Niveau 28"
                 }
             ],
             "next": null,
@@ -14632,7 +14709,8 @@
             "pre": [
                 {
                     "pokedexId": 100,
-                    "name": "Voltorbe"
+                    "name": "Voltorbe",
+                    "condition": "Niveau 30"
                 }
             ],
             "next": null,
@@ -14912,7 +14990,8 @@
             "pre": [
                 {
                     "pokedexId": 102,
-                    "name": "Noeunoeuf"
+                    "name": "Noeunoeuf",
+                    "condition": "Pierre Plante"
                 }
             ],
             "next": null,
@@ -15195,7 +15274,8 @@
             "pre": [
                 {
                     "pokedexId": 104,
-                    "name": "Osselait"
+                    "name": "Osselait",
+                    "condition": "Niveau 28"
                 }
             ],
             "next": null,
@@ -15338,7 +15418,8 @@
             "pre": [
                 {
                     "pokedexId": 236,
-                    "name": "Debugant"
+                    "name": "Debugant",
+                    "condition":"Niveau 20 + Attaque > D\u00e9fense"
                 }
             ],
             "next": null,
@@ -15477,7 +15558,8 @@
             "pre": [
                 {
                     "pokedexId": 236,
-                    "name": "Debugant"
+                    "name": "Debugant",
+                    "condition":"Niveau 20 + Attaque < D\u00e9fense"
                 }
             ],
             "next": null,
@@ -15896,7 +15978,8 @@
             "pre": [
                 {
                     "pokedexId": 109,
-                    "name": "Smogo"
+                    "name": "Smogo",
+                    "condition": "Niveau 35"
                 }
             ],
             "next": null,
@@ -16193,7 +16276,8 @@
             "pre": [
                 {
                     "pokedexId": 111,
-                    "name": "Rhinocorne"
+                    "name": "Rhinocorne",
+                    "condition": "Niveau 42"
                 }
             ],
             "next": [
@@ -16339,13 +16423,15 @@
             "pre": [
                 {
                     "pokedexId": 440,
-                    "name": "Ptiravi"
+                    "name": "Ptiravi",
+                    "condition":"+1 Niveau la journ\u00e9e avec Pierre Ovale / Contact avec Pierre Ovale le jour (PLA)"
                 }
             ],
             "next": [
                 {
                     "pokedexId": 242,
-                    "name": "Leuphorie"
+                    "name": "Leuphorie",
+                    "condition":"Bonheur"
                 }
             ],
             "mega": null
@@ -16911,7 +16997,8 @@
             "pre": [
                 {
                     "pokedexId": 116,
-                    "name": "Hypotrempe"
+                    "name": "Hypotrempe",
+                    "condition": "Niveau 32"
                 }
             ],
             "next": [
@@ -17197,7 +17284,8 @@
             "pre": [
                 {
                     "pokedexId": 118,
-                    "name": "Poissir\u00e8ne"
+                    "name": "Poissir\u00e8ne",
+                    "condition": "Niveau 33"
                 }
             ],
             "next": null,
@@ -17477,7 +17565,8 @@
             "pre": [
                 {
                     "pokedexId": 120,
-                    "name": "Stari"
+                    "name": "Stari",
+                    "condition": "Pierre Eau"
                 }
             ],
             "next": null,
@@ -17617,7 +17706,8 @@
             "pre": [
                 {
                     "pokedexId": 439,
-                    "name": "Mime Jr."
+                    "name": "Mime Jr.",
+                    "condition":"+1 Niveau avec Copie"
                 }
             ],
             "next": null,
@@ -17913,7 +18003,8 @@
             "pre": [
                 {
                     "pokedexId": 238,
-                    "name": "Lippouti"
+                    "name": "Lippouti",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -18048,7 +18139,8 @@
             "pre": [
                 {
                     "pokedexId": 239,
-                    "name": "\u00c9lekid"
+                    "name": "\u00c9lekid",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": [
@@ -18189,7 +18281,8 @@
             "pre": [
                 {
                     "pokedexId": 240,
-                    "name": "Magby"
+                    "name": "Magby",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": [
@@ -18747,7 +18840,8 @@
             "pre": [
                 {
                     "pokedexId": 129,
-                    "name": "Magicarpe"
+                    "name": "Magicarpe",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -19330,7 +19424,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Pierre Eau"
                 }
             ],
             "next": null,
@@ -19465,7 +19560,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Pierre Foudre"
                 }
             ],
             "next": null,
@@ -19600,7 +19696,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Pierre Feu"
                 }
             ],
             "next": null,
@@ -20030,7 +20127,8 @@
             "pre": [
                 {
                     "pokedexId": 138,
-                    "name": "Amonita"
+                    "name": "Amonita",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -20319,7 +20417,8 @@
             "pre": [
                 {
                     "pokedexId": 140,
-                    "name": "Kabuto"
+                    "name": "Kabuto",
+                    "condition": "Niveau 40"
                 }
             ],
             "next": null,
@@ -21263,7 +21362,8 @@
             "pre": [
                 {
                     "pokedexId": 147,
-                    "name": "Minidraco"
+                    "name": "Minidraco",
+                    "condition": "Niveau 30"
                 }
             ],
             "next": [
@@ -21409,11 +21509,13 @@
             "pre": [
                 {
                     "pokedexId": 147,
-                    "name": "Minidraco"
+                    "name": "Minidraco",
+                    "condition": "Niveau 30"
                 },
                 {
                     "pokedexId": 148,
-                    "name": "Draco"
+                    "name": "Draco",
+                    "condition": "Niveau 55"
                 }
             ],
             "next": null,
