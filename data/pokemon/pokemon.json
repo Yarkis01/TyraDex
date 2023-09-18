@@ -140892,7 +140892,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1014/regular.png",
-            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1014/shiny.png",
+            "shiny": null,
             "gmax": null
         },
         "types": [
@@ -141026,7 +141026,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1015/regular.png",
-            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1015/shiny.png",
+            "shiny": null,
             "gmax": null
         },
         "types": [
@@ -141160,7 +141160,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1016/regular.png",
-            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1016/shiny.png",
+            "shiny": null,
             "gmax": null
         },
         "types": [
@@ -141294,7 +141294,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1017/regular.png",
-            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1017/shiny.png",
+            "shiny": null,
             "gmax": null
         },
         "types": [
