@@ -36176,7 +36176,8 @@
             "pre": [
                 {
                     "pokedexId": 252,
-                    "name": "Arcko"
+                    "name": "Arcko",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -36318,11 +36319,13 @@
             "pre": [
                 {
                     "pokedexId": 252,
-                    "name": "Arcko"
+                    "name": "Arcko",
+                    "condition:":"Niveau 16"
                 },
                 {
                     "pokedexId": 253,
-                    "name": "Massko"
+                    "name": "Massko",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -36611,7 +36614,8 @@
             "pre": [
                 {
                     "pokedexId": 255,
-                    "name": "Poussifeu"
+                    "name": "Poussifeu",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -36756,11 +36760,13 @@
             "pre": [
                 {
                     "pokedexId": 255,
-                    "name": "Poussifeu"
+                    "name": "Poussifeu",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 257,
-                    "name": "Galifeu"
+                    "name": "Galifeu",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -37049,7 +37055,8 @@
             "pre": [
                 {
                     "pokedexId": 258,
-                    "name": "Gobou"
+                    "name": "Gobou",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -37195,11 +37202,13 @@
             "pre": [
                 {
                     "pokedexId": 258,
-                    "name": "Gobou"
+                    "name": "Gobou",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 259,
-                    "name": "Flobio"
+                    "name": "Flobio",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -37487,7 +37496,8 @@
             "pre": [
                 {
                     "pokedexId": 261,
-                    "name": "Medhy\u00e8na"
+                    "name": "Medhy\u00e8na",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": null,
@@ -37770,7 +37780,8 @@
             "pre": [
                 {
                     "pokedexId": 263,
-                    "name": "Zigzaton"
+                    "name": "Zigzaton",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -38056,7 +38067,8 @@
             "pre": [
                 {
                     "pokedexId": 265,
-                    "name": "Chenipotte"
+                    "name": "Chenipotte",
+                    "condition":"Niveau 7"
                 }
             ],
             "next": [
@@ -38201,11 +38213,13 @@
             "pre": [
                 {
                     "pokedexId": 265,
-                    "name": "Chenipotte"
+                    "name": "Chenipotte",
+                    "condition":"Niveau 7"
                 },
                 {
                     "pokedexId": 266,
-                    "name": "Armulys"
+                    "name": "Armulys",
+                    "condition":"Niveau 10"
                 }
             ],
             "next": null,
@@ -38336,7 +38350,8 @@
             "pre": [
                 {
                     "pokedexId": 265,
-                    "name": "Chenipotte"
+                    "name": "Chenipotte",
+                    "condition":"Niveau 7"
                 }
             ],
             "next": [
@@ -38481,11 +38496,13 @@
             "pre": [
                 {
                     "pokedexId": 265,
-                    "name": "Chenipotte"
+                    "name": "Chenipotte",
+                    "condition":"Niveau 7"
                 },
                 {
                     "pokedexId": 268,
-                    "name": "Blindalys"
+                    "name": "Blindalys",
+                    "condition":"Niveau 10"
                 }
             ],
             "next": null,
@@ -38778,7 +38795,8 @@
             "pre": [
                 {
                     "pokedexId": 270,
-                    "name": "N\u00e9nupiot"
+                    "name": "N\u00e9nupiot",
+                    "condition":"Niveau 14"
                 }
             ],
             "next": [
@@ -38928,11 +38946,13 @@
             "pre": [
                 {
                     "pokedexId": 270,
-                    "name": "N\u00e9nupiot"
+                    "name": "N\u00e9nupiot",
+                    "condition":"Niveau 14"
                 },
                 {
                     "pokedexId": 271,
-                    "name": "Lombre"
+                    "name": "Lombre",
+                    "condition":"Pierre Eau"
                 }
             ],
             "next": null,
@@ -39222,7 +39242,8 @@
             "pre": [
                 {
                     "pokedexId": 273,
-                    "name": "Grainipiot"
+                    "name": "Grainipiot",
+                    "condition":"Niveau 14"
                 }
             ],
             "next": [
@@ -39372,11 +39393,13 @@
             "pre": [
                 {
                     "pokedexId": 273,
-                    "name": "Grainipiot"
+                    "name": "Grainipiot",
+                    "condition":"Niveau 14"
                 },
                 {
                     "pokedexId": 274,
-                    "name": "Pifeuil"
+                    "name": "Pifeuil",
+                    "condition":"Pierre Plante"
                 }
             ],
             "next": null,
@@ -39656,7 +39679,8 @@
             "pre": [
                 {
                     "pokedexId": 276,
-                    "name": "Nirondelle"
+                    "name": "Nirondelle",
+                    "condition":"Niveau 22"
                 }
             ],
             "next": null,
@@ -39944,7 +39968,8 @@
             "pre": [
                 {
                     "pokedexId": 278,
-                    "name": "Go\u00e9lise"
+                    "name": "Go\u00e9lise",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
@@ -40095,7 +40120,7 @@
                 {
                     "pokedexId": 282,
                     "name": "Gardevoir",
-                    "condition": "Niveau 30"
+                    "condition": "Femelle + Niveau 30"
                 },
                 {
                     "pokedexId": 475,
@@ -40243,14 +40268,15 @@
             "pre": [
                 {
                     "pokedexId": 280,
-                    "name": "Tarsal"
+                    "name": "Tarsal",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": [
                 {
                     "pokedexId": 282,
                     "name": "Gardevoir",
-                    "condition": "Niveau 30"
+                    "condition": "Femelle + Niveau 30"
                 },
                 {
                     "pokedexId": 475,
@@ -40398,11 +40424,13 @@
             "pre": [
                 {
                     "pokedexId": 280,
-                    "name": "Tarsal"
+                    "name": "Tarsal",
+                    "condition":"Niveau 20"
                 },
                 {
                     "pokedexId": 281,
-                    "name": "Kirlia"
+                    "name": "Kirlia",
+                    "condition":"Femelle + Niveau 30"
                 }
             ],
             "next": null,
@@ -40691,7 +40719,8 @@
             "pre": [
                 {
                     "pokedexId": 283,
-                    "name": "Arakdo"
+                    "name": "Arakdo",
+                    "condition":"Niveau 22"
                 }
             ],
             "next": null,
@@ -40976,7 +41005,8 @@
             "pre": [
                 {
                     "pokedexId": 285,
-                    "name": "Balignon"
+                    "name": "Balignon",
+                    "condition":"Niveau 23"
                 }
             ],
             "next": null,
@@ -41245,7 +41275,8 @@
             "pre": [
                 {
                     "pokedexId": 287,
-                    "name": "Parecool"
+                    "name": "Parecool",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": [
@@ -41382,11 +41413,13 @@
             "pre": [
                 {
                     "pokedexId": 287,
-                    "name": "Parecool"
+                    "name": "Parecool",
+                    "condition":"Niveau 18"
                 },
                 {
                     "pokedexId": 288,
-                    "name": "Vigoroth"
+                    "name": "Vigoroth",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -41670,7 +41703,8 @@
             "pre": [
                 {
                     "pokedexId": 290,
-                    "name": "Ningale"
+                    "name": "Ningale",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -41805,7 +41839,8 @@
             "pre": [
                 {
                     "pokedexId": 290,
-                    "name": "Ningale"
+                    "name": "Ningale",
+                    "condition":"Niveau 20 + Pokeball + un emplacement de libre dans l'\u00e9quipe"
                 }
             ],
             "next": null,
@@ -42079,7 +42114,8 @@
             "pre": [
                 {
                     "pokedexId": 293,
-                    "name": "Chuchmur"
+                    "name": "Chuchmur",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": [
@@ -42221,11 +42257,13 @@
             "pre": [
                 {
                     "pokedexId": 293,
-                    "name": "Chuchmur"
+                    "name": "Chuchmur",
+                    "condition":"Niveau 20"
                 },
                 {
                     "pokedexId": 294,
-                    "name": "Ramboum"
+                    "name": "Ramboum",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -42505,7 +42543,8 @@
             "pre": [
                 {
                     "pokedexId": 296,
-                    "name": "Makuhita"
+                    "name": "Makuhita",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": null,
@@ -43072,7 +43111,8 @@
             "pre": [
                 {
                     "pokedexId": 300,
-                    "name": "Skitty"
+                    "name": "Skitty",
+                    "condition":"Pierre Lune"
                 }
             ],
             "next": null,
@@ -43658,7 +43698,8 @@
             "pre": [
                 {
                     "pokedexId": 304,
-                    "name": "Galekid"
+                    "name": "Galekid",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": [
@@ -43807,11 +43848,13 @@
             "pre": [
                 {
                     "pokedexId": 304,
-                    "name": "Galekid"
+                    "name": "Galekid",
+                    "condition":"Niveau 32"
                 },
                 {
                     "pokedexId": 305,
-                    "name": "Galegon"
+                    "name": "Galegon",
+                    "condition":"Niveau 42"
                 }
             ],
             "next": null,
@@ -44098,7 +44141,8 @@
             "pre": [
                 {
                     "pokedexId": 307,
-                    "name": "M\u00e9ditikka"
+                    "name": "M\u00e9ditikka",
+                    "condition":"Niveau 37"
                 }
             ],
             "next": null,
@@ -44385,7 +44429,8 @@
             "pre": [
                 {
                     "pokedexId": 309,
-                    "name": "Dynavolt"
+                    "name": "Dynavolt",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -45050,7 +45095,8 @@
             "pre": [
                 {
                     "pokedexId": 406,
-                    "name": "Rozbouton"
+                    "name": "Rozbouton",
+                    "condition":"Bonheur"
                 }
             ],
             "next": [
@@ -45336,7 +45382,8 @@
             "pre": [
                 {
                     "pokedexId": 316,
-                    "name": "Gloupti"
+                    "name": "Gloupti",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -45615,7 +45662,8 @@
             "pre": [
                 {
                     "pokedexId": 318,
-                    "name": "Carvanha"
+                    "name": "Carvanha",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -45903,7 +45951,8 @@
             "pre": [
                 {
                     "pokedexId": 320,
-                    "name": "Wailmer"
+                    "name": "Wailmer",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -46191,7 +46240,8 @@
             "pre": [
                 {
                     "pokedexId": 322,
-                    "name": "Chamallot"
+                    "name": "Chamallot",
+                    "condition":"Niveau 33"
                 }
             ],
             "next": null,
@@ -46608,7 +46658,8 @@
             "pre": [
                 {
                     "pokedexId": 325,
-                    "name": "Spoink"
+                    "name": "Spoink",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -47020,7 +47071,8 @@
             "pre": [
                 {
                     "pokedexId": 328,
-                    "name": "Kraknoix"
+                    "name": "Kraknoix",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": [
@@ -47162,11 +47214,13 @@
             "pre": [
                 {
                     "pokedexId": 328,
-                    "name": "Kraknoix"
+                    "name": "Kraknoix",
+                    "condition":"Niveau 35"
                 },
                 {
                     "pokedexId": 329,
-                    "name": "Vibraninf"
+                    "name": "Vibraninf",
+                    "condition":"Niveau 45"
                 }
             ],
             "next": null,
@@ -47443,7 +47497,8 @@
             "pre": [
                 {
                     "pokedexId": 331,
-                    "name": "Cacnea"
+                    "name": "Cacnea",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -47724,7 +47779,8 @@
             "pre": [
                 {
                     "pokedexId": 333,
-                    "name": "Tylton"
+                    "name": "Tylton",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -48519,7 +48575,8 @@
             "pre": [
                 {
                     "pokedexId": 339,
-                    "name": "Barloche"
+                    "name": "Barloche",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -48803,7 +48860,8 @@
             "pre": [
                 {
                     "pokedexId": 341,
-                    "name": "\u00c9crapince"
+                    "name": "\u00c9crapince",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -49072,7 +49130,8 @@
             "pre": [
                 {
                     "pokedexId": 343,
-                    "name": "Balbulto"
+                    "name": "Balbulto",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -49348,7 +49407,8 @@
             "pre": [
                 {
                     "pokedexId": 345,
-                    "name": "Lilia"
+                    "name": "Lilia",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -49627,7 +49687,8 @@
             "pre": [
                 {
                     "pokedexId": 347,
-                    "name": "Anorith"
+                    "name": "Anorith",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -49907,7 +49968,8 @@
             "pre": [
                 {
                     "pokedexId": 349,
-                    "name": "Barpau"
+                    "name": "Barpau",
+                    "condition": "Beaut\u00e9 sup\u00e9rieur ou \u00e9gal \u00e0 170 + 1 niveau (RSE \u00e0 N2B2 + ROSA + DEPS) / Echange avec Bel'\u00c9caille (depuis NB)"
                 }
             ],
             "next": null,
@@ -50436,7 +50498,8 @@
             "pre": [
                 {
                     "pokedexId": 353,
-                    "name": "Polichombr"
+                    "name": "Polichombr",
+                    "condition":"Niveau 37"
                 }
             ],
             "next": null,
@@ -50720,7 +50783,8 @@
             "pre": [
                 {
                     "pokedexId": 355,
-                    "name": "Sk\u00e9l\u00e9nox"
+                    "name": "Sk\u00e9l\u00e9nox",
+                    "condition":"Niveau 37"
                 }
             ],
             "next": [
@@ -50992,7 +51056,8 @@
             "pre": [
                 {
                     "pokedexId": 433,
-                    "name": "Korillon"
+                    "name": "Korillon",
+                    "condition":"+1 Niveau + Nuit + Bonheur"
                 }
             ],
             "next": null,
@@ -51553,7 +51618,8 @@
             "pre": [
                 {
                     "pokedexId": 361,
-                    "name": "Stalgamin"
+                    "name": "Stalgamin",
+                    "condition":"Niveau 42"
                 }
             ],
             "next": null,
@@ -51855,7 +51921,8 @@
             "pre": [
                 {
                     "pokedexId": 363,
-                    "name": "Obalie"
+                    "name": "Obalie",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": [
@@ -52005,11 +52072,13 @@
             "pre": [
                 {
                     "pokedexId": 363,
-                    "name": "Obalie"
+                    "name": "Obalie",
+                    "condition":"Niveau 32"
                 },
                 {
                     "pokedexId": 364,
-                    "name": "Phogleur"
+                    "name": "Phogleur",
+                    "condition":"Niveau 44"
                 }
             ],
             "next": null,
@@ -52286,7 +52355,8 @@
             "pre": [
                 {
                     "pokedexId": 366,
-                    "name": "Coquiperl"
+                    "name": "Coquiperl",
+                    "condition":"Echange avec Dent Oc\u00e9an"
                 }
             ],
             "next": null,
@@ -52421,7 +52491,8 @@
             "pre": [
                 {
                     "pokedexId": 366,
-                    "name": "Coquiperl"
+                    "name": "Coquiperl",
+                    "condition":"Echange avec \u00c9caille Oc\u00e9an"
                 }
             ],
             "next": null,
@@ -52958,7 +53029,8 @@
             "pre": [
                 {
                     "pokedexId": 371,
-                    "name": "Drabby"
+                    "name": "Drabby",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": [
@@ -53103,11 +53175,13 @@
             "pre": [
                 {
                     "pokedexId": 371,
-                    "name": "Drabby"
+                    "name": "Drabby",
+                    "condition":"Niveau 30"
                 },
                 {
                     "pokedexId": 372,
-                    "name": "Drackhaus"
+                    "name": "Drackhaus",
+                    "condition":"Niveau 50"
                 }
             ],
             "next": null,
@@ -53396,7 +53470,8 @@
             "pre": [
                 {
                     "pokedexId": 374,
-                    "name": "Terhal"
+                    "name": "Terhal",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": [
@@ -53538,11 +53613,13 @@
             "pre": [
                 {
                     "pokedexId": 374,
-                    "name": "Terhal"
+                    "name": "Terhal",
+                    "condition":"Niveau 20"
                 },
                 {
                     "pokedexId": 375,
-                    "name": "M\u00e9tang"
+                    "name": "M\u00e9tang",
+                    "condition":"Niveau 45"
                 }
             ],
             "next": null,
