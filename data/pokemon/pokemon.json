@@ -22031,7 +22031,8 @@
             "pre": [
                 {
                     "pokedexId": 152,
-                    "name": "Germignon"
+                    "name": "Germignon",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -22173,11 +22174,13 @@
             "pre": [
                 {
                     "pokedexId": 152,
-                    "name": "Germignon"
+                    "name": "Germignon",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 153,
-                    "name": "Macronium"
+                    "name": "Macronium",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -22459,7 +22462,8 @@
             "pre": [
                 {
                     "pokedexId": 155,
-                    "name": "H\u00e9ricendre"
+                    "name": "H\u00e9ricendre",
+                    "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"
                 }
             ],
             "next": [
@@ -22605,11 +22609,13 @@
             "pre": [
                 {
                     "pokedexId": 155,
-                    "name": "H\u00e9ricendre"
+                    "name": "H\u00e9ricendre",
+                    "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"
                 },
                 {
                     "pokedexId": 156,
-                    "name": "Feurisson"
+                    "name": "Feurisson",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -22890,7 +22896,8 @@
             "pre": [
                 {
                     "pokedexId": 158,
-                    "name": "Kaiminus"
+                    "name": "Kaiminus",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": [
@@ -23032,11 +23039,13 @@
             "pre": [
                 {
                     "pokedexId": 158,
-                    "name": "Kaiminus"
+                    "name": "Kaiminus",
+                    "condition":"Niveau 18"
                 },
                 {
                     "pokedexId": 159,
-                    "name": "Crocodil"
+                    "name": "Crocodil",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -23316,7 +23325,8 @@
             "pre": [
                 {
                     "pokedexId": 161,
-                    "name": "Fouinette"
+                    "name": "Fouinette",
+                    "condition":"Niveau 15"
                 }
             ],
             "next": null,
@@ -23603,7 +23613,8 @@
             "pre": [
                 {
                     "pokedexId": 163,
-                    "name": "Hoothoot"
+                    "name": "Hoothoot",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -23890,7 +23901,8 @@
             "pre": [
                 {
                     "pokedexId": 165,
-                    "name": "Coxy"
+                    "name": "Coxy",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": null,
@@ -24177,7 +24189,8 @@
             "pre": [
                 {
                     "pokedexId": 167,
-                    "name": "Mimigal"
+                    "name": "Mimigal",
+                    "condition":"Niveau 22"
                 }
             ],
             "next": null,
@@ -24316,11 +24329,13 @@
             "pre": [
                 {
                     "pokedexId": 41,
-                    "name": "Nosferapti"
+                    "name": "Nosferapti",
+                    "condition":"Niveau 22"
                 },
                 {
                     "pokedexId": 42,
-                    "name": "Nosferalto"
+                    "name": "Nosferalto",
+                    "condition":"+1 Niveau + Bonheur"
                 }
             ],
             "next": null,
@@ -24607,7 +24622,8 @@
             "pre": [
                 {
                     "pokedexId": 170,
-                    "name": "Loupio"
+                    "name": "Loupio",
+                    "condition":"Niveau 27"
                 }
             ],
             "next": null,
@@ -25177,7 +25193,7 @@
                 {
                     "pokedexId": 176,
                     "name": "Togetic",
-                    "condition": "Bonheur"
+                    "condition": "+1 Niveau + Bonheur"
                 },
                 {
                     "pokedexId": 468,
@@ -25322,7 +25338,8 @@
             "pre": [
                 {
                     "pokedexId": 175,
-                    "name": "Togepi"
+                    "name": "Togepi",
+                    "condition":"+1 Niveau + Bonheur"
                 }
             ],
             "next": [
@@ -25616,7 +25633,8 @@
             "pre": [
                 {
                     "pokedexId": 177,
-                    "name": "Natu"
+                    "name": "Natu",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
@@ -25893,7 +25911,8 @@
             "pre": [
                 {
                     "pokedexId": 179,
-                    "name": "Wattouat"
+                    "name": "Wattouat",
+                    "condition":"Niveau 15"
                 }
             ],
             "next": [
@@ -26035,11 +26054,13 @@
             "pre": [
                 {
                     "pokedexId": 179,
-                    "name": "Wattouat"
+                    "name": "Wattouat",
+                    "condition":"Niveau 15"
                 },
                 {
                     "pokedexId": 180,
-                    "name": "Lainergie"
+                    "name": "Lainergie",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -26183,11 +26204,13 @@
             "pre": [
                 {
                     "pokedexId": 43,
-                    "name": "Mytherbe"
+                    "name": "Mytherbe",
+                    "condition":"Niveau 21"
                 },
                 {
                     "pokedexId": 44,
-                    "name": "Ortide"
+                    "name": "Ortide",
+                    "condition":"Pierre Soleil"
                 }
             ],
             "next": null,
@@ -26330,13 +26353,15 @@
             "pre": [
                 {
                     "pokedexId": 298,
-                    "name": "Azurill"
+                    "name": "Azurill",
+                    "condition":"+1 Niveau + Bonheur"
                 }
             ],
             "next": [
                 {
                     "pokedexId": 184,
-                    "name": "Azumarill"
+                    "name": "Azumarill",
+                    "condition":"Niveau 18"
                 }
             ],
             "mega": null
@@ -26479,11 +26504,13 @@
             "pre": [
                 {
                     "pokedexId": 298,
-                    "name": "Azurill"
+                    "name": "Azurill",
+                    "condition":"+1 Niveau + Bonheur"
                 },
                 {
                     "pokedexId": 183,
-                    "name": "Marill"
+                    "name": "Marill",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": null,
@@ -26623,7 +26650,8 @@
             "pre": [
                 {
                     "pokedexId": 438,
-                    "name": "Manza\u00ed"
+                    "name": "Manza\u00ed",
+                    "condition":"Connaitre Copie + 1 Niveau"
                 }
             ],
             "next": null,
@@ -26762,11 +26790,13 @@
             "pre": [
                 {
                     "pokedexId": 60,
-                    "name": "Ptitard"
+                    "name": "Ptitard",
+                    "condition":"Niveau 25"
                 },
                 {
                     "pokedexId": 61,
-                    "name": "T\u00eatarte"
+                    "name": "T\u00eatarte",
+                    "condition":"Echange avec Roche Royale"
                 }
             ],
             "next": null,
@@ -27059,7 +27089,8 @@
             "pre": [
                 {
                     "pokedexId": 187,
-                    "name": "Granivol"
+                    "name": "Granivol",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": [
@@ -27209,11 +27240,13 @@
             "pre": [
                 {
                     "pokedexId": 187,
-                    "name": "Granivol"
+                    "name": "Granivol",
+                    "condition":"Niveau 18"
                 },
                 {
                     "pokedexId": 188,
-                    "name": "Cotovol"
+                    "name": "Cotovol",
+                    "condition":"Niveau 27"
                 }
             ],
             "next": null,
@@ -27633,7 +27666,8 @@
             "pre": [
                 {
                     "pokedexId": 191,
-                    "name": "Tournegrin"
+                    "name": "Tournegrin",
+                    "condition":"Pierre Soleil"
                 }
             ],
             "next": null,
@@ -28069,7 +28103,8 @@
             "pre": [
                 {
                     "pokedexId": 194,
-                    "name": "Axoloto"
+                    "name": "Axoloto",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -28205,7 +28240,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Bonheur + Jour + 1 niveau + aucune capacit\u00e9 F\u00e9e"
                 }
             ],
             "next": null,
@@ -28340,7 +28376,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Bonheur + Nuit + 1 niveau + aucune capacit\u00e9 F\u00e9e"
                 }
             ],
             "next": null,
@@ -28627,7 +28664,8 @@
             "pre": [
                 {
                     "pokedexId": 79,
-                    "name": "Ramoloss"
+                    "name": "Ramoloss",
+                    "condition":"Echange Ramoloss avec Roche Royale"
                 }
             ],
             "next": null,
@@ -29016,7 +29054,8 @@
             "pre": [
                 {
                     "pokedexId": 360,
-                    "name": "Ok\u00e9ok\u00e9"
+                    "name": "Ok\u00e9ok\u00e9",
+                    "condition":"Niveau 15"
                 }
             ],
             "next": null,
@@ -29435,7 +29474,8 @@
             "pre": [
                 {
                     "pokedexId": 204,
-                    "name": "Pomdepik"
+                    "name": "Pomdepik",
+                    "condition":"Niveau 31"
                 }
             ],
             "next": null,
@@ -29862,7 +29902,8 @@
             "pre": [
                 {
                     "pokedexId": 95,
-                    "name": "Onix"
+                    "name": "Onix",
+                    "condition":"Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
                 }
             ],
             "next": null,
@@ -30142,7 +30183,8 @@
             "pre": [
                 {
                     "pokedexId": 209,
-                    "name": "Snubbull"
+                    "name": "Snubbull",
+                    "condition":"Niveau 23"
                 }
             ],
             "next": null,
@@ -30424,7 +30466,8 @@
             "pre": [
                 {
                     "pokedexId": 123,
-                    "name": "Ins\u00e9cateur"
+                    "name": "Ins\u00e9cateur",
+                    "condition":"Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
                 }
             ],
             "next": null,
@@ -31144,7 +31187,8 @@
             "pre": [
                 {
                     "pokedexId": 216,
-                    "name": "Teddiursa"
+                    "name": "Teddiursa",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": [
@@ -31433,7 +31477,8 @@
             "pre": [
                 {
                     "pokedexId": 218,
-                    "name": "Limagma"
+                    "name": "Limagma",
+                    "condition":"Niveau 38"
                 }
             ],
             "next": null,
@@ -31725,7 +31770,8 @@
             "pre": [
                 {
                     "pokedexId": 220,
-                    "name": "Marcacrin"
+                    "name": "Marcacrin",
+                    "condition":"Niveau 33"
                 }
             ],
             "next": [
@@ -32150,7 +32196,8 @@
             "pre": [
                 {
                     "pokedexId": 223,
-                    "name": "R\u00e9moraid"
+                    "name": "R\u00e9moraid",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
@@ -32429,7 +32476,8 @@
             "pre": [
                 {
                     "pokedexId": 458,
-                    "name": "Babimanta"
+                    "name": "Babimanta",
+                    "condition":"Gain de niveau avec R\u00e9moraid dans l'\u00e9quipe"
                 }
             ],
             "next": null,
@@ -32850,7 +32898,8 @@
             "pre": [
                 {
                     "pokedexId": 228,
-                    "name": "Malosse"
+                    "name": "Malosse",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": null,
@@ -33001,11 +33050,13 @@
             "pre": [
                 {
                     "pokedexId": 116,
-                    "name": "Hypotrempe"
+                    "name": "Hypotrempe",
+                    "condition":"Niveau 32"
                 },
                 {
                     "pokedexId": 117,
-                    "name": "Hypoc\u00e9an"
+                    "name": "Hypoc\u00e9an",
+                    "condition":"Echange avec \u00c9caille Draco"
                 }
             ],
             "next": null,
@@ -33277,7 +33328,8 @@
             "pre": [
                 {
                     "pokedexId": 231,
-                    "name": "Phanpy"
+                    "name": "Phanpy",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
@@ -33416,7 +33468,8 @@
             "pre": [
                 {
                     "pokedexId": 137,
-                    "name": "Porygon"
+                    "name": "Porygon",
+                    "condition":"Echange avec Am\u00e9liorator/Contact d'un Am\u00e9liorator (PLA)"
                 }
             ],
             "next": [
@@ -33840,7 +33893,7 @@
                 {
                     "pokedexId": 237,
                     "name": "Kapoera",
-                    "condition": "Niveau 20 + Attauqe = D\u00e9fense"
+                    "condition": "Niveau 20 + Attaque = D\u00e9fense"
                 }
             ],
             "mega": null
@@ -33976,7 +34029,8 @@
             "pre": [
                 {
                     "pokedexId": 236,
-                    "name": "Debugant"
+                    "name": "Debugant",
+                    "condition":"Niveau 20 + Attaque = D\u00e9fense"
                 }
             ],
             "next": null,
@@ -34665,11 +34719,13 @@
             "pre": [
                 {
                     "pokedexId": 440,
-                    "name": "Ptiravi"
+                    "name": "Ptiravi",
+                    "condition":"+1 Niveau la journ\u00e9e avec Pierre Ovale / Contact avec Pierre Ovale le jour (PLA)"
                 },
                 {
                     "pokedexId": 113,
-                    "name": "Leveinard"
+                    "name": "Leveinard",
+                    "condition":"+1 Niveau + Bonheur"
                 }
             ],
             "next": null,
@@ -35312,7 +35368,8 @@
             "pre": [
                 {
                     "pokedexId": 246,
-                    "name": "Embrylex"
+                    "name": "Embrylex",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": [
@@ -35457,11 +35514,13 @@
             "pre": [
                 {
                     "pokedexId": 246,
-                    "name": "Embrylex"
+                    "name": "Embrylex",
+                    "condition":"Niveau 30"
                 },
                 {
                     "pokedexId": 247,
-                    "name": "Ymphect"
+                    "name": "Ymphect",
+                    "condition":"Niveau 55"
                 }
             ],
             "next": null,
