@@ -91856,7 +91856,8 @@
             "pre": [
                 {
                     "pokedexId": 650,
-                    "name": "Marisson"
+                    "name": "Marisson",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -92001,11 +92002,13 @@
             "pre": [
                 {
                     "pokedexId": 650,
-                    "name": "Marisson"
+                    "name": "Marisson",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 651,
-                    "name": "Bogu\u00e9risse"
+                    "name": "Bogu\u00e9risse",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -92281,7 +92284,8 @@
             "pre": [
                 {
                     "pokedexId": 653,
-                    "name": "Feunnec"
+                    "name": "Feunnec",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -92426,11 +92430,13 @@
             "pre": [
                 {
                     "pokedexId": 653,
-                    "name": "Feunnec"
+                    "name": "Feunnec",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 654,
-                    "name": "Roussil"
+                    "name": "Roussil",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -92706,7 +92712,8 @@
             "pre": [
                 {
                     "pokedexId": 656,
-                    "name": "Grenousse"
+                    "name": "Grenousse",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -92855,11 +92862,13 @@
             "pre": [
                 {
                     "pokedexId": 656,
-                    "name": "Grenousse"
+                    "name": "Grenousse",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 657,
-                    "name": "Cro\u00e0poral"
+                    "name": "Cro\u00e0poral",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -93142,7 +93151,8 @@
             "pre": [
                 {
                     "pokedexId": 659,
-                    "name": "Sapereau"
+                    "name": "Sapereau",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -93426,7 +93436,8 @@
             "pre": [
                 {
                     "pokedexId": 661,
-                    "name": "Passerouge"
+                    "name": "Passerouge",
+                    "condition":"Niveau 17"
                 }
             ],
             "next": [
@@ -93571,11 +93582,13 @@
             "pre": [
                 {
                     "pokedexId": 661,
-                    "name": "Passerouge"
+                    "name": "Passerouge",
+                    "condition":"Niveau 17"
                 },
                 {
                     "pokedexId": 662,
-                    "name": "Braisillon"
+                    "name": "Braisillon",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -93855,7 +93868,8 @@
             "pre": [
                 {
                     "pokedexId": 664,
-                    "name": "L\u00e9pidonille"
+                    "name": "L\u00e9pidonille",
+                    "condition":"Niveau 9"
                 }
             ],
             "next": [
@@ -94004,11 +94018,13 @@
             "pre": [
                 {
                     "pokedexId": 664,
-                    "name": "L\u00e9pidonille"
+                    "name": "L\u00e9pidonille",
+                    "condition":"Niveau 9"
                 },
                 {
                     "pokedexId": 665,
-                    "name": "P\u00e9r\u00e9grain"
+                    "name": "P\u00e9r\u00e9grain",
+                    "condition":"Niveau 12"
                 }
             ],
             "next": null,
@@ -94295,7 +94311,8 @@
             "pre": [
                 {
                     "pokedexId": 667,
-                    "name": "H\u00e9lionceau"
+                    "name": "H\u00e9lionceau",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -94571,7 +94588,8 @@
             "pre": [
                 {
                     "pokedexId": 669,
-                    "name": "Flab\u00e9b\u00e9"
+                    "name": "Flab\u00e9b\u00e9",
+                    "condition":"Niveau 19"
                 }
             ],
             "next": [
@@ -94712,11 +94730,13 @@
             "pre": [
                 {
                     "pokedexId": 669,
-                    "name": "Flab\u00e9b\u00e9"
+                    "name": "Flab\u00e9b\u00e9",
+                    "condition":"Niveau 19"
                 },
                 {
                     "pokedexId": 670,
-                    "name": "Floette"
+                    "name": "Floette",
+                    "condition":"Pierre \u00c9clat"
                 }
             ],
             "next": null,
@@ -94987,7 +95007,8 @@
             "pre": [
                 {
                     "pokedexId": 672,
-                    "name": "Cabriolaine"
+                    "name": "Cabriolaine",
+                    "condition":"Niveau 32"
                 }
             ],
             "next": null,
@@ -95271,7 +95292,8 @@
             "pre": [
                 {
                     "pokedexId": 674,
-                    "name": "Pandespi\u00e8gle"
+                    "name": "Pandespi\u00e8gle",
+                    "condition":"Niveau 32 + Pokemon type T\u00e9n\u00e8bres dans l'\u00e9quipe"
                 }
             ],
             "next": null,
@@ -95673,7 +95695,8 @@
             "pre": [
                 {
                     "pokedexId": 677,
-                    "name": "Psystigri"
+                    "name": "Psystigri",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
@@ -95949,7 +95972,8 @@
             "pre": [
                 {
                     "pokedexId": 679,
-                    "name": "Monorpale"
+                    "name": "Monorpale",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": [
@@ -96090,11 +96114,13 @@
             "pre": [
                 {
                     "pokedexId": 679,
-                    "name": "Monorpale"
+                    "name": "Monorpale",
+                    "condition":"Niveau 35"
                 },
                 {
                     "pokedexId": 680,
-                    "name": "Dimocl\u00e8s"
+                    "name": "Dimocl\u00e8s",
+                    "condition":"Pierre Nuit"
                 }
             ],
             "next": null,
@@ -96365,7 +96391,8 @@
             "pre": [
                 {
                     "pokedexId": 682,
-                    "name": "Fluvetin"
+                    "name": "Fluvetin",
+                    "condition":"Echange avec Sachet Senteur"
                 }
             ],
             "next": null,
@@ -96636,7 +96663,8 @@
             "pre": [
                 {
                     "pokedexId": 684,
-                    "name": "Sucroquin"
+                    "name": "Sucroquin",
+                    "condition":"Echange avec Chantibonbon"
                 }
             ],
             "next": null,
@@ -96924,7 +96952,8 @@
             "pre": [
                 {
                     "pokedexId": 686,
-                    "name": "Sepiatop"
+                    "name": "Sepiatop",
+                    "condition":"Niveau 30 en retournant la console de jeu"
                 }
             ],
             "next": null,
@@ -97212,7 +97241,8 @@
             "pre": [
                 {
                     "pokedexId": 688,
-                    "name": "Opermine"
+                    "name": "Opermine",
+                    "condition":"Niveau 39"
                 }
             ],
             "next": null,
@@ -97500,7 +97530,8 @@
             "pre": [
                 {
                     "pokedexId": 690,
-                    "name": "Venalgue"
+                    "name": "Venalgue",
+                    "condition":"Niveau 48"
                 }
             ],
             "next": null,
@@ -97765,7 +97796,8 @@
             "pre": [
                 {
                     "pokedexId": 692,
-                    "name": "Flingouste"
+                    "name": "Flingouste",
+                    "condition":"Niveau 37"
                 }
             ],
             "next": null,
@@ -98054,7 +98086,8 @@
             "pre": [
                 {
                     "pokedexId": 694,
-                    "name": "Galvaran"
+                    "name": "Galvaran",
+                    "condition":"Pierre Soleil"
                 }
             ],
             "next": null,
@@ -98335,7 +98368,8 @@
             "pre": [
                 {
                     "pokedexId": 696,
-                    "name": "Ptyranidur"
+                    "name": "Ptyranidur",
+                    "condition":"Niveau 39 durant la journ\u00e9e"
                 }
             ],
             "next": null,
@@ -98615,7 +98649,8 @@
             "pre": [
                 {
                     "pokedexId": 698,
-                    "name": "Amagara"
+                    "name": "Amagara",
+                    "condition":"Niveau 39"
                 }
             ],
             "next": null,
@@ -98750,7 +98785,8 @@
             "pre": [
                 {
                     "pokedexId": 133,
-                    "name": "\u00c9voli"
+                    "name": "\u00c9voli",
+                    "condition":"Bonheur + Nuit + 1 niveau + aucune capacit\u00e9 F\u00e9e"
                 }
             ],
             "next": null,
@@ -99432,7 +99468,8 @@
             "pre": [
                 {
                     "pokedexId": 704,
-                    "name": "Mucuscule"
+                    "name": "Mucuscule",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": [
@@ -99581,11 +99618,13 @@
             "pre": [
                 {
                     "pokedexId": 704,
-                    "name": "Mucuscule"
+                    "name": "Mucuscule",
+                    "condition":"Niveau 40"
                 },
                 {
                     "pokedexId": 705,
-                    "name": "Colimucus"
+                    "name": "Colimucus",
+                    "condition":"Niveau 50 sous la pluie"
                 }
             ],
             "next": null,
@@ -100007,7 +100046,8 @@
             "pre": [
                 {
                     "pokedexId": 708,
-                    "name": "Broc\u00e9l\u00f4me"
+                    "name": "Broc\u00e9l\u00f4me",
+                    "condition":"Echange"
                 }
             ],
             "next": null,
@@ -100295,7 +100335,8 @@
             "pre": [
                 {
                     "pokedexId": 710,
-                    "name": "Pitrouille"
+                    "name": "Pitrouille",
+                    "condition":"Echange"
                 }
             ],
             "next": null,
@@ -100580,7 +100621,8 @@
             "pre": [
                 {
                     "pokedexId": 712,
-                    "name": "Grela\u00e7on"
+                    "name": "Grela\u00e7on",
+                    "condition":"Niveau 37"
                 }
             ],
             "next": null,
@@ -100873,7 +100915,8 @@
             "pre": [
                 {
                     "pokedexId": 714,
-                    "name": "Sonistrelle"
+                    "name": "Sonistrelle",
+                    "condition":"Niveau 48"
                 }
             ],
             "next": null,
