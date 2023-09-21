@@ -599,7 +599,7 @@
                 {
                     "pokedexId": 6,
                     "name": "Dracaufeu",
-                    "condition": "Niveau 32"
+                    "condition": "Niveau 36"
                 }
             ],
             "mega": null
@@ -742,7 +742,7 @@
                 {
                     "pokedexId": 6,
                     "name": "Dracaufeu",
-                    "condition": "Niveau 32"
+                    "condition": "Niveau 36"
                 }
             ],
             "mega": null
@@ -890,7 +890,7 @@
                 {
                     "pokedexId": 5,
                     "name": "Reptincel",
-                    "condition":"Niveau 32"
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -2353,7 +2353,7 @@
                 {
                     "pokedexId": 18,
                     "name": "Roucarnage",
-                    "condition": "Niveau 26"
+                    "condition": "Niveau 36"
                 }
             ],
             "mega": null
@@ -2503,7 +2503,7 @@
                 {
                     "pokedexId": 18,
                     "name": "Roucarnage",
-                    "condition": "Niveau 26"
+                    "condition": "Niveau 36"
                 }
             ],
             "mega": null
@@ -2651,7 +2651,7 @@
                 {
                     "pokedexId": 17,
                     "name": "Roucoups",
-                    "condition":"Niveau 26"
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -9324,7 +9324,7 @@
                 {
                     "pokedexId": 63,
                     "name": "Abra",
-                    "condition":"Niveau 25"
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -9470,7 +9470,7 @@
                 {
                     "pokedexId": 63,
                     "name": "Abra",
-                    "condition": "Niveau 25"
+                    "condition": "Niveau 16"
                 },
                 {
                     "pokedexId": 64,
@@ -9917,7 +9917,7 @@
                 {
                     "pokedexId": 66,
                     "name": "Machoc",
-                    "condition": "Niveau 25"
+                    "condition": "Niveau 28"
                 },
                 {
                     "pokedexId": 67,
@@ -29903,7 +29903,7 @@
                 {
                     "pokedexId": 95,
                     "name": "Onix",
-                    "condition":"Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
+                    "condition":"Echange avec Peau M\u00e9tal / Au contact d'une Peau M\u00e9tal (PLA)"
                 }
             ],
             "next": null,
@@ -30467,7 +30467,7 @@
                 {
                     "pokedexId": 123,
                     "name": "Ins\u00e9cateur",
-                    "condition":"Echange avec Peau M\u00e9tal/Au contact d'une Peau M\u00e9tal"
+                    "condition":"Echange avec Peau M\u00e9tal / Au contact d'une Peau M\u00e9tal (PLA)"
                 }
             ],
             "next": null,
@@ -40120,7 +40120,7 @@
                 {
                     "pokedexId": 282,
                     "name": "Gardevoir",
-                    "condition": "Femelle + Niveau 30"
+                    "condition": "Niveau 30"
                 },
                 {
                     "pokedexId": 475,
@@ -40276,7 +40276,7 @@
                 {
                     "pokedexId": 282,
                     "name": "Gardevoir",
-                    "condition": "Femelle + Niveau 30"
+                    "condition": "Niveau 30"
                 },
                 {
                     "pokedexId": 475,
@@ -40430,7 +40430,7 @@
                 {
                     "pokedexId": 281,
                     "name": "Kirlia",
-                    "condition":"Femelle + Niveau 30"
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -45096,7 +45096,7 @@
                 {
                     "pokedexId": 406,
                     "name": "Rozbouton",
-                    "condition":"Bonheur"
+                    "condition":"Bonheur + Jour + 1 niveau"
                 }
             ],
             "next": [
@@ -58685,7 +58685,7 @@
                 {
                     "pokedexId": 412,
                     "name": "Cheniti",
-                    "condition":"M\u00e2le + Niveau 20"
+                    "condition":"Femelle + Niveau 20"
                 }
             ],
             "next": null,
@@ -58825,7 +58825,7 @@
                 {
                     "pokedexId": 412,
                     "name": "Cheniti",
-                    "condition":"Femelle + Niveau 20"
+                    "condition":"M\u00e2le + Niveau 20"
                 }
             ],
             "next": null,
@@ -65415,7 +65415,7 @@
                 {
                     "pokedexId": 215,
                     "name": "Farfuret",
-                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir"
+                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir (PLA)"
                 }
             ],
             "next": null,
@@ -65850,7 +65850,7 @@
                 {
                     "pokedexId": 112,
                     "name": "Rhinof\u00e9ros",
-                    "condition":"Echange avec Protecteur/Contact d'un Protecteur"
+                    "condition":"Echange avec Protecteur / Contact d'un Protecteur (PLA)"
                 }
             ],
             "next": null,
@@ -66132,7 +66132,7 @@
                 {
                     "pokedexId": 125,
                     "name": "\u00c9lektek",
-                    "condition":"Echange avec \u00c9lectriseur/Contact d'un \u00c9lectriseur"
+                    "condition":"Echange avec \u00c9lectriseur / Contact d'un \u00c9lectriseur (PLA)"
                 }
             ],
             "next": null,
@@ -66273,7 +66273,7 @@
                 {
                     "pokedexId": 126,
                     "name": "Magmar",
-                    "condition":"Echange avec Magmariseur/Contact d'un Magmariseur"
+                    "condition":"Echange avec Magmariseur / Contact d'un Magmariseur (PLA)"
                 }
             ],
             "next": null,
@@ -67272,12 +67272,12 @@
                 {
                     "pokedexId": 137,
                     "name": "Porygon",
-                    "condition":"Echange avec Am\u00e9liorator/Contact d'un Am\u00e9liorator (PLA)"
+                    "condition":"Echange avec Am\u00e9liorator / Contact d'un Am\u00e9liorator (PLA)"
                 },
                 {
                     "pokedexId": 233,
                     "name": "Porygon2",
-                    "condition":"Echange avec CD Douteux/Contact d'un CD Douteux (PLA)"
+                    "condition":"Echange avec CD Douteux / Contact d'un CD Douteux (PLA)"
                 }
             ],
             "next": null,
@@ -67717,7 +67717,7 @@
                 {
                     "pokedexId": 356,
                     "name": "T\u00e9raclope",
-                    "condition":"Echange avec Tissu Fauche/Contact d'un Tissu Fauche"
+                    "condition":"Echange avec Tissu Fauche / Contact d'un Tissu Fauche (PLA)"
                 }
             ],
             "next": null,
@@ -74626,7 +74626,7 @@
                 {
                     "pokedexId": 527,
                     "name": "Chovsourir",
-                    "condition":"Echange"
+                    "condition":"Bonheur"
                 }
             ],
             "next": null,
@@ -80757,7 +80757,7 @@
                 {
                     "pokedexId": 570,
                     "name": "Zorua",
-                    "condition":"Niveua 30"
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -83621,7 +83621,7 @@
                 {
                     "pokedexId": 590,
                     "name": "Trompignon",
-                    "condition":"Niveau 35"
+                    "condition":"Niveau 39"
                 }
             ],
             "next": null,
@@ -85302,7 +85302,7 @@
                 {
                     "pokedexId": 602,
                     "name": "Anchwatt",
-                    "condition": "Niveau 38"
+                    "condition": "Niveau 39"
                 }
             ],
             "next": [
@@ -85440,7 +85440,7 @@
                 {
                     "pokedexId": 602,
                     "name": "Anchwatt",
-                    "condition": "Niveau 38"
+                    "condition": "Niveau 39"
                 },
                 {
                     "pokedexId": 603,
@@ -98650,7 +98650,7 @@
                 {
                     "pokedexId": 698,
                     "name": "Amagara",
-                    "condition":"Niveau 39"
+                    "condition":"Niveau 39 pendant la nuit"
                 }
             ],
             "next": null,
@@ -104090,7 +104090,7 @@
                 {
                     "pokedexId": 737,
                     "name": "Chrysapile",
-                    "condition":"+1 Niveau au Grand Canyon de Poni ou Mont Ardent (SL/USUL) / Pierre Foudre (EB)"
+                    "condition":"+1 Niveau au Grand Canyon de Poni ou Mont Ardent (SL/USUL) / Pierre Foudre (depuis EB)"
                 }
             ],
             "next": null,
@@ -104374,7 +104374,7 @@
                 {
                     "pokedexId": 739,
                     "name": "Crabagarre",
-                    "condition":"+1 Niveau Mont Lanakila / Pierre Glace (depuis EB)"
+                    "condition":"+1 Niveau Mont Lanakila / Pierre Glace (depuis EV)"
                 }
             ],
             "next": null,
@@ -113531,7 +113531,7 @@
                 {
                     "pokedexId": 808,
                     "name": "Meltan",
-                    "condition":"400 Bonbons Meltan"
+                    "condition":"400 Bonbons Meltan (POGO)"
                 }
             ],
             "next": null,
@@ -121540,7 +121540,7 @@
                 {
                     "pokedexId": 83,
                     "name": "Canarticho de Galar",
-                    "condition":"Infliger 3 coups critiques dans un combat"
+                    "condition":"Infliger 3 coups critiques dans un même combat"
                 }
             ],
             "next": null,
@@ -121821,7 +121821,7 @@
                 {
                     "pokedexId": 562,
                     "name": "Tutafeh de Galar",
-                    "condition":"Niveau 34"
+                    "condition":"Perdre 49 PV ou plus + marcher sous la grande arche de pierres de la Fosse des Sables"
                 }
             ],
             "next": null,
@@ -122098,7 +122098,7 @@
                 {
                     "pokedexId": 868,
                     "name": "Cr\u00e8my",
-                    "condition":"Sucre + tourner sur soi m\u00eame"
+                    "condition":"Objet en sucre + tourner sur soi m\u00eame"
                 }
             ],
             "next": null,
@@ -125141,7 +125141,7 @@
                 {
                     "pokedexId": 891,
                     "name": "Wushours",
-                    "condition":"Terminer l'ascension de la Tour de l'Eau/Tour des T\u00e9n\u00e8bres"
+                    "condition":"Terminer l'ascension de la Tour de l'Eau / Tour des T\u00e9n\u00e8bres"
                 }
             ],
             "next": null,
@@ -126105,7 +126105,7 @@
                 {
                     "pokedexId": 123,
                     "name": "Ins\u00e9cateur",
-                    "condition":"Avec une obsidienne (PLA)"
+                    "condition":"Avec une obsidienne"
                 }
             ],
             "next": null,
@@ -126497,7 +126497,7 @@
                 {
                     "pokedexId": 215,
                     "name": "Farfuret de Hisui",
-                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir"
+                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir (PLA)"
                 }
             ],
             "next": null,
@@ -136158,7 +136158,7 @@
                 {
                     "pokedexId": 971,
                     "name": "Toutombe",
-                    "condition":"Niveau 30, Nuit"
+                    "condition":"Niveau 30 pendant la nuit"
                 }
             ],
             "next": null,
@@ -139610,7 +139610,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/999/regular.png",
-            "shiny": null,
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/999/shiny.png",
             "gmax": null
         },
         "types": [
@@ -139737,7 +139737,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1000/regular.png",
-            "shiny": null,
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1000/shiny.png",
             "gmax": null
         },
         "types": [
@@ -141066,5 +141066,934 @@
         "catch_rate": 5,
         "level_100": null,
         "forme": null
-    }
+    },
+	{
+    "pokedexId": 1011,
+    "generation": 9,
+    "category": "Pokémon Sirop Pomme",
+    "name": {
+      "fr": "Pomdramour",
+      "en": "Dipplin",
+      "jp": "カミッチュ"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1011/regular.png",
+      "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1011/shiny.png",
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Plante",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+      },
+      {
+        "name": "Dragon",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Nectar Mielleux",
+        "tc": false
+      },
+      {
+        "name": "Gloutonnerie",
+        "tc": false
+      },
+      {
+        "name": "Glu",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "atk": 80,
+      "def": 110,
+      "spe_atk": 95,
+      "spe_def": 80,
+      "vit": 40
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Feu",
+        "multiplier": 1
+      },
+      {
+        "name": "Eau",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Glace",
+        "multiplier": 4
+      },
+      {
+        "name": "Combat",
+        "multiplier": 1
+      },
+      {
+        "name": "Poison",
+        "multiplier": 2
+      },
+      {
+        "name": "Sol",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Vol",
+        "multiplier": 2
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 2
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 1
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 2
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 1
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 2
+      }
+    ],
+    "evolution": {
+      "pre": [
+        {
+          "pokedexId": 840,
+          "name": "Verpom",
+          "condition": "Avec une Pomme Nectar"
+        }
+      ],
+      "next": null,
+      "mega": null
+    },
+    "height": "0,4 m",
+    "weight": "4,4 kg",
+    "egg_groups": [
+      "Végétal",
+      "Draconique"
+    ],
+    "sexe": {
+      "male": 50,
+      "female": 50
+    },
+    "catch_rate": 45,
+    "level_100": 600000,
+    "forme": null
+  },
+  {
+    "pokedexId": 1012,
+    "generation": 9,
+    "category": "Pokémon Matcha",
+    "name": {
+      "fr": "Poltchageist",
+      "en": "Poltchageist",
+      "jp": "チャデス"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1012/regular.png",
+      "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1012/shiny.png",
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Plante",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+      },
+      {
+        "name": "Spectre",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Aux Petits Soins",
+        "tc": false
+      },
+      {
+        "name": "Ignifugié",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "atk": 45,
+      "def": 45,
+      "spe_atk": 74,
+      "spe_def": 54,
+      "vit": 50
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 0
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 2
+      },
+      {
+        "name": "Eau",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Glace",
+        "multiplier": 2
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0
+      },
+      {
+        "name": "Poison",
+        "multiplier": 1
+      },
+      {
+        "name": "Sol",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Vol",
+        "multiplier": 2
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 1
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 2
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 2
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 1
+      }
+    ],
+    "evolution": {
+      "pre": null,
+      "next": [
+        {
+          "pokedexId": 1013,
+          "name": "Théffroyable",
+          "condition": "Avec un Bol Médiocre ou un Bol Exceptionnel"
+        }
+      ],
+      "mega": null
+    },
+    "height": "0,1 m",
+    "weight": "1,1 kg",
+    "egg_groups": [
+      "Amorphe",
+      "Minéral"
+    ],
+    "sexe": null,
+    "catch_rate": 120,
+    "level_100": 1059860,
+    "forme": null
+  },
+  {
+    "pokedexId": 1013,
+    "generation": 9,
+    "category": "Pokémon Matcha",
+    "name": {
+      "fr": "Théffroyable",
+      "en": "Sinistcha",
+      "jp": "ヤバソチャ"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1013/regular.png",
+      "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1013/shiny.png",
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Plante",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+      },
+      {
+        "name": "Spectre",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Aux Petits Soins",
+        "tc": false
+      },
+      {
+        "name": "Ignifugié",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 71,
+      "atk": 60,
+      "def": 106,
+      "spe_atk": 121,
+      "spe_def": 80,
+      "vit": 70
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 0
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 2
+      },
+      {
+        "name": "Eau",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Glace",
+        "multiplier": 2
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0
+      },
+      {
+        "name": "Poison",
+        "multiplier": 1
+      },
+      {
+        "name": "Sol",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Vol",
+        "multiplier": 2
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 1
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 2
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 2
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 1
+      }
+    ],
+    "evolution": {
+      "pre": [
+        {
+          "pokedexId": 1012,
+          "name": "Poltchageist",
+          "condition": "Avec un Bol Médiocre ou un Bol Exceptionnel"
+        }
+      ],
+      "next": null,
+      "mega": null
+    },
+    "height": "0,2 m",
+    "weight": "2,2 kg",
+    "egg_groups": [
+      "Amorphe",
+      "Minéral"
+    ],
+    "sexe": null,
+    "catch_rate": 60,
+    "level_100": 1059860,
+    "forme": null
+  },
+  {
+    "pokedexId": 1014,
+    "generation": 9,
+    "category": "Pokémon Serviteur",
+    "name": {
+      "fr": "Félicanis",
+      "en": "Okidogi",
+      "jp": "イイネイヌ"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1014/regular.png",
+      "shiny": null,
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Poison",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"
+      },
+      {
+        "name": "Combat",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Chaine Toxique",
+        "tc": false
+      },
+      {
+        "name": "Chien de Garde",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "atk": 128,
+      "def": 115,
+      "spe_atk": 58,
+      "spe_def": 86,
+      "vit": 80
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 1
+      },
+      {
+        "name": "Eau",
+        "multiplier": 1
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 1
+      },
+      {
+        "name": "Glace",
+        "multiplier": 1
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Poison",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Sol",
+        "multiplier": 2
+      },
+      {
+        "name": "Vol",
+        "multiplier": 2
+      },
+      {
+        "name": "Psy",
+        "multiplier": 4
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Roche",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 1
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 1
+      }
+    ],
+    "evolution": null,
+    "height": "1,8 m",
+    "weight": "92,2 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 100,
+      "female": 0
+    },
+    "catch_rate": 3,
+    "level_100": 1250000,
+    "forme": null
+  },
+  {
+    "pokedexId": 1015,
+    "generation": 9,
+    "category": "Pokémon Serviteur",
+    "name": {
+      "fr": "Fortusimia",
+      "en": "Munkidori",
+      "jp": "マシマシラ"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1015/regular.png",
+      "shiny": null,
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Poison",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"
+      },
+      {
+        "name": "Psy",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Chaine Toxique",
+        "tc": false
+      },
+      {
+        "name": "Fouille",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "atk": 75,
+      "def": 66,
+      "spe_atk": 130,
+      "spe_def": 90,
+      "vit": 106
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 1
+      },
+      {
+        "name": "Eau",
+        "multiplier": 1
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 1
+      },
+      {
+        "name": "Glace",
+        "multiplier": 1
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Poison",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Sol",
+        "multiplier": 2
+      },
+      {
+        "name": "Vol",
+        "multiplier": 1
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 1
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 2
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 2
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 0.5
+      }
+    ],
+    "evolution": null,
+    "height": "1,0 m",
+    "weight": "12,2 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 100,
+      "female": 0
+    },
+    "catch_rate": 3,
+    "level_100": 1250000,
+    "forme": null
+  },
+  {
+    "pokedexId": 1016,
+    "generation": 9,
+    "category": "Pokémon Serviteur",
+    "name": {
+      "fr": "Favianos",
+      "en": "Fezandipiti",
+      "jp": "キチキギス"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1016/regular.png",
+      "shiny": null,
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Poison",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"
+      },
+      {
+        "name": "Fée",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Chaine Toxique",
+        "tc": false
+      },
+      {
+        "name": "Technicien",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 88,
+      "atk": 91,
+      "def": 82,
+      "spe_atk": 70,
+      "spe_def": 125,
+      "vit": 99
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 1
+      },
+      {
+        "name": "Eau",
+        "multiplier": 1
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 1
+      },
+      {
+        "name": "Glace",
+        "multiplier": 1
+      },
+      {
+        "name": "Combat",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Poison",
+        "multiplier": 1
+      },
+      {
+        "name": "Sol",
+        "multiplier": 2
+      },
+      {
+        "name": "Vol",
+        "multiplier": 1
+      },
+      {
+        "name": "Psy",
+        "multiplier": 2
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 0.25
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 1
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 0
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Acier",
+        "multiplier": 2
+      },
+      {
+        "name": "Fée",
+        "multiplier": 0.5
+      }
+    ],
+    "evolution": null,
+    "height": "1,4 m",
+    "weight": "30,1 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 100,
+      "female": 0
+    },
+    "catch_rate": 3,
+    "level_100": 1250000,
+    "forme": null
+  },
+  {
+    "pokedexId": 1017,
+    "generation": 9,
+    "category": "Pokémon Masque",
+    "name": {
+      "fr": "Ogerpon",
+      "en": "Ogerpon",
+      "jp": "オーガポン"
+    },
+    "sprites": {
+      "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/1017/regular.png",
+      "shiny": null,
+      "gmax": null
+    },
+    "types": [
+      {
+        "name": "Plante",
+        "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"
+      }
+    ],
+    "talents": [
+      {
+        "name": "Acharné",
+        "tc": false
+      },
+      {
+        "name": "Force Mémorielle",
+        "tc": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 84,
+      "spe_atk": 60,
+      "spe_def": 96,
+      "vit": 110
+    },
+    "resistances": [
+      {
+        "name": "Normal",
+        "multiplier": 1
+      },
+      {
+        "name": "Plante",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Feu",
+        "multiplier": 2
+      },
+      {
+        "name": "Eau",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Électrik",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Glace",
+        "multiplier": 2
+      },
+      {
+        "name": "Combat",
+        "multiplier": 1
+      },
+      {
+        "name": "Poison",
+        "multiplier": 2
+      },
+      {
+        "name": "Sol",
+        "multiplier": 0.5
+      },
+      {
+        "name": "Vol",
+        "multiplier": 2
+      },
+      {
+        "name": "Psy",
+        "multiplier": 1
+      },
+      {
+        "name": "Insecte",
+        "multiplier": 2
+      },
+      {
+        "name": "Roche",
+        "multiplier": 1
+      },
+      {
+        "name": "Spectre",
+        "multiplier": 1
+      },
+      {
+        "name": "Dragon",
+        "multiplier": 1
+      },
+      {
+        "name": "Ténèbres",
+        "multiplier": 1
+      },
+      {
+        "name": "Acier",
+        "multiplier": 1
+      },
+      {
+        "name": "Fée",
+        "multiplier": 1
+      }
+    ],
+    "evolution": null,
+    "height": "1,2 m",
+    "weight": "39,8 kg",
+    "egg_groups": null,
+    "sexe": {
+      "male": 0,
+      "female": 100
+    },
+    "catch_rate": 5,
+    "level_100": 1250000,
+    "forme": null
+  }
 ]
