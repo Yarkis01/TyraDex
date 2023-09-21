@@ -1,11 +1,11 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/]</span> Liste des types</h1>
 
 ```http
-https://api-pokemon-fr.vercel.app/api/v1/types/
+https://api-pokemon-fr.vercel.app/api/v1/types
 ```
 
 Permet d'obtenir des informations sur un Pokémon spécifique.<br>
-[Exemple de donnés renvoyés.](https://api-pokemon-fr.vercel.app/api/v1/types/)
+[Exemple de donnés renvoyés.](https://api-pokemon-fr.vercel.app/api/v1/types)
 
 ## Curl
 ```curl
