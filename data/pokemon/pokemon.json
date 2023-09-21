@@ -127020,7 +127020,8 @@
             "pre": [
                 {
                     "pokedexId": 906,
-                    "name": "Poussacha"
+                    "name": "Poussacha",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -127166,11 +127167,13 @@
             "pre": [
                 {
                     "pokedexId": 906,
-                    "name": "Poussacha"
+                    "name": "Poussacha",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 907,
-                    "name": "Matourgeon"
+                    "name": "Matourgeon",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -127447,7 +127450,8 @@
             "pre": [
                 {
                     "pokedexId": 909,
-                    "name": "Chochodile"
+                    "name": "Chochodile",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -127592,11 +127596,13 @@
             "pre": [
                 {
                     "pokedexId": 909,
-                    "name": "Chochodile"
+                    "name": "Chochodile",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 910,
-                    "name": "Crocogril"
+                    "name": "Crocogril",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -127873,7 +127879,8 @@
             "pre": [
                 {
                     "pokedexId": 912,
-                    "name": "Coiffeton"
+                    "name": "Coiffeton",
+                    "condition":"Niveau 16"
                 }
             ],
             "next": [
@@ -128019,11 +128026,13 @@
             "pre": [
                 {
                     "pokedexId": 912,
-                    "name": "Coiffeton"
+                    "name": "Coiffeton",
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 913,
-                    "name": "Canarbello"
+                    "name": "Canarbello",
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -128303,7 +128312,8 @@
             "pre": [
                 {
                     "pokedexId": 915,
-                    "name": "Gourmelet"
+                    "name": "Gourmelet",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": null,
@@ -128574,7 +128584,8 @@
             "pre": [
                 {
                     "pokedexId": 917,
-                    "name": "Tissenboule"
+                    "name": "Tissenboule",
+                    "condition":"Niveau 15"
                 }
             ],
             "next": null,
@@ -128849,7 +128860,8 @@
             "pre": [
                 {
                     "pokedexId": 919,
-                    "name": "Lilliterelle"
+                    "name": "Lilliterelle",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": null,
@@ -129137,7 +129149,8 @@
             "pre": [
                 {
                     "pokedexId": 921,
-                    "name": "Pohm"
+                    "name": "Pohm",
+                    "condition":"Niveau 18"
                 }
             ],
             "next": [
@@ -129286,11 +129299,13 @@
             "pre": [
                 {
                     "pokedexId": 921,
-                    "name": "Pohm"
+                    "name": "Pohm",
+                    "condition":"Niveau 18"
                 },
                 {
                     "pokedexId": 922,
-                    "name": "Pohmotte"
+                    "name": "Pohmotte",
+                    "condition":"Marcher 1000 pas avec En Avant ! + 1 Niveau"
                 }
             ],
             "next": null,
@@ -129567,7 +129582,8 @@
             "pre": [
                 {
                     "pokedexId": 924,
-                    "name": "Compagnol"
+                    "name": "Compagnol",
+                    "condition": "Niveau 25 avec gain de niveau en combat"
                 }
             ],
             "next": null,
@@ -129837,7 +129853,8 @@
             "pre": [
                 {
                     "pokedexId": 926,
-                    "name": "P\u00e2tachiot"
+                    "name": "P\u00e2tachiot",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -130122,7 +130139,8 @@
             "pre": [
                 {
                     "pokedexId": 928,
-                    "name": "Olivini"
+                    "name": "Olivini",
+                    "condition":"Niveau 25"
                 }
             ],
             "next": [
@@ -130267,11 +130285,13 @@
             "pre": [
                 {
                     "pokedexId": 928,
-                    "name": "Olivini"
+                    "name": "Olivini",
+                    "condition":"Niveau 25"
                 },
                 {
                     "pokedexId": 929,
-                    "name": "Olivado"
+                    "name": "Olivado",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -130689,7 +130709,8 @@
             "pre": [
                 {
                     "pokedexId": 932,
-                    "name": "Selutin"
+                    "name": "Selutin",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": [
@@ -130834,11 +130855,13 @@
             "pre": [
                 {
                     "pokedexId": 932,
-                    "name": "Selutin"
+                    "name": "Selutin",
+                    "condition":"Niveau 24"
                 },
                 {
                     "pokedexId": 933,
-                    "name": "Amassel"
+                    "name": "Amassel",
+                    "condition":"Niveau 38"
                 }
             ],
             "next": null,
@@ -131118,7 +131141,8 @@
             "pre": [
                 {
                     "pokedexId": 935,
-                    "name": "Charbambin"
+                    "name": "Charbambin",
+                    "condition":"Armure de la Fortune"
                 }
             ],
             "next": null,
@@ -131257,7 +131281,8 @@
             "pre": [
                 {
                     "pokedexId": 935,
-                    "name": "Charbambin"
+                    "name": "Charbambin",
+                    "condition":"Armure de la Rancune"
                 }
             ],
             "next": null,
@@ -131536,7 +131561,8 @@
             "pre": [
                 {
                     "pokedexId": 938,
-                    "name": "T\u00eatampoule"
+                    "name": "T\u00eatampoule",
+                    "condition":"Pierre Foudre"
                 }
             ],
             "next": null,
@@ -131824,7 +131850,8 @@
             "pre": [
                 {
                     "pokedexId": 940,
-                    "name": "Zap\u00e9trel"
+                    "name": "Zap\u00e9trel",
+                    "conditio":"Niveau 25"
                 }
             ],
             "next": null,
@@ -132104,7 +132131,8 @@
             "pre": [
                 {
                     "pokedexId": 942,
-                    "name": "Grondogue"
+                    "name": "Grondogue",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -132391,7 +132419,8 @@
             "pre": [
                 {
                     "pokedexId": 944,
-                    "name": "Gribouraigne"
+                    "name": "Gribouraigne",
+                    "condition":"Niveau 28"
                 }
             ],
             "next": null,
@@ -132670,7 +132699,8 @@
             "pre": [
                 {
                     "pokedexId": 946,
-                    "name": "Virovent"
+                    "name": "Virovent",
+                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
                 }
             ],
             "next": null,
@@ -132941,7 +132971,8 @@
             "pre": [
                 {
                     "pokedexId": 948,
-                    "name": "Terracool"
+                    "name": "Terracool",
+                    "condition":"Niveau 30"
                 }
             ],
             "next": null,
@@ -133354,7 +133385,8 @@
             "pre": [
                 {
                     "pokedexId": 951,
-                    "name": "Pimito"
+                    "name": "Pimito",
+                    "condition":"Pierre Feu"
                 }
             ],
             "next": null,
@@ -133629,7 +133661,8 @@
             "pre": [
                 {
                     "pokedexId": 953,
-                    "name": "L\u00e9boul\u00e9rou"
+                    "name": "L\u00e9boul\u00e9rou",
+                    "condition": "Marcher 1000 pas avec En Avant ! + 1 Niveau"
                 }
             ],
             "next": null,
@@ -133908,7 +133941,8 @@
             "pre": [
                 {
                     "pokedexId": 955,
-                    "name": "Flotillon"
+                    "name": "Flotillon",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -134200,7 +134234,8 @@
             "pre": [
                 {
                     "pokedexId": 957,
-                    "name": "Forgerette"
+                    "name": "Forgerette",
+                    "condition":"Niveau 24"
                 }
             ],
             "next": [
@@ -134349,11 +134384,13 @@
             "pre": [
                 {
                     "pokedexId": 957,
-                    "name": "Forgerette"
+                    "name": "Forgerette",
+                    "condition":"Niveau 24"
                 },
                 {
                     "pokedexId": 958,
-                    "name": "Forgella"
+                    "name": "Forgella",
+                    "condition":"Niveau 38"
                 }
             ],
             "next": null,
@@ -134632,7 +134669,8 @@
             "pre": [
                 {
                     "pokedexId": 960,
-                    "name": "Taupikeau"
+                    "name": "Taupikeau",
+                    "condition":"Niveau 26"
                 }
             ],
             "next": null,
@@ -135030,7 +135068,8 @@
             "pre": [
                 {
                     "pokedexId": 963,
-                    "name": "Dofin"
+                    "name": "Dofin",
+                    "condition":"Niveau 38 en coop"
                 }
             ],
             "next": null,
@@ -135310,7 +135349,8 @@
             "pre": [
                 {
                     "pokedexId": 965,
-                    "name": "Vrombi"
+                    "name": "Vrombi",
+                    "condition":"Niveau 40"
                 }
             ],
             "next": null,
@@ -135845,7 +135885,8 @@
             "pre": [
                 {
                     "pokedexId": 969,
-                    "name": "Germ\u00e9clat"
+                    "name": "Germ\u00e9clat",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": null,
@@ -136116,7 +136157,8 @@
             "pre": [
                 {
                     "pokedexId": 971,
-                    "name": "Toutombe"
+                    "name": "Toutombe",
+                    "condition":"Niveau 30, Nuit"
                 }
             ],
             "next": null,
@@ -136529,7 +136571,8 @@
             "pre": [
                 {
                     "pokedexId": 974,
-                    "name": "Pi\u00e9tac\u00e9"
+                    "name": "Pi\u00e9tac\u00e9",
+                    "condition":"Pierre Glace"
                 }
             ],
             "next": null,
@@ -137062,11 +137105,13 @@
             "pre": [
                 {
                     "pokedexId": 56,
-                    "name": "F\u00e9rosinge"
+                    "name": "F\u00e9rosinge",
+                    "condition":"Niveau 28"
                 },
                 {
                     "pokedexId": 57,
-                    "name": "Colossinge"
+                    "name": "Colossinge",
+                    "condition":"Utilise 20 fois la capacit\u00e9 Poing de Col\u00e8re + gain de niveau"
                 }
             ],
             "next": null,
@@ -137209,7 +137254,8 @@
             "pre": [
                 {
                     "pokedexId": 194,
-                    "name": "Axoloto de Paldea"
+                    "name": "Axoloto de Paldea",
+                    "condition":"Niveau 20"
                 }
             ],
             "next": null,
@@ -137353,7 +137399,8 @@
             "pre": [
                 {
                     "pokedexId": 203,
-                    "name": "Girafarig"
+                    "name": "Girafarig",
+                    "condition":"+1 Niveau avec Double Laser"
                 }
             ],
             "next": null,
@@ -137492,7 +137539,8 @@
             "pre": [
                 {
                     "pokedexId": 206,
-                    "name": "Insolourdo"
+                    "name": "Insolourdo",
+                    "condition":"+1 Niveau avec Hyperceuse"
                 }
             ],
             "next": null,
@@ -137635,11 +137683,13 @@
             "pre": [
                 {
                     "pokedexId": 624,
-                    "name": "Scalpion"
+                    "name": "Scalpion",
+                    "condition":"Niveau 52"
                 },
                 {
                     "pokedexId": 625,
-                    "name": "Scalproie"
+                    "name": "Scalproie",
+                    "condition":"Vaincre 3 Scalproie avec Embl\u00e8me du G\u00e9n\u00e9ral + 1 Niveau"
                 }
             ],
             "next": null,
@@ -139376,7 +139426,8 @@
             "pre": [
                 {
                     "pokedexId": 996,
-                    "name": "Frigodo"
+                    "name": "Frigodo",
+                    "condition":"Niveau 35"
                 }
             ],
             "next": [
@@ -139522,11 +139573,13 @@
             "pre": [
                 {
                     "pokedexId": 996,
-                    "name": "Frigodo"
+                    "name": "Frigodo",
+                    "condition":"Niveau 35"
                 },
                 {
                     "pokedexId": 997,
-                    "name": "Cryodo"
+                    "name": "Cryodo",
+                    "condition":"Niveau 54"
                 }
             ],
             "next": null,
@@ -139789,7 +139842,8 @@
             "pre": [
                 {
                     "pokedexId": 999,
-                    "name": "Mordudor"
+                    "name": "Mordudor",
+                    "condition": "Collecter 999 Pi\u00e8ces de Mordudor + 1 Niveau"
                 }
             ],
             "next": null,
