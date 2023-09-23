@@ -17,7 +17,7 @@ class Pokemon(Resource):
             return {
                 "status" : 404,
                 "message": "Impossible de trouver le Pokémon dans la base de données."
-            }
+            }, 404
         
         if forme is None or forme not in JSON_forme_pokemon:
             return JSON_pokemon[pokemon_id]
@@ -39,7 +39,7 @@ class Generation(Resource):
             return ([pkm for pkm in JSON_pokemon if str(pkm["generation"]) == gen and pkm["pokedexId"] != 0] + formes_regionales) or {
                 "status": 404,
                 "message": "Impossible d'afficher cette génération, car elle n'existe pas.",
-            }
+            }, 404
 
         generations = {}
         for pkm in JSON_pokemon:

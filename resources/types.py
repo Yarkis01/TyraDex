@@ -20,12 +20,12 @@ class Types(Resource):
 
         first_type_id = int(first_type) if first_type.isdigit() else JSON_types_to_id.get(str(first_type).lower(), -1)
         if first_type_id == -1:
-            return {**NOT_FOUND, **{"type": first_type}}
+            return {**NOT_FOUND, **{"type": first_type}}, 404
         
         if second_type:
             second_type_id = int(second_type) if second_type.isdigit() else JSON_types_to_id.get(str(second_type).lower(), -1)
             if second_type_id == -1:
-                return {**NOT_FOUND, **{"type": second_type}}
+                return {**NOT_FOUND, **{"type": second_type}}, 404
 
         if not second_type or first_type_id == second_type_id:
             json = JSON_types[first_type_id]

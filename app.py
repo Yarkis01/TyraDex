@@ -1,9 +1,10 @@
-from flask          import Flask, render_template, send_file, request, abort
+from flask          import Flask, render_template, send_file, abort
 from flask_restful  import Api
 from flask_minify   import Minify
 from flask_squeeze  import Squeeze
 from flask_cors     import CORS
 
+from resources.moves   import Moves
 from resources.pokemon import Pokemon, Generation
 from resources.types   import Types
 
@@ -52,6 +53,7 @@ def _page_not_found(error):
 api.add_resource(Pokemon, "/pokemon", "/pokemon/<string:pokemon>", "/pokemon/<string:pokemon>/<string:forme>")
 api.add_resource(Generation, "/gen", "/gen/<string:gen>")
 api.add_resource(Types, "/types", "/types/<string:first_type>",  "/types/<string:first_type>/<string:second_type>")
+api.add_resource(Moves, "/moves", "/moves/<string:moves>")
 
 if __name__ == "__main__":
     app.run(debug = True)
