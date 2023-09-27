@@ -2428,11 +2428,11 @@
     },
     {
         "movesId": 66,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Boul’Armure",
             "en": "Defense Curl",
-            "jp": null
+            "jp": "\u307E\u308B\u304F\u306A\u308B"
         },
         "type": {
             "name": "Normal",
@@ -2459,11 +2459,11 @@
     },
     {
         "movesId": 67,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Boule \u00c9lek",
             "en": "Electro Ball",
-            "jp": null
+            "jp": "\u30A8\u30EC\u30AD\u30DC\u30FC\u30EB"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -2490,11 +2490,11 @@
     },
     {
         "movesId": 68,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Boule Pollen",
             "en": "Pollen Puff",
-            "jp": null
+            "jp": "\u304B\u3075\u3093\u3060\u3093\u3054"
         },
         "type": {
             "name": "Insecte",
@@ -2521,11 +2521,11 @@
     },
     {
         "movesId": 69,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Boule Roc",
             "en": "Rock Blast",
-            "jp": null
+            "jp": "\u30ED\u30C3\u30AF\u30D6\u30E9\u30B9\u30C8"
         },
         "type": {
             "name": "Roche",
@@ -2552,11 +2552,11 @@
     },
     {
         "movesId": 70,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Bourdon",
             "en": "Bug Buzz",
-            "jp": null
+            "jp": "\u3080\u3057\u306E\u3055\u3056\u3081\u304D"
         },
         "type": {
             "name": "Insecte",
@@ -2587,11 +2587,11 @@
     },
     {
         "movesId": 71,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Boutefeu",
             "en": "Flare Blitz",
-            "jp": null
+            "jp": "\u30D5\u30EC\u30A2\u30C9\u30E9\u30A4\u30D6"
         },
         "type": {
             "name": "Feu",
@@ -2618,11 +2618,11 @@
     },
     {
         "movesId": 72,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Brouhaha",
             "en": "Uproar",
-            "jp": null
+            "jp": "\u3055\u308F\u3050"
         },
         "type": {
             "name": "Normal",
@@ -2667,11 +2667,11 @@
     },
     {
         "movesId": 74,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Brume",
             "en": "Mist",
-            "jp": null
+            "jp": "\u3057\u308D\u3044\u304D\u308A"
         },
         "type": {
             "name": "Glace",
@@ -2689,11 +2689,11 @@
     },
     {
         "movesId": 75,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Brume Capiteuse",
             "en": "Aromatic Mist",
-            "jp": null
+            "jp": "\u30A2\u30ED\u30DE\u30DF\u30B9\u30C8"
         },
         "type": {
             "name": "F\u00e9e",
@@ -2711,11 +2711,11 @@
     },
     {
         "movesId": 76,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Bu\u00e9e Noire",
             "en": "Haze",
-            "jp": null
+            "jp": "\u304F\u308D\u3044\u304D\u308A"
         },
         "type": {
             "name": "Glace",
@@ -2733,11 +2733,11 @@
     },
     {
         "movesId": 77,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Bulles d’O",
             "en": "Bubble Beam",
-            "jp": null
+            "jp": "\u30D0\u30D6\u30EB\u3053\u3046\u305B\u3093"
         },
         "type": {
             "name": "Eau",
@@ -2764,11 +2764,11 @@
     },
     {
         "movesId": 78,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Cadeau",
             "en": "Present",
-            "jp": null
+            "jp": "\u30D7\u30EC\u30BC\u30F3\u30C8"
         },
         "type": {
             "name": "Normal",
@@ -2786,11 +2786,11 @@
     },
     {
         "movesId": 79,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Cage \u00c9clair",
             "en": "Thunder Wave",
-            "jp": null
+            "jp": "\u3067\u3093\u3058\u306F"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -2869,11 +2869,11 @@
     },
     {
         "movesId": 80,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Calcination",
             "en": "Incinerate",
-            "jp": null
+            "jp": "\u3084\u304D\u3064\u304F\u3059"
         },
         "type": {
             "name": "Feu",
@@ -2908,11 +2908,11 @@
     },
     {
         "movesId": 81,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "C\u00e2linerie",
             "en": "Play Rough",
-            "jp": null
+            "jp": "\u3058\u3083\u308C\u3064\u304F"
         },
         "type": {
             "name": "F\u00e9e",
@@ -2943,11 +2943,11 @@
     },
     {
         "movesId": 82,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Camaraderie",
             "en": "Play Nice",
-            "jp": null
+            "jp": "\u306A\u304B\u3088\u304F\u3059\u308B"
         },
         "type": {
             "name": "Normal",
@@ -2965,11 +2965,11 @@
     },
     {
         "movesId": 83,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Canicule",
             "en": "Heat Wave",
-            "jp": null
+            "jp": "\u306D\u3063\u3077\u3046"
         },
         "type": {
             "name": "Feu",
@@ -2996,11 +2996,11 @@
     },
     {
         "movesId": 84,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Canon Blind\u00e9",
             "en": "Armor Cannon",
-            "jp": null
+            "jp": "\u306D\u3063\u3077\u3046"
         },
         "type": {
             "name": "Feu",
@@ -3018,11 +3018,11 @@
     },
     {
         "movesId": 85,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Canon Dynamax",
             "en": "Dynamax Cannon",
-            "jp": null
+            "jp": "\u30C0\u30A4\u30DE\u30C3\u30AF\u30B9\u307B\u3046"
         },
         "type": {
             "name": "Dragon",
@@ -3040,11 +3040,11 @@
     },
     {
         "movesId": 86,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Canon Floral",
             "en": "Fleur Cannon",
-            "jp": null
+            "jp": "\u30D5\u30EB\u30FC\u30EB\u30AB\u30CE\u30F3"
         },
         "type": {
             "name": "F\u00e9e",
@@ -3062,11 +3062,11 @@
     },
     {
         "movesId": 87,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Canon Graine",
             "en": "Seed Bomb",
-            "jp": null
+            "jp": "\u30BF\u30CD\u3070\u304F\u3060\u3093"
         },
         "type": {
             "name": "Plante",
@@ -3093,11 +3093,11 @@
     },
     {
         "movesId": 88,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Cascade",
             "en": "Waterfall",
-            "jp": null
+            "jp": "\u305F\u304D\u306E\u307C\u308A"
         },
         "type": {
             "name": "Eau",
@@ -3188,11 +3188,11 @@
     },
     {
         "movesId": 89,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Casse-Brique",
             "en": "Brick Break",
-            "jp": null
+            "jp": "\u304B\u308F\u3089\u308F\u308A"
         },
         "type": {
             "name": "Combat",
@@ -3275,11 +3275,11 @@
     },
     {
         "movesId": 90,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Cataclysme",
             "en": "Ruination",
-            "jp": null
+            "jp": "\u30AB\u30BF\u30B9\u30C8\u30ED\u30D5\u30A3"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -3297,11 +3297,11 @@
     },
     {
         "movesId": 91,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Cavalerie Lourde",
             "en": "High Horsepower",
-            "jp": null
+            "jp": "\uFF11\uFF10\u307E\u3093\u3070\u308A\u304D"
         },
         "type": {
             "name": "Sol",
@@ -3324,11 +3324,11 @@
     },
     {
         "movesId": 92,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "C\u00e9l\u00e9bration",
             "en": "Celebrate",
-            "jp": null
+            "jp": "\u304A\u3044\u308F\u3044"
         },
         "type": {
             "name": "Normal",
@@ -3346,11 +3346,11 @@
     },
     {
         "movesId": 93,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Cent Rancunes",
             "en": "Lash Out",
-            "jp": null
+            "jp": "\u3046\u3063\u3077\u3093\u3070\u3089\u3057"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -3368,11 +3368,11 @@
     },
     {
         "movesId": 94,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Centrifugifle",
             "en": "Brutal Swing",
-            "jp": null
+            "jp": "\u3076\u3093\u307E\u308F\u3059"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -3403,11 +3403,11 @@
     },
     {
         "movesId": 95,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Champ Brumeux",
             "en": "Misty Terrain",
-            "jp": null
+            "jp": "\u30DF\u30B9\u30C8\u30D5\u30A3\u30FC\u30EB\u30C9"
         },
         "type": {
             "name": "F\u00e9e",
@@ -3434,11 +3434,11 @@
     },
     {
         "movesId": 96,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Champ \u00c9lectrifi\u00e9",
             "en": "Electric Terrain",
-            "jp": null
+            "jp": "\u30A8\u30EC\u30AD\u30D5\u30A3\u30FC\u30EB\u30C9"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -3465,11 +3465,11 @@
     },
     {
         "movesId": 97,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Champ Herbu",
             "en": "Grassy Terrain",
-            "jp": null
+            "jp": "\u30B0\u30E9\u30B9\u30D5\u30A3\u30FC\u30EB\u30C9"
         },
         "type": {
             "name": "Plante",
@@ -3496,11 +3496,11 @@
     },
     {
         "movesId": 98,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Champ Psychique",
             "en": "Psychic Terrain",
-            "jp": null
+            "jp": "\u30B5\u30A4\u30B3\u30D5\u30A3\u30FC\u30EB\u30C9"
         },
         "type": {
             "name": "Psy",
@@ -3527,11 +3527,11 @@
     },
     {
         "movesId": 99,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Champlification",
             "en": "Terrain Pulse",
-            "jp": null
+            "jp": "\u3060\u3044\u3061\u306E\u306F\u3069\u3046"
         },
         "type": {
             "name": "Normal",
@@ -3549,11 +3549,11 @@
     },
     {
         "movesId": 100,
-        "generation": null,
+        "generation": 8,
         "name": {
-            "fr": "Change-Côt\u00e9",
+            "fr": "Change-C\u00f4t\u00e9",
             "en": "Court Change",
-            "jp": null
+            "jp": "\u30B3\u30FC\u30C8\u30C1\u30A7\u30F3\u30B8"
         },
         "type": {
             "name": "Normal",
@@ -3563,7 +3563,7 @@
             "name": "Statut",
             "url": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/moves/statut.png"
         },
-        "description": "Une force myst\u00e9rieuse intervertit les effets affectant chaque côt\u00e9 du terrain.",
+        "description": "Une force myst\u00e9rieuse intervertit les effets affectant chaque c\u00f4t\u00e9 du terrain.",
         "power": null,
         "accuracy": "100",
         "pp": "10",
@@ -3571,11 +3571,11 @@
     },
     {
         "movesId": 101,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Change-\u00e9clair",
             "en": "Volt Switch",
-            "jp": null
+            "jp": "\u30DC\u30EB\u30C8\u30C1\u30A7\u30F3\u30B8"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -3630,11 +3630,11 @@
     },
     {
         "movesId": 102,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Change-Vitesse",
             "en": "Shift Gear",
-            "jp": null
+            "jp": "\u30AE\u30A2\u30C1\u30A7\u30F3\u30B8"
         },
         "type": {
             "name": "Acier",
@@ -3652,11 +3652,11 @@
     },
     {
         "movesId": 103,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Chant Antique",
             "en": "Relic Song",
-            "jp": null
+            "jp": "\u3044\u306B\u3057\u3048\u306E\u3046\u305F"
         },
         "type": {
             "name": "Normal",
@@ -3674,11 +3674,11 @@
     },
     {
         "movesId": 104,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Chant Canon",
             "en": "Round",
-            "jp": null
+            "jp": "\u308A\u3093\u3057\u3087\u3046"
         },
         "type": {
             "name": "Normal",
@@ -3725,11 +3725,11 @@
     },
     {
         "movesId": 105,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Chant Flamboyant",
             "en": "Torch Song",
-            "jp": null
+            "jp": "\u30D5\u30EC\u30A2\u30BD\u30F3\u30B0"
         },
         "type": {
             "name": "Feu",
@@ -3747,11 +3747,11 @@
     },
     {
         "movesId": 106,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Charge",
             "en": "Tackle",
-            "jp": null
+            "jp": "\u305F\u3044\u3042\u305F\u308A"
         },
         "type": {
             "name": "Normal",
@@ -3769,11 +3769,11 @@
     },
     {
         "movesId": 107,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Charge Glaive",
             "en": "Glaive Rush",
-            "jp": null
+            "jp": "\u304D\u3087\u3051\u3093\u3068\u3064\u3052\u304D"
         },
         "type": {
             "name": "Dragon",
@@ -3791,11 +3791,11 @@
     },
     {
         "movesId": 108,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Charge Os",
             "en": "Bone Rush",
-            "jp": null
+            "jp": "\u30DC\u30FC\u30F3\u30E9\u30C3\u30B7\u30E5"
         },
         "type": {
             "name": "Sol",
@@ -3813,11 +3813,11 @@
     },
     {
         "movesId": 109,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Chargeur",
             "en": "Charge",
-            "jp": null
+            "jp": "\u3058\u3085\u3046\u3067\u3093"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -3835,11 +3835,11 @@
     },
     {
         "movesId": 110,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Charme",
             "en": "Charm",
-            "jp": null
+            "jp": "\u3042\u307E\u3048\u308B"
         },
         "type": {
             "name": "F\u00e9e",
@@ -3866,11 +3866,11 @@
     },
     {
         "movesId": 111,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Ch\u00e2timent",
             "en": "Hex",
-            "jp": null
+            "jp": "\u305F\u305F\u308A\u3081"
         },
         "type": {
             "name": "Spectre",
@@ -3897,11 +3897,11 @@
     },
     {
         "movesId": 112,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Chatouille",
             "en": "Tickle",
-            "jp": null
+            "jp": "\u304F\u3059\u3050\u308B"
         },
         "type": {
             "name": "Normal",
@@ -3919,11 +3919,11 @@
     },
     {
         "movesId": 113,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Choc \u00c9motionnel",
             "en": "Spirit Break",
-            "jp": null
+            "jp": "\u30BD\u30A6\u30EB\u30AF\u30E9\u30C3\u30B7\u30E5"
         },
         "type": {
             "name": "F\u00e9e",
@@ -3941,11 +3941,11 @@
     },
     {
         "movesId": 114,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Choc Mental",
             "en": "Confusion",
-            "jp": null
+            "jp": "\u306D\u3093\u308A\u304D"
         },
         "type": {
             "name": "Psy",
@@ -3963,11 +3963,11 @@
     },
     {
         "movesId": 115,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Choc Psy",
             "en": "Psyshock",
-            "jp": null
+            "jp": "\u30B5\u30A4\u30B3\u30B7\u30E7\u30C3\u30AF"
         },
         "type": {
             "name": "Psy",
@@ -4018,11 +4018,11 @@
     },
     {
         "movesId": 116,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Choc Venin",
             "en": "Venoshock",
-            "jp": null
+            "jp": "\u30D9\u30CE\u30E0\u30B7\u30E7\u30C3\u30AF"
         },
         "type": {
             "name": "Poison",
@@ -4073,11 +4073,11 @@
     },
     {
         "movesId": 117,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Chute de Neige",
             "en": "Snowscape",
-            "jp": null
+            "jp": "\u3086\u304D\u3052\u3057\u304D"
         },
         "type": {
             "name": "Glace",
@@ -4100,11 +4100,11 @@
     },
     {
         "movesId": 118,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Chute Glace",
             "en": "Icicle Crash",
-            "jp": null
+            "jp": "\u3064\u3089\u3089\u304A\u3068\u3057"
         },
         "type": {
             "name": "Glace",
@@ -4122,11 +4122,11 @@
     },
     {
         "movesId": 119,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Clonage",
             "en": "Substitute",
-            "jp": null
+            "jp": "\u307F\u304C\u308F\u308A"
         },
         "type": {
             "name": "Normal",
@@ -4205,11 +4205,11 @@
     },
     {
         "movesId": 120,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Close Combat",
             "en": "Close Combat",
-            "jp": null
+            "jp": "\u30A4\u30F3\u30D5\u30A1\u30A4\u30C8"
         },
         "type": {
             "name": "Combat",
@@ -4236,11 +4236,11 @@
     },
     {
         "movesId": 121,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Coaching",
             "en": "Coaching",
-            "jp": null
+            "jp": "\u30B3\u30FC\u30C1\u30F3\u30B0"
         },
         "type": {
             "name": "Combat",
@@ -4258,11 +4258,11 @@
     },
     {
         "movesId": 122,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Cœur de Rancœur",
             "en": "Bitter Malice",
-            "jp": null
+            "jp": "\u3046\u3089\u307F\u3064\u3089\u307F"
         },
         "type": {
             "name": "Spectre",
@@ -4280,11 +4280,11 @@
     },
     {
         "movesId": 123,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Cogne",
             "en": "Arm Thrust",
-            "jp": null
+            "jp": "\u3064\u3063\u3071\u308A"
         },
         "type": {
             "name": "Combat",
@@ -4302,11 +4302,11 @@
     },
     {
         "movesId": 124,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Cognobidon",
             "en": "Belly Drum",
-            "jp": null
+            "jp": "\u306F\u3089\u3060\u3044\u3053"
         },
         "type": {
             "name": "Normal",
@@ -4324,11 +4324,11 @@
     },
     {
         "movesId": 125,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Col\u00e8re",
             "en": "Outrage",
-            "jp": null
+            "jp": "\u3052\u304D\u308A\u3093"
         },
         "type": {
             "name": "Dragon",
@@ -4359,11 +4359,11 @@
     },
     {
         "movesId": 126,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Combo-Griffe",
             "en": "Fury Swipes",
-            "jp": null
+            "jp": "\u307F\u3060\u308C\u3072\u3063\u304B\u304D"
         },
         "type": {
             "name": "Normal",
@@ -4381,11 +4381,11 @@
     },
     {
         "movesId": 127,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Confidence",
             "en": "Confide",
-            "jp": null
+            "jp": "\u306A\u3044\u3057\u3087\u3070\u306A\u3057"
         },
         "type": {
             "name": "Normal",
@@ -4420,11 +4420,11 @@
     },
     {
         "movesId": 128,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Contre",
             "en": "Reversal",
-            "jp": null
+            "jp": "\u304D\u3057\u304B\u3044\u305B\u3044"
         },
         "type": {
             "name": "Combat",
@@ -4451,11 +4451,11 @@
     },
     {
         "movesId": 129,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Copie",
             "en": "Mimic",
-            "jp": null
+            "jp": "\u3082\u306E\u307E\u306D"
         },
         "type": {
             "name": "Normal",
@@ -4482,11 +4482,11 @@
     },
     {
         "movesId": 130,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Copie-Type",
             "en": "Reflect Type",
-            "jp": null
+            "jp": "\u30DF\u30E9\u30FC\u30BF\u30A4\u30D7"
         },
         "type": {
             "name": "Normal",
@@ -4504,11 +4504,11 @@
     },
     {
         "movesId": 131,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Coqui-Lame",
             "en": "Razor Shell",
-            "jp": null
+            "jp": "\u30B7\u30A7\u30EB\u30D6\u30EC\u30FC\u30C9"
         },
         "type": {
             "name": "Eau",
@@ -4531,11 +4531,11 @@
     },
     {
         "movesId": 132,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Cort\u00e8ge Fun\u00e8bre",
             "en": "Infernal Parade",
-            "jp": null
+            "jp": "\u3072\u3083\u3063\u304D\u3084\u3053\u3046"
         },
         "type": {
             "name": "Spectre",
@@ -4553,11 +4553,11 @@
     },
     {
         "movesId": 133,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Cotogarde",
             "en": "Cotton Guard",
-            "jp": null
+            "jp": "\u30B3\u30C3\u30C8\u30F3\u30AC\u30FC\u30C9"
         },
         "type": {
             "name": "Plante",
@@ -4575,11 +4575,11 @@
     },
     {
         "movesId": 134,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Coud’Boue",
             "en": "Mud-Slap",
-            "jp": null
+            "jp": "\u3069\u308D\u304B\u3051"
         },
         "type": {
             "name": "Sol",
@@ -4610,11 +4610,11 @@
     },
     {
         "movesId": 135,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Coup Bas",
             "en": "Sucker Punch",
-            "jp": null
+            "jp": "\u3075\u3044\u3046\u3061"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -4632,11 +4632,11 @@
     },
     {
         "movesId": 136,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Coup Croix",
             "en": "Cross Chop",
-            "jp": null
+            "jp": "\u30AF\u30ED\u30B9\u30C1\u30E7\u30C3\u30D7"
         },
         "type": {
             "name": "Combat",
@@ -4654,11 +4654,11 @@
     },
     {
         "movesId": 137,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Coup d’Boule",
             "en": "Headbutt",
-            "jp": null
+            "jp": "\u305A\u3064\u304D"
         },
         "type": {
             "name": "Normal",
@@ -4689,11 +4689,11 @@
     },
     {
         "movesId": 138,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Coup d’Jus",
             "en": "Discharge",
-            "jp": null
+            "jp": "\u307B\u3046\u3067\u3093"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -4711,11 +4711,11 @@
     },
     {
         "movesId": 139,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Coup d’Main",
             "en": "Helping Hand",
-            "jp": null
+            "jp": "\u3066\u3060\u3059\u3051"
         },
         "type": {
             "name": "Normal",
@@ -4746,11 +4746,11 @@
     },
     {
         "movesId": 140,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Coup Double",
             "en": "Double Hit",
-            "jp": null
+            "jp": "\u30C0\u30D6\u30EB\u30A2\u30BF\u30C3\u30AF"
         },
         "type": {
             "name": "Normal",
@@ -4768,11 +4768,11 @@
     },
     {
         "movesId": 141,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Coup Fulgurant",
             "en": "Thunderous Kick",
-            "jp": null
+            "jp": "\u3089\u3044\u3081\u3044\u3052\u308A"
         },
         "type": {
             "name": "Combat",
@@ -4790,11 +4790,11 @@
     },
     {
         "movesId": 142,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Coup Victoire",
             "en": "V-create",
-            "jp": null
+            "jp": "\uFF36\u30B8\u30A7\u30CD\u30EC\u30FC\u30C8"
         },
         "type": {
             "name": "Feu",
@@ -4812,11 +4812,11 @@
     },
     {
         "movesId": 143,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Coupe",
             "en": "Cut",
-            "jp": null
+            "jp": "\u3044\u3042\u3044\u304E\u308A"
         },
         "type": {
             "name": "Normal",
@@ -4895,11 +4895,11 @@
     },
     {
         "movesId": 144,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Coupe Psycho",
             "en": "Psycho Cut",
-            "jp": null
+            "jp": "\u30B5\u30A4\u30B3\u30AB\u30C3\u30BF\u30FC"
         },
         "type": {
             "name": "Psy",
@@ -4922,11 +4922,11 @@
     },
     {
         "movesId": 145,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Cradovague",
             "en": "Sludge Wave",
-            "jp": null
+            "jp": "\u30D8\u30C9\u30ED\u30A6\u30A7\u30FC\u30D6"
         },
         "type": {
             "name": "Poison",
@@ -4973,11 +4973,11 @@
     },
     {
         "movesId": 146,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Crash Br\u00fblant",
             "en": "Blazing Torque",
-            "jp": null
+            "jp": "\u30D0\u30FC\u30F3\u30A2\u30AF\u30BB\u30EB"
         },
         "type": {
             "name": "Feu",
@@ -4995,11 +4995,11 @@
     },
     {
         "movesId": 147,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Crash Magique",
             "en": "Magical Torque",
-            "jp": null
+            "jp": "\u30DE\u30B8\u30AB\u30EB\u30A2\u30AF\u30BB\u30EB"
         },
         "type": {
             "name": "F\u00e9e",
@@ -5017,11 +5017,11 @@
     },
     {
         "movesId": 148,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Crash Muscl\u00e9",
             "en": "Combat Torque",
-            "jp": null
+            "jp": "\u30D5\u30A1\u30A4\u30C8\u30A2\u30AF\u30BB\u30EB"
         },
         "type": {
             "name": "Combat",
@@ -5039,11 +5039,11 @@
     },
     {
         "movesId": 149,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Crash Obscur",
             "en": "Wicked Torque",
-            "jp": null
+            "jp": "\u30C0\u30FC\u30AF\u30A2\u30AF\u30BB\u30EB"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -5061,11 +5061,11 @@
     },
     {
         "movesId": 150,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Crash Toxique",
             "en": "Noxious Torque",
-            "jp": null
+            "jp": "\u30DD\u30A4\u30BA\u30F3\u30A2\u30AF\u30BB\u30EB"
         },
         "type": {
             "name": "Poison",
@@ -5083,11 +5083,11 @@
     },
     {
         "movesId": 151,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Croc Fatal",
             "en": "Super Fang",
-            "jp": null
+            "jp": "\u3044\u304B\u308A\u306E\u307E\u3048\u3070"
         },
         "type": {
             "name": "Normal",
@@ -5105,11 +5105,11 @@
     },
     {
         "movesId": 152,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Crochet Venin",
             "en": "Poison Fang",
-            "jp": null
+            "jp": "\u3069\u304F\u3069\u304F\u306E\u30AD\u30D0"
         },
         "type": {
             "name": "Poison",
@@ -5127,11 +5127,11 @@
     },
     {
         "movesId": 153,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Croco Larme",
             "en": "Fake Tears",
-            "jp": null
+            "jp": "\u3046\u305D\u306A\u304D"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -5158,11 +5158,11 @@
     },
     {
         "movesId": 154,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Crocs \u00c9clair",
             "en": "Thunder Fang",
-            "jp": null
+            "jp": "\u304B\u307F\u306A\u308A\u306E\u30AD\u30D0"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -5189,11 +5189,11 @@
     },
     {
         "movesId": 155,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Crocs Feu",
             "en": "Fire Fang",
-            "jp": null
+            "jp": "\u307B\u306E\u304A\u306E\u30AD\u30D0"
         },
         "type": {
             "name": "Feu",
@@ -5220,11 +5220,11 @@
     },
     {
         "movesId": 156,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Crocs Givre",
             "en": "Ice Fang",
-            "jp": null
+            "jp": "\u3053\u304A\u308A\u306E\u30AD\u30D0"
         },
         "type": {
             "name": "Glace",
@@ -5251,11 +5251,11 @@
     },
     {
         "movesId": 157,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Croissance",
             "en": "Growth",
-            "jp": null
+            "jp": "\u305B\u3044\u3061\u3087\u3046"
         },
         "type": {
             "name": "Normal",
@@ -5273,11 +5273,11 @@
     },
     {
         "movesId": 158,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Croque Fort",
             "en": "Jaw Lock",
-            "jp": null
+            "jp": "\u304F\u3089\u3044\u3064\u304F"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -5295,11 +5295,11 @@
     },
     {
         "movesId": 159,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Cru-Ailes",
             "en": "Wing Attack",
-            "jp": null
+            "jp": "\u3064\u3070\u3055\u3067\u3046\u3064"
         },
         "type": {
             "name": "Vol",
@@ -5317,11 +5317,11 @@
     },
     {
         "movesId": 160,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Cryo-Pirouette",
             "en": "Ice Spinner",
-            "jp": null
+            "jp": "\u30A2\u30A4\u30B9\u30B9\u30D4\u30CA\u30FC"
         },
         "type": {
             "name": "Glace",
@@ -5344,11 +5344,11 @@
     },
     {
         "movesId": 161,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Cyclone",
             "en": "Whirlwind",
-            "jp": null
+            "jp": "\u3075\u304D\u3068\u3070\u3057"
         },
         "type": {
             "name": "Normal",
@@ -5375,11 +5375,11 @@
     },
     {
         "movesId": 162,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Damocl\u00e8s",
             "en": "Double-Edge",
-            "jp": null
+            "jp": "\u3059\u3066\u307F\u30BF\u30C3\u30AF\u30EB"
         },
         "type": {
             "name": "Normal",
@@ -5406,11 +5406,11 @@
     },
     {
         "movesId": 163,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Danse Aquatique",
             "en": "Aqua Step",
-            "jp": null
+            "jp": "\u30A2\u30AF\u30A2\u30B9\u30C6\u30C3\u30D7"
         },
         "type": {
             "name": "Eau",
@@ -5428,11 +5428,11 @@
     },
     {
         "movesId": 164,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Danse Draco",
             "en": "Dragon Dance",
-            "jp": null
+            "jp": "\u308A\u3085\u3046\u306E\u307E\u3044"
         },
         "type": {
             "name": "Dragon",
@@ -5459,11 +5459,11 @@
     },
     {
         "movesId": 165,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Danse du Feu",
             "en": "Fiery Dance",
-            "jp": null
+            "jp": "\u307B\u306E\u304A\u306E\u307E\u3044"
         },
         "type": {
             "name": "Feu",
@@ -5481,11 +5481,11 @@
     },
     {
         "movesId": 166,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Danse \u00c9veil",
             "en": "Revelation Dance",
-            "jp": null
+            "jp": "\u3081\u3056\u3081\u308B\u30C0\u30F3\u30B9"
         },
         "type": {
             "name": "Normal",
@@ -5503,11 +5503,11 @@
     },
     {
         "movesId": 167,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Danse Flammes",
             "en": "Fire Spin",
-            "jp": null
+            "jp": "\u307B\u306E\u304A\u306E\u3046\u305A"
         },
         "type": {
             "name": "Feu",
@@ -5534,11 +5534,11 @@
     },
     {
         "movesId": 168,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Danse Fleurs",
             "en": "Petal Dance",
-            "jp": null
+            "jp": "\u306F\u306A\u3073\u3089\u306E\u307E\u3044"
         },
         "type": {
             "name": "Plante",
@@ -5556,11 +5556,11 @@
     },
     {
         "movesId": 169,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Danse Folle",
             "en": "Teeter Dance",
-            "jp": null
+            "jp": "\u30D5\u30E9\u30D5\u30E9\u30C0\u30F3\u30B9"
         },
         "type": {
             "name": "Normal",
@@ -5578,11 +5578,11 @@
     },
     {
         "movesId": 170,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Danse Lames",
             "en": "Swords Dance",
-            "jp": null
+            "jp": "\u3064\u308B\u304E\u306E\u307E\u3044"
         },
         "type": {
             "name": "Normal",
@@ -5657,11 +5657,11 @@
     },
     {
         "movesId": 171,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Danse Lune",
             "en": "Lunar Dance",
-            "jp": null
+            "jp": "\u307F\u304B\u3065\u304D\u306E\u307E\u3044"
         },
         "type": {
             "name": "Psy",
@@ -5679,11 +5679,11 @@
     },
     {
         "movesId": 172,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Danse Pluie",
             "en": "Rain Dance",
-            "jp": null
+            "jp": "\u3042\u307E\u3054\u3044"
         },
         "type": {
             "name": "Eau",
@@ -5770,11 +5770,11 @@
     },
     {
         "movesId": 173,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Danse Plumes",
             "en": "Feather Dance",
-            "jp": null
+            "jp": "\u30D5\u30A7\u30B6\u30FC\u30C0\u30F3\u30B9"
         },
         "type": {
             "name": "Vol",
@@ -5792,11 +5792,11 @@
     },
     {
         "movesId": 174,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Danse Victoire",
             "en": "Victory Dance",
-            "jp": null
+            "jp": "\u3057\u3087\u3046\u308A\u306E\u307E\u3044"
         },
         "type": {
             "name": "Combat",
@@ -5814,11 +5814,11 @@
     },
     {
         "movesId": 175,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Dard Mortel",
             "en": "Fell Stinger",
-            "jp": null
+            "jp": "\u3068\u3069\u3081\u3070\u308A"
         },
         "type": {
             "name": "Insecte",
@@ -5836,11 +5836,11 @@
     },
     {
         "movesId": 176,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Dard-Nu\u00e9e",
             "en": "Pin Missile",
-            "jp": null
+            "jp": "\u30DF\u30B5\u30A4\u30EB\u3070\u308A"
         },
         "type": {
             "name": "Insecte",
@@ -5863,11 +5863,11 @@
     },
     {
         "movesId": 177,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Dard-Venin",
             "en": "Poison Sting",
-            "jp": null
+            "jp": "\u3069\u304F\u3070\u308A"
         },
         "type": {
             "name": "Poison",
@@ -5885,11 +5885,11 @@
     },
     {
         "movesId": 178,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Dark Lariat",
             "en": "Darkest Lariat",
-            "jp": null
+            "jp": "\u30E9\u30EA\u30A2\u30C3\u30C8"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -5912,11 +5912,11 @@
     },
     {
         "movesId": 179,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "D\u00e9calquage",
             "en": "Doodle",
-            "jp": null
+            "jp": "\u3046\u3064\u3057\u3048"
         },
         "type": {
             "name": "Normal",
@@ -5934,11 +5934,11 @@
     },
     {
         "movesId": 180,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "D\u00e9charnement",
             "en": "Fillet Away",
-            "jp": null
+            "jp": "\u307F\u3092\u3051\u305A\u308B"
         },
         "type": {
             "name": "Normal",
@@ -5956,11 +5956,11 @@
     },
     {
         "movesId": 181,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "D\u00e9flagration",
             "en": "Fire Blast",
-            "jp": null
+            "jp": "\u3060\u3044\u3082\u3093\u3058"
         },
         "type": {
             "name": "Feu",
@@ -6059,11 +6059,11 @@
     },
     {
         "movesId": 182,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "D\u00e9gommage",
             "en": "Fling",
-            "jp": null
+            "jp": "\u306A\u3052\u3064\u3051\u308B"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -6130,11 +6130,11 @@
     },
     {
         "movesId": 183,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Demi-Tour",
             "en": "U-turn",
-            "jp": null
+            "jp": "\u3068\u3093\u307C\u304C\u3048\u308A"
         },
         "type": {
             "name": "Insecte",
@@ -6205,11 +6205,11 @@
     },
     {
         "movesId": 184,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "D\u00e9pit",
             "en": "Spite",
-            "jp": null
+            "jp": "\u3046\u3089\u307F"
         },
         "type": {
             "name": "Spectre",
@@ -6227,11 +6227,11 @@
     },
     {
         "movesId": 185,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "D\u00e9rapage",
             "en": "Spin Out",
-            "jp": null
+            "jp": "\u30DB\u30A4\u30FC\u30EB\u30B9\u30D4\u30F3"
         },
         "type": {
             "name": "Acier",
@@ -6249,11 +6249,11 @@
     },
     {
         "movesId": 186,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Dernier Mot",
             "en": "Parting Shot",
-            "jp": null
+            "jp": "\u3059\u3066\u30BC\u30EA\u30D5"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -6271,11 +6271,11 @@
     },
     {
         "movesId": 187,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Dernier Recours",
             "en": "Last Resort",
-            "jp": null
+            "jp": "\u3068\u3063\u3066\u304A\u304D"
         },
         "type": {
             "name": "Normal",
@@ -6293,11 +6293,11 @@
     },
     {
         "movesId": 188,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "D\u00e9sherbaffe",
             "en": "Trailblaze",
-            "jp": null
+            "jp": "\u304F\u3055\u308F\u3051"
         },
         "type": {
             "name": "Plante",
@@ -6320,11 +6320,11 @@
     },
     {
         "movesId": 189,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Destruction",
             "en": "Self-Destruct",
-            "jp": null
+            "jp": "\u3058\u3070\u304F"
         },
         "type": {
             "name": "Normal",
@@ -6359,11 +6359,11 @@
     },
     {
         "movesId": 190,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "D\u00e9tection",
             "en": "Detect",
-            "jp": null
+            "jp": "\u307F\u304D\u308A"
         },
         "type": {
             "name": "Combat",
@@ -6390,11 +6390,11 @@
     },
     {
         "movesId": 191,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "D\u00e9trempage",
             "en": "Soak",
-            "jp": null
+            "jp": "\u307F\u305A\u3073\u305F\u3057"
         },
         "type": {
             "name": "Eau",
@@ -6412,11 +6412,11 @@
     },
     {
         "movesId": 192,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "D\u00e9tricanon",
             "en": "Gunk Shot",
-            "jp": null
+            "jp": "\u30C0\u30B9\u30C8\u30B7\u30E5\u30FC\u30C8"
         },
         "type": {
             "name": "Poison",
@@ -6443,11 +6443,11 @@
     },
     {
         "movesId": 193,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "D\u00e9tritus",
             "en": "Sludge",
-            "jp": null
+            "jp": "\u30D8\u30C9\u30ED\u3053\u3046\u3052\u304D"
         },
         "type": {
             "name": "Poison",
@@ -6465,11 +6465,11 @@
     },
     {
         "movesId": 194,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "D\u00e9vor\u00eave",
             "en": "Dream Eater",
-            "jp": null
+            "jp": "\u3086\u3081\u304F\u3044"
         },
         "type": {
             "name": "Psy",
@@ -6548,11 +6548,11 @@
     },
     {
         "movesId": 195,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Direct Toxik",
             "en": "Poison Jab",
-            "jp": null
+            "jp": "\u3069\u304F\u3065\u304D"
         },
         "type": {
             "name": "Poison",
@@ -6623,11 +6623,11 @@
     },
     {
         "movesId": 196,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Distorsion",
             "en": "Trick Room",
-            "jp": null
+            "jp": "\u30C8\u30EA\u30C3\u30AF\u30EB\u30FC\u30E0"
         },
         "type": {
             "name": "Psy",
@@ -6694,11 +6694,11 @@
     },
     {
         "movesId": 197,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Double D\u00e9charge",
             "en": "Double Shock",
-            "jp": null
+            "jp": "\u3067\u3093\u3053\u3046\u305D\u3046\u3052\u304D"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -6716,11 +6716,11 @@
     },
     {
         "movesId": 198,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Double Laser",
             "en": "Twin Beam",
-            "jp": null
+            "jp": "\u30C4\u30A4\u30F3\u30D3\u30FC\u30E0"
         },
         "type": {
             "name": "Psy",
@@ -6738,11 +6738,11 @@
     },
     {
         "movesId": 199,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Double Pied",
             "en": "Double Kick",
-            "jp": null
+            "jp": "\u306B\u3069\u3052\u308A"
         },
         "type": {
             "name": "Combat",
@@ -6760,11 +6760,11 @@
     },
     {
         "movesId": 200,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Double Vol\u00e9e",
             "en": "Dual Wingbeat",
-            "jp": null
+            "jp": "\u30C0\u30D6\u30EB\u30A6\u30A4\u30F3\u30B0"
         },
         "type": {
             "name": "Vol",
@@ -6782,11 +6782,11 @@
     },
     {
         "movesId": 201,
-        "generation": null,
+        "generation": 9,
         "name": {
             "fr": "Douche Froide",
             "en": "Chilling Water",
-            "jp": null
+            "jp": "\u3072\u3084\u307F\u305A"
         },
         "type": {
             "name": "Eau",
@@ -6809,11 +6809,11 @@
     },
     {
         "movesId": 202,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Doux Baiser",
             "en": "Sweet Kiss",
-            "jp": null
+            "jp": "\u3066\u3093\u3057\u306E\u30AD\u30C3\u30B9"
         },
         "type": {
             "name": "F\u00e9e",
@@ -6831,11 +6831,11 @@
     },
     {
         "movesId": 203,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Doux Parfum",
             "en": "Sweet Scent",
-            "jp": null
+            "jp": "\u3042\u307E\u3044\u304B\u304A\u308A"
         },
         "type": {
             "name": "Normal",
@@ -6862,11 +6862,11 @@
     },
     {
         "movesId": 204,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Draco-Ascension",
             "en": "Dragon Ascent",
-            "jp": null
+            "jp": "\u30AC\u30EA\u30E7\u30A6\u30C6\u30F3\u30BB\u30A4"
         },
         "type": {
             "name": "Vol",
@@ -6884,11 +6884,11 @@
     },
     {
         "movesId": 205,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Draco-Charge",
             "en": "Dragon Rush",
-            "jp": null
+            "jp": "\u30C9\u30E9\u30B4\u30F3\u30C0\u30A4\u30D6"
         },
         "type": {
             "name": "Dragon",
@@ -6906,11 +6906,11 @@
     },
     {
         "movesId": 206,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Draco-Choc",
             "en": "Dragon Pulse",
-            "jp": null
+            "jp": "\u308A\u3085\u3046\u306E\u306F\u3069\u3046"
         },
         "type": {
             "name": "Dragon",
@@ -6957,11 +6957,11 @@
     },
     {
         "movesId": 207,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Draco-\u00e9nergie",
             "en": "Dragon Energy",
-            "jp": null
+            "jp": "\u30C9\u30E9\u30B4\u30F3\u30A8\u30CA\u30B8\u30FC"
         },
         "type": {
             "name": "Dragon",
@@ -6979,11 +6979,11 @@
     },
     {
         "movesId": 208,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Draco-Fl\u00e8ches",
             "en": "Dragon Darts",
-            "jp": null
+            "jp": "\u30C9\u30E9\u30B4\u30F3\u30A2\u30ED\u30FC"
         },
         "type": {
             "name": "Dragon",
@@ -7001,11 +7001,11 @@
     },
     {
         "movesId": 209,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Draco-Griffe",
             "en": "Dragon Claw",
-            "jp": null
+            "jp": "\u30C9\u30E9\u30B4\u30F3\u30AF\u30ED\u30FC"
         },
         "type": {
             "name": "Dragon",
@@ -7084,11 +7084,11 @@
     },
     {
         "movesId": 210,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Draco-M\u00e9t\u00e9ore",
             "en": "Draco Meteor",
-            "jp": null
+            "jp": "\u308A\u3085\u3046\u305B\u3044\u3050\u3093"
         },
         "type": {
             "name": "Dragon",
@@ -7111,11 +7111,11 @@
     },
     {
         "movesId": 211,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Draco-Queue",
             "en": "Dragon Tail",
-            "jp": null
+            "jp": "\u30C9\u30E9\u30B4\u30F3\u30C6\u30FC\u30EB"
         },
         "type": {
             "name": "Dragon",
@@ -7166,11 +7166,11 @@
     },
     {
         "movesId": 212,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Draco-Souffle",
             "en": "Dragon Breath",
-            "jp": null
+            "jp": "\u308A\u3085\u3046\u306E\u3044\u3076\u304D"
         },
         "type": {
             "name": "Dragon",
@@ -7197,11 +7197,11 @@
     },
     {
         "movesId": 213,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Dynamo-Poing",
             "en": "Dynamic Punch",
-            "jp": null
+            "jp": "\u3070\u304F\u308C\u3064\u30D1\u30F3\u30C1"
         },
         "type": {
             "name": "Combat",
@@ -7228,11 +7228,11 @@
     },
     {
         "movesId": 214,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "E-Coque",
             "en": "Soft-Boiled",
-            "jp": null
+            "jp": "\u30BF\u30DE\u30B4\u3046\u307F"
         },
         "type": {
             "name": "Normal",
@@ -7259,11 +7259,11 @@
     },
     {
         "movesId": 215,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Eau Revoir",
             "en": "Flip Turn",
-            "jp": null
+            "jp": "\u30AF\u30A4\u30C3\u30AF\u30BF\u30FC\u30F3"
         },
         "type": {
             "name": "Eau",
@@ -7281,11 +7281,11 @@
     },
     {
         "movesId": 216,
-        "generation": null,
+        "generation": 1,
         "name": {
-            "fr": "\u00e9boulement",
+            "fr": "\u00c9boulement",
             "en": "Rock Slide",
-            "jp": null
+            "jp": "\u3044\u308F\u306A\u3060\u308C"
         },
         "type": {
             "name": "Roche",
@@ -7364,11 +7364,11 @@
     },
     {
         "movesId": 217,
-        "generation": null,
+        "generation": 4,
         "name": {
-            "fr": "\u00e9bullilave",
+            "fr": "\u00c9bullilave",
             "en": "Lava Plume",
-            "jp": null
+            "jp": "\u3075\u3093\u3048\u3093"
         },
         "type": {
             "name": "Feu",
@@ -7386,11 +7386,11 @@
     },
     {
         "movesId": 218,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "\u00e9bullition",
             "en": "Scald",
-            "jp": null
+            "jp": "\u306D\u3063\u3068\u3046"
         },
         "type": {
             "name": "Eau",
@@ -7445,11 +7445,11 @@
     },
     {
         "movesId": 219,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "\u00e9change",
             "en": "Skill Swap",
-            "jp": null
+            "jp": "\u30B9\u30AD\u30EB\u30B9\u30EF\u30C3\u30D7"
         },
         "type": {
             "name": "Psy",
@@ -7504,11 +7504,11 @@
     },
     {
         "movesId": 220,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "\u00e9change Force",
             "en": "Power Shift",
-            "jp": null
+            "jp": "\u30D1\u30EF\u30FC\u30B7\u30D5\u30C8"
         },
         "type": {
             "name": "Normal",
@@ -7526,11 +7526,11 @@
     },
     {
         "movesId": 221,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "\u00e9cho",
             "en": "Echoed Voice",
-            "jp": null
+            "jp": "\u30A8\u30B3\u30FC\u30DC\u30A4\u30B9"
         },
         "type": {
             "name": "Normal",
@@ -7573,11 +7573,11 @@
     },
     {
         "movesId": 222,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "\u00e9clair",
             "en": "Thunder Shock",
-            "jp": null
+            "jp": "\u3067\u3093\u304D\u30B7\u30E7\u30C3\u30AF"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -7595,11 +7595,11 @@
     },
     {
         "movesId": 223,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "\u00e9clair Fou",
             "en": "Wild Charge",
-            "jp": null
+            "jp": "\u30EF\u30A4\u30EB\u30C9\u30DC\u30EB\u30C8"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -7650,11 +7650,11 @@
     },
     {
         "movesId": 224,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "\u00e9clat Magique",
             "en": "Dazzling Gleam",
-            "jp": null
+            "jp": "\u30DE\u30B8\u30AB\u30EB\u30B7\u30E3\u30A4\u30F3"
         },
         "type": {
             "name": "F\u00e9e",
@@ -7705,11 +7705,11 @@
     },
     {
         "movesId": 225,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "\u00e9clat Spectral",
             "en": "Astral Barrage",
-            "jp": null
+            "jp": "\u30A2\u30B9\u30C8\u30E9\u30EB\u30D3\u30C3\u30C8"
         },
         "type": {
             "name": "Spectre",
@@ -7727,11 +7727,11 @@
     },
     {
         "movesId": 226,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "\u00e9clate Griffe",
             "en": "Crush Claw",
-            "jp": null
+            "jp": "\u30D6\u30EC\u30A4\u30AF\u30AF\u30ED\u30FC"
         },
         "type": {
             "name": "Normal",
@@ -7749,11 +7749,11 @@
     },
     {
         "movesId": 227,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "\u00e9clate-Roc",
             "en": "Rock Smash",
-            "jp": null
+            "jp": "\u3044\u308F\u304F\u3060\u304D"
         },
         "type": {
             "name": "Combat",
@@ -7824,11 +7824,11 @@
     },
     {
         "movesId": 228,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "\u00e9clats Glace",
             "en": "Ice Shard",
-            "jp": null
+            "jp": "\u3053\u304A\u308A\u306E\u3064\u3076\u3066"
         },
         "type": {
             "name": "Glace",
@@ -7846,11 +7846,11 @@
     },
     {
         "movesId": 229,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "\u00e9co-Sph\u00e8re",
             "en": "Energy Ball",
-            "jp": null
+            "jp": "\u30A8\u30CA\u30B8\u30FC\u30DC\u30FC\u30EB"
         },
         "type": {
             "name": "Plante",
@@ -7917,11 +7917,11 @@
     },
     {
         "movesId": 230,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "\u00e9cras’Face",
             "en": "Pound",
-            "jp": null
+            "jp": "\u306F\u305F\u304F"
         },
         "type": {
             "name": "Normal",
@@ -7939,11 +7939,11 @@
     },
     {
         "movesId": 231,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "\u00e9crasement",
             "en": "Stomp",
-            "jp": null
+            "jp": "\u3075\u307F\u3064\u3051"
         },
         "type": {
             "name": "Normal",
@@ -7961,11 +7961,11 @@
     },
     {
         "movesId": 232,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Effort",
             "en": "Endeavor",
-            "jp": null
+            "jp": "\u304C\u3080\u3057\u3083\u3089"
         },
         "type": {
             "name": "Normal",
@@ -7983,11 +7983,11 @@
     },
     {
         "movesId": 233,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "\u00e9lecanon",
             "en": "Zap Cannon",
-            "jp": null
+            "jp": "\u3067\u3093\u3058\u307B\u3046"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -8014,11 +8014,11 @@
     },
     {
         "movesId": 234,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "\u00e9lectacle",
             "en": "Volt Tackle",
-            "jp": null
+            "jp": "\u30DC\u30EB\u30C6\u30C3\u30AB\u30FC"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -8036,11 +8036,11 @@
     },
     {
         "movesId": 235,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "\u00c9lectrikipik",
             "en": "Zing Zap",
-            "jp": null
+            "jp": "\u3073\u308A\u3073\u308A\u3061\u304F\u3061\u304F"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -8058,11 +8058,11 @@
     },
     {
         "movesId": 236,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Empal’Korne",
             "en": "Horn Drill",
-            "jp": null
+            "jp": "\u3064\u306E\u30C9\u30EA\u30EB"
         },
         "type": {
             "name": "Normal",
@@ -8089,11 +8089,11 @@
     },
     {
         "movesId": 237,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Encore",
             "en": "Encore",
-            "jp": null
+            "jp": "\u30A2\u30F3\u30B3\u30FC\u30EB"
         },
         "type": {
             "name": "Normal",
@@ -8120,11 +8120,11 @@
     },
     {
         "movesId": 238,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Encornebois",
             "en": "Horn Leech",
-            "jp": null
+            "jp": "\u30A6\u30C3\u30C9\u30DB\u30FC\u30F3"
         },
         "type": {
             "name": "Plante",
@@ -8142,11 +8142,11 @@
     },
     {
         "movesId": 239,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Enroulement",
             "en": "Coil",
-            "jp": null
+            "jp": "\u3068\u3050\u308D\u3092\u307E\u304F"
         },
         "type": {
             "name": "Poison",
@@ -8164,11 +8164,11 @@
     },
     {
         "movesId": 240,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Entrave",
             "en": "Disable",
-            "jp": null
+            "jp": "\u304B\u306A\u3057\u3070\u308A"
         },
         "type": {
             "name": "Normal",
@@ -8186,11 +8186,11 @@
     },
     {
         "movesId": 241,
-        "generation": null,
+        "generation": 6,
         "name": {
-            "fr": "\u00e9ructation",
+            "fr": "\u00c9ructation",
             "en": "Belch",
-            "jp": null
+            "jp": "\u30B2\u30C3\u30D7"
         },
         "type": {
             "name": "Poison",
@@ -8208,11 +8208,11 @@
     },
     {
         "movesId": 242,
-        "generation": null,
+        "generation": 3,
         "name": {
-            "fr": "\u00e9ruption",
+            "fr": "\u00c9ruption",
             "en": "Eruption",
-            "jp": null
+            "jp": "\u3075\u3093\u304B"
         },
         "type": {
             "name": "Feu",
@@ -8230,11 +8230,11 @@
     },
     {
         "movesId": 243,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Escarmouche",
             "en": "First Impression",
-            "jp": null
+            "jp": "\u3067\u3042\u3044\u304C\u3057\u3089"
         },
         "type": {
             "name": "Insecte",
@@ -8252,11 +8252,11 @@
     },
     {
         "movesId": 244,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Esprit Frappeur",
             "en": "Poltergeist",
-            "jp": null
+            "jp": "\u30DD\u30EB\u30BF\u30FC\u30AC\u30A4\u30B9\u30C8"
         },
         "type": {
             "name": "Spectre",
@@ -8274,11 +8274,11 @@
     },
     {
         "movesId": 245,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Estocorne",
             "en": "Smart Strike",
-            "jp": null
+            "jp": "\u30B9\u30DE\u30FC\u30C8\u30DB\u30FC\u30F3"
         },
         "type": {
             "name": "Acier",
@@ -8313,11 +8313,11 @@
     },
     {
         "movesId": 246,
-        "generation": null,
+        "generation": 2,
         "name": {
-            "fr": "\u00e9tincelle",
+            "fr": "\u00c9tincelle",
             "en": "Spark",
-            "jp": null
+            "jp": "\u30B9\u30D1\u30FC\u30AF"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -8335,11 +8335,11 @@
     },
     {
         "movesId": 247,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "\u00e9tonnement",
             "en": "Astonish",
-            "jp": null
+            "jp": "\u304A\u3069\u308D\u304B\u3059"
         },
         "type": {
             "name": "Spectre",
@@ -8357,11 +8357,11 @@
     },
     {
         "movesId": 248,
-        "generation": null,
+        "generation": 1,
         "name": {
-            "fr": "\u00e9treinte",
+            "fr": "\u00c9treinte",
             "en": "Bind",
-            "jp": null
+            "jp": "\u3057\u3081\u3064\u3051\u308B"
         },
         "type": {
             "name": "Normal",
@@ -8379,11 +8379,11 @@
     },
     {
         "movesId": 249,
-        "generation": null,
+        "generation": 6,
         "name": {
-            "fr": "\u00e9trennes",
+            "fr": "\u00c9trennes",
             "en": "Happy Hour",
-            "jp": null
+            "jp": "\u30CF\u30C3\u30D4\u30FC\u30BF\u30A4\u30E0"
         },
         "type": {
             "name": "Normal",
@@ -8401,11 +8401,11 @@
     },
     {
         "movesId": 250,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Ex\u00e9cu-Son",
             "en": "Throat Chop",
-            "jp": null
+            "jp": "\u3058\u3054\u304F\u3065\u304D"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -8428,11 +8428,11 @@
     },
     {
         "movesId": 251,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Explo-Brume",
             "en": "Misty Explosion",
-            "jp": null
+            "jp": "\u30DF\u30B9\u30C8\u30D0\u30FC\u30B9\u30C8"
         },
         "type": {
             "name": "F\u00e9e",
@@ -8450,11 +8450,11 @@
     },
     {
         "movesId": 252,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Exploforce",
             "en": "Focus Blast",
-            "jp": null
+            "jp": "\u304D\u3042\u3044\u3060\u307E"
         },
         "type": {
             "name": "Combat",
@@ -8521,11 +8521,11 @@
     },
     {
         "movesId": 253,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Explonuit",
             "en": "Night Daze",
-            "jp": null
+            "jp": "\u30CA\u30A4\u30C8\u30D0\u30FC\u30B9\u30C8"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -8543,11 +8543,11 @@
     },
     {
         "movesId": 254,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Explosion",
             "en": "Explosion",
-            "jp": null
+            "jp": "\u3060\u3044\u3070\u304F\u306F\u3064"
         },
         "type": {
             "name": "Normal",
@@ -8614,11 +8614,11 @@
     },
     {
         "movesId": 255,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Extrasenseur",
             "en": "Extrasensory",
-            "jp": null
+            "jp": "\u3058\u3093\u3064\u3046\u308A\u304D"
         },
         "type": {
             "name": "Psy",
@@ -8636,11 +8636,11 @@
     },
     {
         "movesId": 256,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Exuviation",
             "en": "Shell Smash",
-            "jp": null
+            "jp": "\u304B\u3089\u3092\u3084\u3076\u308B"
         },
         "type": {
             "name": "Normal",
@@ -8745,11 +8745,11 @@
     },
     {
         "movesId": 258,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Fatal-Foudre",
             "en": "Thunder",
-            "jp": null
+            "jp": "\u304B\u307F\u306A\u308A"
         },
         "type": {
             "name": "\u00c9lectrik",
@@ -8848,11 +8848,11 @@
     },
     {
         "movesId": 259,
-        "generation": null,
+        "generation": 2,
         "name": {
             "fr": "Faux-Chage",
             "en": "False Swipe",
-            "jp": null
+            "jp": "\u307F\u306D\u3046\u3061"
         },
         "type": {
             "name": "Normal",
@@ -8919,11 +8919,11 @@
     },
     {
         "movesId": 260,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Feu d’Enfer",
             "en": "Inferno",
-            "jp": null
+            "jp": "\u308C\u3093\u3054\u304F"
         },
         "type": {
             "name": "Feu",
@@ -8941,11 +8941,11 @@
     },
     {
         "movesId": 261,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Feu Ensorcel\u00e9",
             "en": "Mystical Fire",
-            "jp": null
+            "jp": "\u30DE\u30B8\u30AB\u30EB\u30D5\u30EC\u30A4\u30E0"
         },
         "type": {
             "name": "Feu",
@@ -8968,11 +8968,11 @@
     },
     {
         "movesId": 262,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Feu Envieux",
             "en": "Burning Jealousy",
-            "jp": null
+            "jp": "\u3057\u3063\u3068\u306E\u307B\u306E\u304A"
         },
         "type": {
             "name": "Feu",
@@ -8990,11 +8990,11 @@
     },
     {
         "movesId": 263,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Feu Follet",
             "en": "Will-O-Wisp",
-            "jp": null
+            "jp": "\u304A\u306B\u3073"
         },
         "type": {
             "name": "Feu",
@@ -9065,11 +9065,11 @@
     },
     {
         "movesId": 264,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Feuillage",
             "en": "Leafage",
-            "jp": null
+            "jp": "\u3053\u306E\u306F"
         },
         "type": {
             "name": "Plante",
@@ -9087,11 +9087,11 @@
     },
     {
         "movesId": 265,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Feuille Magik",
             "en": "Magical Leaf",
-            "jp": null
+            "jp": "\u30DE\u30B8\u30AB\u30EB\u30EA\u30FC\u30D5"
         },
         "type": {
             "name": "Plante",
@@ -9118,11 +9118,11 @@
     },
     {
         "movesId": 266,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Flamme Ultime",
             "en": "Burn Up",
-            "jp": null
+            "jp": "\u3082\u3048\u3064\u304D\u308B"
         },
         "type": {
             "name": "Feu",
@@ -9140,11 +9140,11 @@
     },
     {
         "movesId": 267,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Flamm\u00e8che",
             "en": "Ember",
-            "jp": null
+            "jp": "\u3072\u306E\u3053"
         },
         "type": {
             "name": "Feu",
@@ -9162,11 +9162,11 @@
     },
     {
         "movesId": 268,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Flatterie",
             "en": "Flatter",
-            "jp": null
+            "jp": "\u304A\u3060\u3066\u308B"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -9184,11 +9184,11 @@
     },
     {
         "movesId": 269,
-        "generation": null,
+        "generation": 6,
         "name": {
             "fr": "Flying Press",
             "en": "Flying Press",
-            "jp": null
+            "jp": "\u30D5\u30E9\u30A4\u30F3\u30B0\u30D7\u30EC\u30B9"
         },
         "type": {
             "name": "Combat",
@@ -9206,11 +9206,11 @@
     },
     {
         "movesId": 270,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Fontaine de Vie",
             "en": "Life Dew",
-            "jp": null
+            "jp": "\u3044\u306E\u3061\u306E\u3057\u305A\u304F"
         },
         "type": {
             "name": "Eau",
@@ -9228,11 +9228,11 @@
     },
     {
         "movesId": 271,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Force",
             "en": "Strength",
-            "jp": null
+            "jp": "\u304B\u3044\u308A\u304D"
         },
         "type": {
             "name": "Normal",
@@ -9311,11 +9311,11 @@
     },
     {
         "movesId": 272,
-        "generation": null,
+        "generation": 5,
         "name": {
             "fr": "Force Ajout\u00e9e",
             "en": "Stored Power",
-            "jp": null
+            "jp": "\u30A2\u30B7\u30B9\u30C8\u30D1\u30EF\u30FC"
         },
         "type": {
             "name": "Psy",
@@ -9342,11 +9342,11 @@
     },
     {
         "movesId": 273,
-        "generation": null,
+        "generation": 3,
         "name": {
             "fr": "Force Cosmique",
             "en": "Cosmic Power",
-            "jp": null
+            "jp": "\u30B3\u30B9\u30E2\u30D1\u30EF\u30FC"
         },
         "type": {
             "name": "Psy",
@@ -9369,11 +9369,11 @@
     },
     {
         "movesId": 274,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Force G",
             "en": "Grav Apple",
-            "jp": null
+            "jp": "\uFF27\u306E\u3061\u304B\u3089"
         },
         "type": {
             "name": "Plante",
@@ -9391,11 +9391,11 @@
     },
     {
         "movesId": 275,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Force Mystique",
             "en": "Mystical Power",
-            "jp": null
+            "jp": "\u3057\u3093\u3074\u306E\u3061\u304B\u3089"
         },
         "type": {
             "name": "Psy",
@@ -9413,11 +9413,11 @@
     },
     {
         "movesId": 276,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Force Poigne",
             "en": "Vise Grip",
-            "jp": null
+            "jp": "\u306F\u3055\u3080"
         },
         "type": {
             "name": "Normal",
@@ -9427,7 +9427,7 @@
             "name": "Physique",
             "url": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/moves/physique.png"
         },
-        "description": "La cible est attrap\u00e9e et compress\u00e9e par les côt\u00e9s.",
+        "description": "La cible est attrap\u00e9e et compress\u00e9e par les c\u00f4t\u00e9s.",
         "power": "55",
         "accuracy": "100",
         "pp": "30",
@@ -9435,11 +9435,11 @@
     },
     {
         "movesId": 277,
-        "generation": null,
+        "generation": 4,
         "name": {
             "fr": "Forte-Paume",
             "en": "Force Palm",
-            "jp": null
+            "jp": "\u306F\u3063\u3051\u3044"
         },
         "type": {
             "name": "Combat",
@@ -9457,11 +9457,11 @@
     },
     {
         "movesId": 278,
-        "generation": null,
+        "generation": 7,
         "name": {
             "fr": "Fouet de Feu",
             "en": "Fire Lash",
-            "jp": null
+            "jp": "\u307B\u306E\u304A\u306E\u30E0\u30C1"
         },
         "type": {
             "name": "Feu",
@@ -9479,11 +9479,11 @@
     },
     {
         "movesId": 279,
-        "generation": null,
+        "generation": 1,
         "name": {
             "fr": "Fouet Lianes",
             "en": "Vine Whip",
-            "jp": null
+            "jp": "\u3064\u308B\u306E\u30E0\u30C1"
         },
         "type": {
             "name": "Plante",
@@ -9501,11 +9501,11 @@
     },
     {
         "movesId": 280,
-        "generation": null,
+        "generation": 8,
         "name": {
             "fr": "Fourbette",
             "en": "False Surrender",
-            "jp": null
+            "jp": "\u3069\u3052\u3056\u3064\u304D"
         },
         "type": {
             "name": "T\u00e9n\u00e8bres",
@@ -12361,7 +12361,7 @@
         "movesId": 371,
         "generation": null,
         "name": {
-            "fr": "Magn\u00e9-Contrôle",
+            "fr": "Magn\u00e9-Contr\u00f4le",
             "en": "Magnetic Flux",
             "jp": null
         },
@@ -14024,7 +14024,7 @@
             "name": "Statut",
             "url": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/moves/statut.png"
         },
-        "description": "Le lanceur \u00e9parpille des pics autour de la cible, ce qui empoisonne les Pok\u00e9mon entrant au combat de ce côt\u00e9.",
+        "description": "Le lanceur \u00e9parpille des pics autour de la cible, ce qui empoisonne les Pok\u00e9mon entrant au combat de ce c\u00f4t\u00e9.",
         "power": null,
         "accuracy": null,
         "pp": "20",
@@ -19461,7 +19461,7 @@
             "name": "Sp\u00e9ciale",
             "url": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/moves/speciale.png"
         },
-        "description": "Le lanceur cr\u00e9e une faille dimensionnelle pour attaquer soudainement la cible de côt\u00e9. Ignore m\u00eame les capacit\u00e9s comme Abri ou D\u00e9tection.",
+        "description": "Le lanceur cr\u00e9e une faille dimensionnelle pour attaquer soudainement la cible de c\u00f4t\u00e9. Ignore m\u00eame les capacit\u00e9s comme Abri ou D\u00e9tection.",
         "power": "80",
         "accuracy": null,
         "pp": "5",
@@ -20744,7 +20744,7 @@
         "movesId": 628,
         "generation": null,
         "name": {
-            "fr": "Voix Enjôleuse",
+            "fr": "Voix Enj\u00f4leuse",
             "en": "Disarming Voice",
             "jp": null
         },
@@ -20940,7 +20940,7 @@
         "movesId": 633,
         "generation": null,
         "name": {
-            "fr": "Voltageôle",
+            "fr": "Voltage\u00f4le",
             "en": "Thunder Cage",
             "jp": null
         },
