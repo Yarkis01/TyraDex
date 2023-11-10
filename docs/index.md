@@ -1,5 +1,5 @@
 # Information
-PokéAPI est une API Pokémon qui a pour but de rassembler le maximum de données sur les Pokémons et de les mettre à la disposition du plus grand nombre. C'est la raison pour laquelle l'API est **open source** et **libre d'usage**.
+Tyradex est une API Pokémon qui a pour but de rassembler le maximum de données sur les Pokémons et de les mettre à la disposition du plus grand nombre. C'est la raison pour laquelle l'API est **open source** et **libre d'usage**.
 
 # Politique d'utilisation
 Malgré le fait que l'API soit entièrement gratuite et sans jeton d'authentification, nous vous demandons de bien vouloir respecter ces quelques règles.
