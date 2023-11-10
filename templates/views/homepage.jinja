@@ -2,11 +2,17 @@
 
 {% block content %}
 <section id="warnings">
+    <div class="question">
+            <p class="warning__title">L'API se refait une beauté !</p>
+            <p class="warning__description">
+                Pour plus de clarté, l'API a été rebaptisée Tyradex et elle est maintenant accessible via deux URL fonctionnelles : <a href="https://tyradex.vercel.app/">Tyradex.vercel.app</a> et <a href="https://tyradex.tech">Tyradex.tech</a>.
+            </p>
+        </div>
     <div class="danger">
         <p class="warning__title">Une erreur ?</p>
         <p class="warning__description">
-            L'api est encore jeune (même si elle dispose d'un grand jeu de donnés) alors il se peut que certaines données soit erronées.<br />
-            Si vous constatez la moindre erreur, vous pouvez nous la signaler en <a href="https://github.com/Yarkis01/PokeAPI/issues/new?assignees=Yarkis01&labels=invalid+data&template=donn%C3%A9es-invalides.md&title=%5BDATA%5D" target="_blank">cliquant ici</a>.
+            L'API est encore récente, malgré la disponibilité d'une vaste quantité de données, il est possible que certaines d'entre elles soient inexactes.<br>
+            Si vous identifiez la moindre erreur, vous pouvez nous la signaler en <a href="https://github.com/Yarkis01/PokeAPI/issues/new?assignees=Yarkis01&labels=invalid+data&template=donn%C3%A9es-invalides.md&title=%5BDATA%5D" target="_blank">cliquant ici</a>.
         </p>
     </div>
 </section>
@@ -14,53 +20,53 @@
 <section id="carousel-container">
     <div id="carousel">
         <div id="carousel__left-arrow" onclick="setPokemon(actualPkm - 1);">
-            <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;" alt="Chevron gauche" />
+            <img src="/assets/carousel/chevron_left.svg" draggable="false" style="user-select: none;" alt="Chevron gauche">
         </div>
         <div style="text-align: center;">
-            <img id="carousel__image" style="display: none;" alt="Pokémon" />
-            <img id="carousel__loading" src="/assets/carousel/loader.svg" alt="loader" />
+            <img id="carousel__image" style="display: none;" alt="Pokémon"/>
+            <img id="carousel__loading" src="/assets/carousel/loader.svg" alt="loader">
         </div>
         <div id="carousel_right-arrow" onclick="setPokemon(actualPkm + 1);">
-            <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" alt="Chevron droit" />
+            <img src="/assets/carousel/chevron_right.svg" draggable="false" style="user-select: none;" alt="Chevron droit">
         </div>
     </div>
     <div id="carousel__infobox">
         <p id="carousel__info-pkmname"></p>
         <div id="carousel__info-types"></div>
-        <img id="carousel__shiny" src="" onclick="setShiny(actualPkm);" title="Non chromatique" alt="Étoile" /> 
+        <img id="carousel__shiny" src="" onclick="setShiny(actualPkm);" title="Non chromatique" alt="Étoile"> 
     </div>
 </section>
 
 <section id="routes-container">
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" loading="lazy" alt="Tyranocif" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/246/regular.png" loading="lazy" alt="Tyranocif">
         <p>
-            <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br /><br />
-            Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br /><br />
+            <span>/api/v1/pokemon/&lt;identifiant&gt;</span><br><br>
+            Permet de récupérer la fiche d'un Pokémon grâce à son identifiant dans le Pokédex National<br><br>
             <a href="{{ base_url }}api/v1/pokemon/246" hx-boost="false">Voir la fiche du Pokémon</a>
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular_hisui.png" loading="lazy" alt="Caninos de Hisui" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular_hisui.png" loading="lazy" alt="Caninos de Hisui">
         <p>
-            <span>/api/v1/pokemon/&lt;nom&gt;/&lt;region&gt;</span><br /><br />
-            Permet d'obtenir la forme régionale d'un Pokémon<br /><br />
+            <span>/api/v1/pokemon/&lt;nom&gt;/&lt;region&gt;</span><br><br>
+            Permet d'obtenir la forme régionale d'un Pokémon<br><br>
             <a href="{{ base_url }}api/v1/pokemon/caninos/hisui" hx-boost="false">Voir la fiche de Caninos de Hisui</a>
         </p>
     </div>
     <div>
-        <img src="/assets/logo.png" loading="lazy" alt="Pokéball" />
+        <img src="/assets/logo.png" loading="lazy" alt="Pokéball">
         <p>
-            <span>/api/v1/pokemon</span><br /><br />
-            Permet de récupérer la liste de tous les Pokémons<br /><br />
+            <span>/api/v1/pokemon</span><br><br>
+            Permet de récupérer la liste de tous les Pokémons<br><br>
             <a href="{{ base_url }}api/v1/pokemon" hx-boost="false">Voir tous les Pokémons</a>
         </p>
     </div>
     <div>
-        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png" loading="lazy" alt="Chochodile" />
+        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/909/regular.png" loading="lazy" alt="Chochodile">
         <p>
-            <span>/api/v1/gen/&lt;generation&gt;</span><br /><br />
-            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br /><br />
+            <span>/api/v1/gen/&lt;generation&gt;</span><br><br>
+            Permet de récupérer la liste de tous les Pokémon d'une génération voulue<br><br>
             <a href="{{ base_url }}api/v1/gen/9" hx-boost="false">Voir les Pokémons de la Gen. 9</a>
         </p>
     </div>
@@ -76,7 +82,7 @@
     <p id="tryit__title">Essayez maintenant !</p>
     <div>
         <label for="tryit__input-text"></label>
-        <input type="text" placeholder="pokemon/bulbizarre" id="tryit__input-text" />
+        <input type="text" placeholder="pokemon/bulbizarre" id="tryit__input-text">
         <button id="tryit__input-button" onclick="customApiRequest();" draggable="false" >Soumettre</button>
     </div>
     <p id="tryit__example">Besoin d'un petit coup de pouce ? Essayez <span onclick="tryApiExample('pokemon')">pokemon</span>, <span onclick="tryApiExample('pokemon/tyranocif')">pokemon/tyranocif</span>, ou <span onclick="tryApiExample('gen/1')">gen/1</span></p>
