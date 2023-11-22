@@ -1,17 +1,17 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/&lt;type&gt;]</span> Types</h1>
 
 ```http
-https://api-pokemon-fr.vercel.app/api/v1/types/<type1>/[type2]
+https://tyradex.tech/api/v1/types/<type1>/[type2]
 ```
 
 Permet d'obtenir des informations sur un Pokémon spécifique.<br>
-[Exemple de donnés renvoyés.](https://api-pokemon-fr.vercel.app/api/v1/types/fire) 
+[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types/fire) 
 
 # Paramètres
 | Nom | Obligatoire | Type | Description |
 |---|---|---|---|
-| Type 1 | ✔️ | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
-| Type 2 | ❌ | `Int` ou `String` | Correspond au deuxième type souhaité. <br>Avec la combinaison, cela vous permet d'obtenir les Pokémons possédants ce double type. |
+| Type 1 | Requis | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
+| Type 2 | Optionnel | `Int` ou `String` | Correspond au deuxième type souhaité. <br>Avec la combinaison, cela vous permet d'obtenir les Pokémons possédants ce double type. |
 
 ## Curl
 ```curl
@@ -19,14 +19,14 @@ curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
      -H "Content-type: application/json" \
-     'https://api-pokemon-fr.vercel.app/api/v1/types/<type1>/[type2]'
+     'https://tyradex.tech/api/v1/types/<type1>/[type2]'
 ```
 
 ## Python
 ```py
 import requests
 
-url = "https://api-pokemon-fr.vercel.app/api/v1/types/<type1>/[type2]"
+url = "https://tyradex.tech/api/v1/types/<type1>/[type2]"
 headers = {
     "User-Agent": "RobotPokemon",
     "From": "adresse[at]domaine[dot]com",

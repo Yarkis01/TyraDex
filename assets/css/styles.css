@@ -275,7 +275,7 @@ pre code {
     justify-content: center;
     align-items: center;
     margin: 16px 2vw;
-    opacity: 0.7;
+    opacity: 0.85;
 }
 
 .warning__title {
@@ -297,10 +297,16 @@ pre code {
 #warnings div {
     width: 100%;
     border-radius: 8px;
+    margin: 8px 0;
 }
 
 #warnings div.danger {
     background-color: #e74c3c;
+    color: var(--primary-color);
+}
+
+#warnings div.question {
+    background-color: #3498db;
     color: var(--primary-color);
 }
 
@@ -312,7 +318,7 @@ pre code {
     margin: 64px 2vw;
 }
 
-#documentation-container h1 {
+#documentation-container h2 {
     color: var(--secondary-color);
     font-family: 'Lexend Deca', sans-serif;
     margin: 0;

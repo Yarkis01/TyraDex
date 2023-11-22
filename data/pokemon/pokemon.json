@@ -20703,7 +20703,17 @@
                 "multiplier": 1
             }
         ],
-        "evolution": null,
+        "evolution": {
+            "pre":  [
+                {
+                    "pokedexId": 143,
+                    "name": "Ronflex",
+                    "condition": "Bonheur"
+                }
+            ],
+            "next": null,
+            "mega": null
+        },
         "height": "2,1 m",
         "weight": "460,0 kg",
         "egg_groups": [
@@ -63301,8 +63311,8 @@
             "pre": null,
             "next": [
                 {
-                    "pokedexId": 143,
-                    "name": "Ronflex",
+                    "pokedexId": 446,
+                    "name": "Goinfrex",
                     "condition": "Bonheur"
                 }
             ],

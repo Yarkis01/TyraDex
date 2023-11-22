@@ -23,11 +23,11 @@ async function apiRequest(routes) {
 
 async function setShinyLock(shinylock) {
     if(shinylock) {
-        shiny.title = "Shiny Lock";
+        shiny.alt = "Shiny Lock";
         shiny.style.cursor = "not-allowed";
         shiny.style.filter = "invert(53%) sepia(0%) saturate(0%) hue-rotate(350deg) brightness(95%) contrast(89%)";
     } else {
-        shiny.title = "Non chromatique";
+        shiny.alt = "Non chromatique";
         shiny.style.cursor = "pointer";
         shiny.style.filter = "";
     }
@@ -40,12 +40,12 @@ async function setShiny(number) {
 
     if(isShiny) {
         shiny.src   = "/assets/carousel/star_FILL0.svg";
-        shiny.title = "Non chromatique";
+        shiny.alt = "Non chromatique";
         await changeCarouselImage(pkmData.sprites.regular, image);
     } else {
         try {
             shiny.src = "/assets/carousel/star_FILL1.svg";
-            shiny.title = "Chromatique";
+            shiny.alt = "Chromatique";
             await changeCarouselImage(pkmData.sprites.shiny, image);
         } catch {
             setShinyLock(true);
@@ -90,7 +90,7 @@ async function setPokemon(number) {
 
     types.innerHTML = "";
     for(let i = 0; i < pkmData.types.length; i++) {
-        types.innerHTML += `<img src="${pkmData.types[i].image}" title="${pkmData.types[i].name}" />`;
+        types.innerHTML += `<img src="${pkmData.types[i].image}" alt="${pkmData.types[i].name}" />`;
     }
     types.style.visibility = "visible";
 }
