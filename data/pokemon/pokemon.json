@@ -36330,7 +36330,7 @@
                 {
                     "pokedexId": 252,
                     "name": "Arcko",
-                    "condition:":"Niveau 16"
+                    "condition":"Niveau 16"
                 },
                 {
                     "pokedexId": 253,
@@ -70220,7 +70220,7 @@
                 {
                     "pokedexId": 496,
                     "name": "Lianaja",
-                    "condition:":"Niveau 36"
+                    "condition":"Niveau 36"
                 }
             ],
             "next": null,
@@ -79250,6 +79250,7 @@
                     "condition":"Niveau 39"
                 }
             ],
+            "next":null,
             "mega": null
         },
         "next": null,
