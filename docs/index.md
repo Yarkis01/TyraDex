@@ -10,4 +10,6 @@ Malgré le fait que l'API soit entièrement gratuite et sans jeton d'authentific
 - **Crédit**: Si vous créez quelque chose de public (tel qu'un bot, un site internet, ou autre), nous vous demandons de bien vouloir préciser que vos données proviennent de notre API.
 
 # Bibliothèque de développement
-Aucune librairie pour les développeurs n'est disponible actuellement. Mais si vous souhaitez en développer une, nous serons ravie de vous rajouter dans cette liste.
+- **Python 3**: [Tyradex](https://github.com/LassaInora/Tyradex) développé par [LassaInora](https://github.com/LassaInora).
+
+*Vous avez développé une bibliothèque pour Tyradex et vous souhaitez qu'elle soit référencée ci-dessus ? Ouvrez une demande sur GitHub ou rejoignez notre serveur Discord.*

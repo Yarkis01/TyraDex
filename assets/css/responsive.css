@@ -51,6 +51,12 @@
     #tryit__copy-url, #tryit__copy-json {
         display: none;
     }
+
+    .pkm-data-name {flex-direction: column; margin: 32px 0;}
+    .pkm-data-name select {width: 100%; margin: 8px 0;}
+    .pkm-tab-split {flex-direction: column; align-items: center;}
+    .dex-table {width: 90%; margin: 8px 0;}
+    .pkm-tab-stats-talents {flex-direction: column; align-items: center; margin: 32px 0;}
 }
 
 @media screen and (max-width: 560px) {
@@ -60,6 +66,20 @@
     header div a p {margin: calc(calc(32px - 16px) / 2);}
 
     #carousel__shiny {display: none;}
+
+    #search-pokedex input[type=text] {width: 60%;}
+    #search-pokedex input[type=submit] {width: 40%;}
+
+    .pkm-card {width: 100%; margin: 8px 0;}
+
+    .pkm-tab-list  {flex-direction: column;}
+    .pkm-tab-title {width: 100%;}
+    .pkm-tab-title:nth-child(1) {border-radius: 8px 8px 0 0;}
+
+    #documentation-container div a {margin: 8px 0;}
+    #documentation-container div {flex-direction: column; width: 70%;}
+    
+    .pkm-tab-resistance-type-container {flex-direction: column; align-items: center;}
 }
 
 @media screen and (max-width: 300px) {

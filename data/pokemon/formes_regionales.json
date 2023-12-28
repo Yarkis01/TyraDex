@@ -6,7 +6,7 @@
     },
     "alola": {
         "19": {
-            "pokedexId": 19,
+            "pokedex_id": 19,
             "generation": 7,
             "category": "Pok\u00e9mon Souris",
             "name": {
@@ -15,13 +15,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b3\u30e9\u30c3\u30bf"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/19/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/19/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/19/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"}
             ],
             "talents": [
                 {"name": "Gloutonnerie", "tc": false},
@@ -59,7 +59,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 20, "name": "Rattatac d'Alola", "condition": "Niveau 20 (nuit)"}
+                    {"pokedex_id": 20, "name": "Rattatac d'Alola", "condition": "Niveau 20 (nuit)"}
                 ],
                 "mega": null
             },
@@ -73,10 +73,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Rattata d'Alola",
+                        "en": "Alolan Rattata",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b3\u30e9\u30c3\u30bf"
+                    }
+                }
+            ]
         },
         "20": {
-            "pokedexId": 20,
+            "pokedex_id": 20,
             "generation": 7,
             "category": "Pok\u00e9mon Souris",
             "name": {
@@ -85,13 +95,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30c3\u30bf"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/20/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/20/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/20/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"}
             ],
             "talents": [
                 {"name": "Gloutonnerie", "tc": false},
@@ -128,7 +138,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 19, "name": "Rattata d'Alola", "condition": "Niveau 20 (nuit)"}
+                    {"pokedex_id": 19, "name": "Rattata d'Alola", "condition": "Niveau 20 (nuit)"}
                 ],
                 "next": null,
                 "mega": null
@@ -143,10 +153,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Rattatac d'Alola",
+                        "en": "Alolan Raticate",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30c3\u30bf"
+                    }
+                }
+            ]
         },
         "26": {
-            "pokedexId": 26,
+            "pokedex_id": 26,
             "generation": 7,
             "category": "Pok\u00e9mon Souris",
             "name": {
@@ -155,13 +175,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30a4\u30c1\u30e5\u30a6"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/26/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/26/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/26/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"},
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Surf Caudal", "tc": false}
@@ -196,8 +216,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":172, "name": "Pichu", "condition": "Bonheur"},
-                    {"pokedexId":25, "name": "Pikachu", "condition": "Pierre Foudre"}
+                    {"pokedex_id":172, "name": "Pichu", "condition": "Bonheur"},
+                    {"pokedex_id":25, "name": "Pikachu", "condition": "Pierre Foudre"}
                 ],
                 "next": null,
                 "mega": null
@@ -212,10 +232,20 @@
                 "female": 50
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Raichu d'Alola",
+                        "en": "Alolan Raichu",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30e9\u30a4\u30c1\u30e5\u30a6"
+                    }
+                }
+            ]
         },
         "27": {
-            "pokedexId": 27,
+            "pokedex_id": 27,
             "generation": 7,
             "category": "Pok\u00e9mon Souris",
             "name": {
@@ -224,13 +254,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/27/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/27/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/27/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Rideau Neige", "tc": false},
@@ -267,7 +297,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":28, "name": "Sablaireau d'Alola","condition":"Pierre Glace"}
+                    {"pokedex_id":28, "name": "Sablaireau d'Alola","condition":"Pierre Glace"}
                 ],
                 "mega": null
             },
@@ -281,10 +311,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Sabelette d'Alola",
+                        "en": "Alolan Sandshrew",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9"
+                    }
+                }
+            ]
         },
         "28": {
-            "pokedexId": 28,
+            "pokedex_id": 28,
             "generation": 7,
             "category": "Pok\u00e9mon Souris",
             "name": {
@@ -293,13 +333,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9\u30d1\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/28/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/28/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/28/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Rideau Neige", "tc": false},
@@ -335,7 +375,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":27, "name": "Sabelette d'Alola", "condition": "Pierre Glace"}
+                    {"pokedex_id":27, "name": "Sabelette d'Alola", "condition": "Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -350,10 +390,20 @@
                 "female": 50
             },
             "catch_rate": 90,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Sablaireau d'Alola",
+                        "en": "Alolan Sandslash",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b5\u30f3\u30c9\u30d1\u30f3"
+                    }
+                }
+            ]
         },
         "37": {
-            "pokedexId": 37,
+            "pokedex_id": 37,
             "generation": 7,
             "category": "Pok\u00e9mon Renard",
             "name": {
@@ -362,12 +412,12 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/37/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/37/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/37/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"}
             ],
             "talents": [
                 {"name": "Rideau Neige", "tc": false},
@@ -404,7 +454,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":38, "name": "Feunard d'Alola", "condition":"Pierre Glace"}
+                    {"pokedex_id":38, "name": "Feunard d'Alola", "condition":"Pierre Glace"}
                 ],
                 "mega": null
             },
@@ -418,10 +468,20 @@
                 "female": 50
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Goupix d'Alola",
+                        "en": "Alolan Vulpix",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
+                    }
+                }
+            ]
         },
         "38": {
-            "pokedexId": 38,
+            "pokedex_id": 38,
             "generation": 7,
             "category": "Pok\u00e9mon Renard",
             "name": {
@@ -430,13 +490,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/38/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/38/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/38/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
-                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"},
+                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/fee.png"}
             ],
             "talents": [
                 {"name": "Rideau Neige", "tc": false},
@@ -472,7 +532,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":37, "name": "Goupix d'Alola", "condition":"Pierre Glace"}
+                    {"pokedex_id":37, "name": "Goupix d'Alola", "condition":"Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -487,10 +547,20 @@
                 "female": 75
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Feunard d'Alola",
+                        "en": "Alolan Ninetales",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ed\u30b3\u30f3"
+                    }
+                }
+            ]
         },
         "50": {
-            "pokedexId": 50,
+            "pokedex_id": 50,
             "generation": 7,
             "category": "Pok\u00e9mon Taupe",
             "name": {
@@ -499,13 +569,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c7\u30a3\u30b0\u30c0"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/50/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/50/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/50/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Voile Sable", "tc": false},
@@ -543,7 +613,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":51, "name": "Triopikeur d'Alola", "condition":"Niveau 26"}
+                    {"pokedex_id":51, "name": "Triopikeur d'Alola", "condition":"Niveau 26"}
                 ],
                 "mega": null
             },
@@ -557,10 +627,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Taupiqueur d'Alola",
+                        "en": "Alolan Diglett",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c7\u30a3\u30b0\u30c0"
+                    }
+                }
+            ]
         },
         "51": {
-            "pokedexId": 51,
+            "pokedex_id": 51,
             "generation": 7,
             "category": "Pok\u00e9mon Taupe",
             "name": {
@@ -569,13 +649,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c0\u30b0\u30c8\u30ea\u30aa"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/51/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/51/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/51/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Voile Sable", "tc": false},
@@ -612,7 +692,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":50, "name": "Taupiqueur d'Alola", "condition":"Niveau 26"}
+                    {"pokedex_id":50, "name": "Taupiqueur d'Alola", "condition":"Niveau 26"}
                 ],
                 "next": null,
                 "mega": null
@@ -627,10 +707,20 @@
                 "female": 50
             },
             "catch_rate": 50,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Triopikeur d'Alola",
+                        "en": "Alolan Dugtrio",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30c0\u30b0\u30c8\u30ea\u30aa"
+                    }
+                }
+            ]
         },
         "52": {
-            "pokedexId": 52,
+            "pokedex_id": 52,
             "generation": 7,
             "category": "Pok\u00e9mon Chad\u00e9go\u00eft",
             "name": {
@@ -639,12 +729,12 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30cb\u30e3\u30fc\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/52/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/52/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"}
             ],
             "talents": [
                 {"name": "Ramassage", "tc": false},
@@ -682,7 +772,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":53, "name": "Persian d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
+                    {"pokedex_id":53, "name": "Persian d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
                 ],
                 "mega": null
             },
@@ -696,10 +786,28 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Miaouss d'Alola",
+                        "en": "Alolan Meowth",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30cb\u30e3\u30fc\u30b9"
+                    }
+                },
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Miaouss de Galar",
+                        "en": "Galarian Meowth",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30cb\u30e3\u30fc\u30b9"
+                    }
+                }
+            ]
         },
         "53": {
-            "pokedexId": 53,
+            "pokedex_id": 53,
             "generation": 7,
             "category": "Pok\u00e9mon Chadeville",
             "name": {
@@ -708,12 +816,12 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30da\u30eb\u30b7\u30a2\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/53/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/53/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/53/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"}
             ],
             "talents": [
                 {"name": "Toison \u00c9paisse", "tc": false},
@@ -750,7 +858,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":52, "name": "Miaouss d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
+                    {"pokedex_id":52, "name": "Miaouss d'Alola", "condition":"Bonheur (sauf LGPE) / Niveau 28 (LGPE)"}
                 ],
                 "next": null,
                 "mega": null
@@ -765,10 +873,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Persian d'Alola",
+                        "en": "Alolan Persian",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30da\u30eb\u30b7\u30a2\u30f3"
+                    }
+                }
+            ]
         },
         "74": {
-            "pokedexId": 74,
+            "pokedex_id": 74,
             "generation": 7,
             "category": "Pok\u00e9mon Roche",
             "name": {
@@ -777,13 +895,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30a4\u30b7\u30c4\u30d6\u30c6"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/74/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/74/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/74/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"}
             ],
             "talents": [
                 {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
@@ -821,8 +939,8 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":75, "name": "Gravalanch d'Alola", "condition":"Niveau 25"},
-                    {"pokedexId":76, "name": "Grolem d'Alola", "condition":"Echange"}
+                    {"pokedex_id":75, "name": "Gravalanch d'Alola", "condition":"Niveau 25"},
+                    {"pokedex_id":76, "name": "Grolem d'Alola", "condition":"Echange"}
                 ],
                 "mega": null
             },
@@ -836,10 +954,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Racaillou d'Alola",
+                        "en": "Alolan Geodude",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30a4\u30b7\u30c4\u30d6\u30c6"
+                    }
+                }
+            ]
         },
         "75": {
-            "pokedexId": 75,
+            "pokedex_id": 75,
             "generation": 7,
             "category": "Pok\u00e9mon Roche",
             "name": {
@@ -848,13 +976,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/75/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/75/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/75/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"}
             ],
             "talents": [
                 {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
@@ -891,10 +1019,10 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":74, "name": "Racaillou d'Alola", "condition":"Niveau 25"}
+                    {"pokedex_id":74, "name": "Racaillou d'Alola", "condition":"Niveau 25"}
                 ],
                 "next": [
-                    {"pokedexId":76, "name": "Grolem d'Alola", "condition":"Echange"}
+                    {"pokedex_id":76, "name": "Grolem d'Alola", "condition":"Echange"}
                 ],
                 "mega": null
             },
@@ -908,10 +1036,20 @@
                 "female": 50
             },
             "catch_rate": 120,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Gravalanch d'Alola",
+                        "en": "Alolan Graveler",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30f3"
+                    }
+                }
+            ]
         },
         "76": {
-            "pokedexId": 76,
+            "pokedex_id": 76,
             "generation": 7,
             "category": "Pok\u00e9mon Titanesque",
             "name": {
@@ -920,13 +1058,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30cb\u30e3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/76/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/76/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/76/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"}
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"},
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"}
             ],
             "talents": [
                 {"name": "Magn\u00e9pi\u00e8ge", "tc": false},
@@ -963,8 +1101,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":74, "name": "Racaillou d'Alola", "condition": "Niveau 25"},
-                    {"pokedexId":75, "name": "Gravalanch d'Alola", "condition":"Echange"}
+                    {"pokedex_id":74, "name": "Racaillou d'Alola", "condition": "Niveau 25"},
+                    {"pokedex_id":75, "name": "Gravalanch d'Alola", "condition":"Echange"}
                 ],
                 "next": null,
                 "mega": null
@@ -979,10 +1117,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Grolem d'Alola",
+                        "en": "Alolan Golem",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30b4\u30ed\u30fc\u30cb\u30e3"
+                    }
+                }
+            ]
         },
         "88": {
-            "pokedexId": 88,
+            "pokedex_id": 88,
             "generation": 7,
             "category": "Pok\u00e9mon D\u88e9gueu",
             "name": {
@@ -991,13 +1139,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30bf\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/88/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/88/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/88/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"}
             ],
             "talents": [
                 {"name": "Toxitouche", "tc": false},
@@ -1035,7 +1183,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId":89, "name": "Grotadmorv d'Alola", "condition":"Niveau 38"}
+                    {"pokedex_id":89, "name": "Grotadmorv d'Alola", "condition":"Niveau 38"}
                 ],
                 "mega": null
             },
@@ -1049,10 +1197,20 @@
                 "female": 50
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Tadmorv d'Alola",
+                        "en": "Alolan Grimer",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30bf\u30fc"
+                    }
+                }
+            ]
         },
         "89": {
-            "pokedexId": 89,
+            "pokedex_id": 89,
             "generation": 7,
             "category": "Pok\u00e9mon D\u88e9gueu",
             "name": {
@@ -1061,13 +1219,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30c8\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/89/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/89/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/89/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"},
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"}
             ],
             "talents": [
                 {"name": "Toxitouche", "tc": false},
@@ -1104,7 +1262,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":88, "name": "Tadmorv d'Alola", "condition": "Niveau 38"}
+                    {"pokedex_id":88, "name": "Tadmorv d'Alola", "condition": "Niveau 38"}
                 ],
                 "next": null,
                 "mega": null
@@ -1119,10 +1277,20 @@
                 "female": 50
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Grotadmorv d'Alola",
+                        "en": "Alolan Muk",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30d9\u30c8\u30d9\u30c8\u30f3"
+                    }
+                }
+            ]
         },
         "103": {
-            "pokedexId": 103,
+            "pokedex_id": 103,
             "generation": 7,
             "category": "Pok\u00e9mon Fruitpalme",
             "name": {
@@ -1131,13 +1299,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ca\u30c3\u30b7\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/103/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/103/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/103/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
-                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png"}
             ],
             "talents": [
                 {"name": "Fouille", "tc": false},
@@ -1173,7 +1341,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":102, "name":"Noeunoeuf", "condition": "Pierre Plante"}
+                    {"pokedex_id":102, "name":"Noeunoeuf", "condition": "Pierre Plante"}
                 ],
                 "next": null,
                 "mega": null
@@ -1188,10 +1356,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Noadkoko d'Alola",
+                        "en": "Alolan Exeggutor",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30ca\u30c3\u30b7\u30fc"
+                    }
+                }
+            ]
         },
         "105":{
-            "pokedexId": 105,
+            "pokedex_id": 105,
             "generation": 7,
             "category": "Pok\u00e9mon Gard'Os",
             "name": {
@@ -1200,13 +1378,13 @@
                 "jp": "\u30a2\u30ed\u30fc\u30e9\u30ac\u30e9\u30ac\u30e9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/regular_alola.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/105/shiny_alola.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/105/regular_alola.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/105/shiny_alola.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "Corps Maudit", "tc": false},
@@ -1243,7 +1421,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId":104, "name":"Osselait", "condition":"Niveau 28 (nuit)"}
+                    {"pokedex_id":104, "name":"Osselait", "condition":"Niveau 28 (nuit)"}
                 ],
                 "next": null,
                 "mega": null
@@ -1258,12 +1436,22 @@
                 "female": 50
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Ossatueur d'Alola",
+                        "en": "Alolan Marowak",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u30ac\u30e9\u30ac\u30e9"
+                    }
+                }
+            ]
         }
     },
     "galar": {
         "52":{
-            "pokedexId": 52,
+            "pokedex_id": 52,
             "generation": 8,
             "category": "Pok\u00e9mon Chad\u00e9gout",
             "name": {
@@ -1272,12 +1460,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30cb\u30e3\u30fc\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/52/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/52/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/52/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Ramassage", "tc": false},
@@ -1315,7 +1503,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 863, "name": "Berserkatt", "condition": "Niveau 28"}
+                    {"pokedex_id": 863, "name": "Berserkatt", "condition": "Niveau 28"}
                 ],
                 "mega": null
             },
@@ -1329,10 +1517,28 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "alola",
+                    "name": {
+                        "fr": "Miaouss d'Alola",
+                        "en": "Alolan Meowth",
+                        "jp": "\u30a2\u30ed\u30fc\u30e9\u306e\u30cb\u30e3\u30fc\u30b9"
+                    }
+                },
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Miaouss de Galar",
+                        "en": "Galarian Meowth",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30cb\u30e3\u30fc\u30b9"
+                    }
+                }
+            ]
         },
         "77":{
-            "pokedexId": 77,
+            "pokedex_id": 77,
             "generation": 8,
             "category": "Pok\u00e9mon Monocorne",
             "name": {
@@ -1341,12 +1547,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30dd\u30cb\u30fc\u30bf"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/77/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/77/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/77/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Fuite", "tc": false},
@@ -1384,7 +1590,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 78, "name": "Galopa de Galar", "condition": "Niveau 40"}
+                    {"pokedex_id": 78, "name": "Galopa de Galar", "condition": "Niveau 40"}
                 ],
                 "mega": null
             },
@@ -1398,10 +1604,20 @@
                 "female": 50
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Ponyta de Galar",
+                        "en": "Galarian Ponyta",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30dd\u30cb\u30fc\u30bf"
+                    }
+                }
+            ]
         },
         "78":{
-            "pokedexId": 78,
+            "pokedex_id": 78,
             "generation": 8,
             "category": "Pok\u00e9mon Monocorne",
             "name": {
@@ -1410,13 +1626,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30ae\u30e3\u30ed\u30c3\u30d7"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/78/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/78/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/78/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
-                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"},
+                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/fee.png"}
             ],
             "talents": [
                 {"name": "Fuite", "tc": false},
@@ -1453,7 +1669,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 77, "name": "Ponyta de Galar", "condition": "Niveau 40"}
+                    {"pokedex_id": 77, "name": "Ponyta de Galar", "condition": "Niveau 40"}
                 ],
                 "next": null,
                 "mega": null
@@ -1468,10 +1684,20 @@
                 "female": 50
             },
             "catch_rate": 60,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Galopa de Galar",
+                        "en": "Galarian Rapidash",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30ae\u30e3\u30ed\u30c3\u30d7"
+                    }
+                }
+            ]
         },
         "79":{
-            "pokedexId": 79,
+            "pokedex_id": 79,
             "generation": 8,
             "category": "Pok\u00e9mon Cr\u00e9tin",
             "name": {
@@ -1480,12 +1706,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/79/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/79/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/79/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Gloutonnerie", "tc": false},
@@ -1523,8 +1749,8 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 80, "name": "Flagadoss de Galar", "condition": "Avec un Bracelet Galanoa"},
-                    {"pokedexId": 199, "name": "Roigada de Galar", "condition": "Avec un Couronne Galanoa"}
+                    {"pokedex_id": 80, "name": "Flagadoss de Galar", "condition": "Avec un Bracelet Galanoa"},
+                    {"pokedex_id": 199, "name": "Roigada de Galar", "condition": "Avec un Couronne Galanoa"}
                 ],
                 "mega": null
             },
@@ -1538,10 +1764,20 @@
                 "female": 50
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Ramoloss de Galar",
+                        "en": "Galarian Slowpoke",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30f3"
+                    }
+                }
+            ]
         },
         "80":{
-            "pokedexId": 80,
+            "pokedex_id": 80,
             "generation": 8,
             "category": "Pok\u00e9mon Symbiose",
             "name": {
@@ -1550,13 +1786,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30e9\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/80/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/80/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/80/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"},
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Tir Vif", "tc": false},
@@ -1593,7 +1829,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 79, "name": "Ramoloss de Galar", "condition": "Avec un Bracelet Galanoa"}
+                    {"pokedex_id": 79, "name": "Ramoloss de Galar", "condition": "Avec un Bracelet Galanoa"}
                 ],
                 "next": null,
                 "mega": null
@@ -1608,10 +1844,20 @@
                 "female": 50
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Flagadoss de Galar",
+                        "en": "Galarian Slowbro",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30e9\u30f3"
+                    }
+                }
+            ]
         },
         "83":{
-            "pokedexId": 83,
+            "pokedex_id": 83,
             "generation": 8,
             "category": "Pok\u00e9mon Canard Fou",
             "name": {
@@ -1620,12 +1866,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30ab\u30e2\u30cd\u30ae"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/83/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/83/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/83/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"}
             ],
             "talents": [
                 {"name": "Impassible", "tc": false},
@@ -1662,7 +1908,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 865, "name": "Palarticho", "condition": "Infliger 3 coups critiques dans un même combat"}
+                    {"pokedex_id": 865, "name": "Palarticho", "condition": "Infliger 3 coups critiques dans un même combat"}
                 ],
                 "mega": null
             },
@@ -1676,10 +1922,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Canarticho de Galar",
+                        "en": "Galarian Farfetch'd",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30ab\u30e2\u30cd\u30ae"
+                    }
+                }
+            ]
         },
         "110":{
-            "pokedexId": 110,
+            "pokedex_id": 110,
             "generation": 8,
             "category": "Pok\u00e9mon Gaz Mortel",
             "name": {
@@ -1688,13 +1944,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30bf\u30c9\u30ac\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/110/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/110/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/110/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
-                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"},
+                {"name": "F\u00e9e", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/fee.png"}
             ],
             "talents": [
                 {"name": "L\u00e9vitation", "tc": false},
@@ -1731,7 +1987,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 109, "name": "Smogo", "condition": "Niveau 35"}
+                    {"pokedex_id": 109, "name": "Smogo", "condition": "Niveau 35"}
                 ],
                 "next": null,
                 "mega": null
@@ -1746,10 +2002,20 @@
                 "female": 50
             },
             "catch_rate": 60,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Smogogo de Galar",
+                        "en": "Galarian Weezing",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30bf\u30c9\u30ac\u30b9"
+                    }
+                }
+            ]
         },
         "122":{
-            "pokedexId": 122,
+            "pokedex_id": 122,
             "generation": 8,
             "category": "Pok\u00e9mon Danse",
             "name": {
@@ -1758,13 +2024,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30d0\u30ea\u30e4\u30fc\u30c9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/122/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/122/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/122/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"},
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Esprit Vital", "tc": false},
@@ -1801,10 +2067,10 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 439, "name": "Mime Jr.", "condition": "Connaître la capacité Copie + 1 niveau"}
+                    {"pokedex_id": 439, "name": "Mime Jr.", "condition": "Connaître la capacité Copie + 1 niveau"}
                 ],
                 "next": [
-                    {"pokedexId": 866, "name": "M. Glaquette", "condition": "Niveau 42"}
+                    {"pokedex_id": 866, "name": "M. Glaquette", "condition": "Niveau 42"}
                 ],
                 "mega": null
             },
@@ -1818,10 +2084,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "M.Mime de Galar",
+                        "en": "Galarian Mr. Mime",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30d0\u30ea\u30e4\u30fc\u30c9"
+                    }
+                }
+            ]
         },
         "144":{
-            "pokedexId": 144,
+            "pokedex_id": 144,
             "generation": 8,
             "category": "Pok\u00e9mon Implacable",
             "name": {
@@ -1830,13 +2106,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30d5\u30ea\u30fc\u30b6\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/144/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/144/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/144/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
-                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"},
+                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png"}
             ],
             "talents": [
                 {"name": "Battant", "tc": false}
@@ -1875,10 +2151,20 @@
             "egg_groups": null,
             "sexe": null,
             "catch_rate": 3,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Artikodin de Galar",
+                        "en": "Galarian Articuno",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30d5\u30ea\u30fc\u30b6\u30fc"
+                    }
+                }
+            ]
         },
         "145":{
-            "pokedexId": 145,
+            "pokedex_id": 145,
             "generation": 8,
             "category": "Pok\u00e9mon Fort-Pied",
             "name": {
@@ -1887,13 +2173,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30b5\u30f3\u30c0\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/145/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/145/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/145/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"},
-                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"},
+                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png"}
             ],
             "talents": [
                 {"name": "Acharn\u00e9", "tc": false}
@@ -1932,10 +2218,20 @@
             "egg_groups": null,
             "sexe": null,
             "catch_rate": 3,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "\u00c9lecthor de Galar",
+                        "en": "Galarian Zapdos",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30b5\u30f3\u30c0\u30fc"
+                    }
+                }
+            ]
         },
         "146":{
-            "pokedexId": 146,
+            "pokedex_id": 146,
             "generation": 8,
             "category": "Pok\u00e9mon Mal\u00e9fique",
             "name": {
@@ -1944,13 +2240,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30d5\u30a1\u30a4\u30e4\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/146/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/146/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/146/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png"}
             ],
             "talents": [
                 {"name": "Dracol\u00e8re", "tc": false}
@@ -1989,10 +2285,20 @@
             "egg_groups": null,
             "sexe": null,
             "catch_rate": 3,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Sulfura de Galar",
+                        "en": "Galarian Moltres",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30d5\u30a1\u30a4\u30e4\u30fc"
+                    }
+                }
+            ]
         },
         "199":{
-            "pokedexId": 199,
+            "pokedex_id": 199,
             "generation": 8,
             "category": "Pok\u00e9mon Ensorceleur",
             "name": {
@@ -2001,13 +2307,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30ad\u30f3\u30b0"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/199/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/199/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/199/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"},
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"}
             ],
             "talents": [
                 {"name": "Breuvage Suspect", "tc": false},
@@ -2044,7 +2350,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 79, "name": "Ramoloss de Galar", "condition": "Avec un Couronne Galanoa"}
+                    {"pokedex_id": 79, "name": "Ramoloss de Galar", "condition": "Avec un Couronne Galanoa"}
                 ],
                 "next": null,
                 "mega": null
@@ -2059,10 +2365,20 @@
                 "female": 50
             },
             "catch_rate": 70,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Roigada de Galar",
+                        "en": "Galarian Slowking",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30e4\u30c9\u30ad\u30f3\u30b0"
+                    }
+                }
+            ]
         },
         "222":{
-            "pokedexId": 222,
+            "pokedex_id": 222,
             "generation": 8,
             "category": "Pok\u00e9mon Corail",
             "name": {
@@ -2071,12 +2387,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30b5\u30cb\u30fc\u30b4"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/222/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/222/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/222/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "Armurouill\u00e9e", "tc": false},
@@ -2113,7 +2429,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 864, "name": "Coray\u00f4me", "condition": "Niveau 38"}
+                    {"pokedex_id": 864, "name": "Coray\u00f4me", "condition": "Niveau 38"}
                 ],
                 "mega": null
             },
@@ -2127,10 +2443,20 @@
                 "female": 25
             },
             "catch_rate": 60,
-            "level_100": 800000
+            "level_100": 800000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Corayon de Galar",
+                        "en": "Galarian Corsola",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30b5\u30cb\u30fc\u30b4"
+                    }
+                }
+            ]
         },
         "263":{
-            "pokedexId": 263,
+            "pokedex_id": 263,
             "generation": 8,
             "category": "Pok\u00e9mon Petit Raton",
             "name": {
@@ -2139,13 +2465,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30b8\u30b0\u30b6\u30b0\u30de"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/263/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/263/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/263/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"}
             ],
             "talents": [
                 {"name": "Ramassage", "tc": false},
@@ -2183,8 +2509,8 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 264, "name": "Lin\u00e9on de Galar", "condition": "Niveau 20"},
-                    {"pokedexId": 862, "name": "Ixon", "condition": "Niveau 35 (nuit)"}
+                    {"pokedex_id": 264, "name": "Lin\u00e9on de Galar", "condition": "Niveau 20"},
+                    {"pokedex_id": 862, "name": "Ixon", "condition": "Niveau 35 (nuit)"}
                 ],
                 "mega": null
             },
@@ -2198,10 +2524,20 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Zigzaton de Galar",
+                        "en": "Galarian Zigzagoon",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30b8\u30b0\u30b6\u30b0\u30de"
+                    }
+                }
+            ]
         },
         "264":{
-            "pokedexId": 264,
+            "pokedex_id": 264,
             "generation": 8,
             "category": "Pok\u00e9mon Fonceur",
             "name": {
@@ -2210,13 +2546,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30c3\u30b9\u30b0\u30de"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/264/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/264/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/264/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"}
             ],
             "talents": [
                 {"name": "Ramassage", "tc": false},
@@ -2253,10 +2589,10 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 263, "name": "Zigzaton de Galar", "condition": "Niveau 20"}
+                    {"pokedex_id": 263, "name": "Zigzaton de Galar", "condition": "Niveau 20"}
                 ],
                 "next": [
-                    {"pokedexId": 862, "name": "Ixon", "condition": "Niveau 35 (nuit)"}
+                    {"pokedex_id": 862, "name": "Ixon", "condition": "Niveau 35 (nuit)"}
                 ],
                 "mega": null
             },
@@ -2270,10 +2606,20 @@
                 "female": 50
             },
             "catch_rate": 90,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Lin\u00e9on de Galar",
+                        "en": "Galarian Linoone",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30c3\u30b9\u30b0\u30de"
+                    }
+                }
+            ]
         },
         "554":{
-            "pokedexId": 554,
+            "pokedex_id": 554,
             "generation": 8,
             "category": "Pok\u00e9mon Daruma",
             "name": {
@@ -2282,12 +2628,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30c0\u30eb\u30de\u30c3\u30ab"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/554/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/554/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/554/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/554/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"}
             ],
             "talents": [
                 {"name": "Agitation", "tc": false},
@@ -2324,7 +2670,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 555, "name": "Darumacho de Galar", "condition": "Pierre Glace"}
+                    {"pokedex_id": 555, "name": "Darumacho de Galar", "condition": "Pierre Glace"}
                 ],
                 "mega": null
             },
@@ -2338,10 +2684,20 @@
                 "female": 50
             },
             "catch_rate": 90,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Darumarond de Galar",
+                        "en": "Galarian Darumaka",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30c0\u30eb\u30de\u30c3\u30ab"
+                    }
+                }
+            ]
         },
         "555":{
-            "pokedexId": 555,
+            "pokedex_id": 555,
             "generation": 8,
             "category": "Pok\u00e9mon Daruma",
             "name": {
@@ -2350,12 +2706,12 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30d2\u30d2\u30c0\u30eb\u30de"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/555/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/555/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/555/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/555/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"}
             ],
             "talents": [
                 {"name": "Ent\u00eatement", "tc": false},
@@ -2391,7 +2747,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 554, "name": "Darumarond de Galar", "condition": "Pierre Glace"}
+                    {"pokedex_id": 554, "name": "Darumarond de Galar", "condition": "Pierre Glace"}
                 ],
                 "next": null,
                 "mega": null
@@ -2406,10 +2762,20 @@
                 "female": 50
             },
             "catch_rate": 60,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Darumacho de Galar",
+                        "en": "Galarian Darmanitan",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30d2\u30d2\u30c0\u30eb\u30de"
+                    }
+                }
+            ]
         },
         "562":{
-            "pokedexId": 562,
+            "pokedex_id": 562,
             "generation": 8,
             "category": "Pok\u00e9mon \u00c2me",
             "name": {
@@ -2418,13 +2784,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30c7\u30b9\u30de\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/562/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/562/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/562/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "\u00c2me Vagabonde", "tc": false}
@@ -2460,7 +2826,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 867, "name": "Tut\u00e9t\u00e9kri", "condition": "Perdre 49 PV ou plus + marcher sous la grande arche de pierres de la Fosse des Sables"}
+                    {"pokedex_id": 867, "name": "Tut\u00e9t\u00e9kri", "condition": "Perdre 49 PV ou plus + marcher sous la grande arche de pierres de la Fosse des Sables"}
                 ],
                 "mega": null
             },
@@ -2474,10 +2840,20 @@
                 "female": 50
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Tutafeh de Galar",
+                        "en": "Galarian Yamask",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30c7\u30b9\u30de\u30b9"
+                    }
+                }
+            ]
         },
         "618":{
-            "pokedexId": 618,
+            "pokedex_id": 618,
             "generation": 8,
             "category": "Pok\u00e9mon Pi\u00e8ge",
             "name": {
@@ -2486,13 +2862,13 @@
                 "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30c3\u30ae\u30e7"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/regular_galar.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/618/shiny_galar.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/618/regular_galar.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/618/shiny_galar.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"},
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"}
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png"},
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"}
             ],
             "talents": [
                 {"name": "Mim\u00e9tisme", "tc": false}
@@ -2536,12 +2912,22 @@
                 "female": 50
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "galar",
+                    "name": {
+                        "fr": "Limonde de Galar",
+                        "en": "Galarian Stunfisk",
+                        "jp": "\u30ac\u30e9\u30eb\u306e\u30de\u30c3\u30ae\u30e7"
+                    }
+                }
+            ]
         }
     },
     "hisui": {
         "58":{
-            "pokedexId": 58,
+            "pokedex_id": 58,
             "generation": 8,
             "category": "Pok\u00e9mon Espion",
             "name": {
@@ -2550,13 +2936,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30ac\u30fc\u30c7\u30a3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/58/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/58/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/58/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"}
             ],
             "talents": [
                 {"name": "Intimidation", "tc": false},
@@ -2594,7 +2980,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 59, "name": "Arcanin de Hisui", "condition": "Pierre Feu"}
+                    {"pokedex_id": 59, "name": "Arcanin de Hisui", "condition": "Pierre Feu"}
                 ],
                 "mega": null
             },
@@ -2608,10 +2994,20 @@
                 "female": 25
             },
             "catch_rate": 190,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Caninos de Hisui",
+                        "en": "Hisuian Growlithe",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30ac\u30fc\u30c7\u30a3"
+                    }
+                }
+            ]
         },
         "59":{
-            "pokedexId": 59,
+            "pokedex_id": 59,
             "generation": 8,
             "category": "Pok\u00e9mon L\u00e9gendaire",
             "name": {
@@ -2620,13 +3016,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a4\u30f3\u30c7\u30a3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/59/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/59/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/59/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"}
             ],
             "talents": [
                 {"name": "Intimidation", "tc": false},
@@ -2663,7 +3059,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 58, "name": "Caninos de Hisui", "condition": "Pierre Feu"}
+                    {"pokedex_id": 58, "name": "Caninos de Hisui", "condition": "Pierre Feu"}
                 ],
                 "next": null,
                 "mega": null
@@ -2678,10 +3074,20 @@
                 "female": 25
             },
             "catch_rate": 75,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Arcanin de Hisui",
+                        "en": "Hisuian Arcanine",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a4\u30f3\u30c7\u30a3"
+                    }
+                }
+            ]
         },
         "100":{
-            "pokedexId": 100,
+            "pokedex_id": 100,
             "generation": 8,
             "category": "Pok\u00e9mon Sph\u00e8re",
             "name": {
@@ -2690,13 +3096,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30d3\u30ea\u30ea\u30c0\u30de"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/100/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/100/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/100/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
-                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"},
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"}
             ],
             "talents": [
                 {"name": "Anti-Bruit", "tc": false},
@@ -2734,7 +3140,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 101, "name": "\u00c9lectrode de Hisui", "condition": "Pierre Plante"}
+                    {"pokedex_id": 101, "name": "\u00c9lectrode de Hisui", "condition": "Pierre Plante"}
                 ],
                 "mega": null
             },
@@ -2748,10 +3154,20 @@
                 "female": 0
             },
             "catch_rate": 190,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Voltorbe de Hisui",
+                        "en": "Hisuian Voltorb",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30d3\u30ea\u30ea\u30c0\u30de"
+                    }
+                }
+            ]
         },
         "101":{
-            "pokedexId": 101,
+            "pokedex_id": 101,
             "generation": 8,
             "category": "Pok\u00e9mon Sph\u00e8re",
             "name": {
@@ -2760,13 +3176,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30de\u30eb\u30de\u30a4\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/101/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/101/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/101/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png"},
-                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"}
+                {"name": "\u00c9lectrik", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"},
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"}
             ],
             "talents": [
                 {"name": "Anti-Bruit", "tc": false},
@@ -2803,7 +3219,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 100, "name": "Voltorbe de Hisui", "condition": "Pierre Plante"}
+                    {"pokedex_id": 100, "name": "Voltorbe de Hisui", "condition": "Pierre Plante"}
                 ],
                 "next": null,
                 "mega": null
@@ -2818,10 +3234,20 @@
                 "female": 0
             },
             "catch_rate": 60,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "\u00c9lectrode de Hisui",
+                        "en": "Hisuian Electrode",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30de\u30eb\u30de\u30a4\u30f3"
+                    }
+                }
+            ]
         },
         "157":{
-            "pokedexId": 157,
+            "pokedex_id": 157,
             "generation": 8,
             "category": "Pok\u00e9mon Feu Follet",
             "name": {
@@ -2830,13 +3256,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30d0\u30af\u30d5\u30fc\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/157/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/157/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/157/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png"},
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Feu", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "Brasier", "tc": false},
@@ -2872,8 +3298,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 155, "name": "H\u00e9ricendre", "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"},
-                    {"pokedexId": 156, "name": "Feurisson", "condition": "Niveau 36"}
+                    {"pokedex_id": 155, "name": "H\u00e9ricendre", "condition": "Niveau 14 / Niveau 17 (PLA uniquement)"},
+                    {"pokedex_id": 156, "name": "Feurisson", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
@@ -2888,10 +3314,20 @@
                 "female": 12.5
             },
             "catch_rate": 45,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Typhlosion de Hisui",
+                        "en": "Hisuian Typhlosion",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30d0\u30af\u30d5\u30fc\u30f3"
+                    }
+                }
+            ]
         },
         "211":{
-            "pokedexId": 211,
+            "pokedex_id": 211,
             "generation": 8,
             "category": "Pok\u00e9mon Bouboule",
             "name": {
@@ -2900,13 +3336,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30cf\u30ea\u30fc\u30bb\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/211/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/211/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/211/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"},
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"},
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"}
             ],
             "talents": [
                 {"name": "Point Poison", "tc": false},
@@ -2944,7 +3380,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 904, "name": "Qwilpik", "condition": "Utiliser 20 fois ou plus la capacité Multitoxik sous Style Puissant"}
+                    {"pokedex_id": 904, "name": "Qwilpik", "condition": "Utiliser 20 fois ou plus la capacité Multitoxik sous Style Puissant"}
                 ],
                 "mega": null
             },
@@ -2958,10 +3394,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Qwilfish de Hisui",
+                        "en": "Hisuian Qwilfish",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30cf\u30ea\u30fc\u30bb\u30f3"
+                    }
+                }
+            ]
         },
         "215":{
-            "pokedexId": 215,
+            "pokedex_id": 215,
             "generation": 8,
             "category": "Pok\u00e9mon Grifac\u00e9r\u00e9e",
             "name": {
@@ -2970,13 +3416,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30cb\u30e5\u30fc\u30e9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/215/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/215/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/215/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"},
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"}
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"},
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"}
             ],
             "talents": [
                 {"name": "Attention", "tc": false},
@@ -3014,7 +3460,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 903, "name": "Farfurex", "condition": "Au contact d'une Griffe Rasoir (jour)"}
+                    {"pokedex_id": 903, "name": "Farfurex", "condition": "Au contact d'une Griffe Rasoir (jour)"}
                 ],
                 "mega": null
             },
@@ -3028,10 +3474,20 @@
                 "female": 50
             },
             "catch_rate": 60,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Farfuret de Hisui",
+                        "en": "Hisuian Sneasel",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30cb\u30e5\u30fc\u30e9"
+                    }
+                }
+            ]
         },
         "503":{
-            "pokedexId": 503,
+            "pokedex_id": 503,
             "generation": 8,
             "category": "Pok\u00e9mon Dignitaire",
             "name": {
@@ -3040,13 +3496,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30c0\u30a4\u30b1\u30f3\u30ad"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/503/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/503/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/503/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png"},
-                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png"}
+                {"name": "Eau", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/eau.png"},
+                {"name": "T\u00e9n\u00e8bres", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png"}
             ],
             "talents": [
                 {"name": "Torrent", "tc": false},
@@ -3082,8 +3538,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 501, "name": "Moustillon", "condition": "Niveau 17"},
-                    {"pokedexId": 502, "name": "Mateloutre", "condition": "Niveau 36"}
+                    {"pokedex_id": 501, "name": "Moustillon", "condition": "Niveau 17"},
+                    {"pokedex_id": 502, "name": "Mateloutre", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
@@ -3098,10 +3554,20 @@
                 "female": 12.5
             },
             "catch_rate": 45,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Clamiral de Hisui",
+                        "en": "Hisuian Samurott",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30c0\u30a4\u30b1\u30f3\u30ad"
+                    }
+                }
+            ]
         },
         "549":{
-            "pokedexId": 549,
+            "pokedex_id": 549,
             "generation": 8,
             "category": "Pok\u00e9mon Pirouette",
             "name": {
@@ -3110,13 +3576,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30c9\u30ec\u30c7\u30a3\u30a2"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/549/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/549/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/549/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"},
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"}
             ],
             "talents": [
                 {"name": "Chlorophylle", "tc": false},
@@ -3153,7 +3619,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 548, "name": "Chlorobule", "condition": "Pierre Soleil"}
+                    {"pokedex_id": 548, "name": "Chlorobule", "condition": "Pierre Soleil"}
                 ],
                 "next": null,
                 "mega": null
@@ -3168,10 +3634,20 @@
                 "female": 100
             },
             "catch_rate": 75,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Fragilady de Hisui",
+                        "en": "Hisuian Lilligant",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30c9\u30ec\u30c7\u30a3\u30a2"
+                    }
+                }
+            ]
         },
         "570":{
-            "pokedexId": 570,
+            "pokedex_id": 570,
             "generation": 8,
             "category": "Pok\u00e9mon Ranc\u0153urenard",
             "name": {
@@ -3180,13 +3656,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/570/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/570/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/570/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "Illusion", "tc": false}
@@ -3222,7 +3698,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 571, "name": "Zoroark de Hisui", "condition": "Niveau 30"}
+                    {"pokedex_id": 571, "name": "Zoroark de Hisui", "condition": "Niveau 30"}
                 ],
                 "mega": null
             },
@@ -3236,10 +3712,20 @@
                 "female": 12.5
             },
             "catch_rate": 75,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Zorua de Hisui",
+                        "en": "Hisuian Zorua",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2"
+                    }
+                }
+            ]
         },
         "571":{
-            "pokedexId": 571,
+            "pokedex_id": 571,
             "generation": 8,
             "category": "Pok\u00e9mon Maudirenard",
             "name": {
@@ -3248,13 +3734,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2\u30fc\u30af"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/571/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/571/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/571/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png"},
-                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png"}
+                {"name": "Normal", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"},
+                {"name": "Spectre", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"}
             ],
             "talents": [
                 {"name": "Illusion", "tc": false}
@@ -3289,7 +3775,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 570, "name": "Zorua de Hisui", "condition": "Niveau 30"}
+                    {"pokedex_id": 570, "name": "Zorua de Hisui", "condition": "Niveau 30"}
                 ],
                 "next": null,
                 "mega": null
@@ -3304,10 +3790,20 @@
                 "female": 12.5
             },
             "catch_rate": 45,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Zoroark de Hisui",
+                        "en": "Hisuian Zoroark",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30be\u30ed\u30a2\u30fc\u30af"
+                    }
+                }
+            ]
         },
         "628":{
-            "pokedexId": 628,
+            "pokedex_id": 628,
             "generation": 8,
             "category": "Pok\u00e9mon Cri Guerrier",
             "name": {
@@ -3316,13 +3812,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a9\u30fc\u30b0\u30eb"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/628/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/628/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/628/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png"},
-                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png"}
+                {"name": "Psy", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"},
+                {"name": "Vol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png"}
             ],
             "talents": [
                 {"name": "Regard Vif", "tc": false},
@@ -3359,7 +3855,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 627, "name": "Furaiglon", "condition": "Niveau 54"}
+                    {"pokedex_id": 627, "name": "Furaiglon", "condition": "Niveau 54"}
                 ],
                 "next": null,
                 "mega": null
@@ -3374,10 +3870,20 @@
                 "female": 0
             },
             "catch_rate": 60,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Gueriaigle de Hisui",
+                        "en": "Hisuian Braviary",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30a6\u30a9\u30fc\u30b0\u30eb"
+                    }
+                }
+            ]
         },
         "705":{
-            "pokedexId": 705,
+            "pokedex_id": 705,
             "generation": 8,
             "category": "Pok\u00e9mon Escargot",
             "name": {
@@ -3386,13 +3892,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30a4\u30eb"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/705/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/705/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/705/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"},
-                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png"}
             ],
             "talents": [
                 {"name": "Herbivore", "tc": false},
@@ -3429,10 +3935,10 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 704, "name": "Mucuscule", "condition": "Niveau 40"}
+                    {"pokedex_id": 704, "name": "Mucuscule", "condition": "Niveau 40"}
                 ],
                 "next": [
-                    {"pokedexId": 706, "name": "Muplodocus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
+                    {"pokedex_id": 706, "name": "Muplodocus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
                 ],
                 "mega": null
             },
@@ -3446,10 +3952,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Colimucus de Hisui",
+                        "en": "Hisuian Sliggoo",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30a4\u30eb"
+                    }
+                }
+            ]
         },
         "706":{
-            "pokedexId": 706,
+            "pokedex_id": 706,
             "generation": 8,
             "category": "Pok\u00e9mon Escamoquille",
             "name": {
@@ -3458,13 +3974,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30eb\u30b4\u30f3"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/706/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/706/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/706/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png"},
-                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png"}
+                {"name": "Acier", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png"},
+                {"name": "Dragon", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png"}
             ],
             "talents": [
                 {"name": "Herbivore", "tc": false},
@@ -3501,8 +4017,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 704, "name": "Mucuscule", "condition": "Niveau 40"},
-                    {"pokedexId": 705, "name": "Colimucus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
+                    {"pokedex_id": 704, "name": "Mucuscule", "condition": "Niveau 40"},
+                    {"pokedex_id": 705, "name": "Colimucus de Hisui", "condition": "Niveau 50 (sous la pluie)"}
                 ],
                 "next": null,
                 "mega": null
@@ -3517,10 +4033,20 @@
                 "female": 50
             },
             "catch_rate": 45,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Muplodocus de Hisui",
+                        "en": "Hisuian Goodra",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30cc\u30e1\u30eb\u30b4\u30f3"
+                    }
+                }
+            ]
         },
         "713":{
-            "pokedexId": 713,
+            "pokedex_id": 713,
             "generation": 8,
             "category": "Pok\u00e9mon Iceberg",
             "name": {
@@ -3529,13 +4055,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30af\u30ec\u30d9\u30fc\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/713/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/713/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/713/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png"},
-                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png"}
+                {"name": "Glace", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png"},
+                {"name": "Roche", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"}
             ],
             "talents": [
                 {"name": "Prognathe", "tc": false},
@@ -3572,7 +4098,7 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 712, "name": "Grela\u00e7on", "condition": "Niveau 37"}
+                    {"pokedex_id": 712, "name": "Grela\u00e7on", "condition": "Niveau 37"}
                 ],
                 "next": null,
                 "mega": null
@@ -3587,10 +4113,20 @@
                 "female": 50
             },
             "catch_rate": 55,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "S\u00e9racrawl de Hisui",
+                        "en": "Hisuian Avalugg",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30af\u30ec\u30d9\u30fc\u30b9"
+                    }
+                }
+            ]
         },
         "724":{
-            "pokedexId": 724,
+            "pokedex_id": 724,
             "generation": 8,
             "category": "Pok\u00e9mon Plumefl\u00e8che",
             "name": {
@@ -3599,13 +4135,13 @@
                 "jp": "\u30d2\u30b9\u30a4\u306e\u30b8\u30e5\u30ca\u30a4\u30d1\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/regular_hisui.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/724/shiny_hisui.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/724/regular_hisui.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/724/shiny_hisui.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png"},
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+                {"name": "Plante", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"},
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"}
             ],
             "talents": [
                 {"name": "Engrais", "tc": false},
@@ -3641,8 +4177,8 @@
             ],
             "evolution": {
                 "pre": [
-                    {"pokedexId": 722, "name": "Brindibou", "condition": "Niveau 17"},
-                    {"pokedexId": 723, "name": "Effl\u00e8che", "condition": "Niveau 36"}
+                    {"pokedex_id": 722, "name": "Brindibou", "condition": "Niveau 17"},
+                    {"pokedex_id": 723, "name": "Effl\u00e8che", "condition": "Niveau 36"}
                 ],
                 "next": null,
                 "mega": null
@@ -3657,12 +4193,22 @@
                 "female": 12.5
             },
             "catch_rate": 45,
-            "level_100": 1059862
+            "level_100": 1059862,
+            "formes": [
+                {
+                    "region": "hisui",
+                    "name": {
+                        "fr": "Arch\u00e9duc de Hisui",
+                        "en": "Hisuian Decidueye",
+                        "jp": "\u30d2\u30b9\u30a4\u306e\u30b8\u30e5\u30ca\u30a4\u30d1\u30fc"
+                    }
+                }
+            ]
         }
     },
     "paldea": {
         "128":{
-            "pokedexId": 128,
+            "pokedex_id": 128,
             "generation": 9,
             "category": "Pok\u00e9mon Buffle",
             "name": {
@@ -3671,12 +4217,12 @@
                 "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30b1\u30f3\u30bf\u30ed\u30b9"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/regular_paldea.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/128/shiny_paldea.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/128/regular_paldea.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/128/shiny_paldea.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png"}
+                {"name": "Combat", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png"}
             ],
             "talents": [
                 {"name": "Intimidation", "tc": false},
@@ -3722,10 +4268,20 @@
                 "female": 0
             },
             "catch_rate": 45,
-            "level_100": 1250000
+            "level_100": 1250000,
+            "formes": [
+                {
+                    "region": "paldea",
+                    "name": {
+                        "fr": "Tauros de Paldea",
+                        "en": "Paldean Tauros",
+                        "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30b1\u30f3\u30bf\u30ed\u30b9"
+                    }
+                }
+            ]
         },
         "194":{
-            "pokedexId": 194,
+            "pokedex_id": 194,
             "generation": 9,
             "category": "Pok\u00e9mon Poizzon",
             "name": {
@@ -3734,13 +4290,13 @@
                 "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30a6\u30d1\u30fc"
             },
             "sprites": {
-                "regular": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/regular_paldea.png",
-                "shiny": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/sprites/194/shiny_paldea.png",
+                "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/194/regular_paldea.png",
+                "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/194/shiny_paldea.png",
                 "gmax": null
             },
             "types": [
-                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png"},
-                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png"}
+                {"name": "Poison", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"},
+                {"name": "Sol", "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png"}
             ],
             "talents": [
                 {"name": "Point Poison", "tc": false},
@@ -3778,7 +4334,7 @@
             "evolution": {
                 "pre": null,
                 "next": [
-                    {"pokedexId": 980, "name": "Terraiste", "condition": "Niveau 20"}
+                    {"pokedex_id": 980, "name": "Terraiste", "condition": "Niveau 20"}
                 ],
                 "mega": null
             },
@@ -3792,7 +4348,17 @@
                 "female": 50
             },
             "catch_rate": 255,
-            "level_100": 1000000
+            "level_100": 1000000,
+            "formes": [
+                {
+                    "region": "paldea",
+                    "name": {
+                        "fr": "Axoloto de Paldea",
+                        "en": "Paldean Wooper",
+                        "jp": "\u30d1\u30eb\u30c7\u30a2\u306e\u30a6\u30d1\u30fc"
+                    }
+                }
+            ]
         }
     }
 }

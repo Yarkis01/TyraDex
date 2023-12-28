@@ -1,0 +1,280 @@
+{% extends "base.jinja" %}
+
+{% block content %}
+<section>
+    <form id="search-pokedex">
+        <input type="text" placeholder="Entrer le nom d'un Pokémon...">
+        <input type="submit" value="Rechercher" />
+    </form>
+</section>
+
+<section id="dex_data">
+    {% if erreur %}
+        <p>Le pokémon spécifié n'existe pas.</p>
+    {% elif pokemon %}
+        <div class="pkm-data-name">
+            <h2>{{ pokemon.name.fr }} <span title="Nom anglais" lang="en">- {{ pokemon.name.en }}</span></h2>
+
+            {% if pokemon.formes %}
+            <select id="pkm-switch-forme">
+            {% else %}
+            <select id="pkm-switch-forme" disabled>
+            {% endif %}
+                <option value="default">Non spécifié</option>
+                {% if pokemon.formes %}
+                    {% for pkm_forme in pokemon.formes %}
+                        {% if forme == pkm_forme.region %}
+                            <option value="{{ pkm_forme.region }}" selected>{{ pkm_forme.region.capitalize() }}</option>
+                        {% else %}
+                            <option value="{{ pkm_forme.region }}">{{ pkm_forme.region.capitalize() }}</option>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </select>
+        </div>
+
+        <div class="pkm-panel">
+            <input type="radio" name="pkm-tab-radio" class="pkm-tab-radio" id="pkm-tabid-informations" checked>
+            <input type="radio" name="pkm-tab-radio" class="pkm-tab-radio" id="pkm-tabid-evolution_reproduction">
+            <input type="radio" name="pkm-tab-radio" class="pkm-tab-radio" id="pkm-tabid-imagerie">
+            <input type="radio" name="pkm-tab-radio" class="pkm-tab-radio" id="pkm-tabid-attack">
+
+            <ul class="pkm-tab-list">
+                <li class="pkm-tab-title">
+                    <label for="pkm-tabid-informations">Informations</label>
+                </li>
+                <li class="pkm-tab-title">
+                    <label for="pkm-tabid-evolution_reproduction">Évolutions et reproduction</label>
+                </li>
+                <li class="pkm-tab-title">
+                    <label for="pkm-tabid-imagerie">Imageries</label>
+                </li>
+                <li class="pkm-tab-title">
+                    <label for="pkm-tabid-attack">Attaques</label>
+                </li>
+            </ul>
+
+            <div class="pkm-tab-container">
+                <div class="pkm-tab-content">
+                    <div class="pkm-tab-split">
+                        <div class="pkm-tab-image-container">
+                            <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                        </div>
+                        <table class="dex-table">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Informations Générales</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Numéro du Pokédex</td>
+                                    <td>#{{ pokemon.pokedex_id }} <span>&#x2015;</span> {{ pokemon.generation }}<sup>{{ 'er' if pokemon.generation == 1 else 'ème' }}</sup> génération</td>
+                                </tr>
+                                <tr>
+                                    <td>Catégorie</td>
+                                    <td>{{ pokemon.category }}</td>
+                                </tr>
+                                <tr>
+                                    {% if pokemon.types|length == 1 %}
+                                        <td>Type</td>
+                                    {% else %}
+                                        <td>Types</td>
+                                    {% endif %}
+                                    <td class="pkm-types-container">
+                                        {% for type in pokemon.types %}
+                                            <div>
+                                                {% if pokemon.types.index(type) == 1 %}
+                                                    <span>&#x2015;</span>
+                                                {% endif %}
+                                                <img src="{{ type.image }}" alt="{{ type.name }}" title="{{ type.name }}">
+                                                <p>{{ type.name }}</p>
+                                            </div>
+                                        {% endfor %}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Poids et taille</td>
+                                    <td>{{ pokemon.weight }} <span>&#x2015;</span> {{ pokemon.height }}</td>
+                                </tr>
+                                <tr>
+                                    <td>Sexe</td>
+                                    {% if pokemon.sexe %}
+                                        <td>Mâle: {{ pokemon.sexe.male|int }}% <span>&#x2015;</span> Femelle: {{ pokemon.sexe.female|int }}%</td>
+                                    {% else %}
+                                        <td>Asexué</td>
+                                    {% endif %}
+                                </tr>
+                                <tr>
+                                    <td>Niveau 100</td>
+                                    <td>{{ '{:,}'.format(pokemon.level_100) }} pts d'expériences</td>
+                                </tr>
+                                <tr>
+                                    <td>Catch Rate</td>
+                                    <td>{{ pokemon.catch_rate }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="pkm-tab-resistance-container-with-title">
+                        <p>{{ pokemon.name.fr }} est vulnérable aux attaques de type:</p>
+                        <div class="pkm-tab-resistance-container">
+                            {% for resistance in pokemon.resistances %}
+                                <div>
+                                    <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/{{ resistance.name.lower().replace('é', 'e').replace('è', 'e') }}.png" alt="{{ resistance.name }}" title="{{ resistance.name }}">
+                                    {% if resistance.multiplier == 0.25 %}
+                                        <p class="pkm-tab-resistance" style="background-color: #27ae60;">¼</p>
+                                    {% elif resistance.multiplier == 0.5 %}
+                                        <p class="pkm-tab-resistance" style="background-color: #2ecc71;">½</p>
+                                    {% elif resistance.multiplier == 2 %}
+                                        <p class="pkm-tab-resistance" style="background-color: #e67e22;">×2</p>
+                                    {% elif resistance.multiplier == 4 %}
+                                        <p class="pkm-tab-resistance" style="background-color: #e74c3c;">×4</p>
+                                    {% elif resistance.multiplier == 0 %}
+                                        <p class="pkm-tab-resistance" style="background-color: #7f8c8d;">0</p>
+                                    {% else %}
+                                        <p class="pkm-tab-resistance" style="background-color: var(--primary-background-color);">{{ resistance.multiplier }}</p>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="pkm-tab-stats-talents">
+                        <table class="dex-table">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Statistiques</th>
+                                </tr>
+                            </thead>
+                            <tbody class="dex-table-stats">
+                                {% for key, value in pokemon.stats.items() %}
+                                <tr>
+                                    <td>
+                                        {% if key == "hp" %}
+                                            Point de vie
+                                        {% elif key == "atk" %}
+                                            Attaque
+                                        {% elif key == "def" %}
+                                            Défense
+                                        {% elif key == "spe_atk" %}
+                                            Attaque spéciale
+                                        {% elif key == "spe_def" %}
+                                            Défense spéciale
+                                        {% elif key == "vit" %}
+                                            Vitesse
+                                        {% else %}
+                                            {{ key }}
+                                        {% endif %}
+                                    </td>
+                                    <td class="dex-stats-td">
+                                        <div class="dex-stats-progress-bar">
+                                            {% if (value / 200) * 100 < 15.0 %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #e74c3c;">{{ value }}</p>
+                                            {% elif (value / 200) * 100 < 30.0 %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #e67e22;">{{ value }}</p>
+                                            {% elif (value / 200) * 100 < 50.0 %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #f1c40f;">{{ value }}</p>
+                                            {% elif (value / 200) * 100 < 70.0 %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #1abc9c;">{{ value }}</p>
+                                            {% elif (value / 200) * 100 < 85.0 %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #2ecc71;">{{ value }}</p>
+                                            {% else %}
+                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #3498db;">{{ value }}</p>
+                                            {% endif %}
+                                        </div>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                        <table class="dex-table">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Numéros régionaux</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for id in pokemon.regional_id %}
+                                <tr>
+                                    <td>{{ id.name }}</td>
+                                    <td>{{ id.value }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="pkm-talents-container">
+                        <h2>Talent du pokémon</h2>
+                        {% for talent in pokemon.talents %}
+                        <div>
+                            <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ante id ipsum fermentum rutrum at id magna. Donec congue bibendum nisl a cursus. Etiam condimentum ante sapien, vel mollis risus rutrum quis.</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="pkm-tab-content">
+                    <p>2</p>
+                </div>
+                <div class="pkm-tab-content">
+                    <p>3</p>
+                </div>
+                <div class="pkm-tab-content">
+                    <p>4</p>
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <p class="pkm-list-text">Liste des Pokémons</p>
+        <div class="pkm-card-container">
+            {% for pkm in data %}
+                {% if pkm.pokedex_id != 0 %}
+                <div class="pkm-card">
+                    <a href="./dex/{{ pkm.name.fr.lower() }}">
+                        <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" loading="lazy" />
+                        <p>{{ pkm.name.fr }}</p>
+                    </a>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}
+
+{% block javascript %}
+<script>
+    function setLoading() {
+        document.getElementById('dex_data').innerHTML = '<p>Chargement...</p>';
+    }
+
+    document.getElementById('search-pokedex').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const pokemon = document.querySelector('input[type="text"]').value.toLowerCase().replace(' ', '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        if (pokemon === undefined || pokemon === '')
+            return;
+
+        setLoading();
+        window.location.href = '/dex/' + pokemon;
+    });
+
+    {% if pokemon %}
+    document.getElementById('pkm-switch-forme').addEventListener('change', function() {
+        const forme = document.getElementById('pkm-switch-forme').value;
+        const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+        setLoading();
+
+        if (forme === 'default') {
+            window.location.href = '/dex/' + name;
+        } else {
+            window.location.href = '/dex/' + name + '/' + forme;
+        }
+    });
+    {% endif %}
+</script>
+{% endblock %}

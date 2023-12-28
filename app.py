@@ -7,7 +7,7 @@ from flask_cors import CORS
 from resources.pokemon import Pokemon, Generation
 from resources.types import Types
 
-import json, os, markdown
+import json, os, markdown, requests
 
 app = Flask(__name__, static_folder="assets")
 api = Api(app, "/api/v1")
@@ -48,6 +48,41 @@ def _docs(path: str = None):
     )
 
 
+@app.route("/dex", defaults={"pokemon": None, "forme": None})
+@app.route("/dex/<string:pokemon>", defaults={"forme": None})
+@app.route("/dex/<string:pokemon>/<string:forme>")
+def _dex(pokemon, forme):
+    if not pokemon:
+        return render_template(
+            "views/dex.jinja",
+            erreur=False,
+            pokemon=None,
+            forme=None,
+            data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
+        )
+
+    pokemon = pokemon.lower()
+    url = f"{request.host_url}api/v1/pokemon/{pokemon}"
+    if forme:
+        forme = forme.lower()
+        url += f"/{forme}"
+
+    response = requests.get(url)
+
+    if response.status_code != 200 or "status" in response.json():
+        return render_template(
+            "views/dex.jinja", erreur=True, pokemon=None, forme=None, data=None
+        )
+
+    return render_template(
+        "views/dex.jinja",
+        erreur=False,
+        pokemon=response.json(),
+        forme=forme,
+        data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
+    )
+
+
 @app.route("/openapi.<string:extension>")
 def _open_api(extension: str):
     if extension.lower() == "json":
@@ -85,4 +120,4 @@ api.add_resource(
 )
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
