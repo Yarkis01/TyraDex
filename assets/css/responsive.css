@@ -57,6 +57,13 @@
     .pkm-tab-split {flex-direction: column; align-items: center;}
     .dex-table {width: 90%; margin: 8px 0;}
     .pkm-tab-stats-talents {flex-direction: column; align-items: center; margin: 32px 0;}
+    .pkm-imagerie div {flex-direction: column; align-items: center;}
+    .pkm-imagerie-image-container {width: 90%;}
+    .pkm-tab-evolution {justify-content: center;}
+    .pkm-tab-evolution div, .pkm-tab-evolution div:nth-child(1), .pkm-tab-evolution div:nth-child(3), .pkm-tab-evolution div:nth-child(4) {
+        width: 90%;
+        margin: 8px 32px;
+    }
 }
 
 @media screen and (max-width: 560px) {

@@ -232,22 +232,175 @@
 
                     <div class="pkm-talents-container">
                         <h2>Talent du pokémon</h2>
-                        {% for talent in pokemon.talents %}
+                        {% if pokemon.talents %}
+                            {% for talent in pokemon.talents %}
+                            <div>
+                                <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ante id ipsum fermentum rutrum at id magna. Donec congue bibendum nisl a cursus. Etiam condimentum ante sapien, vel mollis risus rutrum quis.</p>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Oups, il semble qu'aucun talent ne soit disponible pour ce Pokémon… Mais, attends, c'est impossible !!!</p>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+                <div class="pkm-tab-content">
+                    <div class="pkm-tab-evolution">
+                        {% if pokemon.evolution.pre %}
+                            {% for evolution in pokemon.evolution.pre %}
+                            <div>
+                                <a href="/dex/{{ unidecode(evolution.name.lower()) }}">
+                                    <img src="{{ data[evolution.pokedex_id].sprites.regular }}" alt="{{ evolution.name }}">
+                                    <h2>{{ evolution.name }}</h2>
+                                </a>
+                                {% if pokemon.evolution.pre.index(evolution) != 0 %}
+                                    <p>{{ pokemon.evolution.pre[pokemon.evolution.pre.index(evolution) - 1].condition.replace(' / ', '<br>') }}</p>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        {% endif %}
                         <div>
-                            <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ante id ipsum fermentum rutrum at id magna. Donec congue bibendum nisl a cursus. Etiam condimentum ante sapien, vel mollis risus rutrum quis.</p>
+                            <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                            <h2 style="color: var(--secondary-color);">{{ pokemon.name.fr }}</h2>
+                            {% if pokemon.evolution.pre %}
+                                <p>{{ pokemon.evolution.pre[pokemon.evolution.pre|length - 1].condition.replace(' / ', '<br>') }}</p>
+                            {% endif %}
+                        </div>
+                        {% if pokemon.evolution.next %}
+                            {% for evolution in pokemon.evolution.next %}
+                                {% if evolution.name.split(' ')|length != 3 %}
+                                <div>
+                                    <a href="/dex/{{ unidecode(evolution.name.lower()) }}">
+                                        <img src="{{ data[evolution.pokedex_id].sprites.regular }}" alt="{{ evolution.name }}">
+                                        <h2>{{ evolution.name }}</h2>
+                                    </a>
+                                    <p>{{ evolution.condition.replace(' / ', '<br>') }}</p>
+                                </div>
+                                {% else %}
+                                <div>
+                                    <a href="/dex/{{ unidecode(evolution.name.split(' ')[0].lower()) }}/{{ evolution.name.split(' ')[2].lower() }}">
+                                        <img src="{{ data_region[evolution.name.split(' ')[2].lower()][evolution.pokedex_id|string].sprites.regular }}" alt="{{ evolution.name }}">
+                                        <h2>{{ evolution.name }}</h2>
+                                    </a>
+                                    <p>{{ evolution.condition.replace(' / ', '<br>') }}</p>
+                                </div>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="pkm-egg-groups-container">
+                        <div>
+                            <h2>
+                                Groupes d'oeufs
+                                {% if pokemon.egg_groups %}
+                                    {% for group in pokemon.egg_groups %}
+                                        <span>{{ group }}</span>
+                                    {% endfor %}
+                                {% endif %}
+                            </h2>
+                        </div>
+                        <div class="pkm-compatible-reproduction">
+                            {% if pokemon.pokedex_id == 132 %}
+                                {% for pkm in data %}
+                                    {% if pkm.egg_groups %}
+                                        <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
+                                            <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
+                                            <p>{{ pkm.name.fr }}</p>
+                                        </a>
+                                    {% endif %}
+                                {% endfor %}
+                            {% elif pokemon.egg_groups %}
+                                {% for pkm in data %}
+                                    {% if pkm.egg_groups%}
+                                        {% for group in pkm.egg_groups %}
+                                            {% if pkm.pokedex_id == 132 or group in pokemon.egg_groups %}
+                                            <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
+                                                <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
+                                                <p>{{ pkm.name.fr }}</p>
+                                            </a>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Aucun Pokémon n'est compatible avec Lugia pour la reproduction.</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pkm-tab-content pkm-imagerie">
+                    <h2>Imageries</h2>
+                    <div>
+                        <div class="pkm-imagerie-image-container">
+                            <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                            <p>{{ pokemon.name.fr }}</p>
+                        </div>
+                        <div class="pkm-imagerie-image-container">
+                            {% if pokemon.sprites.shiny %}
+                                <img src="{{ pokemon.sprites.shiny }}" alt="{{ pokemon.name.fr }} Chromatique">
+                            {% else %}
+                                <div>
+                                    <p>Ce pokémon est shiny-lock.</p>
+                                </div>
+                            {% endif %}
+                            <p>{{ pokemon.name.fr }} &#x2015; Chromatique</p>
+                        </div>
+                    </div>
+
+
+                    {% if pokemon.sprites.gmax %}
+                    <h2>Gigamax</h2>
+                    <div>
+                        <div class="pkm-imagerie-image-container">
+                            <img src="{{ pokemon.sprites.gmax.regular }}" alt="{{ pokemon.name.fr }} Gigamax">
+                            <p>{{ pokemon.name.fr }} gigamax</p>
+                        </div>
+                        <div class="pkm-imagerie-image-container">
+                            {% if pokemon.sprites.gmax.shiny %}
+                                <img src="{{ pokemon.sprites.gmax.shiny }}" alt="{{ pokemon.name.fr }} Gigamax Chromatique">
+                            {% else %}
+                                <div>
+                                    <p>Ce pokémon est shiny-lock.</p>
+                                </div>
+                            {% endif %}
+                            <p>{{ pokemon.name.fr }} Gigamax &#x2015; Chromatique</p>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if pokemon.evolution.mega %}
+                    <h2>Méga-évolution</h2>
+                    <div>
+                        {% for mega in pokemon.evolution.mega %}
+                        <div class="pkm-imagerie-image-container">
+                            <img src="{{ mega.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                            <p>{{ mega.orbe }}</p>
+                        </div>
+                        <div class="pkm-imagerie-image-container">
+                            {% if mega.sprites.shiny %}
+                                <img src="{{ mega.sprites.shiny }}" alt="{{ pokemon.name.fr }}">
+                            {% else %}
+                                <div>
+                                    <p>Ce pokémon est shiny-lock.</p>
+                                </div>
+                            {% endif %}
+                            <p>{{ mega.orbe }}<br>Chromatique</p>
                         </div>
                         {% endfor %}
                     </div>
+                    {% endif %}
                 </div>
+
+
                 <div class="pkm-tab-content">
-                    <p>2</p>
-                </div>
-                <div class="pkm-tab-content">
-                    <p>3</p>
-                </div>
-                <div class="pkm-tab-content">
-                    <p>4</p>
+                    <div style="margin: 0; padding: 32px 8px 0 8px; font-variant: small-caps; font-family: 'Lexend Deca', sans-serif; text-align: center;">
+                        <h2 style="font-size: 1.5em;">Bientôt disponible...</h2>
+                        <p style="font-size: 1.25em;">Restez à l'écoute pour découvrir les nouveautés passionnantes qui arrivent!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -257,7 +410,7 @@
             {% for pkm in data %}
                 {% if pkm.pokedex_id != 0 %}
                 <div class="pkm-card">
-                    <a href="./dex/{{ unidecode(pkm.name.fr.lower()) }}">
+                    <a href="./dex/{{ unidecode(pkm.name.fr.lower().replace('♀', '-f').replace('♂', '-m')) }}">
                         <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" loading="lazy" />
                         <p>{{ pkm.name.fr }}</p>
                     </a>
@@ -272,7 +425,7 @@
 {% block javascript %}
 <script>
     function setLoading() {
-        document.getElementById('dex_data').innerHTML = '<p>Chargement...</p>';
+        document.getElementById('dex_data').innerHTML = '<div class="loading" style="display: flex; justify-content: center;"><img src="/assets/carousel/loader.svg" style="animation: 2s ease-in-out infinite loading;" /></div>';
     }
 
     document.getElementById('search-pokedex').addEventListener('submit', function(event) {

@@ -86,6 +86,9 @@ def _dex(pokemon, forme):
         pokemon=response.json(),
         forme=forme,
         data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
+        data_region=json.load(
+            open("data/pokemon/formes_regionales.json", encoding="utf8")
+        ),
     )
 
 
