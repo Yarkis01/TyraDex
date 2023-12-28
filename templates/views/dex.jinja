@@ -233,7 +233,7 @@
             {% for pkm in data %}
                 {% if pkm.pokedex_id != 0 %}
                 <div class="pkm-card">
-                    <a href="./dex/{{ pkm.name.fr.lower() }}">
+                    <a href="./dex/{{ unidecode(pkm.name.fr.lower()) }}">
                         <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" loading="lazy" />
                         <p>{{ pkm.name.fr }}</p>
                     </a>

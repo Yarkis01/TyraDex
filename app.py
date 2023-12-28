@@ -3,6 +3,7 @@ from flask_restful import Api
 from flask_minify import Minify
 from flask_squeeze import Squeeze
 from flask_cors import CORS
+from unidecode import unidecode
 
 from resources.pokemon import Pokemon, Generation
 from resources.types import Types
@@ -22,6 +23,11 @@ app.config.from_mapping(config)
 CORS(app)
 Squeeze(app)
 Minify(app=app, html=True, js=True, cssless=True)
+
+
+@app.context_processor
+def utility_processor():
+    return dict(unidecode=unidecode)
 
 
 @app.route("/")
