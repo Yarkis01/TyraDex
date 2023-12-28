@@ -73,7 +73,13 @@
                                 </tr>
                                 <tr>
                                     <td>Catégorie</td>
-                                    <td>{{ pokemon.category }}</td>
+                                    <td>
+                                        {% if pokemon.category %}
+                                            {{ pokemon.category }}
+                                        {% else %}
+                                            <i>Donnée manquante</i>
+                                        {% endif %}
+                                    </td>
                                 </tr>
                                 <tr>
                                     {% if pokemon.types|length == 1 %}
@@ -95,7 +101,13 @@
                                 </tr>
                                 <tr>
                                     <td>Poids et taille</td>
-                                    <td>{{ pokemon.weight }} <span>&#x2015;</span> {{ pokemon.height }}</td>
+                                    <td>
+                                        {% if pokemon.weight and pokemon.height %}
+                                            {{ pokemon.weight }} <span>&#x2015;</span> {{ pokemon.height }}
+                                        {% else %}
+                                            <i>Donnée manquante</i>
+                                        {% endif %}
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Sexe</td>
@@ -107,11 +119,23 @@
                                 </tr>
                                 <tr>
                                     <td>Niveau 100</td>
-                                    <td>{{ '{:,}'.format(pokemon.level_100) }} pts d'expériences</td>
+                                    <td>
+                                        {% if pokemon.level_100 %}
+                                            {{ '{:,}'.format(pokemon.level_100) }} pts d'expériences
+                                        {% else %}
+                                            <i>Donnée manquante</i>
+                                        {% endif %}
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Catch Rate</td>
-                                    <td>{{ pokemon.catch_rate }}</td>
+                                    <td>
+                                        {% if pokemon.catch_rate %}
+                                            {{ pokemon.catch_rate }}
+                                        {% else %}
+                                            <i>Donnée manquante</i>
+                                        {% endif %}
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
