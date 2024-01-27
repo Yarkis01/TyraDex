@@ -126174,7 +126174,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Intimidation",
+                "tc": false
+            },
+            {
+                "name": "Fouille",
+                "tc": false
+            },
+            {
+                "name": "Herbivore",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 103,
             "atk": 105,
@@ -126270,13 +126283,13 @@
         },
         "height": "1,8m",
         "weight": "95,1 kg",
-        "egg_groups": null,
+        "egg_groups": ["Terrestre"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -126303,7 +126316,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Essaim",
+                "tc": false
+            },
+            {
+                "name": "Sans Limite",
+                "tc": false
+            },
+            {
+                "name": "Incisif",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 70,
             "atk": 135,
@@ -126399,13 +126425,13 @@
         },
         "height": "1,8m",
         "weight": "89,0 kg",
-        "egg_groups": null,
+        "egg_groups": ["Insecto\u00efde"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 15,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -126432,7 +126458,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Cran",
+                "tc": false
+            },
+            {
+                "name": "Pare-Balles",
+                "tc": false
+            },
+            {
+                "name": "Tension",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 130,
             "atk": 140,
@@ -126533,13 +126572,13 @@
         },
         "height": "2,4m",
         "weight": "290,0 kg",
-        "egg_groups": null,
+        "egg_groups": ["Terrestre"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 20,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -126566,7 +126605,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Glissade",
+                "tc": false
+            },
+            {
+                "name": "Adaptabilit\u00e9",
+                "tc": false
+            },
+            {
+                "name": "Brise Moule",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 120,
             "atk": 112,
@@ -126662,13 +126714,13 @@
         },
         "height": "3,0m",
         "weight": "110,0 kg",
-        "egg_groups": null,
+        "egg_groups": ["Aquatique 2"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -126695,7 +126747,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Pression",
+                "tc": false
+            },
+            {
+                "name": "D\u00e9lestage",
+                "tc": false
+            },
+            {
+                "name": "Toxitouche",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 80,
             "atk": 130,
@@ -126783,7 +126848,7 @@
                 {
                     "pokedex_id": 215,
                     "name": "Farfuret de Hisui",
-                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir (PLA)"
+                    "condition":"+1 Niveau avec Griffe Rasoir / Contact d'une Griffe Rasoir"
                 }
             ],
             "next": null,
@@ -126791,13 +126856,13 @@
         },
         "height": "1,3m",
         "weight": "43,0 kg",
-        "egg_groups": null,
+        "egg_groups": ["Terrestre"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 20,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -126811,7 +126876,7 @@
         },
         "sprites": {
             "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/904/regular.png",
-            "shiny": null,
+            "shiny": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/904/shiny.png",
             "gmax": null
         },
         "types": [
@@ -126824,7 +126889,20 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Point Poison",
+                "tc": false
+            },
+            {
+                "name": "Glissade",
+                "tc": false
+            },
+            {
+                "name": "Intimidation",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 85,
             "atk": 115,
@@ -126920,13 +126998,13 @@
         },
         "height": "2,5m",
         "weight": "60,5 kg",
-        "egg_groups": null,
+        "egg_groups": ["Aquatique 2"],
         "sexe": {
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -126953,7 +127031,16 @@
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png"
             }
         ],
-        "talents": null,
+        "talents": [
+            {
+                "name": "Joli Sourire",
+                "tc": false
+            },
+            {
+                "name": "Contestation",
+                "tc": true
+            }
+        ],
         "stats": {
             "hp": 74,
             "atk": 115,
@@ -127044,8 +127131,8 @@
             "male": 0.0,
             "female": 100.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 3,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -127186,8 +127273,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -127329,8 +127416,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -127475,8 +127562,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -127616,8 +127703,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -127758,8 +127845,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -127903,8 +127990,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -128045,8 +128132,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -128188,8 +128275,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -128334,8 +128421,8 @@
             "male": 87.5,
             "female": 12.5
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -128474,8 +128561,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 255,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -128500,7 +128587,11 @@
         ],
         "talents": [
             {
-                "name": "Odeur Tenace (Male) / Aroma-Voile (Femelle)",
+                "name": "Odeur Tenace (Male)",
+                "tc": false
+            },
+            {
+                "name": "Aroma-Voile (Femelle)",
                 "tc": false
             },
             {
@@ -128615,7 +128706,7 @@
             "female": 50.0
         },
         "catch_rate": 100,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -128750,8 +128841,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 255,
+        "level_100": 600000,
         "formes": null
     },
     {
@@ -128886,8 +128977,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 120,
+        "level_100": 600000,
         "formes": null
     },
     {
@@ -129022,8 +129113,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -129162,8 +129253,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 30,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -129307,8 +129398,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -129457,8 +129548,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 80,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -129606,8 +129697,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -129744,8 +129835,8 @@
             "F\u00e9erique"
         ],
         "sexe": null,
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 150,
+        "level_100": 800000,
         "formes": null
     },
     {
@@ -129882,8 +129973,8 @@
             "F\u00e9erique"
         ],
         "sexe": null,
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 75,
+        "level_100": 800000,
         "formes": null
     },
     {
@@ -130019,8 +130110,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -130156,8 +130247,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 90,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -130301,8 +130392,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 255,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -130447,8 +130538,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 120,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -130592,8 +130683,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -130727,7 +130818,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": null,
+        "level_100": 600000,
         "formes": null
     },
     {
@@ -130871,8 +130962,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 255,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -131017,8 +131108,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 120,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -131162,8 +131253,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -131304,7 +131395,7 @@
             "female": 50.0
         },
         "catch_rate": 90,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -131443,7 +131534,7 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
+        "catch_rate": 25,
         "level_100": 1250000,
         "formes": null
     },
@@ -131583,7 +131674,7 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
+        "catch_rate": 25,
         "level_100": 1250000,
         "formes": null
     },
@@ -131724,7 +131815,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -131864,7 +131955,7 @@
             "female": 50.0
         },
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -132009,7 +132100,7 @@
             "female": 50.0
         },
         "catch_rate": 180,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132154,7 +132245,7 @@
             "female": 50.0
         },
         "catch_rate": 90,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132293,8 +132384,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 150,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132434,7 +132525,7 @@
             "female": 50.0
         },
         "catch_rate": 75,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132577,8 +132668,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132721,8 +132812,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 90,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -132861,8 +132952,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -133001,8 +133092,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -133137,8 +133228,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -133273,8 +133364,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 90,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -133404,7 +133495,7 @@
             "female": 50.0
         },
         "catch_rate": 120,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -133544,7 +133635,7 @@
             "female": 50.0
         },
         "catch_rate": 190,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -133687,8 +133778,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 75,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -133823,8 +133914,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 800000,
         "formes": null
     },
     {

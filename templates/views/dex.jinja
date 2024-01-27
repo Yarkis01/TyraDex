@@ -3,14 +3,16 @@
 {% block content %}
 <section>
     <form id="search-pokedex">
-        <input type="text" placeholder="Entrer le nom d'un Pokémon...">
+        <input type="text" placeholder="Entrer le nom d'un Pokémon…" value="{{ pokemon.name.fr if pokemon else '' }}">
         <input type="submit" value="Rechercher" />
     </form>
 </section>
 
 <section id="dex_data">
     {% if erreur %}
-        <p>Le pokémon spécifié n'existe pas.</p>
+        <div style="background-color: #e74c3c; border-radius: 8px; opacity: 0.85;">
+            <p style="font-family: 'Roboto', sans-serif; text-align: center; padding: 16px; margin: 16px;">Le Pokémon spécifié n'existe pas. Veuillez réessayer avec un autre nom.</p>
+        </div>
     {% elif pokemon %}
         <div class="pkm-data-name">
             <h2>{{ pokemon.name.fr }} <span title="Nom anglais" lang="en">- {{ pokemon.name.en }}</span></h2>
@@ -128,7 +130,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Catch Rate</td>
+                                    <td>Taux de capture</td>
                                     <td>
                                         {% if pokemon.catch_rate %}
                                             {{ pokemon.catch_rate }}
@@ -325,7 +327,7 @@
                                     {% endif %}
                                 {% endfor %}
                             {% else %}
-                                <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Aucun Pokémon n'est compatible avec Lugia pour la reproduction.</p>
+                                <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Aucun Pokémon n'est compatible avec <strong>{{ pokemon.name.fr }}</strong> pour la reproduction.</p>
                             {% endif %}
                         </div>
                     </div>
@@ -404,13 +406,15 @@
                 </div>
             </div>
         </div>
-    {% else %}
+    {% endif %}
+
+    {% if erreur or pokemon == None %}
         <p class="pkm-list-text">Liste des Pokémons</p>
         <div class="pkm-card-container">
             {% for pkm in data %}
                 {% if pkm.pokedex_id != 0 %}
                 <div class="pkm-card">
-                    <a href="./dex/{{ unidecode(pkm.name.fr.lower().replace('♀', '-f').replace('♂', '-m')) }}">
+                    <a href="/dex/{{ unidecode(pkm.name.fr.lower().replace('♀', '-f').replace('♂', '-m')) }}">
                         <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" loading="lazy" />
                         <p>{{ pkm.name.fr }}</p>
                     </a>
@@ -432,11 +436,11 @@
         event.preventDefault();
 
         const pokemon = document.querySelector('input[type="text"]').value.toLowerCase().replace(' ', '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        if (pokemon === undefined || pokemon === '')
+        if (pokemon === undefined || pokemon === '' || pokemon.includes('..') || pokemon.includes('./'))
             return;
 
         setLoading();
-        window.location.href = '/dex/' + pokemon;
+        window.location.href = '/dex/' + encodeURIComponent(pokemon);
     });
 
     {% if pokemon %}
@@ -447,9 +451,9 @@
         setLoading();
 
         if (forme === 'default') {
-            window.location.href = '/dex/' + name;
+            window.location.href = '/dex/' + encodeURIComponent(name);
         } else {
-            window.location.href = '/dex/' + name + '/' + forme;
+            window.location.href = '/dex/' + encodeURIComponent(name) + '/' + encodeURIComponent(forme);
         }
     });
     {% endif %}

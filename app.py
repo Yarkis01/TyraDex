@@ -4,6 +4,7 @@ from flask_minify import Minify
 from flask_squeeze import Squeeze
 from flask_cors import CORS
 from unidecode import unidecode
+from werkzeug.utils import secure_filename
 
 from resources.pokemon import Pokemon, Generation
 from resources.types import Types
@@ -67,7 +68,7 @@ def _dex(pokemon, forme):
             data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
         )
 
-    pokemon = pokemon.lower()
+    pokemon = secure_filename(pokemon.lower())
     url = f"{request.host_url}api/v1/pokemon/{pokemon}"
     if forme:
         forme = forme.lower()
@@ -77,7 +78,11 @@ def _dex(pokemon, forme):
 
     if response.status_code != 200 or "status" in response.json():
         return render_template(
-            "views/dex.jinja", erreur=True, pokemon=None, forme=None, data=None
+            "views/dex.jinja",
+            erreur=True,
+            pokemon=None,
+            forme=None,
+            data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
         )
 
     return render_template(
