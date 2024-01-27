@@ -4,7 +4,7 @@
 https://tyradex.tech/api/v1/types/<type1>/[type2]
 ```
 
-Permet d'obtenir des informations sur un Pokémon spécifique.<br>
+Permet d'obtenir des informations sur un type spécifique.<br>
 [Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types/fire) 
 
 # Paramètres
