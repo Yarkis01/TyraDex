@@ -4,7 +4,6 @@ from flask_minify import Minify
 from flask_squeeze import Squeeze
 from flask_cors import CORS
 from unidecode import unidecode
-from werkzeug.utils import secure_filename
 
 from resources.pokemon import Pokemon, Generation
 from resources.types import Types
@@ -68,8 +67,7 @@ def _dex(pokemon, forme):
             data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
         )
 
-    pokemon = secure_filename(pokemon.lower())
-    url = f"{request.host_url}api/v1/pokemon/{pokemon}"
+    url = f"{request.host_url}api/v1/pokemon/{pokemon.lower()}"
     if forme:
         forme = forme.lower()
         url += f"/{forme}"

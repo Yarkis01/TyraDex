@@ -1,6 +1,6 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/pokemon/&lt;identifiant&gt;]</span> Fiche d'un Pokémon</h1>
 
-```http
+```text
 https://tyradex.tech/api/v1/pokemon/<identifiant>/[region]
 ```
 
@@ -14,7 +14,7 @@ Permet d'obtenir des informations sur un Pokémon spécifique.<br>
 | region | Optionnel | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forme régionale d'un Pokémon. |
 
 ## Curl
-```curl
+```sh
 curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \

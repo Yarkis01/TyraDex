@@ -1,6 +1,6 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/&lt;type&gt;]</span> Types</h1>
 
-```http
+```text
 https://tyradex.tech/api/v1/types/<type1>/[type2]
 ```
 
@@ -14,7 +14,7 @@ Permet d'obtenir des informations sur un type spécifique.<br>
 | Type 2 | Optionnel | `Int` ou `String` | Correspond au deuxième type souhaité. <br>Avec la combinaison, cela vous permet d'obtenir les Pokémons possédants ce double type. |
 
 ## Curl
-```curl
+```sh
 curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
