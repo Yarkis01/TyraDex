@@ -314,14 +314,16 @@
                                     {% endif %}
                                 {% endfor %}
                             {% elif pokemon.egg_groups %}
+                                {% set pokemon_already_added = [] %}
                                 {% for pkm in data %}
-                                    {% if pkm.egg_groups%}
+                                    {% if pkm.egg_groups %}
                                         {% for group in pkm.egg_groups %}
-                                            {% if pkm.pokedex_id == 132 or group in pokemon.egg_groups %}
-                                            <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
-                                                <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
-                                                <p>{{ pkm.name.fr }}</p>
-                                            </a>
+                                            {% if (pkm.pokedex_id == 132 or group in pokemon.egg_groups) and pkm not in pokemon_already_added %}
+                                                <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
+                                                    <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
+                                                    <p>{{ pkm.name.fr }}</p>
+                                                </a>
+                                                {% set _ = pokemon_already_added.append(pkm) %}
                                             {% endif %}
                                         {% endfor %}
                                     {% endif %}
