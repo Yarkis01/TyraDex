@@ -4,7 +4,7 @@
 https://tyradex.tech/api/v1/types
 ```
 
-Permet d'obtenir des informations sur un Pokémon spécifique.<br>
+Permet d'obtenir la liste de tous les types.<br>
 [Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types)
 
 ## Curl
