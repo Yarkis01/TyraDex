@@ -94,22 +94,27 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    {% if pokemon.types|length == 1 %}
-                                        <td>Type</td>
+                                    {% if pokemon.pokedex_id != 0 %}
+                                        {% if pokemon.types|length == 1 %}
+                                            <td>Type</td>
+                                        {% else %}
+                                            <td>Types</td>
+                                        {% endif %}
+                                        <td class="pkm-types-container">
+                                            {% for type in pokemon.types %}
+                                                <div>
+                                                    {% if pokemon.types.index(type) == 1 %}
+                                                        <span>&#x2015;</span>
+                                                    {% endif %}
+                                                    <img src="{{ type.image }}" alt="{{ type.name }}" title="{{ type.name }}">
+                                                    <p>{{ type.name }}</p>
+                                                </div>
+                                            {% endfor %}
+                                        </td>
                                     {% else %}
-                                        <td>Types</td>
+                                        <td>Type</td>
+                                        <td><i>Donnée manquante</i></td>
                                     {% endif %}
-                                    <td class="pkm-types-container">
-                                        {% for type in pokemon.types %}
-                                            <div>
-                                                {% if pokemon.types.index(type) == 1 %}
-                                                    <span>&#x2015;</span>
-                                                {% endif %}
-                                                <img src="{{ type.image }}" alt="{{ type.name }}" title="{{ type.name }}">
-                                                <p>{{ type.name }}</p>
-                                            </div>
-                                        {% endfor %}
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Poids et taille</td>
@@ -153,116 +158,118 @@
                         </table>
                     </div>
 
-                    <div class="pkm-tab-resistance-container-with-title">
-                        <p>{{ pokemon.name.fr }} est vulnérable aux attaques de type:</p>
-                        <div class="pkm-tab-resistance-container">
-                            {% for resistance in pokemon.resistances %}
-                                <div>
-                                    <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/{{ resistance.name.lower().replace('é', 'e').replace('è', 'e') }}.png" alt="{{ resistance.name }}" title="{{ resistance.name }}">
-                                    {% if resistance.multiplier == 0.25 %}
-                                        <p class="pkm-tab-resistance" style="background-color: #27ae60;">¼</p>
-                                    {% elif resistance.multiplier == 0.5 %}
-                                        <p class="pkm-tab-resistance" style="background-color: #2ecc71;">½</p>
-                                    {% elif resistance.multiplier == 2 %}
-                                        <p class="pkm-tab-resistance" style="background-color: #e67e22;">×2</p>
-                                    {% elif resistance.multiplier == 4 %}
-                                        <p class="pkm-tab-resistance" style="background-color: #e74c3c;">×4</p>
-                                    {% elif resistance.multiplier == 0 %}
-                                        <p class="pkm-tab-resistance" style="background-color: #7f8c8d;">0</p>
-                                    {% else %}
-                                        <p class="pkm-tab-resistance" style="background-color: var(--primary-background-color);">{{ resistance.multiplier }}</p>
-                                    {% endif %}
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-
-                    <div class="pkm-tab-stats-container">
-                        <table class="dex-table">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">Statistiques</th>
-                                </tr>
-                            </thead>
-                            <tbody class="dex-table-stats">
-                                {% for key, value in pokemon.stats.items() %}
-                                <tr>
-                                    <td>
-                                        {% if key == "hp" %}
-                                            Point de vie
-                                        {% elif key == "atk" %}
-                                            Attaque
-                                        {% elif key == "def" %}
-                                            Défense
-                                        {% elif key == "spe_atk" %}
-                                            Attaque spéciale
-                                        {% elif key == "spe_def" %}
-                                            Défense spéciale
-                                        {% elif key == "vit" %}
-                                            Vitesse
+                    {% if pokemon.pokedex_id != 0 %}
+                        <div class="pkm-tab-resistance-container-with-title">
+                            <p>{{ pokemon.name.fr }} est vulnérable aux attaques de type:</p>
+                            <div class="pkm-tab-resistance-container">
+                                {% for resistance in pokemon.resistances %}
+                                    <div>
+                                        <img src="https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/{{ resistance.name.lower().replace('é', 'e').replace('è', 'e') }}.png" alt="{{ resistance.name }}" title="{{ resistance.name }}">
+                                        {% if resistance.multiplier == 0.25 %}
+                                            <p class="pkm-tab-resistance" style="background-color: #27ae60;">¼</p>
+                                        {% elif resistance.multiplier == 0.5 %}
+                                            <p class="pkm-tab-resistance" style="background-color: #2ecc71;">½</p>
+                                        {% elif resistance.multiplier == 2 %}
+                                            <p class="pkm-tab-resistance" style="background-color: #e67e22;">×2</p>
+                                        {% elif resistance.multiplier == 4 %}
+                                            <p class="pkm-tab-resistance" style="background-color: #e74c3c;">×4</p>
+                                        {% elif resistance.multiplier == 0 %}
+                                            <p class="pkm-tab-resistance" style="background-color: #7f8c8d;">0</p>
                                         {% else %}
-                                            {{ key }}
+                                            <p class="pkm-tab-resistance" style="background-color: var(--primary-background-color);">{{ resistance.multiplier }}</p>
                                         {% endif %}
-                                    </td>
-                                    <td class="dex-stats-td">
-                                        <div class="dex-stats-progress-bar">
-                                            {% if (value / 200) * 100 < 15.0 %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #e74c3c;">{{ value }}</p>
-                                            {% elif (value / 200) * 100 < 30.0 %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #e67e22;">{{ value }}</p>
-                                            {% elif (value / 200) * 100 < 50.0 %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #f1c40f;">{{ value }}</p>
-                                            {% elif (value / 200) * 100 < 70.0 %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #1abc9c;">{{ value }}</p>
-                                            {% elif (value / 200) * 100 < 85.0 %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #2ecc71;">{{ value }}</p>
-                                            {% else %}
-                                                <p style="width: {{ (value / 200) * 100 }}%; background-color: #3498db;">{{ value }}</p>
-                                            {% endif %}
-                                        </div>
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                            </tbody>
-                        </table>
-                        <table class="dex-table">
-                            <thead>
-                                <tr>
-                                    <th colspan="2">Numéros régionaux</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% if pokemon.regional_id %}
-                                    {% for id in pokemon.regional_id %}
-                                    <tr>
-                                        <td>{{ id.name }}</td>
-                                        <td>{{ id.value }}</td>
-                                    </tr>
-                                    {% endfor %}
-                                {% else %}
-                                    <tr>
-                                        <td style="display: none;"></td>
-                                        <td style="text-align: center; font-family: 'Lexend Deca', sans-serif; font-variant: small-caps;">Aucune donnée disponible</td>
-                                    </tr>
-                                {% endif %}
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="pkm-talents-container">
-                        <h2>Talent du pokémon</h2>
-                        {% if pokemon.talents %}
-                            <div class="pkm-talents-element-container">
-                                {% for talent in pokemon.talents %}
-                                <div class="pkm-talents-element">
-                                    <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
-                                </div>
+                                    </div>
                                 {% endfor %}
                             </div>
-                        {% else %}
-                            <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Oups, il semble qu'aucun talent ne soit disponible pour ce Pokémon… Mais, attends, c'est impossible !!!</p>
-                        {% endif %}
-                    </div>
+                        </div>
+
+                        <div class="pkm-tab-stats-container">
+                            <table class="dex-table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Statistiques</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="dex-table-stats">
+                                    {% for key, value in pokemon.stats.items() %}
+                                    <tr>
+                                        <td>
+                                            {% if key == "hp" %}
+                                                Point de vie
+                                            {% elif key == "atk" %}
+                                                Attaque
+                                            {% elif key == "def" %}
+                                                Défense
+                                            {% elif key == "spe_atk" %}
+                                                Attaque spéciale
+                                            {% elif key == "spe_def" %}
+                                                Défense spéciale
+                                            {% elif key == "vit" %}
+                                                Vitesse
+                                            {% else %}
+                                                {{ key }}
+                                            {% endif %}
+                                        </td>
+                                        <td class="dex-stats-td">
+                                            <div class="dex-stats-progress-bar">
+                                                {% if (value / 200) * 100 < 15.0 %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #e74c3c;">{{ value }}</p>
+                                                {% elif (value / 200) * 100 < 30.0 %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #e67e22;">{{ value }}</p>
+                                                {% elif (value / 200) * 100 < 50.0 %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #f1c40f;">{{ value }}</p>
+                                                {% elif (value / 200) * 100 < 70.0 %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #1abc9c;">{{ value }}</p>
+                                                {% elif (value / 200) * 100 < 85.0 %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #2ecc71;">{{ value }}</p>
+                                                {% else %}
+                                                    <p style="width: {{ (value / 200) * 100 }}%; background-color: #3498db;">{{ value }}</p>
+                                                {% endif %}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            <table class="dex-table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Numéros régionaux</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% if pokemon.regional_id %}
+                                        {% for id in pokemon.regional_id %}
+                                        <tr>
+                                            <td>{{ id.name }}</td>
+                                            <td>{{ id.value }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    {% else %}
+                                        <tr>
+                                            <td style="display: none;"></td>
+                                            <td style="text-align: center; font-family: 'Lexend Deca', sans-serif; font-variant: small-caps;">Aucune donnée disponible</td>
+                                        </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="pkm-talents-container">
+                            <h2>Talent du pokémon</h2>
+                            {% if pokemon.talents %}
+                                <div class="pkm-talents-element-container">
+                                    {% for talent in pokemon.talents %}
+                                    <div class="pkm-talents-element">
+                                        <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Oups, il semble qu'aucun talent ne soit disponible pour ce Pokémon… Mais, attends, c'est impossible !!!</p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
                 </div>
 
 
@@ -326,7 +333,7 @@
                                 {% for pkm in data %}
                                     {% if pkm.egg_groups %}
                                         <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
-                                            <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
+                                            <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" loading="lazy"/>
                                             <p>{{ pkm.name.fr }}</p>
                                         </a>
                                     {% endif %}
@@ -338,7 +345,7 @@
                                         {% for group in pkm.egg_groups %}
                                             {% if (pkm.pokedex_id == 132 or group in pokemon.egg_groups) and pkm not in pokemon_already_added %}
                                                 <a href="/dex/{{ unidecode(pkm.name.fr.lower()) }}">
-                                                    <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" />
+                                                    <img src="{{ pkm.sprites.regular }}" alt="{{ pkm.name.fr }}" title="{{ pkm.name.fr }}" loading="lazy"/>
                                                     <p>{{ pkm.name.fr }}</p>
                                                 </a>
                                                 {% set _ = pokemon_already_added.append(pkm) %}
@@ -358,12 +365,12 @@
                     <h2>Imageries</h2>
                     <div>
                         <div class="pkm-imagerie-image-container">
-                            <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                            <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}" loading="lazy">
                             <p>{{ pokemon.name.fr }}</p>
                         </div>
                         <div class="pkm-imagerie-image-container">
                             {% if pokemon.sprites.shiny %}
-                                <img src="{{ pokemon.sprites.shiny }}" alt="{{ pokemon.name.fr }} Chromatique">
+                                <img src="{{ pokemon.sprites.shiny }}" alt="{{ pokemon.name.fr }} Chromatique" loading="lazy">
                             {% else %}
                                 <div>
                                     <p>Ce pokémon est shiny-lock.</p>
@@ -378,12 +385,12 @@
                     <h2>Gigamax</h2>
                     <div>
                         <div class="pkm-imagerie-image-container">
-                            <img src="{{ pokemon.sprites.gmax.regular }}" alt="{{ pokemon.name.fr }} Gigamax">
+                            <img src="{{ pokemon.sprites.gmax.regular }}" alt="{{ pokemon.name.fr }} Gigamax"  loading="lazy">
                             <p>{{ pokemon.name.fr }} gigamax</p>
                         </div>
                         <div class="pkm-imagerie-image-container">
                             {% if pokemon.sprites.gmax.shiny %}
-                                <img src="{{ pokemon.sprites.gmax.shiny }}" alt="{{ pokemon.name.fr }} Gigamax Chromatique">
+                                <img src="{{ pokemon.sprites.gmax.shiny }}" alt="{{ pokemon.name.fr }} Gigamax Chromatique" loading="lazy">
                             {% else %}
                                 <div>
                                     <p>Ce pokémon est shiny-lock.</p>
@@ -399,12 +406,12 @@
                     <div>
                         {% for mega in pokemon.evolution.mega %}
                         <div class="pkm-imagerie-image-container">
-                            <img src="{{ mega.sprites.regular }}" alt="{{ pokemon.name.fr }}">
+                            <img src="{{ mega.sprites.regular }}" alt="{{ pokemon.name.fr }}" loading="lazy">
                             <p>{{ mega.orbe }}</p>
                         </div>
                         <div class="pkm-imagerie-image-container">
                             {% if mega.sprites.shiny %}
-                                <img src="{{ mega.sprites.shiny }}" alt="{{ pokemon.name.fr }}">
+                                <img src="{{ mega.sprites.shiny }}" alt="{{ pokemon.name.fr }}" loading="lazy">
                             {% else %}
                                 <div>
                                     <p>Ce pokémon est shiny-lock.</p>
@@ -466,7 +473,7 @@
     {% if pokemon %}
         document.getElementById('pkm-switch-forme').addEventListener('change', function() {
             const forme = document.getElementById('pkm-switch-forme').value;
-            const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}';
+            const name = '{{ unidecode(pokemon.name.fr.lower().split(' ')[0]) }}';
 
             setLoading();
 
@@ -479,7 +486,7 @@
 
         {% if pokemon.pokedex_id > 1 %}
             document.getElementById('button-pkm-prev').addEventListener('click', () => {
-                window.location.href = '/dex/{{ data[pokemon.pokedex_id - 1].name.fr.lower() }}';
+                window.location.href = '/dex/{{ unidecode(data[pokemon.pokedex_id - 1].name.fr.lower()) }}';
             });
         {% else %}
             document.getElementById('button-pkm-prev').style.visibility = 'hidden';
@@ -487,7 +494,7 @@
 
         {% if pokemon.pokedex_id < (data|length - 1) %}
             document.getElementById('button-pkm-next').addEventListener('click', () => {
-                window.location.href = '/dex/{{ data[pokemon.pokedex_id + 1].name.fr.lower() }}';
+                window.location.href = '/dex/{{ unidecode(data[pokemon.pokedex_id + 1].name.fr.lower()) }}';
             });
         {% else %}
             document.getElementById('button-pkm-next').style.visibility = 'hidden';
