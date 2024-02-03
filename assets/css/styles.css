@@ -1030,3 +1030,30 @@ th {background-color: var(--secondary-background-color);}
 }
 
 .pkm-egg-groups-container h2 span {font-variant: normal;}
+
+.pkm-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pkm-container button {
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pkm-container button img {margin: 0 -8px;}
+
+.pkm-container button span {
+    margin: 0 8px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    font-variant: small-caps;
+}

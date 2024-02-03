@@ -14,25 +14,35 @@
             <p style="font-family: 'Roboto', sans-serif; text-align: center; padding: 16px; margin: 16px;">Le Pokémon spécifié n'existe pas. Veuillez réessayer avec un autre nom.</p>
         </div>
     {% elif pokemon %}
-        <div class="pkm-data-name">
-            <h2>{{ pokemon.name.fr }} <span title="Nom anglais" lang="en">- {{ pokemon.name.en }}</span></h2>
+        <div class="pkm-container">
+            <button id="button-pkm-prev">
+                <img src="/assets/carousel/chevron_left.svg">
+                <span>Pokémon Précédent</span>
+            </button>
+            <div class="pkm-data-name">
+                <h2>{{ pokemon.name.fr }} <span title="Nom anglais" lang="en">- {{ pokemon.name.en }}</span></h2>
 
-            {% if pokemon.formes %}
-            <select id="pkm-switch-forme">
-            {% else %}
-            <select id="pkm-switch-forme" disabled>
-            {% endif %}
-                <option value="default">Non spécifié</option>
                 {% if pokemon.formes %}
-                    {% for pkm_forme in pokemon.formes %}
-                        {% if forme == pkm_forme.region %}
-                            <option value="{{ pkm_forme.region }}" selected>{{ pkm_forme.region.capitalize() }}</option>
-                        {% else %}
-                            <option value="{{ pkm_forme.region }}">{{ pkm_forme.region.capitalize() }}</option>
-                        {% endif %}
-                    {% endfor %}
+                <select id="pkm-switch-forme">
+                {% else %}
+                <select id="pkm-switch-forme" disabled>
                 {% endif %}
-            </select>
+                    <option value="default">Non spécifié</option>
+                    {% if pokemon.formes %}
+                        {% for pkm_forme in pokemon.formes %}
+                            {% if forme == pkm_forme.region %}
+                                <option value="{{ pkm_forme.region }}" selected>{{ pkm_forme.region.capitalize() }}</option>
+                            {% else %}
+                                <option value="{{ pkm_forme.region }}">{{ pkm_forme.region.capitalize() }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </select>
+            </div>
+            <button id="button-pkm-next">
+                <span>Pokémon Suivant</span>
+                <img src="/assets/carousel/chevron_right.svg">
+            </button>
         </div>
 
         <div class="pkm-panel">
@@ -454,18 +464,34 @@
     });
 
     {% if pokemon %}
-    document.getElementById('pkm-switch-forme').addEventListener('change', function() {
-        const forme = document.getElementById('pkm-switch-forme').value;
-        const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        document.getElementById('pkm-switch-forme').addEventListener('change', function() {
+            const forme = document.getElementById('pkm-switch-forme').value;
+            const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-        setLoading();
+            setLoading();
 
-        if (forme === 'default') {
-            window.location.href = '/dex/' + encodeURIComponent(name);
-        } else {
-            window.location.href = '/dex/' + encodeURIComponent(name) + '/' + encodeURIComponent(forme);
-        }
-    });
+            if (forme === 'default') {
+                window.location.href = '/dex/' + encodeURIComponent(name);
+            } else {
+                window.location.href = '/dex/' + encodeURIComponent(name) + '/' + encodeURIComponent(forme);
+            }
+        });
+
+        {% if pokemon.pokedex_id > 1 %}
+            document.getElementById('button-pkm-prev').addEventListener('click', () => {
+                window.location.href = '/dex/{{ data[pokemon.pokedex_id - 1].name.fr.lower() }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            });
+        {% else %}
+            document.getElementById('button-pkm-prev').style.visibility = 'hidden';
+        {% endif %}
+
+        {% if pokemon.pokedex_id < (data|length - 1) %}
+            document.getElementById('button-pkm-next').addEventListener('click', () => {
+                window.location.href = '/dex/{{ data[pokemon.pokedex_id + 1].name.fr.lower() }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            });
+        {% else %}
+            document.getElementById('button-pkm-next').style.visibility = 'hidden';
+        {% endif %}
     {% endif %}
 </script>
 {% endblock %}
