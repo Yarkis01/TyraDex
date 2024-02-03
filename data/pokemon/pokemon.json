@@ -134054,8 +134054,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 800000,
         "formes": null
     },
     {
@@ -134194,8 +134194,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 120,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -134334,8 +134334,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 60,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -134484,7 +134484,7 @@
             "female": 100.0
         },
         "catch_rate": 190,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -134634,7 +134634,7 @@
             "female": 100.0
         },
         "catch_rate": 90,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -134782,8 +134782,8 @@
             "male": 0.0,
             "female": 100.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -134922,8 +134922,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 255,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -135062,8 +135062,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 50,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -135196,8 +135196,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 25,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -135329,8 +135329,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 200,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -135462,8 +135462,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -135602,8 +135602,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -135742,8 +135742,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 75,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -135872,8 +135872,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 190,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -135999,7 +135999,7 @@
             "female": 50.0
         },
         "catch_rate": 25,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -136139,7 +136139,7 @@
             "female": 50.0
         },
         "catch_rate": 70,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136278,8 +136278,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 25,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136414,8 +136414,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 120,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136550,8 +136550,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 60,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136685,7 +136685,7 @@
             "female": 50.0
         },
         "catch_rate": 100,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136824,8 +136824,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 150,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -136965,7 +136965,7 @@
             "female": 50.0
         },
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -137095,7 +137095,7 @@
             "female": 50.0
         },
         "catch_rate": 100,
-        "level_100": null,
+        "level_100": 800000,
         "formes": null
     },
     {
@@ -137225,7 +137225,7 @@
             "female": 50.0
         },
         "catch_rate": 25,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -137355,7 +137355,7 @@
             "female": 50.0
         },
         "catch_rate": 100,
-        "level_100": null,
+        "level_100": 1059860,
         "formes": null
     },
     {
@@ -137503,8 +137503,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -137648,8 +137648,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 90,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -137792,8 +137792,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -137933,7 +137933,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": null,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -138081,8 +138081,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 25,
+        "level_100": 1000000,
         "formes": null
     },
     {
@@ -138203,7 +138203,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138324,7 +138324,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138445,7 +138445,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138566,7 +138566,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138687,7 +138687,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138808,7 +138808,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -138929,7 +138929,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139050,7 +139050,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139171,7 +139171,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 50,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139292,7 +139292,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139413,7 +139413,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139534,7 +139534,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 30,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139680,7 +139680,7 @@
             "female": 50.0
         },
         "catch_rate": 45,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139827,7 +139827,7 @@
             "female": 50.0
         },
         "catch_rate": 25,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -139972,8 +139972,8 @@
             "male": 50.0,
             "female": 50.0
         },
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 10,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140099,8 +140099,8 @@
         "weight": "5,0 kg",
         "egg_groups": null,
         "sexe": null,
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140230,8 +140230,8 @@
         "weight": "30,0 kg",
         "egg_groups": null,
         "sexe": null,
-        "catch_rate": null,
-        "level_100": null,
+        "catch_rate": 45,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140352,7 +140352,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140473,7 +140473,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140502,7 +140502,7 @@
         ],
         "talents": [
             {
-                "name": "\u00c9p\u00e9e du Fl\u00e9au",
+                "name": "Urne du Fl\u00e9au",
                 "tc": false
             }
         ],
@@ -140594,7 +140594,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140623,7 +140623,7 @@
         ],
         "talents": [
             {
-                "name": "\u00c9p\u00e9e du Fl\u00e9au",
+                "name": "Perles du Fl\u00e9au",
                 "tc": false
             }
         ],
@@ -140715,7 +140715,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 6,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140836,7 +140836,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -140957,7 +140957,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 10,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -141320,7 +141320,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
     {
@@ -141441,7 +141441,7 @@
         "egg_groups": null,
         "sexe": null,
         "catch_rate": 5,
-        "level_100": null,
+        "level_100": 1250000,
         "formes": null
     },
 	{
