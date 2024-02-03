@@ -466,7 +466,7 @@
     {% if pokemon %}
         document.getElementById('pkm-switch-forme').addEventListener('change', function() {
             const forme = document.getElementById('pkm-switch-forme').value;
-            const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            const name = '{{ pokemon.name.fr.lower().split(' ')[0] }}';
 
             setLoading();
 
@@ -479,7 +479,7 @@
 
         {% if pokemon.pokedex_id > 1 %}
             document.getElementById('button-pkm-prev').addEventListener('click', () => {
-                window.location.href = '/dex/{{ data[pokemon.pokedex_id - 1].name.fr.lower() }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                window.location.href = '/dex/{{ data[pokemon.pokedex_id - 1].name.fr.lower() }}';
             });
         {% else %}
             document.getElementById('button-pkm-prev').style.visibility = 'hidden';
@@ -487,7 +487,7 @@
 
         {% if pokemon.pokedex_id < (data|length - 1) %}
             document.getElementById('button-pkm-next').addEventListener('click', () => {
-                window.location.href = '/dex/{{ data[pokemon.pokedex_id + 1].name.fr.lower() }}'.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                window.location.href = '/dex/{{ data[pokemon.pokedex_id + 1].name.fr.lower() }}';
             });
         {% else %}
             document.getElementById('button-pkm-next').style.visibility = 'hidden';

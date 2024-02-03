@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_file, request, abort
+from flask import Flask, render_template, send_file, request, abort, redirect
 from flask_restful import Api
 from flask_minify import Minify
 from flask_squeeze import Squeeze
@@ -8,7 +8,7 @@ from unidecode import unidecode
 from resources.pokemon import Pokemon, Generation
 from resources.types import Types
 
-import json, os, markdown, requests
+import json, os, markdown, requests, re
 
 app = Flask(__name__, static_folder="assets")
 api = Api(app, "/api/v1")
@@ -58,16 +58,20 @@ def _docs(path: str = None):
 @app.route("/dex/<string:pokemon>", defaults={"forme": None})
 @app.route("/dex/<string:pokemon>/<string:forme>")
 def _dex(pokemon, forme):
-    if not pokemon:
+    if not pokemon or not re.match("^[a-zA-Z0-9-_.À-ÖØ-öø-ÿ]+$", pokemon):
         return render_template(
             "views/dex.jinja",
-            erreur=False,
+            erreur=bool(pokemon),
             pokemon=None,
             forme=None,
             data=json.load(open("data/pokemon/pokemon.json", encoding="utf8")),
         )
 
-    url = f"{request.host_url}api/v1/pokemon/{pokemon.lower()}"
+    newPokemon = unidecode(pokemon.lower().replace(" ", ""))
+    if newPokemon != pokemon:
+        return redirect(f"/dex/{newPokemon}")
+
+    url = f"{request.host_url}api/v1/pokemon/{pokemon}"
     if forme:
         forme = forme.lower()
         url += f"/{forme}"
