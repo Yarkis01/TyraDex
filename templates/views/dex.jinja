@@ -167,7 +167,7 @@
                         </div>
                     </div>
 
-                    <div class="pkm-tab-stats-talents">
+                    <div class="pkm-tab-stats-container">
                         <table class="dex-table">
                             <thead>
                                 <tr>
@@ -222,12 +222,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                {% for id in pokemon.regional_id %}
-                                <tr>
-                                    <td>{{ id.name }}</td>
-                                    <td>{{ id.value }}</td>
-                                </tr>
-                                {% endfor %}
+                                {% if pokemon.regional_id %}
+                                    {% for id in pokemon.regional_id %}
+                                    <tr>
+                                        <td>{{ id.name }}</td>
+                                        <td>{{ id.value }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% else %}
+                                    <tr>
+                                        <td style="display: none;"></td>
+                                        <td style="text-align: center; font-family: 'Lexend Deca', sans-serif; font-variant: small-caps;">Aucune donnée disponible</td>
+                                    </tr>
+                                {% endif %}
                             </tbody>
                         </table>
                     </div>
@@ -235,12 +242,13 @@
                     <div class="pkm-talents-container">
                         <h2>Talent du pokémon</h2>
                         {% if pokemon.talents %}
-                            {% for talent in pokemon.talents %}
-                            <div>
-                                <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at ante id ipsum fermentum rutrum at id magna. Donec congue bibendum nisl a cursus. Etiam condimentum ante sapien, vel mollis risus rutrum quis.</p>
+                            <div class="pkm-talents-element-container">
+                                {% for talent in pokemon.talents %}
+                                <div class="pkm-talents-element">
+                                    <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
+                                </div>
+                                {% endfor %}
                             </div>
-                            {% endfor %}
                         {% else %}
                             <p style="font-family: 'Roboto', sans-serif; font-size: 1em;">Oups, il semble qu'aucun talent ne soit disponible pour ce Pokémon… Mais, attends, c'est impossible !!!</p>
                         {% endif %}

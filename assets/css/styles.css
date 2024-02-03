@@ -830,7 +830,7 @@ th {background-color: var(--secondary-background-color);}
     width: 1.25em;
 }
 
-.pkm-tab-stats-talents {
+.pkm-tab-stats-container {
     display: flex;
     margin: 0 0 0 32px;
 }
@@ -862,26 +862,36 @@ th {background-color: var(--secondary-background-color);}
     border-radius: 8px;
 }
 
-.pkm-talents-container div {
-    background-color: var(--primary-background-color);
-    margin: 6px 0;
-    width: 90%;
-    border-radius: 8px;
-    padding: 16px;
+.pkm-talents-element-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
 }
 
-.pkm-talents-container div:last-child {margin-bottom: 12px;}
+.pkm-talents-element {
+    background-color: var(--primary-background-color);
+    margin: 6px;
+    border-radius: 8px;
+    padding: 8px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
 
-.pkm-talents-container div h2 {
+.pkm-talents-element:nth-child(3) {
+    width: calc(90% + 26px);
+}
+
+.pkm-talents-element h2 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-variant: normal;
-    padding-bottom: 16px;
-    border-bottom: 2.5px solid var(--secondary-background-color);
 }
 
-.pkm-talents-container div span, .pkm-egg-groups-container div h2 span {
+.pkm-talents-element span, .pkm-egg-groups-container div h2 span {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     padding: 6px;
@@ -889,7 +899,7 @@ th {background-color: var(--secondary-background-color);}
     margin-left: 8px;
 }
 
-.pkm-talents-container div p {
+.pkm-talents-element p {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
@@ -946,15 +956,9 @@ th {background-color: var(--secondary-background-color);}
 
 .pkm-tab-evolution {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 32px;
     margin: 0 32px;
-}
-
-.pkm-tab-evolution div:nth-child(4) {
-    margin-left: auto;
-    margin-top: -16px;
 }
 
 .pkm-tab-evolution div {
@@ -965,6 +969,11 @@ th {background-color: var(--secondary-background-color);}
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 8px calc(10% / 6);
+}
+
+.pkm-tab-evolution div:nth-child(3n + 1) {
+    margin-left: auto;
 }
 
 .pkm-tab-evolution div img {
