@@ -63,6 +63,8 @@
     .pkm-tab-evolution div {width: 100%; margin: 8px 32px !important;}
     .pkm-talents-element-container {flex-direction: column; align-items: center;}
     .pkm-talents-element {width: 90% !important;}
+    .pkm-container {justify-content: center;}
+    .pkm-container button {display: none;}
 }
 
 @media screen and (max-width: 560px) {
