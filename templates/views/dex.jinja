@@ -288,7 +288,11 @@
                             </div>
                             {% endfor %}
                         {% endif %}
-                        <div>
+                        {% if not pokemon.evolution %}
+                            <div style="margin: auto;">
+                        {% else %}
+                            <div>
+                        {% endif %}
                             <img src="{{ pokemon.sprites.regular }}" alt="{{ pokemon.name.fr }}">
                             <h2 style="color: var(--secondary-color);">{{ pokemon.name.fr }}</h2>
                             {% if pokemon.evolution.pre %}
