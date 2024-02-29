@@ -48,7 +48,7 @@ header div a p {margin: calc(calc(56px - 32px) / 2); margin-left: 16px;}
 .link_logo {
     width: auto;
     height: 36px;
-    margin-left: 16px;
+    margin-left: 10px;
 }
 
 header img {

@@ -12,4 +12,4 @@ Malgré le fait que l'API soit entièrement gratuite et sans jeton d'authentific
 # Bibliothèque de développement
 - **Python 3**: [Tyradex](https://github.com/LassaInora/Tyradex) développé par [LassaInora](https://github.com/LassaInora).
 
-*Vous avez développé une bibliothèque pour Tyradex et vous souhaitez qu'elle soit référencée ci-dessus ? Ouvrez une demande sur GitHub ou rejoignez notre serveur Discord.*
+*Vous avez développé une bibliothèque pour Tyradex et vous souhaitez qu'elle soit référencée ci-dessus ? Ouvrez une demande sur [GitHub](https://github.com/Yarkis01/Tyradex) ou rejoignez notre serveur [Discord](https://discord.gg/s2CPCt87sc).*
