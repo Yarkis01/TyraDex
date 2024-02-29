@@ -6,7 +6,7 @@
             "en": "Steel",
             "jp": "\u306F\u304C\u306D"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/acier.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/acier.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -89,7 +89,7 @@
             "en": "Fighting",
             "jp": "\u304B\u304F\u3068\u3046"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/combat.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/combat.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -172,7 +172,7 @@
             "en": "Dragon",
             "jp": "\u30c9\u30e9\u30b4\u30f3"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/dragon.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -255,7 +255,7 @@
             "en": "Water",
             "jp": "\u307f\u305a"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/eau.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/eau.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -338,7 +338,7 @@
             "en": "Electric",
             "jp": "\u3067\u3093\u304d"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/electrik.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -421,7 +421,7 @@
             "en": "Fairy",
             "jp": "\u30d5\u30a7\u30a2\u30ea\u30fc"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/fee.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/fee.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -504,7 +504,7 @@
             "en": "Fire",
             "jp": "\u307b\u306e\u304a"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/feu.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/feu.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -587,7 +587,7 @@
             "en": "Ice",
             "jp": "\u3053\u304a\u308a"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/glace.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/glace.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -670,7 +670,7 @@
             "en": "Bug",
             "jp": "\u3080\u3057"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/insecte.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/insecte.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -753,7 +753,7 @@
             "en": "Normal",
             "jp": "\u30ce\u30fc\u30de\u30eb"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/normal.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/normal.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -836,7 +836,7 @@
             "en": "Grass",
             "jp": "\u304f\u3055"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/plante.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -919,7 +919,7 @@
             "en": "Poison",
             "jp": "\u3069\u304f"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/poison.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/poison.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1002,7 +1002,7 @@
             "en": "Psychic",
             "jp": "\u30a8\u30b9\u30d1\u30fc"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/psy.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/psy.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1085,7 +1085,7 @@
             "en": "Rock",
             "jp": "\u3044\u308f"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/roche.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/roche.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1168,7 +1168,7 @@
             "en": "Ground",
             "jp": "\u3058\u3081\u3093"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/sol.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/sol.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1251,7 +1251,7 @@
             "en": "Ghost",
             "jp": "\u30b4\u30fc\u30b9\u30c8"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/spectre.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/spectre.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1334,7 +1334,7 @@
             "en": "Dark",
             "jp": "\u3042\u304f"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/tenebres.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/tenebres.png",
         "resistances": [
             {
                 "name": "Normal",
@@ -1417,7 +1417,7 @@
             "en": "Flying",
             "jp": "\u3072\u3053\u3046"
         },
-        "sprites": "https://raw.githubusercontent.com/Yarkis01/PokeAPI/images/types/vol.png",
+        "sprites": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/vol.png",
         "resistances": [
             {
                 "name": "Normal",

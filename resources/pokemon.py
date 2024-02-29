@@ -55,7 +55,7 @@ class Generation(Resource):
                 [
                     pkm
                     for pkm in JSON_pokemon
-                    if str(pkm["generation"]) == gen and pkm["pokedexId"] != 0
+                    if str(pkm["generation"]) == gen and pkm["pokedex_id"] != 0
                 ]
                 + formes_regionales
             ) or {
@@ -65,16 +65,16 @@ class Generation(Resource):
 
         generations = {}
         for pkm in JSON_pokemon:
-            if pkm["pokedexId"] == 0:
+            if pkm["pokedex_id"] == 0:
                 continue
 
             if pkm["generation"] not in generations:
                 generations[pkm["generation"]] = {
                     "generation": pkm["generation"],
-                    "from": pkm["pokedexId"],
-                    "to": pkm["pokedexId"],
+                    "from": pkm["pokedex_id"],
+                    "to": pkm["pokedex_id"],
                 }
             else:
-                generations[pkm["generation"]]["to"] = pkm["pokedexId"]
+                generations[pkm["generation"]]["to"] = pkm["pokedex_id"]
 
         return list(generations.values())
