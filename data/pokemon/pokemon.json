@@ -123736,6 +123736,10 @@
             {
                 "name": "\u00c9lectrik",
                 "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/electrik.png"
+            },
+            {
+                "name": "Dragon",
+                "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/dragon.png"
             }
         ],
         "talents": [
