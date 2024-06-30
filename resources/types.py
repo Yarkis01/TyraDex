@@ -49,7 +49,7 @@ class Types(Resource):
             json["pokemons"] = [
                 pokemon
                 for pokemon in JSON_pokemon
-                if pokemon["pokedexId"] != 0
+                if pokemon["pokedex_id"] != 0
                 and (
                     str(pokemon["types"][0]["name"]).lower()
                     == JSON_id_to_types[first_type_id]
@@ -94,7 +94,7 @@ class Types(Resource):
             "pokemons": [
                 pokemon
                 for pokemon in JSON_pokemon
-                if pokemon["pokedexId"] != 0
+                if pokemon["pokedex_id"] != 0
                 and len(pokemon["types"]) > 1
                 and (
                     (

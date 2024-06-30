@@ -1,6 +1,6 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/pokemon]</span> Pokédex</h1>
 
-```http
+```text
 https://tyradex.tech/api/v1/pokemon
 ```
 
@@ -8,7 +8,7 @@ Permet d'obtenir la liste de tous les Pokémons.<br>
 [Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/pokemon) 
 
 ## Curl
-```curl
+```sh
 curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \

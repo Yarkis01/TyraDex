@@ -1,6 +1,6 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/gen/&lt;generation&gt;]</span> Génération spécifique</h1>
 
-```http
+```text
 https://tyradex.tech/api/v1/gen/<generation>
 ```
 
@@ -13,7 +13,7 @@ Permet d'obtenir des informations sur une génération spécifique.<br>
 | generation | Requis | `Int` | Correspond au numéro de la génération. |
 
 ## Curl
-```curl
+```sh
 curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
