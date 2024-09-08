@@ -1,4 +1,6 @@
 from pydantic import BaseModel, Field
+from typing import Union
+
 
 from models.utils import (
     NameModel,
@@ -10,13 +12,13 @@ class SimpleSpriteModel(BaseModel):
     """Représente un sprite simple."""
 
     regular: str
-    shiny: str | None
+    shiny: Union[str, None]
 
 
 class DetailledSpriteModel(SimpleSpriteModel):
     """Représente un sprite détaillé."""
 
-    gmax: SimpleSpriteModel | None
+    gmax: Union[SimpleSpriteModel, None]
 
 
 class TalentModel(BaseModel):
@@ -55,9 +57,9 @@ class MegaEvolutionModel(BaseModel):
 class EvolutionModel(BaseModel):
     """Représente les évolutions d'un Pokémon."""
 
-    pre: list[PokemonEvolutionModel] | None
-    next_: list[PokemonEvolutionModel] | None = Field(alias="next")
-    mega: list[MegaEvolutionModel] | None
+    pre: Union[list[PokemonEvolutionModel], None]
+    next_: Union[list[PokemonEvolutionModel], None] = Field(alias="next")
+    mega: Union[list[MegaEvolutionModel], None]
 
 
 class SexeModel(BaseModel):
@@ -88,16 +90,16 @@ class PokemonModel(BaseModel):
     generation: int
     category: str
     name: NameModel
-    sprites: DetailledSpriteModel | None
-    types: list[SimpleTypeModel] | None
-    talents: list[TalentModel] | None
-    stats: StatsModel | None
-    resistances: list[ResistanceModel] | None
-    evolution: EvolutionModel | None
-    height: str | None
-    weight: str | None
-    egg_groups: list[str] | None
-    sexe: SexeModel | None
-    catch_rate: int | None
-    level_100: int | None
-    formes: list[RegionalFormModel] | None
+    sprites: Union[DetailledSpriteModel, None]
+    types: Union[list[SimpleTypeModel], None]
+    talents: Union[list[TalentModel], None]
+    stats: Union[StatsModel, None]
+    resistances: Union[list[ResistanceModel], None]
+    evolution: Union[EvolutionModel, None]
+    height: Union[str, None]
+    weight: Union[str, None]
+    egg_groups: Union[list[str], None]
+    sexe: Union[SexeModel, None]
+    catch_rate: Union[int, None]
+    level_100: Union[int, None]
+    formes: Union[list[RegionalFormModel], None]

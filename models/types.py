@@ -1,4 +1,5 @@
 from pydantic import BaseModel, Field
+from typing import Union
 
 from models.utils import NameModel, DoubleNameModel, ResistanceModel
 from models.pokemon import PokemonModel
@@ -16,7 +17,7 @@ class SingleTypeModel(BaseModel):
 class SingleTypeWithPokemonModel(SingleTypeModel):
     """Modèle de données pour un type simple avec les Pokémon associés."""
 
-    pokemons: list[PokemonModel] | None
+    pokemons: Union[list[PokemonModel], None]
 
 
 class DoubleTypeModel(BaseModel):
@@ -31,4 +32,4 @@ class DoubleTypeModel(BaseModel):
 class DoubleTypeWithPokemonModel(DoubleTypeModel):
     """Modèle de données pour un type double avec les Pokémon associés."""
 
-    pokemons: list[PokemonModel] | None
+    pokemons: Union[list[PokemonModel], None]
