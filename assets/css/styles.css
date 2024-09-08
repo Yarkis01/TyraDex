@@ -354,6 +354,24 @@ pre code {
     min-width: 128px;
 }
 
+.documentation_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.documentation_buttons a {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin: 0 8px;
+    border-radius: 8px;
+}
+
 /*
  *  404
  */

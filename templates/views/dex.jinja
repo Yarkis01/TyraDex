@@ -261,7 +261,7 @@
                                 <div class="pkm-talents-element-container">
                                     {% for talent in pokemon.talents %}
                                     <div class="pkm-talents-element">
-                                        <h2>{{ talent.name}} {{ '<span>Talent Caché</span>' if talent.tc else '' }}</h2>
+                                        <h2>{{ talent.name}} {{ ('<span>Talent Caché</span>' if talent.tc else '')|safe }}</h2>
                                     </div>
                                     {% endfor %}
                                 </div>

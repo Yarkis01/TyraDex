@@ -6,15 +6,20 @@
         <button>Ouvrir le menu de navigation</button>
     </div>
     <div class="documentation_menu">
-        {{ navbar }}
+        <div class="documentation_buttons">
+            <a href="/swagger" class="button">Swagger</a>
+            <a href="/redoc" class="button">Redoc</a>
+        </div>
+        
+        {{ navbar|safe }}
     </div>
     <div class="documentation_content">
-        {{ markdown }}
+        {{ markdown|safe }}
     </div>
 </section>
 {% endblock %}
 
 
 {% block javascript %}
-<script src="/assets/js/documentation.js" defer hx-trigger="load delay:0.5s"></script>
+<script src="/assets/js/documentation.js"></script>
 {% endblock %}
