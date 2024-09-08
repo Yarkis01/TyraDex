@@ -5,7 +5,7 @@ https://tyradex.tech/api/v1/types
 ```
 
 Permet d'obtenir la liste de tous les types.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types)
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/types)
 
 ## Curl
 ```sh

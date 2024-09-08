@@ -5,7 +5,7 @@ https://tyradex.tech/api/v1/pokemon
 ```
 
 Permet d'obtenir la liste de tous les Pokémons.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/pokemon) 
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/pokemon) 
 
 ## Curl
 ```sh

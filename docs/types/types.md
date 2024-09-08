@@ -5,7 +5,7 @@ https://tyradex.tech/api/v1/types/<type1>/[type2]
 ```
 
 Permet d'obtenir des informations sur un type spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types/fire) 
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/types/fire) 
 
 # Paramètres
 | Nom | Obligatoire | Type | Description |

@@ -2,6 +2,12 @@ from fastapi import APIRouter, HTTPException
 from typing import Union
 import json
 
+from models.types import (
+    SingleTypeModel,
+    SingleTypeWithPokemonModel,
+    DoubleTypeWithPokemonModel,
+)
+
 JSON_types = json.load(open("data/types/types.json", encoding="utf8"))
 JSON_types_to_id = json.load(open("data/types/types_id.json", encoding="utf8"))[
     "types_to_id"
@@ -61,10 +67,12 @@ def __get_pokemon_by_type(first_type: int, second_type: int = None) -> list:
         if first_type_match and (second_type is None or second_type_match):
             pokemons.append(pokemon)
 
-    return {"pokemons": pokemons}
+    return pokemons
 
 
-@router.get("/types", summary="Obtenir la liste des types")
+@router.get(
+    "/types", summary="Obtenir la liste des types", response_model=list[SingleTypeModel]
+)
 async def _types():
     """Permet d'obtenir la liste de tous les types."""
     return JSON_types
@@ -73,6 +81,7 @@ async def _types():
 @router.get(
     "/types/{type}",
     summary="Obtenir les informations sur un type",
+    response_model=SingleTypeWithPokemonModel,
 )
 async def _type(type: Union[str, int]):
     """
@@ -87,12 +96,13 @@ async def _type(type: Union[str, int]):
     if type_id < 0 or type_id > len(JSON_types) - 1:
         raise HTTPException(status_code=404, detail={**NOT_FOUND, **{"type": type}})
 
-    return {**JSON_types[type_id], **__get_pokemon_by_type(type_id)}
+    return {**JSON_types[type_id], **{"pokemons": __get_pokemon_by_type(type_id)}}
 
 
 @router.get(
     "/types/{first_type}/{second_type}",
     summary="Obtenir les informations sur un type double",
+    response_model=DoubleTypeWithPokemonModel,
 )
 async def _double_types(first_type: Union[str, int], second_type: Union[str, int]):
     """

@@ -1,6 +1,9 @@
 from fastapi import APIRouter, HTTPException
 import json
 
+from models.generations import SimpleGenerationModel
+from models.pokemon import PokemonModel
+
 
 JSON_pokemon = json.load(open("data/pokemon/pokemon.json", encoding="utf8"))
 JSON_forme_pokemon = json.load(
@@ -10,7 +13,11 @@ JSON_forme_pokemon = json.load(
 router = APIRouter()
 
 
-@router.get("/gen", summary="Obtenir la liste des différentes générations")
+@router.get(
+    "/gen",
+    summary="Obtenir la liste des différentes générations",
+    response_model=list[SimpleGenerationModel],
+)
 async def _gen():
     """Permet d'obtenir la liste des différentes générations."""
     generations = {}
@@ -28,13 +35,17 @@ async def _gen():
         else:
             generations[pkm["generation"]]["to"] = pkm["pokedex_id"]
 
-    return generations
+    return list(generations.values())
 
 
-@router.get("/gen/{gen_id}", summary="Obtenir les informations d'une génération")
+@router.get(
+    "/gen/{gen_id}",
+    summary="Obtenir la liste des pokémons d'une génération",
+    response_model=list[PokemonModel],
+)
 async def _gen_id(gen_id: int):
     """
-    Permet d'obtenir les informations d'une génération.
+    Permet d'obtenir la liste des pokémons d'une génération.
 
     | Nom | Obligatoire | Type | Description |
     |---|---|---|---|

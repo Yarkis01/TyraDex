@@ -5,7 +5,7 @@ https://tyradex.tech/api/v1/gen
 ```
 
 Permet d'obtenir la liste des différentes générations.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/gen) 
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/gen) 
 
 ## Curl
 ```sh

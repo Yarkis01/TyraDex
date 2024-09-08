@@ -4,8 +4,8 @@
 https://tyradex.tech/api/v1/gen/<generation>
 ```
 
-Permet d'obtenir des informations sur une génération spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/gen/8) 
+Permet d'obtenir la liste des pokémons d'une génération.<br>
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/gen/8) 
 
 ## Paramètres
 | Nom | Obligatoire | Type | Description |

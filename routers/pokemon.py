@@ -2,6 +2,8 @@ from fastapi import APIRouter, HTTPException
 from typing import Union
 import json
 
+from models.pokemon import PokemonModel
+
 JSON_pokemon = json.load(open("data/pokemon/pokemon.json", encoding="utf8"))
 JSON_pokemon_to_id = json.load(open("data/pokemon/pokemon_to_id.json", encoding="utf8"))
 JSON_forme_pokemon = json.load(
@@ -33,13 +35,21 @@ def __get_pokemon_id(pokemon: Union[str, int]) -> int:
     )
 
 
-@router.get("/pokemon", summary="Obtenir la liste des différents Pokémon")
+@router.get(
+    "/pokemon",
+    summary="Obtenir la liste des différents Pokémon",
+    response_model=list[PokemonModel],
+)
 async def _pokemons():
     """Permet d'obtenir la liste des différents Pokémon."""
     return JSON_pokemon
 
 
-@router.get("/pokemon/{pokemon}", summary="Obtenir les informations d'un Pokémon")
+@router.get(
+    "/pokemon/{pokemon}",
+    summary="Obtenir les informations d'un Pokémon",
+    response_model=PokemonModel,
+)
 async def _pokemon(pokemon: Union[str, int]):
     """
     Permet d'obtenir les informations d'un Pokémon.
@@ -62,6 +72,7 @@ async def _pokemon(pokemon: Union[str, int]):
 @router.get(
     "/pokemon/{pokemon}/{region}",
     summary="Obtenir les informations sur une forme régionale",
+    response_model=PokemonModel,
 )
 async def _pokemon_regionale(pokemon: Union[str, int], region: str):
     """

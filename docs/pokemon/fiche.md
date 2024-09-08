@@ -5,7 +5,7 @@ https://tyradex.tech/api/v1/pokemon/<identifiant>/[region]
 ```
 
 Permet d'obtenir des informations sur un Pokémon spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/pokemon/248) 
+[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/pokemon/248) 
 
 ## Paramètres
 | Nom | Obligatoire | Type | Description |

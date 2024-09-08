@@ -111601,11 +111601,13 @@
             "pre": [
                 {
                     "pokedex_id": 789,
-                    "name": "Cosmog"
+                    "name": "Cosmog",
+                    "condition": "Niveau 43"
                 },
                 {
                     "pokedex_id": 790,
-                    "name": "Cosmovum"
+                    "name": "Cosmovum",
+                    "condition": "Niveau 53"
                 }
             ],
             "next": null,
@@ -132242,7 +132244,7 @@
                 {
                     "pokedex_id": 940,
                     "name": "Zap\u00e9trel",
-                    "conditio":"Niveau 25"
+                    "condition":"Niveau 25"
                 }
             ],
             "next": null,
