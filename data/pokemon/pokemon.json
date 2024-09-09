@@ -5345,7 +5345,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -5490,7 +5490,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -26618,11 +26618,11 @@
             },
             {
                 "name": "Plante",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -26634,7 +26634,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",

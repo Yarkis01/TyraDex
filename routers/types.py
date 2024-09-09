@@ -87,9 +87,10 @@ async def _type(type: Union[str, int]):
     """
     Permet d'obtenir des informations sur un type spécifique.
 
-    | Nom | Obligatoire | Type | Description |
-    |---|---|---|---|
-    | type | Requis | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
+    Paramètres (path) :
+    | Nom | Type | Description |
+    |---|---|---|
+    | type | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
     """
     type_id = __get_type(type)
 
@@ -108,10 +109,11 @@ async def _double_types(first_type: Union[str, int], second_type: Union[str, int
     """
     Permet d'obtenir des informations sur un type double spécifique.
 
-    | Nom | Obligatoire | Type | Description |
-    |---|---|---|---|
-    | first_type | Requis | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
-    | second_type | Requis | `Int` ou `String` | Correspond au deuxième type souhaité. |
+    Paramètres (path) :
+    | Nom | Type | Description |
+    |---|---|---|
+    | first_type | `Int` ou `String` | Correspond à l'identifiant du type, ou bien son nom anglais ou français. |
+    | second_type | `Int` ou `String` | Correspond au deuxième type souhaité. |
     """
     first_type_id = __get_type(first_type)
     second_type_id = __get_type(second_type)

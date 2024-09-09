@@ -47,9 +47,10 @@ async def _gen_id(gen_id: int):
     """
     Permet d'obtenir la liste des pokémons d'une génération.
 
-    | Nom | Obligatoire | Type | Description |
-    |---|---|---|---|
-    | gen_id | Requis | `Int` | Correspond au numéro de la génération. |
+    Paramètres (path) :
+    | Nom | Type | Description |
+    |---|---|---|
+    | gen_id | `Int` | Correspond au numéro de la génération. |
     """
     generation = [
         pkm

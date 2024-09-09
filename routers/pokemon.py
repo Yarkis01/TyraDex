@@ -9,6 +9,9 @@ JSON_pokemon_to_id = json.load(open("data/pokemon/pokemon_to_id.json", encoding=
 JSON_forme_pokemon = json.load(
     open("data/pokemon/formes_regionales.json", encoding="utf8")
 )
+JSON_pokemon_resistances = json.load(
+    open("data/pokemon/pokemon_resistances.json", encoding="utf8")
+)
 
 NOT_FOUND = {
     "status": 404,
@@ -50,13 +53,19 @@ async def _pokemons():
     summary="Obtenir les informations d'un Pokémon",
     response_model=PokemonModel,
 )
-async def _pokemon(pokemon: Union[str, int]):
+async def _pokemon(pokemon: Union[str, int], talent: str = None):
     """
     Permet d'obtenir les informations d'un Pokémon.
 
-    | Nom | Obligatoire | Type | Description |
-    |---|---|---|---|
-    | pokemon | Requis | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
+    Paramètres (path) :
+    | Nom | Type | Description |
+    |---|---|---|
+    | pokemon | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
+
+    Paramètres (query) :
+    | Nom  | Type | Description |
+    |---|---|---|
+    | talent | `String` | Correspond au talent du Pokémon. <br>Permet de récupérer les résistances du Pokémon en fonction de son talent. |
     """
     pokemon_id = __get_pokemon_id(pokemon)
 
@@ -66,7 +75,19 @@ async def _pokemon(pokemon: Union[str, int]):
             detail=NOT_FOUND,
         )
 
-    return JSON_pokemon[pokemon_id]
+    data = JSON_pokemon[pokemon_id]
+
+    if (
+        talent
+        and any(t["name"].lower() == talent.lower() for t in data["talents"])
+        and (
+            (str(pokemon_id) in JSON_pokemon_resistances)
+            and (talent in JSON_pokemon_resistances[str(pokemon_id)])
+        )
+    ):
+        data["resistances"] = JSON_pokemon_resistances[str(pokemon_id)][talent]
+
+    return data
 
 
 @router.get(
@@ -74,14 +95,20 @@ async def _pokemon(pokemon: Union[str, int]):
     summary="Obtenir les informations sur une forme régionale",
     response_model=PokemonModel,
 )
-async def _pokemon_regionale(pokemon: Union[str, int], region: str):
+async def _pokemon_regionale(pokemon: Union[str, int], region: str, talent: str = None):
     """
-        Permet d'obtenir les informations sur une forme régionale d'un Pokémon.
+    Permet d'obtenir les informations sur une forme régionale d'un Pokémon.
 
-    | Nom | Obligatoire | Type | Description |
-    |---|---|---|---|
-    | pokemon | Requis | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
-    | region | Optionnel | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forme régionale d'un Pokémon. |
+    Paramètres (path) :
+    | Nom | Type | Description |
+    |---|---|---|
+    | pokemon | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
+    | region | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forme régionale d'un Pokémon. |
+
+    Paramètres (query):
+    | Nom | Type | Description |
+    |---|---|---|
+    | talent | `String` | Correspond au talent du Pokémon. <br>Permet de récupérer les résistances du Pokémon en fonction de son talent. |
     """
     pokemon_id = __get_pokemon_id(pokemon)
 
@@ -103,4 +130,22 @@ async def _pokemon_regionale(pokemon: Union[str, int], region: str):
             },
         )
 
-    return JSON_forme_pokemon[region][str(pokemon_id)]
+    data = JSON_forme_pokemon[region][str(pokemon_id)]
+
+    if (
+        talent
+        and any(t["name"].lower() == talent.lower() for t in data["talents"])
+        and (
+            (str(pokemon_id) in JSON_pokemon_resistances["region"][region.lower()])
+            and (
+                talent
+                in JSON_pokemon_resistances["region"][region.lower()][str(pokemon_id)]
+            )
+        )
+    ):
+        print("hello")
+        data["resistances"] = JSON_pokemon_resistances["region"][region.lower()][
+            str(pokemon_id)
+        ][talent]
+
+    return data
