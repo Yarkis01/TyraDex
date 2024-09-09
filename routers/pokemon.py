@@ -134,6 +134,7 @@ async def _pokemon_regionale(pokemon: Union[str, int], region: str, talent: str 
 
     if (
         talent
+        and region.lower() in JSON_pokemon_resistances["region"]
         and any(t["name"].lower() == talent.lower() for t in data["talents"])
         and (
             (str(pokemon_id) in JSON_pokemon_resistances["region"][region.lower()])
@@ -143,7 +144,6 @@ async def _pokemon_regionale(pokemon: Union[str, int], region: str, talent: str 
             )
         )
     ):
-        print("hello")
         data["resistances"] = JSON_pokemon_resistances["region"][region.lower()][
             str(pokemon_id)
         ][talent]
