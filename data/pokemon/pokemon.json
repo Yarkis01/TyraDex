@@ -8433,7 +8433,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -8582,7 +8582,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -8735,7 +8735,7 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
@@ -8885,7 +8885,7 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
@@ -9040,7 +9040,7 @@
             },
             {
                 "name": "Eau",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "\u00c9lectrik",
@@ -11263,7 +11263,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -11412,7 +11412,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -12607,7 +12607,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Eau",
@@ -12619,7 +12619,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 0
+                "multiplier": 0.5
             },
             {
                 "name": "Combat",
@@ -12752,7 +12752,7 @@
             },
             {
                 "name": "Feu",
-                "multiplier": 0
+                "multiplier": 1
             },
             {
                 "name": "Eau",
@@ -12764,7 +12764,7 @@
             },
             {
                 "name": "Glace",
-                "multiplier": 0
+                "multiplier": 0.25
             },
             {
                 "name": "Combat",
@@ -13495,7 +13495,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Vol",
@@ -13636,7 +13636,7 @@
             },
             {
                 "name": "Sol",
-                "multiplier": 0
+                "multiplier": 2
             },
             {
                 "name": "Vol",

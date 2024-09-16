@@ -32,9 +32,10 @@ templates = Jinja2Templates(
 app.mount("/assets", StaticFiles(directory="assets"), name="assets")
 
 # Ajout des routes
-app.include_router(pokemon.router, prefix="/api/v1")
-app.include_router(generations.router, prefix="/api/v1")
-app.include_router(types.router, prefix="/api/v1")
+API_V1_PREFIX = "/api/v1"
+app.include_router(pokemon.router, prefix=API_V1_PREFIX, tags=["Pokémon"])
+app.include_router(generations.router, prefix=API_V1_PREFIX, tags=["Générations"])
+app.include_router(types.router, prefix=API_V1_PREFIX, tags=["Types"])
 
 
 @app.get("/", include_in_schema=False)

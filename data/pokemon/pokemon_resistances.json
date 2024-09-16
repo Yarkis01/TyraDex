@@ -151,6 +151,842 @@
             }
         ]
     },
+    "58": {
+        "torche": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0
+            },
+            {
+                "name": "Eau",
+                "multiplier": 2
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    "59": {
+        "torche": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0
+            },
+            {
+                "name": "Eau",
+                "multiplier": 2
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    "60": {
+        "absorbe-eau": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ]
+    },
+    "61": {
+        "absorbe-eau": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ]
+    },
+    "62": {
+        "absorbe-eau": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 2
+            },
+            {
+                "name": "Psy",
+                "multiplier": 2
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 2
+            }
+        ]
+    },
+    "77": {
+        "torche": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0
+            },
+            {
+                "name": "Eau",
+                "multiplier": 2
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    "78": {
+        "torche": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0
+            },
+            {
+                "name": "Eau",
+                "multiplier": 2
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    "86": {
+        "isograisse": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.25
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Combat",
+                "multiplier": 1
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 0.5
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ]
+    },
+    "87": {
+        "isograisse": [
+            {
+                "name": "Normal",
+                "multiplier": 1
+            },
+            {
+                "name": "Plante",
+                "multiplier": 2
+            },
+            {
+                "name": "Feu",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Eau",
+                "multiplier": 0.5
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 2
+            },
+            {
+                "name": "Glace",
+                "multiplier": 0.125
+            },
+            {
+                "name": "Combat",
+                "multiplier": 2
+            },
+            {
+                "name": "Poison",
+                "multiplier": 1
+            },
+            {
+                "name": "Sol",
+                "multiplier": 1
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 1
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 1
+            },
+            {
+                "name": "Roche",
+                "multiplier": 2
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 1
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 1
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 1
+            }
+        ]
+    },
+    "92": {
+        "levitation": [
+            {
+                "name": "Normal",
+                "multiplier": 0
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0
+            },
+            {
+                "name": "Poison",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Sol",
+                "multiplier": 2
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 2
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 2
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 2
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
+    "93": {
+        "levitation": [
+            {
+                "name": "Normal",
+                "multiplier": 0
+            },
+            {
+                "name": "Plante",
+                "multiplier": 0.5
+            },
+            {
+                "name": "Feu",
+                "multiplier": 1
+            },
+            {
+                "name": "Eau",
+                "multiplier": 1
+            },
+            {
+                "name": "\u00c9lectrik",
+                "multiplier": 1
+            },
+            {
+                "name": "Glace",
+                "multiplier": 1
+            },
+            {
+                "name": "Combat",
+                "multiplier": 0
+            },
+            {
+                "name": "Poison",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Sol",
+                "multiplier": 0
+            },
+            {
+                "name": "Vol",
+                "multiplier": 1
+            },
+            {
+                "name": "Psy",
+                "multiplier": 2
+            },
+            {
+                "name": "Insecte",
+                "multiplier": 0.25
+            },
+            {
+                "name": "Roche",
+                "multiplier": 1
+            },
+            {
+                "name": "Spectre",
+                "multiplier": 2
+            },
+            {
+                "name": "Dragon",
+                "multiplier": 1
+            },
+            {
+                "name": "T\u00e9n\u00e8bres",
+                "multiplier": 2
+            },
+            {
+                "name": "Acier",
+                "multiplier": 1
+            },
+            {
+                "name": "F\u00e9e",
+                "multiplier": 0.5
+            }
+        ]
+    },
     "184": {
         "herbivore": [
             {
