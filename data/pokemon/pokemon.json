@@ -54978,11 +54978,11 @@
         ],
         "stats": {
             "hp": 50,
-            "atk": 95,
-            "def": 90,
-            "spe_atk": 95,
-            "spe_def": 90,
-            "vit": 180
+            "atk": 150,
+            "def": 50,
+            "spe_atk": 150,
+            "spe_def": 50,
+            "vit": 150
         },
         "resistances": [
             {
@@ -121853,7 +121853,7 @@
         "generation": 8,
         "category": "Pok\u00e9mon Com\u00e9dien",
         "name": {
-            "fr": "M. Glaquette",
+            "fr": "M.Glaquette",
             "en": "Mr.Rime",
             "jp": "\u30d0\u30ea\u30b3\u30aa\u30eb"
         },
@@ -121970,6 +121970,11 @@
         ],
         "evolution": {
             "pre": [
+                {
+                    "pokedex_id": 439,
+                    "name": "Mime Jr.",
+                    "condition": "Connaître la capacité Copie + 1 niveau"
+                },
                 {
                     "pokedex_id": 122,
                     "name": "M.Mime de Galar",
