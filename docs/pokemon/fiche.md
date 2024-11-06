@@ -13,6 +13,11 @@ Permet d'obtenir des informations sur un Pokémon spécifique.<br>
 | identifiant | Requis | `Int` ou `String` | Correspond à l'identifiant du Pokémon dans le Pokédex National ou son nom. |
 | region | Optionnel | `String` | Correspond à la région du Pokémon. <br>Permet de récupèrer les informations sur une forme régionale d'un Pokémon. |
 
+## Paramètres (query)
+| Nom | Obligatoire | Type | Description |
+|---|---|---|---|
+| talent | Optionnel | `String` | Correspond au talent du Pokémon.<br>Permet de récupérer les résistances du Pokémon en fonction de son talent. |
+
 ## Curl
 ```sh
 curl -XGET \

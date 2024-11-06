@@ -21,7 +21,7 @@
 
         <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/styles/vs2015.min.css">
     </head>
-    <body hx-boost="true">
+    <body>
         <header>
             <div>
                 <a href="{{ url_for('_home') }}">
@@ -63,7 +63,6 @@
         {% block javascript %}
         {% endblock %}
         <script src="/_vercel/insights/script.js" defer></script>
-        <script src="https://unpkg.com/htmx.org@1.8.5" defer></script>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script>
     </body>
