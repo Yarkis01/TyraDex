@@ -1,11 +1,11 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/pokemon/&lt;identifiant&gt;]</span> Fiche d'un Pokémon</h1>
 
 ```text
-https://tyradex.tech/api/v1/pokemon/<identifiant>/[region]
+https://tyradex.app/api/v1/pokemon/<identifiant>/[region]
 ```
 
 Permet d'obtenir des informations sur un Pokémon spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/pokemon/248) 
+[Exemple de donnés renvoyés.](https://tyradex.app/api/v1/pokemon/248) 
 
 ## Paramètres
 | Nom | Obligatoire | Type | Description |
@@ -19,14 +19,14 @@ curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
      -H "Content-type: application/json" \
-     'https://tyradex.tech/api/v1/pokemon/<identifiant>/[region]'
+     'https://tyradex.app/api/v1/pokemon/<identifiant>/[region]'
 ```
 
 ## Python
 ```py
 import requests
 
-url = "https://tyradex.tech/api/v1/pokemon/<identifiant>/[region]"
+url = "https://tyradex.app/api/v1/pokemon/<identifiant>/[region]"
 headers = {
     "User-Agent": "RobotPokemon",
     "From": "adresse[at]domaine[dot]com",

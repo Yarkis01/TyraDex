@@ -1,11 +1,11 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/gen/&lt;generation&gt;]</span> Génération spécifique</h1>
 
 ```text
-https://tyradex.tech/api/v1/gen/<generation>
+https://tyradex.app/api/v1/gen/<generation>
 ```
 
 Permet d'obtenir des informations sur une génération spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/gen/8) 
+[Exemple de donnés renvoyés.](https://tyradex.app/api/v1/gen/8) 
 
 ## Paramètres
 | Nom | Obligatoire | Type | Description |
@@ -18,14 +18,14 @@ curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
      -H "Content-type: application/json" \
-     'https://tyradex.tech/api/v1/gen/<generation>'
+     'https://tyradex.app/api/v1/gen/<generation>'
 ```
 
 ## Python
 ```py
 import requests
 
-url = "https://tyradex.tech/api/v1/gen/<generation>"
+url = "https://tyradex.app/api/v1/gen/<generation>"
 headers = {
     "User-Agent": "RobotPokemon",
     "From": "adresse[at]domaine[dot]com",

@@ -1,11 +1,11 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/&lt;type&gt;]</span> Types</h1>
 
 ```text
-https://tyradex.tech/api/v1/types/<type1>/[type2]
+https://tyradex.app/api/v1/types/<type1>/[type2]
 ```
 
 Permet d'obtenir des informations sur un type spécifique.<br>
-[Exemple de donnés renvoyés.](https://tyradex.tech/api/v1/types/fire) 
+[Exemple de donnés renvoyés.](https://tyradex.app/api/v1/types/fire) 
 
 # Paramètres
 | Nom | Obligatoire | Type | Description |
@@ -19,14 +19,14 @@ curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
      -H "Content-type: application/json" \
-     'https://tyradex.tech/api/v1/types/<type1>/[type2]'
+     'https://tyradex.app/api/v1/types/<type1>/[type2]'
 ```
 
 ## Python
 ```py
 import requests
 
-url = "https://tyradex.tech/api/v1/types/<type1>/[type2]"
+url = "https://tyradex.app/api/v1/types/<type1>/[type2]"
 headers = {
     "User-Agent": "RobotPokemon",
     "From": "adresse[at]domaine[dot]com",
