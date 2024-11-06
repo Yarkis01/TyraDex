@@ -10,11 +10,10 @@
         <title>Tyradex - Une API Pokémon en français</title>
         <link rel="icon" type="image/png" href="/assets/logo.png">
 
-        <meta property="og:title" content="Tyradex - Une API Pokémon en français">
         <meta property="og:site_name" content="Tyradex">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://tyradex.vercel.app/">
-        <meta property="og:image" content="https://tyradex.vercel.app/assets/logo.png">
+        <meta property="og:url" content="https://tyradex.app/">
+        <meta property="og:image" content="https://tyradex.app/assets/logo.png">
         <meta property="og:description" content="Découvrez notre API Pokémon en français pour accéder à une multitude d'informations sur les Pokémon. Explorez notre Pokédex complet et obtenez des données précises sur vos Pokémon préférés.">
 
         <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
@@ -22,7 +21,7 @@
 
         <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/styles/vs2015.min.css">
     </head>
-    <body>
+    <body hx-boost="true">
         <header>
             <div>
                 <a href="{{ url_for('_home') }}">
@@ -64,6 +63,7 @@
         {% block javascript %}
         {% endblock %}
         <script src="/_vercel/insights/script.js" defer></script>
+        <script src="https://unpkg.com/htmx.org@1.8.5" defer></script>
         <script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script>
     </body>

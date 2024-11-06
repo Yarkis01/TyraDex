@@ -1,11 +1,11 @@
 <h1><span class="documentation_get">GET</span><span class="documentation_url">[api/v1/types/]</span> Liste des types</h1>
 
 ```text
-https://tyradex.tech/api/v1/types
+https://tyradex.app/api/v1/types
 ```
 
 Permet d'obtenir la liste de tous les types.<br>
-[Exemple de donnés renvoyés.](https://tyradex.vercel.app/api/v1/types)
+[Exemple de donnés renvoyés.](https://tyradex.app/api/v1/types)
 
 ## Curl
 ```sh
@@ -13,14 +13,14 @@ curl -XGET \
      -H 'User-Agent: RobotPokemon' \
      -H 'From: adresse[at]domaine[dot]com' \
      -H "Content-type: application/json" \
-     'https://tyradex.tech/api/v1/types/'
+     'https://tyradex.app/api/v1/types/'
 ```
 
 ## Python
 ```py
 import requests
 
-url = "https://tyradex.tech/api/v1/types/"
+url = "https://tyradex.app/api/v1/types/"
 headers = {
     "User-Agent": "RobotPokemon",
     "From": "adresse[at]domaine[dot]com",
