@@ -1,13 +1,15 @@
 package tyradexteam.tyradex.services.repositories;
 
 import org.springframework.data.neo4j.repository.Neo4jRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import tyradexteam.tyradex.models.Pokemon;
+
+import java.util.List;
 
 /**
  * Repository interface for managing Pokemon entities in the database.
  * This interface extends CrudRepository, providing basic CRUD operations.
  */
 @Repository
-public interface PokemonRepository extends Neo4jRepository<Pokemon, Integer> { }
+public interface PokemonRepository extends Neo4jRepository<Pokemon, Integer> {
+}
