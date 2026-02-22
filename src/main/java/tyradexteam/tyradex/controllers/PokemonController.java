@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 import tyradexteam.tyradex.models.Pokemon;
 import tyradexteam.tyradex.services.PokemonService;
 
+import java.util.List;
+
 /**
  * Controller class for handling HTTP requests related to Pokemon entities.
  * This class will define endpoints for request Pokemon data,
@@ -31,9 +33,8 @@ public class PokemonController {
      * @return An iterable collection of Pokemon entities retrieved from the service layer,
      * which in turn interacts with the repository to fetch data from the database.
      */
-
     @GetMapping(value = "all", produces = "application/json")
-    public Iterable<Pokemon> getAllPokemon() {
+    public List<Pokemon> getAllPokemon() {
         return this.service.getAllPokemon();
     }
 }
