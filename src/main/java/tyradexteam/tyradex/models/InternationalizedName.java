@@ -18,9 +18,6 @@ import org.springframework.data.neo4j.core.schema.Property;
 @Node("InternationalizedName")
 public class InternationalizedName {
     @Id
-    @Property("id")
-    private String id;
-
     @Property("fr")
     private String fr;
 

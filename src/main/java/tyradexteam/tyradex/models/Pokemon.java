@@ -4,6 +4,7 @@ import lombok.*;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Property;
+import org.springframework.data.neo4j.core.schema.Relationship;
 
 /**
  * Model class representing a Pokemon entity.
@@ -21,6 +22,8 @@ public class Pokemon {
     private Integer pokedexId;
     @Property("generation")
     private Integer generation;
+    @Relationship(type = "NAMED", direction = Relationship.Direction.OUTGOING)
+    private InternationalizedName names;
     @Property("catch_rate")
     private Integer catchRate;
     @Property("level_100")
