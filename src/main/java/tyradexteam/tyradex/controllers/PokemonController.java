@@ -1,12 +1,11 @@
 package tyradexteam.tyradex.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import tyradexteam.tyradex.models.Pokemon;
 import tyradexteam.tyradex.services.PokemonService;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Controller class for handling HTTP requests related to Pokemon entities.
@@ -35,5 +34,10 @@ public class PokemonController {
     @GetMapping(value = "all", produces = "application/json")
     public List<Pokemon> getAllPokemon() {
         return this.service.getAllPokemon();
+    }
+
+    @GetMapping(value = "type/{type1}", produces = "application/json")
+    public List<Pokemon> getPokemonByType(@PathVariable String type1) {
+        return this.service.getPokemonByType(type1);
     }
 }
