@@ -27,7 +27,6 @@ public class PokemonService {
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
     public List<Pokemon> getAllPokemon() {
-        System.out.println(this.repo.findAll());
         return this.repo.findAll();
     }
 }

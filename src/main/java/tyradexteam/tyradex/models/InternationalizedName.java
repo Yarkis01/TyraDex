@@ -11,8 +11,6 @@ import org.springframework.data.neo4j.core.schema.Property;
  * such as French, English, and Japanese.
  */
 @Data
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Node("InternationalizedName")

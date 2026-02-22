@@ -2,7 +2,6 @@ package tyradexteam.tyradex.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import tyradexteam.tyradex.models.Pokemon;
 import tyradexteam.tyradex.services.PokemonService;
