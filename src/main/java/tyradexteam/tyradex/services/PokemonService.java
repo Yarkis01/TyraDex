@@ -2,7 +2,6 @@ package tyradexteam.tyradex.services;
 
 import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.Pokemon;
-import tyradexteam.tyradex.models.Type;
 import tyradexteam.tyradex.services.repositories.PokemonRepository;
 
 import java.util.List;

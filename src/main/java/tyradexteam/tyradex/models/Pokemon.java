@@ -34,6 +34,14 @@ public class Pokemon {
     @Relationship(type = "HAS_TALENT", direction = Relationship.Direction.OUTGOING)
     private List<Talent> talents;
 
+    @Relationship(type = "EVOLVED_TO", direction = Relationship.Direction.INCOMING, cascadeUpdates = false)
+    @JsonIgnoreProperties({"evolutions", "preEvolutions"})
+    private List<Pokemon> evolutions;
+
+    @Relationship(type = "WAS", direction =  Relationship.Direction.OUTGOING, cascadeUpdates = false)
+    @JsonIgnoreProperties({"evolutions", "preEvolutions"})
+    private List<Pokemon> preEvolutions;
+
     @Relationship(type = "COMPOSED", direction =Relationship.Direction.OUTGOING)
     private Stat stats;
 
