@@ -32,7 +32,13 @@ public class Pokemon {
     private List<Type> types;
 
     @Relationship(type = "HAS_TALENT", direction = Relationship.Direction.OUTGOING)
-    private List<Talent> talents;
+    private List<TalentRelationship> talents;
+
+    @Relationship(type = "EVOLVED_TO", direction = Relationship.Direction.OUTGOING)
+    private List<EvolutionRelationship> nextEvolutions;
+
+    @Relationship(type = "WAS", direction = Relationship.Direction.OUTGOING)
+    private List<EvolutionRelationship> previousEvolutions;
 
     @Relationship(type = "COMPOSED", direction =Relationship.Direction.OUTGOING)
     private Stat stats;
