@@ -5,7 +5,6 @@ import tyradexteam.tyradex.models.Pokemon;
 import tyradexteam.tyradex.services.PokemonService;
 
 import java.util.List;
-import java.util.Optional;
 
 /**
  * Controller class for handling HTTP requests related to Pokemon entities.
@@ -32,8 +31,9 @@ public class PokemonController {
      * which in turn interacts with the repository to fetch data from the database.
      */
     @GetMapping(value = "all", produces = "application/json")
-    public List<Pokemon> getAllPokemon() {
-        return this.service.getAllPokemon();
+    public List<Pokemon> getAllPokemon(@RequestParam(defaultValue = "0") int page,
+                                       @RequestParam(defaultValue = "50") int size) {
+        return this.service.getAllPokemon(page, size);
     }
 
     @GetMapping(value = "type/{type1}", produces = "application/json")

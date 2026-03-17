@@ -1,5 +1,7 @@
 package tyradexteam.tyradex.services;
 
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.Pokemon;
 import tyradexteam.tyradex.services.repositories.PokemonRepository;
@@ -26,8 +28,8 @@ public class PokemonService {
     * Method to retrieve all Pokemon entities from the database. This method interacts with the repository to fetch data.
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
-    public List<Pokemon> getAllPokemon() {
-        return this.repo.findAll();
+    public List<Pokemon> getAllPokemon(int page, int size) {
+        return this.repo.findAll(PageRequest.of(page, size, Sort.by("pokedexId").ascending())).getContent();
     }
 
     /**
