@@ -3,7 +3,8 @@ package tyradexteam.tyradex.services;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import tyradexteam.tyradex.models.Pokemon;
+import tyradexteam.tyradex.models.dtos.PokemonDTO;
+import tyradexteam.tyradex.services.mapper.PokemonMapper;
 import tyradexteam.tyradex.services.repositories.PokemonRepository;
 
 import java.util.List;
@@ -28,8 +29,8 @@ public class PokemonService {
     * Method to retrieve all Pokemon entities from the database. This method interacts with the repository to fetch data.
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
-    public List<Pokemon> getAllPokemon(int page, int size) {
-        return this.repo.findAll(PageRequest.of(page, size, Sort.by("pokedexId").ascending())).getContent();
+    public List<PokemonDTO> getAllPokemon(int page, int size) {
+        return PokemonMapper.toDTO(this.repo.findAll(PageRequest.of(page, size, Sort.by("pokedexId").ascending())).getContent());
     }
 
     /**
@@ -37,8 +38,8 @@ public class PokemonService {
      * @param type1 The type of Pokemon to filter by, which can be provided in either French or English.
      * @return A list of Pokemon entities that match the specified type, retrieved from the database.
      */
-    public List<Pokemon> getPokemonByType(String type1) {
-        return this.repo.findByType(capitalizeFirstLetter(type1));
+    public List<PokemonDTO> getPokemonByType(String type1) {
+        return PokemonMapper.toDTO(this.repo.findByType(capitalizeFirstLetter(type1)));
     }
 
     private String capitalizeFirstLetter(String str) {

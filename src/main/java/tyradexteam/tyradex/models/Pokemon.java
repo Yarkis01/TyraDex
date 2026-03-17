@@ -35,10 +35,16 @@ public class Pokemon {
     @Property("name_jp")
     private String nameJp;
 
+    @Property("sprite_regular")
+    private String spriteRegular;
+
+    @Property("sprite_shiny")
+    private String spriteShiny;
+
     @Relationship(type = "IS_TYPED", direction = Relationship.Direction.OUTGOING)
     private List<Type> types;
 
-    @Relationship(type = "HAS_TALENT", direction = Relationship.Direction.OUTGOING)
+    @Relationship(type = "HAS", direction = Relationship.Direction.OUTGOING)
     private List<TalentRelationship> talents;
 
     @Relationship(type = "WAS", direction = Relationship.Direction.INCOMING)
@@ -53,7 +59,7 @@ public class Pokemon {
     @Property("level_100")
     private Integer level_100;
 
-    @Relationship(type = "BEHOVE", direction = Relationship.Direction.OUTGOING)
+    @Relationship(type = "GROUPED_IN", direction = Relationship.Direction.OUTGOING)
     private List<EggGroup> eggGroups;
 
     @Property("height")

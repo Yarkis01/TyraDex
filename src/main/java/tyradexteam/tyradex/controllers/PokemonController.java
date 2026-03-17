@@ -1,7 +1,7 @@
 package tyradexteam.tyradex.controllers;
 
 import org.springframework.web.bind.annotation.*;
-import tyradexteam.tyradex.models.Pokemon;
+import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.services.PokemonService;
 
 import java.util.List;
@@ -31,13 +31,13 @@ public class PokemonController {
      * which in turn interacts with the repository to fetch data from the database.
      */
     @GetMapping(value = "all", produces = "application/json")
-    public List<Pokemon> getAllPokemon(@RequestParam(defaultValue = "0") int page,
+    public List<PokemonDTO> getAllPokemon(@RequestParam(defaultValue = "0") int page,
                                        @RequestParam(defaultValue = "50") int size) {
         return this.service.getAllPokemon(page, size);
     }
 
     @GetMapping(value = "type/{type1}", produces = "application/json")
-    public List<Pokemon> getPokemonByType(@PathVariable String type1) {
+    public List<PokemonDTO> getPokemonByType(@PathVariable String type1) {
         return this.service.getPokemonByType(type1);
     }
 }

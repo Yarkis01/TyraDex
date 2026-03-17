@@ -1,7 +1,5 @@
 package tyradexteam.tyradex.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,13 +18,11 @@ import org.springframework.data.neo4j.core.schema.TargetNode;
 @RelationshipProperties
 public class EvolutionRelationship {
     @RelationshipId
-    @JsonIgnore
     private Long id;
 
     @Property("condition")
     private String condition;
 
     @TargetNode
-    @JsonIgnoreProperties({"nextEvolutions", "previousEvolutions"})
     private Pokemon pokemon;
 }
