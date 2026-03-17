@@ -1,7 +1,8 @@
 package tyradexteam.tyradex.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Property;
@@ -25,8 +26,14 @@ public class Pokemon {
     @Property("generation")
     private Integer generation;
 
-    @Relationship(type = "NAMED", direction = Relationship.Direction.OUTGOING)
-    private InternationalizedName names;
+    @Property("name_fr")
+    private String nameFr;
+
+    @Property("name_en")
+    private String nameEn;
+
+    @Property("name_jp")
+    private String nameJp;
 
     @Relationship(type = "IS_TYPED", direction = Relationship.Direction.OUTGOING)
     private List<Type> types;
@@ -34,22 +41,11 @@ public class Pokemon {
     @Relationship(type = "HAS_TALENT", direction = Relationship.Direction.OUTGOING)
     private List<TalentRelationship> talents;
 
-    @Relationship(type = "EVOLVED_TO", direction = Relationship.Direction.OUTGOING)
+    @Relationship(type = "WAS", direction = Relationship.Direction.INCOMING)
     private List<EvolutionRelationship> nextEvolutions;
 
     @Relationship(type = "WAS", direction = Relationship.Direction.OUTGOING)
     private List<EvolutionRelationship> previousEvolutions;
-
-    @Relationship(type = "EVOLVED_TO", direction = Relationship.Direction.INCOMING, cascadeUpdates = false)
-    @JsonIgnoreProperties({"evolutions", "preEvolutions"})
-    private List<Pokemon> evolutions;
-
-    @Relationship(type = "WAS", direction =  Relationship.Direction.OUTGOING, cascadeUpdates = false)
-    @JsonIgnoreProperties({"evolutions", "preEvolutions"})
-    private List<Pokemon> preEvolutions;
-
-    @Relationship(type = "COMPOSED", direction =Relationship.Direction.OUTGOING)
-    private Stat stats;
 
     @Property("catch_rate")
     private Integer catchRate;
@@ -65,5 +61,23 @@ public class Pokemon {
 
     @Property("weight")
     private String weight;
+
+    @Property("hp")
+    private Integer hp;
+
+    @Property("atk")
+    private Integer attack;
+
+    @Property("def")
+    private Integer defense;
+
+    @Property("spe_atk")
+    private Integer specialAttack;
+
+    @Property("spe_def")
+    private Integer specialDefense;
+
+    @Property("speed")
+    private Integer speed;
 
 }

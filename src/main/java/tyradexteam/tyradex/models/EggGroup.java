@@ -1,11 +1,12 @@
 package tyradexteam.tyradex.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Property;
-import org.springframework.data.neo4j.core.schema.Relationship;
 
 @Data
 @NoArgsConstructor
@@ -17,6 +18,6 @@ public class EggGroup {
     @JsonIgnore
     private String id;
 
-    @Relationship(type = "NAMED", direction = Relationship.Direction.OUTGOING)
-    private InternationalizedName names;
+    @Property("name_fr")
+    private String nameFr;
 }
