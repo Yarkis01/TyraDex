@@ -6,6 +6,7 @@ import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.models.dtos.SpriteDTO;
 import tyradexteam.tyradex.models.dtos.StatDTO;
 import tyradexteam.tyradex.models.dtos.units.SpriteUnitDTO;
+import tyradexteam.tyradex.services.utils.ResistanceUtil;
 
 import java.util.List;
 
@@ -19,6 +20,7 @@ public class PokemonMapper {
      * @return Le DTO PokemonDTO correspondant à l'entité Pokemon fournie.
      */
     public static PokemonDTO toDTO(Pokemon pokemon) {
+        ResistanceUtil resistanceUtil = new ResistanceUtil();
         return PokemonDTO.builder()
             .pokedexId(pokemon.getPokedexId())
             .generation(pokemon.getGeneration())
@@ -40,6 +42,11 @@ public class PokemonMapper {
                 .spDef(pokemon.getSpecialDefense())
                 .speed(pokemon.getSpeed())
                 .build())
+            .resistances(!pokemon.getTypes().isEmpty() ? resistanceUtil.getResistances(
+                     TypeMapper.toDto(
+                        pokemon.getTypes().get(0)),
+                        pokemon.getTypes().size() > 1 ? TypeMapper.toDto(pokemon.getTypes().get(1)) : null)
+                    : null)
             .evolution(EvolutionMapper.toDto(pokemon.getPreviousEvolutions(), pokemon.getNextEvolutions()))
             .height(pokemon.getHeight())
             .weight(pokemon.getWeight())

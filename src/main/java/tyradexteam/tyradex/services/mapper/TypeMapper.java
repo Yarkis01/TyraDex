@@ -3,6 +3,7 @@ package tyradexteam.tyradex.services.mapper;
 import tyradexteam.tyradex.models.Type;
 import tyradexteam.tyradex.models.dtos.NameDTO;
 import tyradexteam.tyradex.models.dtos.TypeDTO;
+import tyradexteam.tyradex.models.dtos.TypePokemon;
 
 import java.util.List;
 
@@ -23,5 +24,9 @@ public class TypeMapper {
                         .build();
                     }
         ).toList();
+    }
+
+    public static TypePokemon toDto(Type type){
+        return TypePokemon.fromString(type.getNameFr());
     }
 }
