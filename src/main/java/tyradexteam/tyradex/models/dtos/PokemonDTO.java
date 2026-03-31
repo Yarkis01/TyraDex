@@ -2,6 +2,7 @@ package tyradexteam.tyradex.models.dtos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonUnwrapped;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -86,6 +87,7 @@ public class PokemonDTO {
      * (par exemple, résistance au feu, à l'eau, etc.) et leurs valeurs respectives.
      */
     @JsonProperty("resistances")
+    @JsonUnwrapped
     private ResistanceDTO resistances;
 
     /**
