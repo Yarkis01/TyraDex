@@ -18,7 +18,7 @@ import org.springframework.data.neo4j.core.schema.TargetNode;
 @RelationshipProperties
 public class EvolutionRelationship {
     @RelationshipId
-    private Long id;
+    private String id;
 
     @Property("condition")
     private String condition;

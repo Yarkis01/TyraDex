@@ -48,8 +48,8 @@ public class ResistanceUtil {
         this.resistances.put(
             TypePokemon.STEEL, new Hashtable<TypePokemon, Double>()
             {{
-                put(TypePokemon.FIRE, 2.0);
-                put(TypePokemon.FIGHTING, 2.0);
+                put(TypePokemon.POISON, 0.0);
+                put(TypePokemon.ROCK, 0.5);
                 put(TypePokemon.STEEL, 0.5);
                 put(TypePokemon.DRAGON, 0.5);
                 put(TypePokemon.FAIRY, 0.5);
@@ -57,11 +57,11 @@ public class ResistanceUtil {
                 put(TypePokemon.BUG, 0.5);
                 put(TypePokemon.NORMAL, 0.5);
                 put(TypePokemon.GRASS, 0.5);
-                put(TypePokemon.ROCK, 0.0);
-                put(TypePokemon.POISON, 0.0);
-                put(TypePokemon.GROUND, 2.0);
                 put(TypePokemon.FLYING, 0.5);
                 put(TypePokemon.PSYCHIC, 0.5);
+                put(TypePokemon.GROUND, 2.0);
+                put(TypePokemon.FIRE, 2.0);
+                put(TypePokemon.FIGHTING, 2.0);
             }}
         );
         // Type Combat
@@ -227,6 +227,7 @@ public class ResistanceUtil {
                 put(TypePokemon.FIRE, 0.5);
                 put(TypePokemon.FLYING, 0.5);
                 put(TypePokemon.POISON, 0.5);
+                put(TypePokemon.NORMAL, 0.5);
                 put(TypePokemon.GROUND, 2.0);
                 put(TypePokemon.STEEL, 2.0);
                 put(TypePokemon.WATER, 2.0);
