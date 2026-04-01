@@ -10,6 +10,10 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class Neo4jConfig {
+    /**
+     * Bean definition for Cypher DSL configuration, specifying the Neo4j 5 dialect for query rendering.
+     * @return A Cypher DSL configuration object configured for Neo4j 5 dialect.
+     */
     @Bean
     org.neo4j.cypherdsl.core.renderer.Configuration cypherDslConfiguration() {
         return org.neo4j.cypherdsl.core.renderer.Configuration.newConfig()
