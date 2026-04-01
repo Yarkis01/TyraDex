@@ -8,6 +8,10 @@ import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Property;
 
+/**
+ * Model class representing an EggGroup entity.
+ * This class can be expanded with fields and properties relevant to the EggGroup concept in the application.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
