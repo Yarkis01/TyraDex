@@ -7,26 +7,29 @@ import tyradexteam.tyradex.models.dtos.TalentDTO;
 import java.util.List;
 
 /**
- * Mapper pour convertir les entités TalentRelationship en DTO TalentDTO.
+ * Mapper to convert TalentRelationship entities to TalentDTOs. This class provides a method to transform a list of TalentRelationship
+ * objects into a list of TalentDTO objects, which are used for data transfer in the application.
+ * Each TalentDTO contains a NameDTO with the names of the talent in different languages, as well as a boolean indicating whether the talent is hidden or not.
  */
 public class TalentMapper {
     /**
-     * Convertit une liste d'entités TalentRelationship en une liste de DTO TalentDTO.
-     * @param talents La liste d'entités TalentRelationship à convertir.
-     * @return La liste de DTO TalentDTO correspondant aux entités TalentRelationship fournies.
+     * Method to convert a list of TalentRelationship entities into a list of TalentDTOs. This method takes a list of TalentRelationship objects,
+     * maps each TalentRelationship to a TalentDTO by extracting the relevant information (the names of the talent in different languages and whether it is hidden), and returns a list of TalentDTOs.
+     * @param talents The list of TalentRelationship entities to be converted into DTOs. Each TalentRelationship in the list will be transformed into a TalentDTO, which contains a NameDTO with the names of the talent in French, English, and Japanese, as well as a boolean indicating whether the talent is hidden or not.
+     * @return A list of TalentDTO objects that correspond to the provided list of TalentRelationship entities. Each TalentDTO contains a NameDTO with the names of the talent in different languages, and a boolean indicating whether the talent is hidden or not, based on the properties of the TalentRelationship entities.
      */
     public static List<TalentDTO> toDto(List<TalentRelationship> talents) {
         return talents.stream().map(
-                tr -> {
-                    return TalentDTO.builder()
-                        .name(NameDTO.builder()
-                                .fr(tr.getTalent().getNameFr())
-                                .en(tr.getTalent().getNameEn())
-                                .jp(tr.getTalent().getNameJp())
-                            .build())
-                        .tc(tr.getHidden())
-                    .build();
-                }
+            tr -> {
+                return TalentDTO.builder()
+                    .name(NameDTO.builder()
+                            .fr(tr.getTalent().getNameFr())
+                            .en(tr.getTalent().getNameEn())
+                            .jp(tr.getTalent().getNameJp())
+                        .build())
+                    .tc(tr.getHidden())
+                .build();
+            }
         ).toList();
     }
 }
