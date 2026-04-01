@@ -11,8 +11,8 @@ import java.util.List;
  * This class will define endpoints for request Pokemon data,
  * and will interact with the PokemonService to perform business logic operations.
  */
-@RestController()
-@RequestMapping("pokemon")
+@RestController
+@RequestMapping("/pokemon")
 public class PokemonController {
     private final PokemonService service;
 
@@ -30,14 +30,20 @@ public class PokemonController {
      * @return An iterable collection of Pokemon entities retrieved from the service layer,
      * which in turn interacts with the repository to fetch data from the database.
      */
-    @GetMapping(value = "all", produces = "application/json")
+    @GetMapping(value = {"/", ""}, produces = "application/json")
     public List<PokemonDTO> getAllPokemon(@RequestParam(defaultValue = "0") int page,
-                                       @RequestParam(defaultValue = "50") int size) {
+                                          @RequestParam(defaultValue = "50") int size) {
         return this.service.getAllPokemon(page, size);
     }
 
-    @GetMapping(value = "type/{type1}", produces = "application/json")
-    public List<PokemonDTO> getPokemonByType(@PathVariable String type1) {
-        return this.service.getPokemonByType(type1);
+    /**
+     * Endpoint to retrieve a Pokemon entity based on its unique identifier (ID). This method will handle HTTP requests to the "/{id}"
+     * @param id The unique identifier of the Pokemon to retrieve. The endpoint will attempt to find a Pokemon with the specified ID and return it as a DTO.
+     * @return The PokemonDTO corresponding to the Pokemon entity with the specified ID, retrieved from the service layer,
+     * which in turn interacts with the repository to fetch data from the database. If no such Pokemon exists, an exception is thrown.
+     */
+    @GetMapping(value = "{id}", produces = "application/json")
+    public PokemonDTO getPokemonById(@PathVariable Integer id) {
+        return this.service.getPokemonById(id);
     }
 }

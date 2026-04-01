@@ -4,6 +4,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
+import tyradexteam.tyradex.models.exceptions.PokemonNotFoundException;
 import tyradexteam.tyradex.services.mapper.PokemonMapper;
 import tyradexteam.tyradex.services.repositories.PokemonRepository;
 
@@ -40,6 +41,28 @@ public class PokemonService {
      */
     public List<PokemonDTO> getPokemonByType(String type1) {
         return PokemonMapper.toDTO(this.repo.findByType(capitalizeFirstLetter(type1)));
+    }
+
+    /**
+     * Method to retrieve Pokemon entities based on their generation. This method interacts with the repository to fetch data
+     * @param generation The generation of Pokemon to filter by. The query matches Pokemon nodes that have a 'generation' property equal to the specified value.
+     * @return A list of Pokemon entities that match the specified generation, retrieved from the database.
+     */
+    public List<PokemonDTO> getPokemonByGeneration(Integer generation) {
+        return PokemonMapper.toDTO(this.repo.findByGeneration(generation));
+    }
+
+    /**
+     * Method to retrieve a Pokemon entity based on its unique identifier (ID). This method interacts with the repository to fetch data
+     * @param id The unique identifier of the Pokemon to retrieve. The method attempts to find a Pokemon with the specified ID and returns it as a DTO.
+     *           If no Pokemon is found with the given ID, a PokemonNotFoundException is thrown.
+     * @return The PokemonDTO corresponding to the Pokemon entity with the specified ID, retrieved from the database.
+     * If no such Pokemon exists, an exception is thrown.
+     * @throws PokemonNotFoundException If no Pokemon is found with the specified ID,
+     * this exception is thrown to indicate that the requested resource does not exist in the database.
+     */
+    public PokemonDTO getPokemonById(Integer id) throws PokemonNotFoundException{
+        return PokemonMapper.toDTO(this.repo.findById(id).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with id: " + id)));
     }
 
     private String capitalizeFirstLetter(String str) {
