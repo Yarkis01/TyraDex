@@ -1,5 +1,6 @@
 package tyradexteam.tyradex.services.mapper;
 
+import tyradexteam.tyradex.models.Talent;
 import tyradexteam.tyradex.models.TalentRelationship;
 import tyradexteam.tyradex.models.dtos.NameDTO;
 import tyradexteam.tyradex.models.dtos.TalentDTO;
@@ -20,16 +21,25 @@ public class TalentMapper {
      */
     public static List<TalentDTO> toDto(List<TalentRelationship> talents) {
         return talents.stream().map(
-            tr -> {
-                return TalentDTO.builder()
-                    .name(NameDTO.builder()
-                            .fr(tr.getTalent().getNameFr())
-                            .en(tr.getTalent().getNameEn())
-                            .jp(tr.getTalent().getNameJp())
-                        .build())
-                    .tc(tr.getHidden())
-                .build();
-            }
+            tr -> TalentDTO.builder()
+                .name(NameDTO.builder()
+                        .fr(tr.getTalent().getNameFr())
+                        .en(tr.getTalent().getNameEn())
+                        .jp(tr.getTalent().getNameJp())
+                    .build())
+                .tc(tr.getHidden())
+            .build()
         ).toList();
     }
+
+    public static TalentDTO toDto(Talent talent) {
+        return TalentDTO.builder()
+                .name(NameDTO.builder()
+                        .fr(talent.getNameFr())
+                        .en(talent.getNameEn())
+                        .jp(talent.getNameJp())
+                    .build())
+                .build();
+    }
+
 }
