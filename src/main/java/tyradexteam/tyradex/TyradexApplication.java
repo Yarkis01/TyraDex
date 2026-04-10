@@ -2,6 +2,7 @@ package tyradexteam.tyradex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.data.neo4j.config.EnableNeo4jAuditing;
 import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 
@@ -12,6 +13,7 @@ import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 @SpringBootApplication
 @EnableNeo4jAuditing
 @EnableNeo4jRepositories(basePackages = {"tyradexteam.tyradex.services.repositories"})
+@EnableCaching
 public class TyradexApplication {
     /**
      * Main method to run the Spring Boot application.

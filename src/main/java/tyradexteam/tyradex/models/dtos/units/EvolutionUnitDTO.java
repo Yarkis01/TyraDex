@@ -24,6 +24,6 @@ public class EvolutionUnitDTO {
      * Le Pokémon associé à cette unité d'évolution, représenté par un objet PokemonDTO.
      */
     @JsonUnwrapped
-    @JsonIgnoreProperties({"level_100", "catch_rate", "egg_groups", "height", "weight", "evolution", "resistances"})
+    @JsonIgnoreProperties({"level_100", "catch_rate", "egg_groups", "height", "weight", "evolution", "resistances","talents","stats"})
     private PokemonDTO pokemon;
 }
