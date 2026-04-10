@@ -1,8 +1,6 @@
 package tyradexteam.tyradex.models.dtos;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.fasterxml.jackson.annotation.JsonUnwrapped;
+import com.fasterxml.jackson.annotation.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -73,6 +71,7 @@ public class PokemonDTO {
      * (par exemple, statik, lévitation, etc.) et une indication si ces talents sont des talents cachés (tc) ou non.
      */
     @JsonProperty("talents")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<TalentDTO> talents;
 
     /**
@@ -80,6 +79,7 @@ public class PokemonDTO {
      * (par exemple, points de vie, attaque, défense, etc.) et leurs valeurs respectives.
      */
     @JsonProperty("stats")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private StatDTO stats;
 
     /**
@@ -87,6 +87,7 @@ public class PokemonDTO {
      * (par exemple, résistance au feu, à l'eau, etc.) et leurs valeurs respectives.
      */
     @JsonProperty("resistances")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonUnwrapped
     private ResistanceDTO resistances;
 
@@ -96,6 +97,7 @@ public class PokemonDTO {
      * (par exemple, niveau, objet, etc.).
      */
     @JsonProperty("evolution")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private EvolutionDTO evolution;
 
     /**
@@ -103,6 +105,7 @@ public class PokemonDTO {
      * (par exemple, "1.0 m", "0.5 m", etc.).
      */
     @JsonProperty("height")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String height;
 
     /**
@@ -110,23 +113,27 @@ public class PokemonDTO {
      * (par exemple, "10.0 kg", "5.0 kg", etc.).
      */
     @JsonProperty("weight")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String weight;
 
     /**
     * Groupes d'œufs du Pokémon, représentés par un tableau de chaînes de caractères indiquant les différents groupes d'œufs
     */
     @JsonProperty("egg_groups")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<EggGroupDTO> eggGroups;
 
     /**
     * Taux de capture du Pokémon, représenté par un entier indiquant la probabilité de capturer le Pokémon
     */
     @JsonProperty("catch_rate")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Integer catchRate;
 
     /**
     * Nombre de points d'expériences du Pokémon pour atteindre le niveau 100 indiqué par un entier
     */
     @JsonProperty("level_100")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Integer level100;
 }

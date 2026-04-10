@@ -1,7 +1,5 @@
 package tyradexteam.tyradex.services;
 
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.models.exceptions.PokemonNotFoundException;
@@ -30,8 +28,8 @@ public class PokemonService {
     * Method to retrieve all Pokemon entities from the database. This method interacts with the repository to fetch data.
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
-    public List<PokemonDTO> getAllPokemon(int page, int size) {
-        return PokemonMapper.toDTO(this.repo.findAll(PageRequest.of(page, size, Sort.by("pokedexId").ascending())).getContent());
+    public List<PokemonDTO> getAllPokemon() {
+        return this.repo.findAllCustom().stream().map(PokemonMapper::toDTO).toList();
     }
 
     /**
@@ -63,6 +61,14 @@ public class PokemonService {
      */
     public PokemonDTO getPokemonById(Integer id) throws PokemonNotFoundException{
         return PokemonMapper.toDTO(this.repo.findById(id).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with id: " + id)));
+    }
+
+    /**
+     * Method to get the number of Pokemon present in the database
+     * @return The number of the Pokemon
+     */
+    public Long getCountPokemon(){
+        return this.repo.count();
     }
 
     private String capitalizeFirstLetter(String str) {

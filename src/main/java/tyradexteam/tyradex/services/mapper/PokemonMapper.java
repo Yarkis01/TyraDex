@@ -92,6 +92,24 @@ public class PokemonMapper {
             .build();
     }
 
+    public static PokemonDTO toDtoMinimal(Pokemon pokemon){
+        return PokemonDTO.builder()
+                .pokedexId(pokemon.getPokedexId())
+                .generation(pokemon.getGeneration())
+                .name(NameDTO.builder().fr(pokemon.getNameFr()).en(pokemon.getNameEn()).jp(pokemon.getNameJp()).build())
+                .sprites(
+                    SpriteDTO.builder().sprites(
+                        SpriteUnitDTO.builder()
+                            .regular(pokemon.getSpriteRegular())
+                            .shiny(pokemon.getSpriteShiny())
+                            .build())
+                    .gmax(null)
+                    .build())
+                .evolution(EvolutionMapper.toDto(pokemon.getPreviousEvolutions(), pokemon.getNextEvolutions()))
+                .types(TypeMapper.toDto(pokemon.getTypes()))
+            .build();
+    }
+
     /**
      * Method to convert a list of Pokemon entities into a list of PokemonDTOs. This method takes a list of Pokemon objects, maps each Pokemon to a PokemonDTO using the toDTO method, and returns a list of PokemonDTOs. The resulting list contains the DTO representations of all the Pokemon entities provided in the input list.
      * @param pokemons The list of Pokemon entities to be converted into DTOs. Each Pokemon in the list will be transformed into a PokemonDTO using the toDTO method, which extracts the relevant information from each Pokemon object and constructs a corresponding PokemonDTO. The resulting list of PokemonDTOs will contain the DTO representations of all the Pokemon entities provided in the input list, allowing for data transfer and representation in a format suitable for various use cases within the application.
@@ -99,5 +117,9 @@ public class PokemonMapper {
      */
     public static List<PokemonDTO> toDTO(List<Pokemon> pokemons) {
         return pokemons.stream().map(PokemonMapper::toDTO).toList();
+    }
+
+    public static List<PokemonDTO> toDtoMinimal(List<Pokemon> pokemons){
+        return pokemons.stream().map(PokemonMapper::toDtoMinimal).toList();
     }
 }

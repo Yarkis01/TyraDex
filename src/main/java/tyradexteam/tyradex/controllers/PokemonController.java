@@ -1,6 +1,10 @@
 package tyradexteam.tyradex.controllers;
 
-import org.springframework.web.bind.annotation.*;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.services.PokemonService;
 
@@ -30,10 +34,10 @@ public class PokemonController {
      * @return An iterable collection of Pokemon entities retrieved from the service layer,
      * which in turn interacts with the repository to fetch data from the database.
      */
+    @Cacheable("allPokemon")
     @GetMapping(value = {"/", ""}, produces = "application/json")
-    public List<PokemonDTO> getAllPokemon(@RequestParam(defaultValue = "0") int page,
-                                          @RequestParam(defaultValue = "50") int size) {
-        return this.service.getAllPokemon(page, size);
+    public List<PokemonDTO> getAllPokemon() {
+        return this.service.getAllPokemon();
     }
 
     /**
@@ -45,5 +49,14 @@ public class PokemonController {
     @GetMapping(value = "{id}", produces = "application/json")
     public PokemonDTO getPokemonById(@PathVariable Integer id) {
         return this.service.getPokemonById(id);
+    }
+
+    /**
+     * Endpoint to get the number of Pokemon in the database
+     * @return The number of Pokemon in the database
+     */
+    @GetMapping(value = "count", produces = "application/json")
+    public Long getPokemonCount(){
+        return this.service.getCountPokemon();
     }
 }

@@ -14,6 +14,15 @@ import java.util.List;
  */
 @Repository
 public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, Integer>, Neo4jRepository<Pokemon, Integer> {
+    @Query(
+    """
+        MATCH (n:Pokemon)
+        OPTIONAL MATCH (n)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m)
+        RETURN n, collect(r), collect(m)
+    """
+    )
+    List<Pokemon> findAllCustom();
+
     /**
      * Custom query to find Pokemon by their type. This method uses a Cypher query to match Pokemon nodes that are connected
      * @param type The type of Pokemon to filter by, which can be provided in either French or English. The query matches Pokemon nodes that are connected to a TypePokemon node with the specified name.

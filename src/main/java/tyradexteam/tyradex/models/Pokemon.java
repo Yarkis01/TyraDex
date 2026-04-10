@@ -41,26 +41,11 @@ public class Pokemon {
     @Property("sprite_shiny")
     private String spriteShiny;
 
-    @Relationship(type = "IS_TYPED", direction = Relationship.Direction.OUTGOING)
-    private List<Type> types;
-
-    @Relationship(type = "HAS", direction = Relationship.Direction.OUTGOING)
-    private List<TalentRelationship> talents;
-
-    @Relationship(type = "WAS", direction = Relationship.Direction.INCOMING)
-    private List<EvolutionRelationship> nextEvolutions;
-
-    @Relationship(type = "WAS", direction = Relationship.Direction.OUTGOING)
-    private List<EvolutionRelationship> previousEvolutions;
-
     @Property("catch_rate")
     private Integer catchRate;
 
     @Property("level_100")
     private Integer level_100;
-
-    @Relationship(type = "GROUPED_IN", direction = Relationship.Direction.OUTGOING)
-    private List<EggGroup> eggGroups;
 
     @Property("height")
     private String height;
@@ -85,5 +70,20 @@ public class Pokemon {
 
     @Property("speed")
     private Integer speed;
+
+    @Relationship(type = "IS_TYPED", direction = Relationship.Direction.OUTGOING)
+    private List<Type> types;
+
+    @Relationship(type = "GROUPED_IN", direction = Relationship.Direction.OUTGOING)
+    private List<EggGroup> eggGroups;
+
+    @Relationship(type = "HAS", direction = Relationship.Direction.OUTGOING)
+    private List<TalentRelationship> talents;
+
+    @Relationship(type = "WAS", direction = Relationship.Direction.OUTGOING)
+    private List<EvolutionRelationship> previousEvolutions;
+
+    @Relationship(type = "WAS", direction = Relationship.Direction.INCOMING)
+    private List<EvolutionRelationship> nextEvolutions;
 
 }
