@@ -28,7 +28,7 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param type The type of Pokemon to filter by, which can be provided in either French or English. The query matches Pokemon nodes that are connected to a TypePokemon node with the specified name.
      * @return A list of Pokemon entities that match the specified type, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:IS_TYPED]->(t:TypePokemon) WHERE t.name_fr = $type OR t.name_en = $type RETURN p;")
+    @Query("MATCH (p:Pokemon)-[:IS_TYPED]->(t:TypePokemon) WHERE t.name_fr = $type OR t.name_en = $type ORDER BY p.pokedex_id ASC RETURN p;")
     List<Pokemon> findByType(String type);
 
     /**
@@ -43,6 +43,6 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param nameTalent The name of the talent to filter by, which can be provided in French. The query matches Pokemon nodes that are connected to a Talent node with the specified name in French.
      * @return A list of Pokemon entities that match the specified talent, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent) WHERE t.name_fr=$nameTalent RETURN p")
+    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent) WHERE t.name_fr=$nameTalent OR t.name_en=$nameTalent ORDER BY p.pokedex_id ASC RETURN p")
     List<Pokemon> findByTalent(String nameTalent);
 }
