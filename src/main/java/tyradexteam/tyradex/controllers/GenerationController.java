@@ -32,7 +32,7 @@ public class GenerationController {
      * @param generation The generation of Pokemon to filter by. The endpoint will match Pokemon nodes that have a 'generation' property equal to the specified value.
      * @return A list of Pokemon entities that match the specified generation, retrieved from the service layer, which in turn interacts with the repository to fetch data from the database.
      */
-    @GetMapping(value = "gen/{generation}", produces = "application/json")
+    @GetMapping(value = "{generation}", produces = "application/json")
     public List<PokemonDTO> getPokemonByGeneration(@PathVariable Integer generation) {
         return this.pokemonService.getPokemonByGeneration(generation);
     }
