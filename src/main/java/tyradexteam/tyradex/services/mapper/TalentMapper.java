@@ -1,5 +1,6 @@
 package tyradexteam.tyradex.services.mapper;
 
+import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.Talent;
 import tyradexteam.tyradex.models.TalentRelationship;
 import tyradexteam.tyradex.models.dtos.NameDTO;
@@ -12,6 +13,7 @@ import java.util.List;
  * objects into a list of TalentDTO objects, which are used for data transfer in the application.
  * Each TalentDTO contains a NameDTO with the names of the talent in different languages, as well as a boolean indicating whether the talent is hidden or not.
  */
+@Service
 public class TalentMapper {
     /**
      * Method to convert a list of TalentRelationship entities into a list of TalentDTOs. This method takes a list of TalentRelationship objects,
@@ -19,7 +21,7 @@ public class TalentMapper {
      * @param talents The list of TalentRelationship entities to be converted into DTOs. Each TalentRelationship in the list will be transformed into a TalentDTO, which contains a NameDTO with the names of the talent in French, English, and Japanese, as well as a boolean indicating whether the talent is hidden or not.
      * @return A list of TalentDTO objects that correspond to the provided list of TalentRelationship entities. Each TalentDTO contains a NameDTO with the names of the talent in different languages, and a boolean indicating whether the talent is hidden or not, based on the properties of the TalentRelationship entities.
      */
-    public static List<TalentDTO> toDto(List<TalentRelationship> talents) {
+    public List<TalentDTO> toDto(List<TalentRelationship> talents) {
         return talents.stream().map(
             tr -> TalentDTO.builder()
                 .name(NameDTO.builder()
@@ -32,7 +34,12 @@ public class TalentMapper {
         ).toList();
     }
 
-    public static TalentDTO toDto(Talent talent) {
+    /**
+     * Method to convert a talent entity to a talent DTO.
+     * @param talent The talent to convert to DTO
+     * @return The talent DTO which corresponds to the entity
+     */
+    public TalentDTO toDto(Talent talent) {
         return TalentDTO.builder()
                 .name(NameDTO.builder()
                         .fr(talent.getNameFr())

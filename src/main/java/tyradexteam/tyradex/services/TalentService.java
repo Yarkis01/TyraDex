@@ -14,6 +14,8 @@ import java.util.List;
 public class TalentService {
     private final PokemonRepository pkmnRepo;
     private final TalentRepository repo;
+    private final PokemonMapper pkmnMapper;
+    private final TalentMapper mapper;
 
     /**
      * Constructor of the talent service to initialize all repositories used in the service
@@ -22,10 +24,14 @@ public class TalentService {
      */
     public TalentService(
             PokemonRepository pokemonRepository,
-            TalentRepository talentRepository
+            TalentRepository talentRepository,
+            PokemonMapper pkmnMapper,
+            TalentMapper mapper
     ){
         this.pkmnRepo = pokemonRepository;
         this.repo = talentRepository;
+        this.pkmnMapper = pkmnMapper;
+        this.mapper = mapper;
     }
 
     /**
@@ -33,7 +39,7 @@ public class TalentService {
      * @return All talents
      */
     public List<TalentDTO> getAll(){
-        return this.repo.findAll().stream().map(TalentMapper::toDto).toList();
+        return this.repo.findAll().stream().map(this.mapper::toDto).toList();
     }
 
     /**
@@ -42,6 +48,6 @@ public class TalentService {
      * @return All pokemon that can have the talent
      */
     public List<PokemonDTO> getPokemonByTalent(String talent){
-        return this.pkmnRepo.findByTalent(talent.toLowerCase()).stream().map(PokemonMapper::toDTO).toList();
+        return this.pkmnRepo.findByTalent(talent.toLowerCase()).stream().map(this.pkmnMapper::toDTO).toList();
     }
 }

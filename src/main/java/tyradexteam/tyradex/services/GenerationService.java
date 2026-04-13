@@ -13,13 +13,18 @@ import java.util.List;
 @Service
 public class GenerationService {
     private final PokemonRepository pkmnRepo;
+    private final PokemonMapper mapper;
 
     /**
      * Constructor for generation service to initialize repositories used in the service
      * @param pokemonRepository The repository to get data of Pokemon
      */
-    public GenerationService(PokemonRepository pokemonRepository){
+    public GenerationService(
+            PokemonRepository pokemonRepository,
+            PokemonMapper mapper
+    ){
         this.pkmnRepo = pokemonRepository;
+        this.mapper = mapper;
     }
 
     /**
@@ -28,7 +33,7 @@ public class GenerationService {
      * @return A list of Pokemon entities that match the specified generation, retrieved from the database.
      */
     public List<PokemonDTO> getPokemonByGeneration(Integer generation) {
-        return this.pkmnRepo.findByGeneration(generation).stream().map(PokemonMapper::toDTO).toList();
+        return this.pkmnRepo.findByGeneration(generation).stream().map(this.mapper::toDTO).toList();
     }
 
 }
