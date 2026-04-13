@@ -42,19 +42,28 @@ public class PokemonController {
 
     /**
      * Endpoint to retrieve a Pokemon entity based on its unique identifier (ID). This method will handle HTTP requests to the "/{id}"
-     * @param id The unique identifier of the Pokemon to retrieve. The endpoint will attempt to find a Pokemon with the specified ID and return it as a DTO.
+     * @param nameOrId The unique identifier of the Pokemon to retrieve. The endpoint will attempt to find a Pokemon with the specified ID and return it as a DTO.
      * @return The PokemonDTO corresponding to the Pokemon entity with the specified ID, retrieved from the service layer,
      * which in turn interacts with the repository to fetch data from the database. If no such Pokemon exists, an exception is thrown.
      */
-    @GetMapping(value = "{id}", produces = "application/json")
-    public PokemonDTO getPokemonById(@PathVariable Integer id) {
-        return this.service.getPokemonById(id);
+    @GetMapping(value = "{nameOrId}", produces = "application/json")
+    public PokemonDTO getPokemonById(@PathVariable String nameOrId) {
+        PokemonDTO pokemon;
+        try {
+            Integer idInt = Integer.parseInt(nameOrId);
+            pokemon = this.service.getPokemonById(idInt);
+        } catch (NumberFormatException e) {
+            System.out.println(nameOrId);
+            pokemon = this.service.getPokemonByName(nameOrId);
+        }
+        return pokemon;
     }
 
     /**
      * Endpoint to get the number of Pokemon in the database
      * @return The number of Pokemon in the database
      */
+    @Cacheable("countPokemon")
     @GetMapping(value = "count", produces = "application/json")
     public Long getPokemonCount(){
         return this.service.getCountPokemon();

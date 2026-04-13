@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
-import tyradexteam.tyradex.services.PokemonService;
+import tyradexteam.tyradex.services.GenerationService;
 
 import java.util.List;
 
@@ -17,14 +17,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/gen")
 public class GenerationController {
-    private final PokemonService pokemonService;
+    private final GenerationService service;
 
     /**
      * Constructor for GenerationController, which initializes the service for handling business logic related to Pokemon entities.
-     * @param pokemonService The PokemonService instance used for performing operations on Pokemon data, specifically for retrieving Pokemon based on their generation. This service will be injected by Spring's dependency injection mechanism when the controller is instantiated.
+     * @param generationService The PokemonService instance used for performing operations on Pokemon data, specifically for retrieving Pokemon based on their generation. This service will be injected by Spring's dependency injection mechanism when the controller is instantiated.
      */
-    public GenerationController(PokemonService pokemonService) {
-        this.pokemonService = pokemonService;
+    public GenerationController(GenerationService generationService) {
+        this.service = generationService;
     }
 
     /**
@@ -34,6 +34,6 @@ public class GenerationController {
      */
     @GetMapping(value = "{generation}", produces = "application/json")
     public List<PokemonDTO> getPokemonByGeneration(@PathVariable Integer generation) {
-        return this.pokemonService.getPokemonByGeneration(generation);
+        return this.service.getPokemonByGeneration(generation);
     }
 }
