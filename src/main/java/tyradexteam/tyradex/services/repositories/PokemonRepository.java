@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import tyradexteam.tyradex.models.Pokemon;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Repository interface for managing Pokemon entities in the database.
@@ -28,7 +29,7 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param type The type of Pokemon to filter by, which can be provided in either French or English. The query matches Pokemon nodes that are connected to a TypePokemon node with the specified name.
      * @return A list of Pokemon entities that match the specified type, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:IS_TYPED]->(t:TypePokemon) WHERE t.name_fr = $type OR t.name_en = $type ORDER BY p.pokedex_id ASC RETURN p;")
+    @Query("MATCH (p:Pokemon)-[:IS_TYPED]->(t:TypePokemon) WHERE toLower(t.name_fr) = $type OR toLower(t.name_en) = $type ORDER BY p.pokedex_id ASC RETURN p;")
     List<Pokemon> findByType(String type);
 
     /**
@@ -43,6 +44,9 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param nameTalent The name of the talent to filter by, which can be provided in French. The query matches Pokemon nodes that are connected to a Talent node with the specified name in French.
      * @return A list of Pokemon entities that match the specified talent, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent) WHERE t.name_fr=$nameTalent OR t.name_en=$nameTalent ORDER BY p.pokedex_id ASC RETURN p")
+    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m)")
     List<Pokemon> findByTalent(String nameTalent);
+
+    @Query("MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(p.name_fr)=$name OR toLower(p.name_en)=$name RETURN p, collect(r), collect(m)")
+    Optional<Pokemon> findByName(String name);
 }
