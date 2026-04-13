@@ -1,5 +1,7 @@
 package tyradexteam.tyradex.services.mapper;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import tyradexteam.tyradex.models.Type;
 import tyradexteam.tyradex.models.dtos.NameDTO;
 import tyradexteam.tyradex.models.dtos.TypeDTO;
@@ -10,13 +12,17 @@ import java.util.List;
 /**
  * Mapper to convert Type entities to TypeDTOs. This class provides methods to transform a list of Type objects into a list of TypeDTO objects, as well as a method to convert a single Type object into a TypePokemon enum value.
  */
+@Service
 public class TypeMapper {
+    @Value("${app.bank.img.url}")
+    private String urlBankImg;
+
     /**
      * Method to convert a list of Type entities into a list of TypeDTOs. This method takes a list of Type objects, maps each Type to a TypeDTO by extracting the relevant information (the names of the type in different languages and the image), and returns a list of TypeDTOs.
      * @param types The list of Type entities to be converted into DTOs. Each Type in the list will be transformed into a TypeDTO, which contains a NameDTO with the names of the type in French, English, and Japanese, as well as an image URL representing the type.
      * @return A list of TypeDTO objects that correspond to the provided list of Type entities. Each TypeDTO contains a NameDTO with the names of the type in different languages, and an image URL representing the type, based on the properties of the Type entities.
      */
-    public static List<TypeDTO> toDto(List<Type> types) {
+    public List<TypeDTO> toDto(List<Type> types) {
         return types.stream().map(
             t -> {
                 return TypeDTO.builder()
@@ -25,7 +31,7 @@ public class TypeMapper {
                         .en(t.getNameEn())
                         .jp(t.getNameJp())
                         .build())
-                    .image(t.getImage())
+                    .image(this.urlBankImg + t.getImage())
                     .build();
                 }
         ).toList();
@@ -36,7 +42,7 @@ public class TypeMapper {
      * @param type The Type entity to be converted into a TypePokemon enum value. The method extracts the French name of the type from the Type object and uses it to determine the corresponding TypePokemon enum value.
      * @return A TypePokemon enum value that corresponds to the provided Type entity. The enum value is determined based on the French name of the type extracted from the Type object, using the fromString method of the TypePokemon enum.
      */
-    public static TypePokemon toDto(Type type){
+    public TypePokemon toDto(Type type){
         return TypePokemon.fromString(type.getNameFr());
     }
 }

@@ -14,15 +14,19 @@ import java.util.List;
 @Service
 public class TypeService {
     private final TypeRepository repository;
+    private final TypeMapper mapper;
 
     /**
      *  Constructor for TypeService, which initializes the repository and PokemonService for handling business logic related to Type entities.
      * @param typeRepository The TypeRepository instance used for performing operations on Type entities in the database. This repository provides methods for retrieving and managing Type data.
-     * @param pokemonService The PokemonService instance used for performing operations related to Pokemon entities.
-     *                       This service can be utilized within the TypeService to handle any business logic that may involve interactions between Type and Pokemon entities, such as retrieving Pokemon based on their types or managing relationships between them.
+     * @param mapper The TypeMapper instance used for converting between Type entities and TypeDTOs. This mapper facilitates the transformation of data between the database layer and the service layer, allowing for efficient data transfer and manipulation within the application.
      */
-    public TypeService(TypeRepository typeRepository) {
+    public TypeService(
+            TypeRepository typeRepository,
+            TypeMapper mapper
+    ) {
         this.repository = typeRepository;
+        this.mapper = mapper;
     }
 
     /**
@@ -30,6 +34,6 @@ public class TypeService {
      * @return A list of TypeDTO objects representing all Type entities retrieved from the database. Each TypeDTO contains information about a specific type, which can be used for data transfer in the application.
      */
     public List<TypeDTO> findAll() {
-        return TypeMapper.toDto(this.repository.findAll());
+        return this.mapper.toDto(this.repository.findAll());
     }
 }

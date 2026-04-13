@@ -15,13 +15,18 @@ import java.util.List;
 @Service
 public class PokemonService {
     private final PokemonRepository repo;
+    private final PokemonMapper mapper;
 
     /**
      * Constructor for PokemonService, which initializes the repository for database operations.
      * @param repo The PokemonRepository instance used for operations on Pokemon entities.
      */
-    public PokemonService(PokemonRepository repo) {
+    public PokemonService(
+            PokemonRepository repo,
+            PokemonMapper mapper
+    ) {
         this.repo = repo;
+        this.mapper = mapper;
     }
 
     /**
@@ -29,7 +34,7 @@ public class PokemonService {
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
     public List<PokemonDTO> getAllPokemon() {
-        return this.repo.findAllCustom().stream().map(PokemonMapper::toDTO).toList();
+        return this.repo.findAllCustom().stream().map(this.mapper::toDTO).toList();
     }
 
     /**
@@ -38,7 +43,7 @@ public class PokemonService {
      * @return A list of Pokemon entities that match the specified type, retrieved from the database.
      */
     public List<PokemonDTO> getPokemonByType(String type1) {
-        return PokemonMapper.toDTO(this.repo.findByType(type1.toLowerCase()));
+        return this.mapper.toDTO(this.repo.findByType(type1.toLowerCase()));
     }
 
     /**
@@ -51,7 +56,7 @@ public class PokemonService {
      * this exception is thrown to indicate that the requested resource does not exist in the database.
      */
     public PokemonDTO getPokemonById(Integer id) throws PokemonNotFoundException {
-        return PokemonMapper.toDTO(this.repo.findById(id).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with id: " + id)));
+        return this.mapper.toDTO(this.repo.findById(id).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with id: " + id)));
     }
 
     /**
@@ -61,7 +66,7 @@ public class PokemonService {
      * @throws PokemonNotFoundException If the pokemon is not found with the specified name, this exception is thrown to indicate that the requested resource does not exist in the database.
      */
     public PokemonDTO getPokemonByName(String name) throws PokemonNotFoundException {
-        return PokemonMapper.toDTO(this.repo.findByName(name.toLowerCase()).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with name: " + name)));
+        return this.mapper.toDTO(this.repo.findByName(name.toLowerCase()).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with name: " + name)));
     }
 
     /**
