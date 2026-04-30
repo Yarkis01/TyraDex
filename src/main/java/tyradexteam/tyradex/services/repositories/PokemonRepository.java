@@ -15,6 +15,23 @@ import java.util.Optional;
  */
 @Repository
 public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, Integer>, Neo4jRepository<Pokemon, Integer> {
+    /**
+     * Get all Pokemon with minimal informations to show only the sprite and the name of the Pokemon. This method uses a custom query to optimize performance in the neo4J database.
+     * @return All Pokemons with only the name and the sprite of the Pokemon, retrieved from the database.
+     */
+    @Query(
+    """
+        MATCH (n:Pokemon)-[r:IS_TYPED]-(t)
+        MATCH (n)-[r:IS_TYPED]-(m)
+        RETURN n, collect(r), collect(m);
+    """
+    )
+    List<Pokemon> findAllLight();
+
+    /**
+     * Get all Pokemon with a custom query to optimize performance in the neo4J database.
+     * @return All Pokemons with all informations
+     */
     @Query(
     """
         MATCH (n:Pokemon)
@@ -47,6 +64,11 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
     @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m)")
     List<Pokemon> findByTalent(String nameTalent);
 
+    /**
+     * Custom query to find Pokemon by their name. This method uses a Cypher query to match Pokemon nodes that have a specific generation property.
+     * @param name Name of the Pokemon to filter by, which can be provided in French, or English.
+     * @return A list of Pokemon entities that match the specified name, retrieved from the database. The query matches Pokemon nodes that have a 'name_fr' or 'name_en' property equal to the specified name, and also retrieves their related nodes and relationships.
+     */
     @Query("MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(p.name_fr)=$name OR toLower(p.name_en)=$name RETURN p, collect(r), collect(m)")
     Optional<Pokemon> findByName(String name);
 }

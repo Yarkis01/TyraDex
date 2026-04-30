@@ -30,6 +30,15 @@ public class PokemonService {
     }
 
     /**
+     * Method to retrieve all Pokemon entities from the database with minimal information.
+     * This method interacts with the repository to fetch data and maps it to a minimal DTO representation.
+     * @return List of the pokemon dto lighted, which contains only the essential information about each Pokemon, retrieved from the database.
+     */
+    public List<PokemonDTO> getAllLightPokemon(){
+        return this.repo.findAllLight().stream().map(this.mapper::toDtoMinimal).toList();
+    }
+
+    /**
     * Method to retrieve all Pokemon entities from the database. This method interacts with the repository to fetch data.
     * @return An iterable collection of Pokemon entities retrieved from the database.
     */
