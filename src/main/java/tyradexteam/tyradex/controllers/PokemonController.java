@@ -41,6 +41,17 @@ public class PokemonController {
     }
 
     /**
+     * Endpoint to retrieve all Pokemon entities with only the necessary information to display them in a list.
+     * This method will handle HTTP requests to the "/light"
+     * @return An iterable collections of Pokemon entities retrived.
+     */
+    @Cacheable("allPokemonLighted")
+    @GetMapping(value={"/lighted"}, produces = "application/json")
+    public List<PokemonDTO> getAllPokemonLighted() {
+        return this.service.getAllLightPokemon();
+    }
+
+    /**
      * Endpoint to retrieve a Pokemon entity based on its unique identifier (ID). This method will handle HTTP requests to the "/{id}"
      * @param nameOrId The unique identifier of the Pokemon to retrieve. The endpoint will attempt to find a Pokemon with the specified ID and return it as a DTO.
      * @return The PokemonDTO corresponding to the Pokemon entity with the specified ID, retrieved from the service layer,
