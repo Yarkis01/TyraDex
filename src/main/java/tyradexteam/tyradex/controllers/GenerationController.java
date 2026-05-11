@@ -1,5 +1,7 @@
 package tyradexteam.tyradex.controllers;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/gen")
+@Tag(name = "GenerationController", description = "Endpoints for retrieving Pokemon entities based on their generation.")
 public class GenerationController {
     private final GenerationService service;
 
@@ -32,6 +35,7 @@ public class GenerationController {
      * @param generation The generation of Pokemon to filter by. The endpoint will match Pokemon nodes that have a 'generation' property equal to the specified value.
      * @return A list of Pokemon entities that match the specified generation, retrieved from the service layer, which in turn interacts with the repository to fetch data from the database.
      */
+    @Operation(summary = "Retrieve Pokemon by Generation", description = "Endpoint to retrieve Pokemon entities based on their generation. The endpoint will match Pokemon nodes that have a 'generation' property equal to the specified value.")
     @GetMapping(value = "{generation}", produces = "application/json")
     public List<PokemonDTO> getPokemonByGeneration(@PathVariable Integer generation) {
         return this.service.getPokemonByGeneration(generation);
