@@ -18,7 +18,7 @@ import java.util.List;
  * and will interact with the PokemonService to perform business logic operations.
  */
 @RestController
-@RequestMapping("/pokemon")
+@RequestMapping("/pokemons")
 @Tag(name = "PokemonController", description = "Endpoints for retrieving Pokemon entities and related data.")
 public class PokemonController {
     private final PokemonService service;
