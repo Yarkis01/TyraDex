@@ -22,7 +22,7 @@ public class EvolutionDTO {
     /**
      * Liste des post-évolutions du Pokémon.
      */
-    private List<EvolutionUnitDTO> post;
+    private List<EvolutionUnitDTO> next;
     /**
      * Liste des évolutions méga du Pokémon.
      */

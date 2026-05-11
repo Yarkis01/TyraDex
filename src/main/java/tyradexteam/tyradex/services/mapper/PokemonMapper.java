@@ -110,6 +110,7 @@ public class PokemonMapper {
         return PokemonDTO.builder()
                 .pokedexId(pokemon.getPokedexId())
                 .generation(pokemon.getGeneration())
+                .order(pokemon.getOrder())
                 .name(NameDTO.builder().fr(pokemon.getNameFr()).en(pokemon.getNameEn()).jp(pokemon.getNameJp()).build())
                 .sprites(SpriteDTO.builder().sprites(
                                 SpriteUnitDTO.builder()
@@ -125,7 +126,7 @@ public class PokemonMapper {
     private EvolutionDTO evolutionToDTO(List<EvolutionRelationship> previous, List<EvolutionRelationship> next){
         return EvolutionDTO.builder()
                 .pre(manageListOfEvolutions(previous))
-                .post(manageListOfEvolutions(next))
+                .next(manageListOfEvolutions(next))
                 // Todo : gestion des méga évolutions, pas encore géré !
                 .build();
     }

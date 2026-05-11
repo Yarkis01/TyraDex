@@ -78,6 +78,10 @@ public class PokemonService {
         return this.mapper.toDTO(this.repo.findByName(name.toLowerCase()).orElseThrow(() -> new PokemonNotFoundException("Pokemon not found with name: " + name)));
     }
 
+    public List<PokemonDTO> findPokemonByName(String name){
+        return this.mapper.toDTO(this.repo.searchByPartialName(name.toLowerCase()));
+    }
+
     /**
      * Method to get the number of Pokemon present in the database
      * @return The number of the Pokemon
