@@ -1,5 +1,7 @@
 package tyradexteam.tyradex.controllers;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +19,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/pokemon")
+@Tag(name = "PokemonController", description = "Endpoints for retrieving Pokemon entities and related data.")
 public class PokemonController {
     private final PokemonService service;
 
@@ -36,6 +39,7 @@ public class PokemonController {
      */
     @Cacheable("allPokemon")
     @GetMapping(value = {"/", ""}, produces = "application/json")
+    @Operation(summary = "Retrieve All Pokemon", description = "Endpoint to retrieve all Pokemon entities. This method will handle HTTP requests to the '/all' endpoint and return a collection of Pokemon data.")
     public List<PokemonDTO> getAllPokemon() {
         return this.service.getAllPokemon();
     }
@@ -47,6 +51,7 @@ public class PokemonController {
      */
     @Cacheable("allPokemonLighted")
     @GetMapping(value={"/lighted"}, produces = "application/json")
+    @Operation(summary = "Retrieve All Pokemon Lighted", description = "Endpoint to retrieve all Pokemon entities with only the necessary information to display them in a list. This method will handle HTTP requests to the '/light' endpoint and return a collection of Pokemon data with minimal information.")
     public List<PokemonDTO> getAllPokemonLighted() {
         return this.service.getAllLightPokemon();
     }
@@ -58,6 +63,7 @@ public class PokemonController {
      * which in turn interacts with the repository to fetch data from the database. If no such Pokemon exists, an exception is thrown.
      */
     @GetMapping(value = "{nameOrId}", produces = "application/json")
+    @Operation(summary = "Retrieve Pokemon by ID or Name", description = "Endpoint to retrieve a Pokemon entity based on its unique identifier (ID) or name. This method will handle HTTP requests to the '/{id}' endpoint, where 'id' can be either the numeric ID or the name of the Pokemon. The endpoint will attempt to find a Pokemon with the specified ID or name and return it as a DTO. If no such Pokemon exists, an exception is thrown.")
     public PokemonDTO getPokemonById(@PathVariable String nameOrId) {
         PokemonDTO pokemon;
         try {
@@ -76,6 +82,7 @@ public class PokemonController {
      */
     @Cacheable("countPokemon")
     @GetMapping(value = "count", produces = "application/json")
+    @Operation(summary = "Get Pokemon Count", description = "Endpoint to get the number of Pokemon in the database. This method will handle HTTP requests to the '/count' endpoint and return the total count of Pokemon entities stored in the database.")
     public Long getPokemonCount(){
         return this.service.getCountPokemon();
     }
