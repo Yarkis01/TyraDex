@@ -41,6 +41,9 @@ public class Pokemon {
     @Property("sprite_shiny")
     private String spriteShiny;
 
+    @Property("order")
+    private Integer order;
+
     @Property("catch_rate")
     private Integer catchRate;
 
@@ -83,7 +86,7 @@ public class Pokemon {
     @Relationship(type = "WAS", direction = Relationship.Direction.OUTGOING)
     private List<EvolutionRelationship> previousEvolutions;
 
-    @Relationship(type = "WAS", direction = Relationship.Direction.INCOMING)
+    @Relationship(type = "NEXT", direction = Relationship.Direction.OUTGOING)
     private List<EvolutionRelationship> nextEvolutions;
 
 }

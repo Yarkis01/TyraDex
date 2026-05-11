@@ -1,6 +1,9 @@
 package tyradexteam.tyradex.models.dtos;
 
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonUnwrapped;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,6 +21,7 @@ import java.util.List;
 @JsonPropertyOrder({
     "pokedex_id",
     "generation",
+    "order",
     "name",
     "types",
     "sprites",
@@ -65,6 +69,13 @@ public class PokemonDTO {
      */
     @JsonProperty("types")
     private List<TypeDTO> types;
+
+    /**
+     * Order of the Pokemon in the evolution line, represented by an integer indicating the position of the Pokemon
+     * in its evolution line (for example, 1 for the first stage, 2 for the second stage, etc.).
+     */
+    @JsonProperty("order")
+    private Integer order;
 
     /**
      * Talents du Pokémon, représentés par un objet TalentDTO qui contient les talents du Pokémon

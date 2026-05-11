@@ -70,6 +70,11 @@ public class PokemonController {
         return pokemon;
     }
 
+    @GetMapping(value = "search/{name}", produces = "application/json")
+    public List<PokemonDTO> getPokemonByName(@PathVariable String name) {
+        return this.service.findPokemonByName(name);
+    }
+
     /**
      * Endpoint to get the number of Pokemon in the database
      * @return The number of Pokemon in the database

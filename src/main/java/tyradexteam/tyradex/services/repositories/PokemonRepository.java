@@ -23,7 +23,8 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
     """
         MATCH (n:Pokemon)-[r:IS_TYPED]-(t)
         MATCH (n)-[r:IS_TYPED]-(m)
-        RETURN n, collect(r), collect(m);
+        RETURN n, collect(r), collect(m)
+        ORDER BY n.pokedex_id;
     """
     )
     List<Pokemon> findAllLight();
@@ -35,8 +36,11 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
     @Query(
     """
         MATCH (n:Pokemon)
-        OPTIONAL MATCH (n)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m)
-        RETURN n, collect(r), collect(m)
+        OPTIONAL MATCH (n)-[r:IS_TYPED|GROUPED_IN|HAS]-(m)
+        OPTIONAL MATCH (n)-[r_w:WAS]->(m_ew:Pokemon)
+        OPTIONAL MATCH (n)-[r_n:NEXT]->(m_en:Pokemon)
+        RETURN n, collect(r), collect(r_w), collect(r_n), collect(m), collect(m_ew), collect(m_en)
+        ORDER BY n.pokedex_id ASC;
     """
     )
     List<Pokemon> findAllCustom();
@@ -61,7 +65,7 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param nameTalent The name of the talent to filter by, which can be provided in French. The query matches Pokemon nodes that are connected to a Talent node with the specified name in French.
      * @return A list of Pokemon entities that match the specified talent, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m)")
+    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m) ORDER BY p.pokedex_id ASC;")
     List<Pokemon> findByTalent(String nameTalent);
 
     /**
@@ -69,6 +73,25 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param name Name of the Pokemon to filter by, which can be provided in French, or English.
      * @return A list of Pokemon entities that match the specified name, retrieved from the database. The query matches Pokemon nodes that have a 'name_fr' or 'name_en' property equal to the specified name, and also retrieves their related nodes and relationships.
      */
-    @Query("MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(p.name_fr)=$name OR toLower(p.name_en)=$name RETURN p, collect(r), collect(m)")
+    @Query("MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(p.name_fr)=$name OR toLower(p.name_en)=$name RETURN p, collect(r), collect(m) ORDER BY p.pokedex_id ASC;")
     Optional<Pokemon> findByName(String name);
+
+
+    /**
+     * Custom query to search for Pokemon by a partial name match.
+     * This method uses a Cypher query to find Pokemon whose French or English name contains the search string.
+     *
+     * @param name Le texte saisi par l'utilisateur dans la barre de recherche.
+     * @return Une liste (List) d'entités Pokemon qui contiennent la chaîne de caractères spécifiée.
+     */
+    @Query(
+    """
+        MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m)
+        WHERE toLower(p.name_fr) CONTAINS toLower($name)
+        OR toLower(p.name_en) CONTAINS toLower($name)
+        RETURN p, collect(r), collect(m)
+        ORDER BY p.pokedex_id ASC;
+    """
+    )
+    List<Pokemon> searchByPartialName(String name);
 }
