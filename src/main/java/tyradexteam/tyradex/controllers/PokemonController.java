@@ -77,6 +77,7 @@ public class PokemonController {
     }
 
     @GetMapping(value = "search/{name}", produces = "application/json")
+    @Operation(summary = "Search Pokemon by Name", description = "Endpoint to search for Pokemon entities based on their name. This method will handle HTTP requests to the '/search/{name}' endpoint, where 'name' is a string representing the name of the Pokemon to search for. The endpoint will attempt to find Pokemon with names that match the specified string and return them as a list of DTOs. If no such Pokemon exists, an empty list is returned.")
     public List<PokemonDTO> getPokemonByName(@PathVariable String name) {
         return this.service.findPokemonByName(name);
     }
