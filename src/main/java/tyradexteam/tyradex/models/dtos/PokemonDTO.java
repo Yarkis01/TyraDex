@@ -11,9 +11,7 @@ import lombok.Setter;
 import java.util.List;
 
 /**
- * Représente les données d'un Pokémon, incluant son ID dans le Pokédex, sa génération, son nom,
- * ses sprites, ses types, ses talents, ses statistiques, ses résistances, son évolution, sa taille,
- * son poids, ses groupes d'œufs, son taux de capture et son niveau à 100.
+ * Entity representing a full Pokemon with all relationships.
  */
 @Builder
 @Getter
@@ -23,6 +21,7 @@ import java.util.List;
     "generation",
     "order",
     "name",
+    "category",
     "types",
     "sprites",
     "talents",
@@ -36,66 +35,65 @@ import java.util.List;
     "level_100"
 })
 public class PokemonDTO {
+
     /**
-     * ID du Pokémon dans le Pokédex, utilisé pour identifier de manière unique chaque Pokémon.
+     * The id of the Pokemon in the national pokedex
      */
     @JsonProperty("pokedex_id")
     private Integer pokedexId;
 
     /**
-     * Génération du Pokémon, indiquant à quelle génération de jeux vidéo il appartient
-     * (par exemple, 1 pour la première génération, 2 pour la deuxième, etc.).
+     * The generation of the Pokemon
      */
     @JsonProperty("generation")
     private Integer generation;
 
     /**
-     * Nom du Pokémon, représenté par un objet NameDTO qui contient les noms du Pokémon
-     * dans différentes langues (français, anglais, japonais).
+     * The name of the Pokemon
      */
     @JsonProperty("name")
     private NameDTO name;
 
     /**
-     * Sprites du Pokémon, représentés par un objet SpriteDTO qui contient les différentes
-     * images du Pokémon (par exemple, les sprites normaux, shiny, etc.).
+     * Category of the Pokemon
+     */
+    @JsonProperty("category")
+    private String category;
+
+    /**
+     * The sprites (regular, shiny) of the Pokemon
      */
     @JsonProperty("sprites")
     private SpriteDTO sprites;
 
     /**
-     * Types du Pokémon, représentés par un objet TypeDTO qui contient les types du Pokémon
-     * (par exemple, feu, eau, plante, etc.) et les images associées à ces types.
+     * Types of the Pokemons (1 or 2)
      */
     @JsonProperty("types")
     private List<TypeDTO> types;
 
     /**
-     * Order of the Pokemon in the evolution line, represented by an integer indicating the position of the Pokemon
-     * in its evolution line (for example, 1 for the first stage, 2 for the second stage, etc.).
+     * The state of evolution of the Pokemon (1, 2, 3 or null)
      */
     @JsonProperty("order")
     private Integer order;
 
     /**
-     * Talents du Pokémon, représentés par un objet TalentDTO qui contient les talents du Pokémon
-     * (par exemple, statik, lévitation, etc.) et une indication si ces talents sont des talents cachés (tc) ou non.
+     * Talents for the Pokemon if not null
      */
     @JsonProperty("talents")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<TalentDTO> talents;
 
     /**
-     * Statistiques du Pokémon, représentées par un objet StatDTO qui contient les différentes statistiques du Pokémon
-     * (par exemple, points de vie, attaque, défense, etc.) et leurs valeurs respectives.
+     * Stats of the Pokemon
      */
     @JsonProperty("stats")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private StatDTO stats;
 
     /**
-     * Résistances du Pokémon, représentées par un objet ResistanceDTO qui contient les différentes résistances du Pokémon
-     * (par exemple, résistance au feu, à l'eau, etc.) et leurs valeurs respectives.
+     * Resistances of the Pokemon
      */
     @JsonProperty("resistances")
     @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -103,47 +101,43 @@ public class PokemonDTO {
     private ResistanceDTO resistances;
 
     /**
-     * Évolution du Pokémon, représentée par un objet EvolutionDTO qui contient les différentes évolutions du Pokémon
-     * (par exemple, les évolutions précédentes et suivantes) et les conditions d'évolution associées
-     * (par exemple, niveau, objet, etc.).
+     * All evolutions of the Pokemon (pre, next, mega)
      */
     @JsonProperty("evolution")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private EvolutionDTO evolution;
 
     /**
-     * Taille du Pokémon, représentée par une chaîne de caractères indiquant la hauteur du Pokémon
-     * (par exemple, "1.0 m", "0.5 m", etc.).
+     * The height of the Pokemon
      */
     @JsonProperty("height")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String height;
 
     /**
-     * Poids du Pokémon, représenté par une chaîne de caractères indiquant le poids du Pokémon
-     * (par exemple, "10.0 kg", "5.0 kg", etc.).
+     * The weight of the Pokemon
      */
     @JsonProperty("weight")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String weight;
 
     /**
-    * Groupes d'œufs du Pokémon, représentés par un tableau de chaînes de caractères indiquant les différents groupes d'œufs
-    */
+     * The egg groups of the Pokemon
+     */
     @JsonProperty("egg_groups")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<EggGroupDTO> eggGroups;
 
     /**
-    * Taux de capture du Pokémon, représenté par un entier indiquant la probabilité de capturer le Pokémon
-    */
+     * The catch rate to catch the Pokemon (3-255)
+     */
     @JsonProperty("catch_rate")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Integer catchRate;
 
     /**
-    * Nombre de points d'expériences du Pokémon pour atteindre le niveau 100 indiqué par un entier
-    */
+     * All experience to level up a Pokemon to level 100
+     */
     @JsonProperty("level_100")
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Integer level100;

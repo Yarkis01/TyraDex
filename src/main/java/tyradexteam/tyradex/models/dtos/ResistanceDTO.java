@@ -9,21 +9,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * La classe ResistanceDTO représente les résistances d'un personnage dans le jeu. Elle contient une liste de résistances,
- * où chaque résistance est représentée par un objet ResistanceUnitDTO qui contient le nom de la résistance et son multiplicateur.
+ * DTO class representing the resistance information of a Pokémon, including its resistances to various types.
  */
 @Getter
 @Setter
 public class ResistanceDTO {
     /**
-     * La liste des résistances d'un personnage, chaque résistance est représentée par un objet ResistanceUnitDTO
-     * qui contient le nom de la résistance et son multiplicateur.
+     * List of ResistanceUnitDTO which represents a type & his multiplier of resistance (0, 0.25, 0.5, 1, 1.5, 2, 4).
      */
     @JsonProperty("resistances")
     private List<ResistanceUnitDTO> resistances;
 
     /**
-     * Constructeur par défaut qui initialise la liste des résistances à une nouvelle ArrayList vide.
+     * Constructor for ResistanceDTO to initialize resistances
      */
     public ResistanceDTO() {
         this.resistances = new ArrayList<>();

@@ -17,12 +17,21 @@ import org.springframework.data.neo4j.core.schema.TargetNode;
 @AllArgsConstructor
 @RelationshipProperties
 public class TalentRelationship {
+    /**
+     * ID of the relationship, managed by Neo4J
+     */
     @RelationshipId
     private String id;
 
+    /**
+     * Indicates whether the talent is hidden or not for the Pokemon. This is a property of the relationship, not the Talent node itself.
+     */
     @Property("hidden")
     private Boolean hidden;
 
+    /**
+     * The talent node that this relationship points to. This is the target node of the relationship, and it represents the talent associated with the Pokemon.
+     */
     @TargetNode
     private Talent talent;
 }

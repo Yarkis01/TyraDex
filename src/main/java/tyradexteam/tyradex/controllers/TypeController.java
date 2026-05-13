@@ -23,6 +23,11 @@ public class TypeController {
     private final TypeService typeService;
     private final PokemonService pokemonService;
 
+    /**
+     * Constructor for type controller, inject the Type Service to use it in some routes
+     * @param typeService The service used to have types
+     * @param pokemonService The service used to have pokemons
+     */
     public TypeController(TypeService typeService, PokemonService pokemonService) {
         this.typeService = typeService;
         this.pokemonService = pokemonService;

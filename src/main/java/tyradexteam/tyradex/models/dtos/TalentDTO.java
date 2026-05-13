@@ -6,20 +6,20 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Représente les talents d'une entité, avec un nom et une indication si c'est un talent de classe (tc).
+ * Entity representing a talent of a Pokemon, which includes its name and whether it is a hidden talent (tc = true) or not (tc = false).
  */
 @Getter
 @Setter
 @Builder
 public class TalentDTO {
     /**
-     * Le nom du talent, représenté par un objet NameDTO qui contient les noms du talent
-     * dans différentes langues (français, anglais, japonais).
+     * Name of the talent in different languages (French, English, Japanese)
      */
     @JsonProperty("name")
     private NameDTO name;
+
     /**
-     * Indique si le talent est un talent caché (tc) ou non.
+     * If the talent is an hidden talent (tc = true) or not (tc = false)
      */
     @JsonProperty("tc")
     private Boolean tc;

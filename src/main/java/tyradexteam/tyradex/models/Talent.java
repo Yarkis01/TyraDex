@@ -17,19 +17,34 @@ import org.springframework.data.neo4j.core.schema.Property;
 @AllArgsConstructor
 @Node("Talent")
 public class Talent {
+    /**
+     * ID of the talent, managed by Neo4J
+     */
     @Id
     @GeneratedValue
     private String id;
 
+    /**
+     * French name of the talent
+     */
     @Property("name_fr")
     private String nameFr;
 
+    /**
+     * English name of the talent
+     */
     @Property("name_en")
     private String nameEn;
 
+    /**
+     * Japanese name of the talent
+     */
     @Property("name_jp")
     private String nameJp;
 
+    /**
+     * Apparition generation of the talent
+     */
     @Property("generation")
     private Integer generation;
 }

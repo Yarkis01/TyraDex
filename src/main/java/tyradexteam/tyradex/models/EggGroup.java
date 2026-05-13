@@ -17,13 +17,23 @@ import org.springframework.data.neo4j.core.schema.Property;
 @AllArgsConstructor
 @Node("EggGroup")
 public class EggGroup {
+    /**
+     * ID of the EggGroup, managed by Neo4J
+     */
     @Id
     @GeneratedValue
     private String id;
 
+    /**
+     * Name of the EggGroup in French
+     */
     @Property("name_fr")
     private String nameFr;
 
+    /**
+     * Override of the toString method to return the name of the EggGroup in French.
+     * @return The Egg group name in French
+     */
     @Override
     public String toString() {
         return nameFr;

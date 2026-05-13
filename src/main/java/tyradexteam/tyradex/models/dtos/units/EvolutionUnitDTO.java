@@ -8,20 +8,20 @@ import lombok.Setter;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
 
 /**
- * Représente une unité d'évolution, qui peut être un personnage ou une arme.
+ * Class to represent an evolution of a Pokemon, with its condition and the Pokemon associated to this evolution.
  */
 @Getter
 @Setter
 @Builder
 public class EvolutionUnitDTO {
+
     /**
-     * La condition d'évolution, qui peut être une condition de niveau, d'objet, de lieu, etc.
-     * Cette propriété est optionnelle et peut être nulle si l'évolution ne nécessite pas de condition spécifique.
+     * Condition of evolution, which can be a level, an item, a location, etc. It describes how the Pokémon evolves to the next stage.
      */
     private String condition;
 
     /**
-     * Le Pokémon associé à cette unité d'évolution, représenté par un objet PokemonDTO.
+     * The pokemon associated to the evolution.
      */
     @JsonUnwrapped
     @JsonIgnoreProperties({"level_100", "catch_rate", "egg_groups", "height", "weight", "evolution", "resistances","talents","stats"})

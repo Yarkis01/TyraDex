@@ -17,19 +17,34 @@ import org.springframework.data.neo4j.core.schema.Property;
 @AllArgsConstructor
 @Node("TypePokemon")
 public class Type {
+    /**
+     * ID of the Type of Pokemon, managed by Neo4J
+     */
     @Id
     @GeneratedValue
     private String id;
 
+    /**
+     * French name of the type
+     */
     @Property("name_fr")
     private String nameFr;
 
+    /**
+     * English name of the type
+     */
     @Property("name_en")
     private String nameEn;
 
+    /**
+     * Japanese name of the type
+     */
     @Property("name_jp")
     private String nameJp;
 
+    /**
+     * Image which represents the type
+     */
     @Property("image")
     private String image;
 }

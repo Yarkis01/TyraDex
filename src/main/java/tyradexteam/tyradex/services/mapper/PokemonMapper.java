@@ -110,6 +110,7 @@ public class PokemonMapper {
         return PokemonDTO.builder()
                 .pokedexId(pokemon.getPokedexId())
                 .generation(pokemon.getGeneration())
+                .category(pokemon.getCategory())
                 .order(pokemon.getOrder())
                 .name(NameDTO.builder().fr(pokemon.getNameFr()).en(pokemon.getNameEn()).jp(pokemon.getNameJp()).build())
                 .sprites(SpriteDTO.builder().sprites(

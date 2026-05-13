@@ -6,20 +6,20 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Représente les informations d'un type de monstre, incluant son nom et son image.
+ * Type of a Pokemon with the name, and the image of the type (for example, the image of the fire type is a flame).
  */
 @Getter
 @Setter
 @Builder
 public class TypeDTO {
     /**
-     * Le nom du type de monstre, représenté par un objet NameDTO qui contient les noms du type
+     * Name of the type (in different languages)
      */
     @JsonProperty("name")
     private NameDTO name;
 
     /**
-     * L'URL de l'image représentant le type de monstre.
+     * The image of the type (for example, the image of the fire type is a flame)
      */
     @JsonProperty("image")
     private String image;

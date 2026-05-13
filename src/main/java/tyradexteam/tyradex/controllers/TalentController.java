@@ -12,6 +12,9 @@ import tyradexteam.tyradex.services.TalentService;
 
 import java.util.List;
 
+/**
+ * Controller for Talent to manage Pokemon talents and their related data. This class defines endpoints for retrieving Talent entities and the Pokemon associated with specific talents. It interacts with the TalentService to perform business logic operations related to fetching talent data and associated Pokemon information.
+ */
 @RestController
 @RequestMapping("/talents")
 @Tag(name="TalentController", description = "Endpoints for retrieving Talent entities and related data.")

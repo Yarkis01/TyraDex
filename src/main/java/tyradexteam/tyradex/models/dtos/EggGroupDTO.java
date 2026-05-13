@@ -5,15 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Représente un groupe d'œufs dans le contexte de Pokémon, avec son nom dans différentes langues.
+ * Entity which represents an egg group
  */
 @Getter
 @Setter
 @AllArgsConstructor
 public class EggGroupDTO {
     /**
-     * Le nom du groupe d'œufs, représenté par un objet NameDTO
-     * qui contient les noms du groupe d'œufs dans différentes langues (français, anglais, japonais).
+     * Name of the egg group
      */
     private NameDTO name;
 }

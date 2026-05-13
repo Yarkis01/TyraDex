@@ -3,7 +3,7 @@ package tyradexteam.tyradex.models.dtos;
 import lombok.Getter;
 
 /**
- * Enumération représentant les différents types de Pokémon.
+ * All different Types of Pokemon in different languages (French, English and Japanese)
  */
 public enum TypePokemon {
     NORMAL(new NameDTO("Normal", "Normal", "ノーマル")),
@@ -29,14 +29,18 @@ public enum TypePokemon {
     private NameDTO name;
 
     /**
-     * Constructeur de l'énumération TypePokemon, qui initialise le nom du type de Pokémon.
-     * @param name Le nom du type de Pokémon, représenté par un objet NameDTO qui contient
-     *             les noms du type dans différentes langues (français, anglais, japonais).
+     * Constructor for the types of Pokemon
+     * @param name Name of the Type of Pokemon in different languages (French, English and Japanese)
      */
     TypePokemon(NameDTO name) {
         this.name = name;
     }
 
+    /**
+     * Convert a string to a TypePokemon enum, by comparing the string with the name of the type in different languages (French, English and Japanese)
+     * @param type Type of the Pokemon in string to convert
+     * @return The TypePokemon corresponding to the string, if it exists, otherwise throws an IllegalArgumentException
+     */
     public static TypePokemon fromString(String type) {
         for (TypePokemon typePokemon : TypePokemon.values()) {
             if (typePokemon.name.getFr().equalsIgnoreCase(type) ||

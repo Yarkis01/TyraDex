@@ -8,23 +8,20 @@ import lombok.Setter;
 import tyradexteam.tyradex.models.dtos.units.SpriteUnitDTO;
 
 /**
- * Représente les sprites d'un personnage dans le jeu, avec les versions régulières et brillantes (shiny).
+ * Sprites of a Pokemon
  */
 @Getter
 @Setter
 @Builder
 public class SpriteDTO {
     /**
-     * Les sprites réguliers et brillants (shiny) d'un personnage, représentés par un objet SpriteUnitDTO
-     * qui contient les URL des images correspondantes.
+     * Basics sprites
      */
     @JsonUnwrapped
     private SpriteUnitDTO sprites;
 
     /**
-     * Les sprites de la forme Gigamax d'un personnage, représentés par un objet SpriteUnitDTO
-     * qui contient les URL des images correspondantes. Cette propriété est optionnelle
-     * et peut être nulle si le personnage n'a pas de forme Gigamax.
+     * Gmax sprites if there is a Gmax form for the Pokemon
      */
     @JsonProperty("gmax")
     private SpriteUnitDTO gmax;

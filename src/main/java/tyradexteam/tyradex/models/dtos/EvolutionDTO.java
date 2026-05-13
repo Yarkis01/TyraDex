@@ -9,22 +9,22 @@ import tyradexteam.tyradex.models.dtos.units.EvolutionUnitDTO;
 import java.util.List;
 
 /**
- * DTO représentant les évolutions d'un Pokémon, incluant les pré-évolutions, les post-évolutions et les évolutions méga.
+ * Element which represents all evolutions of a Pokemon
  */
 @Getter
 @Setter
 @Builder
 public class EvolutionDTO {
     /**
-     * Liste des pré-évolutions du Pokémon.
+     * List of pre-evolutions of a Pokemon
      */
     private List<EvolutionUnitDTO> pre;
     /**
-     * Liste des post-évolutions du Pokémon.
+     * List of next evolutions of a Pokemon
      */
     private List<EvolutionUnitDTO> next;
     /**
-     * Liste des évolutions méga du Pokémon.
+     * List of mega evolutions of a Pokemon
      */
     private List<EvolutionMegaDTO> mega;
 }

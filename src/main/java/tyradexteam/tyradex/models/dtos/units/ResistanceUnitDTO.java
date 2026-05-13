@@ -7,23 +7,21 @@ import lombok.Setter;
 import tyradexteam.tyradex.models.dtos.NameDTO;
 
 /**
- * La classe ResistanceUnitDTO représente une unité de résistance d'un personnage dans le jeu.
- * Elle contient le nom de la résistance et son multiplicateur.
+ * Entity representing a resistance with the name of the type, and the multiplier of the resistance.
  */
 @Getter
 @Setter
 @Builder
 public class ResistanceUnitDTO {
+
     /**
-     * Le nom de la résistance, représenté par un objet NameDTO qui contient
-     * les noms de la résistance dans différentes langues (français, anglais, japonais).
+     * Name of the type of the resistance.
      */
     @JsonProperty("name")
     private NameDTO name;
 
     /**
-     * Le multiplicateur de la résistance, qui indique à quel point le personnage est résistant
-     * à un certain type d'attaque (par exemple, 0.5 pour une résistance normale, 0 pour une immunité, etc.).
+     * Multiplier (0, 0.25, 0.5, 1, 1.5, 2, 4) of the resistance.
      */
     @JsonProperty("multiplier")
     private Number multiplier;
