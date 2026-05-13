@@ -23,8 +23,8 @@ public class EggGroupMapper {
                 .map(eggGroup -> new EggGroupDTO(
                         NameDTO.builder()
                                 .fr(eggGroup.getNameFr())
-                                .en(null)
-                                .jp(null)
+                                .en(eggGroup.getNameEn())
+                                .jp(eggGroup.getNameJp())
                         .build()))
                 .toList();
     }

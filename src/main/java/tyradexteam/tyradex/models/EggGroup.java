@@ -31,6 +31,18 @@ public class EggGroup {
     private String nameFr;
 
     /**
+     * Name of the EggGroup in English
+     */
+    @Property("name_en")
+    private String nameEn;
+
+    /**
+     * Name of the EggGroup in Japanese
+     */
+    @Property("name_jp")
+    private String nameJp;
+
+    /**
      * Override of the toString method to return the name of the EggGroup in French.
      * @return The Egg group name in French
      */
