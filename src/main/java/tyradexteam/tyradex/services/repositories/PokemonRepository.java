@@ -65,7 +65,7 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param nameTalent The name of the talent to filter by, which can be provided in French. The query matches Pokemon nodes that are connected to a Talent node with the specified name in French.
      * @return A list of Pokemon entities that match the specified talent, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m) ORDER BY p.pokedex_id ASC;")
+    @Query("MATCH (p:Pokemon)-[:HAS]->(t:Talent), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS|NEXT]-(m) WHERE toLower(t.name_fr)=$nameTalent OR toLower(t.name_en)=$nameTalent ORDER BY p.pokedex_id ASC RETURN p, collect(r), collect(m) ORDER BY p.pokedex_id ASC;")
     List<Pokemon> findByTalent(String nameTalent);
 
     /**
@@ -73,7 +73,14 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @param name Name of the Pokemon to filter by, which can be provided in French, or English.
      * @return A list of Pokemon entities that match the specified name, retrieved from the database. The query matches Pokemon nodes that have a 'name_fr' or 'name_en' property equal to the specified name, and also retrieves their related nodes and relationships.
      */
-    @Query("MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m) WHERE toLower(p.name_fr)=$name OR toLower(p.name_en)=$name RETURN p, collect(r), collect(m) ORDER BY p.pokedex_id ASC;")
+    @Query(
+    """
+        MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS|NEXT]-(m)
+        WHERE toLower(p.name_fr) = toLower($name)
+        OR toLower(p.name_en) = toLower($name)
+        RETURN p, collect(r), collect(m)
+        ORDER BY p.pokedex_id ASC;
+    """)
     Optional<Pokemon> findByName(String name);
 
 
@@ -86,7 +93,7 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      */
     @Query(
     """
-        MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS]-(m)
+        MATCH (p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS|NEXT]-(m)
         WHERE toLower(p.name_fr) CONTAINS toLower($name)
         OR toLower(p.name_en) CONTAINS toLower($name)
         RETURN p, collect(r), collect(m)

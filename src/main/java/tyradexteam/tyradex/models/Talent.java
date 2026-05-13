@@ -47,4 +47,16 @@ public class Talent {
      */
     @Property("generation")
     private Integer generation;
+
+    /**
+     * Effect of the talent on the fight
+     */
+    @Property("effet_combat")
+    private String effectFight;
+
+    /**
+     * Effect of the talent on the stadium
+     */
+    @Property("effet_terrain")
+    private String effectStadium;
 }

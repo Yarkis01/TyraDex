@@ -1,5 +1,6 @@
 package tyradexteam.tyradex.models.dtos;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Getter;
@@ -19,8 +20,30 @@ public class TalentDTO {
     private NameDTO name;
 
     /**
+     * Generation where the talent was appeared.
+     */
+    @JsonProperty("generation")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private Integer generation;
+
+    /**
      * If the talent is an hidden talent (tc = true) or not (tc = false)
      */
     @JsonProperty("tc")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Boolean tc;
+
+    /**
+     * Effect of the talent on the stadium, can be null
+     */
+    @JsonProperty("effet_terrain")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String effectTerrain;
+
+    /**
+     * Effect of the talent in the fight, can be null
+     */
+    @JsonProperty("effet_combat")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String effectFight;
 }

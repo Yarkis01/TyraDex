@@ -50,7 +50,7 @@ public class PokemonMapper {
             .catchRate(pokemon.getCatchRate())
             .level100(pokemon.getLevel_100())
             .eggGroups(EggGroupMapper.toDto(pokemon.getEggGroups()))
-            .talents(this.talentMapper.toDto(pokemon.getTalents()))
+            .talents(this.talentMapper.toPokemonDto(pokemon.getTalents()))
             .stats(StatDTO.builder()
                     .hp(pokemon.getHp())
                     .atk(pokemon.getAttack())
@@ -81,7 +81,7 @@ public class PokemonMapper {
                 .height(pokemon.getHeight())
                 .weight(pokemon.getWeight())
                 .catchRate(pokemon.getCatchRate())
-                .talents(this.talentMapper.toDto(pokemon.getTalents()))
+                .talents(this.talentMapper.toPokemonDto(pokemon.getTalents()))
                 .level100(pokemon.getLevel_100())
                 .eggGroups(EggGroupMapper.toDto(pokemon.getEggGroups()))
             .build();

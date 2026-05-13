@@ -15,13 +15,31 @@ import java.util.List;
  */
 @Service
 public class TalentMapper {
+
     /**
-     * Method to convert a list of TalentRelationship entities into a list of TalentDTOs. This method takes a list of TalentRelationship objects,
-     * maps each TalentRelationship to a TalentDTO by extracting the relevant information (the names of the talent in different languages and whether it is hidden), and returns a list of TalentDTOs.
-     * @param talents The list of TalentRelationship entities to be converted into DTOs. Each TalentRelationship in the list will be transformed into a TalentDTO, which contains a NameDTO with the names of the talent in French, English, and Japanese, as well as a boolean indicating whether the talent is hidden or not.
-     * @return A list of TalentDTO objects that correspond to the provided list of TalentRelationship entities. Each TalentDTO contains a NameDTO with the names of the talent in different languages, and a boolean indicating whether the talent is hidden or not, based on the properties of the TalentRelationship entities.
+     * Convert a talent to a DTO to represent it, with a lot of informations about each them
+     * @param talent The talent to convert to DTO
+     * @return DTO which represents the talent
      */
-    public List<TalentDTO> toDto(List<TalentRelationship> talents) {
+    public TalentDTO toDto(Talent talent) {
+        return TalentDTO.builder()
+                .name(NameDTO.builder()
+                        .fr(talent.getNameFr())
+                        .en(talent.getNameEn())
+                        .jp(talent.getNameJp())
+                    .build())
+                .generation(talent.getGeneration())
+                .effectFight(talent.getEffectFight())
+                .effectTerrain(talent.getEffectStadium())
+                .build();
+    }
+
+    /**
+     * Convert a talent to a DTO which corresponds to the link between a Pokemon and a talent
+     * @param talents The list of talents to convert to DTO, which are the talents of a Pokemon with the information about whether they are hidden or not
+     * @return The list of talent DTO which corresponds to the list of talents of a Pokemon, with the information about whether they are hidden or not
+     */
+    public List<TalentDTO> toPokemonDto(List<TalentRelationship> talents) {
         return talents.stream().map(
             tr -> TalentDTO.builder()
                 .name(NameDTO.builder()
@@ -35,11 +53,11 @@ public class TalentMapper {
     }
 
     /**
-     * Method to convert a talent entity to a talent DTO.
+     * Method to convert a talent entity to a talent DTO for a Pokemon.
      * @param talent The talent to convert to DTO
      * @return The talent DTO which corresponds to the entity
      */
-    public TalentDTO toDto(Talent talent) {
+    public TalentDTO toPokemonDto(Talent talent) {
         return TalentDTO.builder()
                 .name(NameDTO.builder()
                         .fr(talent.getNameFr())
