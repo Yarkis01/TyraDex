@@ -37,8 +37,8 @@ public class TypeController {
      * Constructor for the TypeController class. This constructor takes a TypeRepository as a parameter and assigns it to the repository field of the controller. The TypeRepository is used to interact with the database and perform operations related to Type entities.
      * @return A new instance of the TypeController class, initialized with the provided TypeRepository for database interactions.
      */
-    @GetMapping("")
     @Operation(summary = "Retrieve All Types", description = "Endpoint to retrieve all Type entities. This method will handle HTTP requests to the '/types' endpoint and return a collection of Type data.")
+    @GetMapping(produces = "application/json")
     public List<TypeDTO> findAll(){
         return this.typeService.findAll();
     }

@@ -35,7 +35,7 @@ public class TalentController {
      * Get all talents available in the database
      * @return All talents available
      */
-    @GetMapping(value = {"/", ""}, produces = "application/json")
+    @GetMapping(produces = "application/json")
     @Operation(summary = "Retrieve All Talents", description = "Endpoint to retrieve all Talent entities. This method will handle HTTP requests to the '/talents' endpoint and return a collection of Talent data.")
     public List<TalentDTO> getAll(){
         return this.service.getAll();

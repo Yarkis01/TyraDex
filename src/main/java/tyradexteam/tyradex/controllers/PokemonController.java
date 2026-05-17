@@ -38,7 +38,7 @@ public class PokemonController {
      * which in turn interacts with the repository to fetch data from the database.
      */
     @Cacheable("allPokemon")
-    @GetMapping(value = {"/", ""}, produces = "application/json")
+    @GetMapping(produces = "application/json")
     @Operation(summary = "Retrieve All Pokemon", description = "Endpoint to retrieve all Pokemon entities. This method will handle HTTP requests to the '/all' endpoint and return a collection of Pokemon data.")
     public List<PokemonDTO> getAllPokemon() {
         return this.service.getAllPokemon();
