@@ -19,7 +19,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/pokemons")
-@Tag(name = "PokemonController", description = "Endpoints for retrieving Pokemon entities and related data.")
+@Tag(name = "Pokemon", description = "Endpoints for retrieving Pokemon entities and related data.")
 public class PokemonController {
     private final PokemonService service;
 

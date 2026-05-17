@@ -19,7 +19,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/gen")
-@Tag(name = "GenerationController", description = "Endpoints for retrieving Pokemon entities based on their generation.")
+@Tag(name = "Generation", description = "Endpoints for retrieving Pokemon entities based on their generation.")
 public class GenerationController {
     private final GenerationService service;
 

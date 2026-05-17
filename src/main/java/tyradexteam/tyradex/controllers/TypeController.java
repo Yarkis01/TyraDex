@@ -18,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/types")
-@Tag(name="TypeController", description = "Endpoints for retrieving Type entities and related data.")
+@Tag(name="Type", description = "Endpoints for retrieving Type entities and related data.")
 public class TypeController {
     private final TypeService typeService;
     private final PokemonService pokemonService;

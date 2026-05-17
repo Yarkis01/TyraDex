@@ -17,7 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/talents")
-@Tag(name="TalentController", description = "Endpoints for retrieving Talent entities and related data.")
+@Tag(name="Talent", description = "Endpoints for retrieving Talent entities and related data.")
 public class TalentController {
     private final TalentService service;
 
