@@ -1,6 +1,7 @@
 package tyradexteam.tyradex.services;
 
 import org.springframework.stereotype.Service;
+import tyradexteam.tyradex.models.dtos.GenerationInfoDTO;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.services.mapper.PokemonMapper;
 import tyradexteam.tyradex.services.repositories.PokemonRepository;
@@ -25,6 +26,14 @@ public class GenerationService {
     ){
         this.pkmnRepo = pokemonRepository;
         this.mapper = mapper;
+    }
+
+    /**
+     * Method to retrieve all generation information. This method interacts with the repository to fetch data
+     * @return A list of GenerationInfoDTO objects containing information about all Pokemon generations, retrieved from the database. Each GenerationInfoDTO object includes details such as the generation number, name, and other relevant information about that generation.
+     */
+    public List<GenerationInfoDTO> getAllGenerations() {
+        return this.pkmnRepo.findAllGenerationInfo();
     }
 
     /**

@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import tyradexteam.tyradex.models.dtos.GenerationInfoDTO;
 import tyradexteam.tyradex.models.dtos.PokemonDTO;
 import tyradexteam.tyradex.services.GenerationService;
 
@@ -28,6 +29,16 @@ public class GenerationController {
      */
     public GenerationController(GenerationService generationService) {
         this.service = generationService;
+    }
+
+    /**
+     * Endpoint to retrieve all generation information. This method will handle HTTP GET requests to the "/gen" endpoint and return a list of GenerationInfoDTO objects containing information about all Pokemon generations, including their Pokedex ID ranges.
+     * @return A list of GenerationInfoDTO objects containing information about all Pokemon generations, retrieved from the service layer, which in turn interacts with the repository to fetch data from the database. Each GenerationInfoDTO object includes details such as the generation number, name, and other relevant information about that generation.
+     */
+    @Operation(summary = "Retrieve all Generations", description = "Endpoint to retrieve all generations with their Pokedex ID ranges.")
+    @GetMapping(produces = "application/json")
+    public List<GenerationInfoDTO> getAllGenerations() {
+        return this.service.getAllGenerations();
     }
 
     /**

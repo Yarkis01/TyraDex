@@ -5,6 +5,7 @@ import org.springframework.data.neo4j.repository.query.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 import tyradexteam.tyradex.models.Pokemon;
+import tyradexteam.tyradex.models.dtos.GenerationInfoDTO;
 
 import java.util.List;
 import java.util.Optional;
@@ -59,6 +60,13 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
      * @return A list of Pokemon entities that match the specified generation, retrieved from the database.
      */
     List<Pokemon> findByGeneration(Integer generation);
+
+    /**
+     * Custom query to retrieve information about all Pokemon generations, including their Pokedex ID ranges. This method uses a Cypher query to group Pokemon nodes by their generation property and calculate the minimum and maximum Pokedex ID for each generation.
+     * @return A list of GenerationInfoDTO objects containing information about all Pokemon generations, retrieved from the database. Each GenerationInfoDTO object includes details such as the generation number, name, and other relevant information about that generation, along with the minimum and maximum Pokedex ID for that generation.
+     */
+    @Query("MATCH (p:Pokemon) RETURN p.generation AS generation, min(p.pokedex_id) AS `from`, max(p.pokedex_id) AS `to` ORDER BY p.generation ASC")
+    List<GenerationInfoDTO> findAllGenerationInfo();
 
     /**
      * Custom query to find Pokemon by their talent. This method uses a Cypher query to match Pokemon nodes that are connected to a Talent node with a specific name.
