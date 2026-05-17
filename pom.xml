@@ -10,7 +10,7 @@
     </parent>
     <groupId>tyradexteam</groupId>
     <artifactId>tyradex</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>3.0.0</version>
     <name>Tyradex</name>
     <description>Tyradex</description>
     <url/>
