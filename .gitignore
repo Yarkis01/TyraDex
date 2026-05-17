@@ -30,3 +30,6 @@ build/
 !**/src/test/**/build/
 
 .vscode/
+
+### Local config ###
+src/main/resources/application-local.properties
