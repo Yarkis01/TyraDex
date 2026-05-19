@@ -55,6 +55,10 @@ public class PokemonService {
         return this.mapper.toDTO(this.repo.findByType(type1.toLowerCase()));
     }
 
+    public List<PokemonDTO> getPokemonByTypes(String type1, String type2) {
+        return this.mapper.toDTO(this.repo.findByDoubleType(type1.toLowerCase(), type2.toLowerCase()));
+    }
+
     /**
      * Method to retrieve a Pokemon entity based on its unique identifier (ID). This method interacts with the repository to fetch data
      * @param id The unique identifier of the Pokemon to retrieve. The method attempts to find a Pokemon with the specified ID and returns it as a DTO.
