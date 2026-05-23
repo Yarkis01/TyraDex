@@ -53,4 +53,16 @@ public class TypeController {
     public List<PokemonDTO> getPokemonByType(@PathVariable String type1) {
         return this.pokemonService.getPokemonByType(type1);
     }
+
+    /**
+     * Endpoint to retrieve Pokemon entities based on their two types. This method will handle HTTP requests to the "/type/{type1}/{type2}"
+     * @param type1 The Type of Pokemon to filter by, which can be provided in either French or English. The endpoint will match Pokemon nodes that are connected to a TypePokemon node with the specified name.
+     * @param type2 The second Type of Pokemon to filter by, which can be provided in either French or English. The endpoint will match Pokemon nodes that are connected to a TypePokemon node with the specified name.
+     * @return A list of Pokemon entities that match the specified types, retrived from the service layer, which in turn interacts with the repository to fetch data from the database.
+     */
+    @GetMapping(value = "{type1}/{type2}", produces = "application/json")
+    @Operation(summary = "Retrieve Pokemon by Two Types", description = "Endpoint to retrieve Pokemon) entities based on their two types. The endpoint will match Pokemon nodes that are connected to two TypePokemon nodes with the specified names, which can be provided in either French or English.")
+    public List<PokemonDTO> getPokemonByType(@PathVariable String type1, @PathVariable String type2) {
+        return this.pokemonService.getPokemonByTypes(type1, type2);
+    }
 }

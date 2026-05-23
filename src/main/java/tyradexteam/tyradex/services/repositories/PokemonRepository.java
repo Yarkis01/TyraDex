@@ -48,11 +48,28 @@ public interface PokemonRepository extends PagingAndSortingRepository<Pokemon, I
 
     /**
      * Custom query to find Pokemon by their type. This method uses a Cypher query to match Pokemon nodes that are connected
-     * @param type The type of Pokemon to filter by, which can be provided in either French or English. The query matches Pokemon nodes that are connected to a TypePokemon node with the specified name.
+     * @param type1 The type of Pokemon to filter by, which can be provided in either French or English. The query matches Pokemon nodes that are connected to a TypePokemon node with the specified name.
      * @return A list of Pokemon entities that match the specified type, retrieved from the database.
      */
-    @Query("MATCH (p:Pokemon)-[:IS_TYPED]->(t:TypePokemon) WHERE toLower(t.name_fr) = $type OR toLower(t.name_en) = $type ORDER BY p.pokedex_id ASC RETURN p;")
-    List<Pokemon> findByType(String type);
+    @Query(
+    """
+        MATCH (t:TypePokemon)<-[r_t:IS_TYPED]-(p:Pokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS|NEXT]-(m)
+        WHERE toLower(t.name_fr) = $type1 OR toLower(t.name_en) = $type1
+        RETURN p, collect(r), collect(m), collect(t), collect(r_t)
+        ORDER BY p.pokedex_id ASC;
+    """)
+    List<Pokemon> findByType(String type1);
+
+    @Query(
+    """
+        MATCH (t:TypePokemon)<-[r_t:IS_TYPED]-(p:Pokemon)-[r_t2:IS_TYPED]->(t2:TypePokemon), (p)-[r:IS_TYPED|GROUPED_IN|HAS|WAS|NEXT]-(m)
+        WHERE (toLower(t.name_fr) = $type1 OR toLower(t.name_en) = $type1)
+          AND (toLower(t2.name_fr) = $type2 OR toLower(t2.name_en) = $type2)
+        RETURN p, collect(r), collect(m), collect(t), collect(r_t), collect(t2), collect(r_t2)
+        ORDER BY p.pokedex_id ASC;
+    """
+    )
+    List<Pokemon> findByDoubleType(String type1, String type2);
 
     /**
      * Custom query to find Pokemon by their generation. This method uses a Cypher query to match Pokemon nodes that have a specific generation property.
